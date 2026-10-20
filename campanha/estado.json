@@ -9,7 +9,10 @@
     "titulo_vago": 0,
     "migracao": 0
   },
-  "flags": [],
+  "flags": [
+    "apagou_mapa_da_parede",
+    "cobriu_pegadas_quarto"
+  ],
   "noticias_recentes": [],
   "sessao": 1,
   "abertura": "estudante"
