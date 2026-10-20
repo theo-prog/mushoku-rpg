@@ -1,0 +1,1164 @@
+{
+  "versao": 1,
+  "observacao": "Rank de ameaça na escala da Guilda (F–S). Criaturas ligadas à crise: regras reais em historia/segredos.json.",
+  "monstros": [
+    {
+      "id": "lobo_cinzento",
+      "nome": "Lobo Cinzento",
+      "continentes": [
+        "central",
+        "millis"
+      ],
+      "locais": [
+        "brisaclara",
+        "regiao_conflitos"
+      ],
+      "habitat": "florestas e campos",
+      "rank_ameaca": "F",
+      "pv": 8,
+      "defesa": 11,
+      "ataque": 2,
+      "dano": "1d6",
+      "mana": 0,
+      "habilidades": [
+        "Matilha: +1 ataque por aliado adjacente (máx +3)"
+      ],
+      "fraquezas": [
+        "fogo",
+        "barulho alto"
+      ],
+      "comportamento": "Caça em grupos de 4–8; foge se o líder cai.",
+      "recompensa": "pele (3 cobre)",
+      "ligado_crise": false
+    },
+    {
+      "id": "goblin",
+      "nome": "Goblin",
+      "continentes": [
+        "central"
+      ],
+      "locais": [
+        "regiao_conflitos",
+        "vau_cinzento"
+      ],
+      "habitat": "cavernas e ruínas",
+      "rank_ameaca": "F",
+      "pv": 6,
+      "defesa": 11,
+      "ataque": 2,
+      "dano": "1d6",
+      "mana": 0,
+      "habilidades": [
+        "Emboscada: vantagem no primeiro ataque se escondido"
+      ],
+      "fraquezas": [
+        "luz forte"
+      ],
+      "comportamento": "Covardes em pequeno número, ousados em bando.",
+      "recompensa": "orelha de recompensa (2 cobre)",
+      "ligado_crise": false
+    },
+    {
+      "id": "javali_chifrudo",
+      "nome": "Javali Chifrudo",
+      "continentes": [
+        "central"
+      ],
+      "locais": [
+        "brisaclara",
+        "velmora"
+      ],
+      "habitat": "bosques",
+      "rank_ameaca": "E",
+      "pv": 14,
+      "defesa": 12,
+      "ataque": 3,
+      "dano": "1d8+2",
+      "mana": 0,
+      "habilidades": [
+        "Investida: +1d6 se correr 5 m antes"
+      ],
+      "fraquezas": [
+        "terreno irregular"
+      ],
+      "comportamento": "Territorial; ataca quem chega perto dos filhotes.",
+      "recompensa": "carne, presas (1 prata)",
+      "ligado_crise": false
+    },
+    {
+      "id": "bandido_de_estrada",
+      "nome": "Bandido de Estrada",
+      "continentes": [
+        "central"
+      ],
+      "locais": [
+        "vau_cinzento",
+        "regiao_conflitos"
+      ],
+      "habitat": "estradas",
+      "rank_ameaca": "E",
+      "pv": 12,
+      "defesa": 13,
+      "ataque": 3,
+      "dano": "1d8+1",
+      "mana": 0,
+      "habilidades": [
+        "Táticas de grupo: cercam quem anda só"
+      ],
+      "fraquezas": [
+        "desmoralizam com o líder abatido"
+      ],
+      "comportamento": "Humanos desesperados; muitos são desertores ou refugiados.",
+      "recompensa": "moedas (1d10 cobre)",
+      "ligado_crise": false
+    },
+    {
+      "id": "rato_de_esgoto_gigante",
+      "nome": "Rato-de-Esgoto Gigante",
+      "continentes": [
+        "central"
+      ],
+      "locais": [
+        "ars",
+        "vel_garran"
+      ],
+      "habitat": "esgotos",
+      "rank_ameaca": "F",
+      "pv": 5,
+      "defesa": 10,
+      "ataque": 1,
+      "dano": "1d4",
+      "mana": 0,
+      "habilidades": [
+        "Doença: Vigor CD 10 ou febre por 3 dias"
+      ],
+      "fraquezas": [
+        "fogo"
+      ],
+      "comportamento": "Em hordas.",
+      "recompensa": "nada",
+      "ligado_crise": false
+    },
+    {
+      "id": "aranha_teia_larga",
+      "nome": "Aranha-Teia-Larga",
+      "continentes": [
+        "central",
+        "demoniaco"
+      ],
+      "locais": [
+        "regiao_conflitos",
+        "ermos_gaslan"
+      ],
+      "habitat": "florestas escuras, cânions",
+      "rank_ameaca": "D",
+      "pv": 20,
+      "defesa": 13,
+      "ataque": 4,
+      "dano": "1d8+2",
+      "mana": 0,
+      "habilidades": [
+        "Teia: Agilidade CD 13 ou preso",
+        "Veneno: 1d6 por turno por 3 turnos"
+      ],
+      "fraquezas": [
+        "fogo"
+      ],
+      "comportamento": "Espera imóvel por dias.",
+      "recompensa": "seda (1 ouro)",
+      "ligado_crise": false
+    },
+    {
+      "id": "troll_da_ponte",
+      "nome": "Troll da Ponte",
+      "continentes": [
+        "central"
+      ],
+      "locais": [
+        "vau_cinzento",
+        "regiao_conflitos"
+      ],
+      "habitat": "pontes e vaus",
+      "rank_ameaca": "C",
+      "pv": 40,
+      "defesa": 13,
+      "ataque": 6,
+      "dano": "2d6+3",
+      "mana": 0,
+      "habilidades": [
+        "Regeneração: 3 PV por turno, exceto dano de fogo"
+      ],
+      "fraquezas": [
+        "fogo",
+        "luz do sol o deixa lento"
+      ],
+      "comportamento": "Cobra pedágio em comida; come quem não paga.",
+      "recompensa": "pedra mágica pequena",
+      "ligado_crise": false
+    },
+    {
+      "id": "dragao_vermelho_jovem",
+      "nome": "Dragão Vermelho Jovem",
+      "continentes": [
+        "central"
+      ],
+      "locais": [
+        "montanhas_dragao_vermelho"
+      ],
+      "habitat": "picos",
+      "rank_ameaca": "A",
+      "pv": 90,
+      "defesa": 18,
+      "ataque": 11,
+      "dano": "2d8+6",
+      "mana": 20,
+      "habilidades": [
+        "Sopro de fogo (cone 10 m, 6d6, recarga 1d6 turnos)",
+        "Voo"
+      ],
+      "fraquezas": [
+        "frio",
+        "asas rasgadas"
+      ],
+      "comportamento": "Ataca o que voa ou atravessa os passos.",
+      "recompensa": "escamas e pedra mágica grande (fortuna)",
+      "ligado_crise": false
+    },
+    {
+      "id": "dragao_vermelho_adulto",
+      "nome": "Dragão Vermelho Adulto",
+      "continentes": [
+        "central"
+      ],
+      "locais": [
+        "montanhas_dragao_vermelho"
+      ],
+      "habitat": "picos",
+      "rank_ameaca": "S",
+      "pv": 200,
+      "defesa": 22,
+      "ataque": 15,
+      "dano": "3d10+10",
+      "mana": 60,
+      "habilidades": [
+        "Sopro de fogo (cone 20 m, 12d6)",
+        "Voo",
+        "Medo: Presença CD 18 ou foge"
+      ],
+      "fraquezas": [
+        "nenhuma conhecida"
+      ],
+      "comportamento": "Uma catástrofe. Evite.",
+      "recompensa": "lendária",
+      "ligado_crise": false
+    },
+    {
+      "id": "wyrm_de_pedra",
+      "nome": "Wyrm de Pedra",
+      "continentes": [
+        "central"
+      ],
+      "locais": [
+        "montanhas_dragao_vermelho"
+      ],
+      "habitat": "cavernas",
+      "rank_ameaca": "B",
+      "pv": 60,
+      "defesa": 17,
+      "ataque": 8,
+      "dano": "2d8+4",
+      "mana": 0,
+      "habilidades": [
+        "Pele de pedra: redução 3",
+        "Escavar"
+      ],
+      "fraquezas": [
+        "magia de água",
+        "trovão"
+      ],
+      "comportamento": "Lento, faminto, sensível a vibrações.",
+      "recompensa": "pedra mágica média",
+      "ligado_crise": false
+    },
+    {
+      "id": "grifo_das_neves",
+      "nome": "Grifo das Neves",
+      "continentes": [
+        "central"
+      ],
+      "locais": [
+        "santuario_espada"
+      ],
+      "habitat": "penhascos do norte",
+      "rank_ameaca": "C",
+      "pv": 35,
+      "defesa": 15,
+      "ataque": 6,
+      "dano": "2d6+3",
+      "mana": 0,
+      "habilidades": [
+        "Voo",
+        "Mergulho: dano dobrado ao atacar descendo 10 m"
+      ],
+      "fraquezas": [
+        "fogo"
+      ],
+      "comportamento": "Caça cabras e viajantes isolados.",
+      "recompensa": "penas (2 ouro)",
+      "ligado_crise": false
+    },
+    {
+      "id": "espectro_de_mana",
+      "nome": "Espectro de Mana",
+      "continentes": [
+        "central"
+      ],
+      "locais": [
+        "sharia"
+      ],
+      "habitat": "ruínas de experimentos",
+      "rank_ameaca": "D",
+      "pv": 18,
+      "defesa": 14,
+      "ataque": 4,
+      "dano": "2d6 (frio)",
+      "mana": 15,
+      "habilidades": [
+        "Incorpóreo: metade do dano físico sem aura",
+        "Drena 1d4 mana ao tocar"
+      ],
+      "fraquezas": [
+        "magia de luz e fogo frio"
+      ],
+      "comportamento": "Resto de mana de magos mortos; procura calor.",
+      "recompensa": "pó de mana (5 prata)",
+      "ligado_crise": false
+    },
+    {
+      "id": "golem_de_laboratorio",
+      "nome": "Golem de Laboratório",
+      "continentes": [
+        "central"
+      ],
+      "locais": [
+        "sharia"
+      ],
+      "habitat": "subsolos da Universidade",
+      "rank_ameaca": "C",
+      "pv": 45,
+      "defesa": 16,
+      "ataque": 6,
+      "dano": "2d8+2",
+      "mana": 0,
+      "habilidades": [
+        "Imune a veneno e medo",
+        "Obedece a quem tem a pedra-comando"
+      ],
+      "fraquezas": [
+        "desmontar o círculo nas costas"
+      ],
+      "comportamento": "Guarda corredores que ninguém mais usa.",
+      "recompensa": "pedra mágica média",
+      "ligado_crise": false
+    },
+    {
+      "id": "serpente_do_lenne",
+      "nome": "Serpente do Lenne",
+      "continentes": [
+        "central"
+      ],
+      "locais": [
+        "brisaclara",
+        "velmora"
+      ],
+      "habitat": "rios",
+      "rank_ameaca": "D",
+      "pv": 22,
+      "defesa": 13,
+      "ataque": 5,
+      "dano": "1d10+2",
+      "mana": 0,
+      "habilidades": [
+        "Constrição: preso, 1d6 por turno"
+      ],
+      "fraquezas": [
+        "tirar da água"
+      ],
+      "comportamento": "Mora no fundo dos rios lentos.",
+      "recompensa": "couro (8 prata)",
+      "ligado_crise": false
+    },
+    {
+      "id": "lobo_de_duas_cabecas",
+      "nome": "Lobo de Duas Cabeças",
+      "continentes": [
+        "demoniaco"
+      ],
+      "locais": [
+        "porto_do_vento",
+        "rikarisu"
+      ],
+      "habitat": "ermos",
+      "rank_ameaca": "D",
+      "pv": 26,
+      "defesa": 13,
+      "ataque": 5,
+      "dano": "2×1d8+2",
+      "mana": 0,
+      "habilidades": [
+        "Dois ataques por turno"
+      ],
+      "fraquezas": [
+        "fogo"
+      ],
+      "comportamento": "Matilhas pequenas, muito agressivas.",
+      "recompensa": "pele (6 prata)",
+      "ligado_crise": false
+    },
+    {
+      "id": "tatu_rocha",
+      "nome": "Tatu-Rocha",
+      "continentes": [
+        "demoniaco"
+      ],
+      "locais": [
+        "ermos_gaslan"
+      ],
+      "habitat": "planaltos de cinza",
+      "rank_ameaca": "D",
+      "pv": 30,
+      "defesa": 17,
+      "ataque": 3,
+      "dano": "1d8+2",
+      "mana": 0,
+      "habilidades": [
+        "Enrolar: +5 Defesa, sem atacar"
+      ],
+      "fraquezas": [
+        "virar de costas"
+      ],
+      "comportamento": "Pacífico até ser cutucado.",
+      "recompensa": "carapaça (1 ouro)",
+      "ligado_crise": false
+    },
+    {
+      "id": "escorpiao_de_cinza",
+      "nome": "Escorpião de Cinza",
+      "continentes": [
+        "demoniaco"
+      ],
+      "locais": [
+        "ermos_gaslan"
+      ],
+      "habitat": "desertos de cinza",
+      "rank_ameaca": "C",
+      "pv": 38,
+      "defesa": 16,
+      "ataque": 6,
+      "dano": "1d10+3",
+      "mana": 0,
+      "habilidades": [
+        "Ferrão: Vigor CD 14 ou paralisado 1 turno"
+      ],
+      "fraquezas": [
+        "frio"
+      ],
+      "comportamento": "Enterra-se e espera.",
+      "recompensa": "glândula de veneno (2 ouro)",
+      "ligado_crise": false
+    },
+    {
+      "id": "ogro_demoniaco",
+      "nome": "Ogro Demoníaco",
+      "continentes": [
+        "demoniaco"
+      ],
+      "locais": [
+        "rikarisu",
+        "garra_negra"
+      ],
+      "habitat": "cavernas e fortalezas",
+      "rank_ameaca": "C",
+      "pv": 50,
+      "defesa": 13,
+      "ataque": 7,
+      "dano": "2d8+5",
+      "mana": 0,
+      "habilidades": [
+        "Golpe varredor: atinge todos adjacentes"
+      ],
+      "fraquezas": [
+        "velocidade"
+      ],
+      "comportamento": "Mercenários do Rei Gorzhak usam como tropa de choque.",
+      "recompensa": "1d6 prata",
+      "ligado_crise": false
+    },
+    {
+      "id": "manticora",
+      "nome": "Mantícora",
+      "continentes": [
+        "demoniaco"
+      ],
+      "locais": [
+        "ermos_gaslan"
+      ],
+      "habitat": "cânions",
+      "rank_ameaca": "B",
+      "pv": 70,
+      "defesa": 16,
+      "ataque": 9,
+      "dano": "2d8+5",
+      "mana": 10,
+      "habilidades": [
+        "Espinhos da cauda (30 m, 3×1d8)",
+        "Voo curto"
+      ],
+      "fraquezas": [
+        "magia de vento derruba"
+      ],
+      "comportamento": "Inteligente, fala, adora barganhar com comida viva.",
+      "recompensa": "espinhos e pedra mágica média",
+      "ligado_crise": false
+    },
+    {
+      "id": "basilisco_cego",
+      "nome": "Basilisco Cego",
+      "continentes": [
+        "demoniaco"
+      ],
+      "locais": [
+        "ermos_gaslan",
+        "aldeia_superd"
+      ],
+      "habitat": "cânions",
+      "rank_ameaca": "A",
+      "pv": 90,
+      "defesa": 18,
+      "ataque": 10,
+      "dano": "2d10+5",
+      "mana": 0,
+      "habilidades": [
+        "Sopro petrificante (cone 6 m, Vigor CD 17 ou lento",
+        "falhar duas vezes = pedra)"
+      ],
+      "fraquezas": [
+        "som alto o desorienta"
+      ],
+      "comportamento": "Caça pelo tremor do chão.",
+      "recompensa": "pedra mágica grande",
+      "ligado_crise": false
+    },
+    {
+      "id": "hidra_do_pantano_negro",
+      "nome": "Hidra do Pântano Negro",
+      "continentes": [
+        "demoniaco"
+      ],
+      "locais": [
+        "garra_negra"
+      ],
+      "habitat": "pântanos",
+      "rank_ameaca": "A",
+      "pv": 110,
+      "defesa": 16,
+      "ataque": 10,
+      "dano": "3 ataques 1d10+4",
+      "mana": 0,
+      "habilidades": [
+        "Cabeças cortadas crescem em dobro sem fogo"
+      ],
+      "fraquezas": [
+        "fogo"
+      ],
+      "comportamento": "Guarda a passagem baixa da Garra Negra.",
+      "recompensa": "sangue alquímico (fortuna)",
+      "ligado_crise": false
+    },
+    {
+      "id": "kraken_menor",
+      "nome": "Kraken Menor",
+      "continentes": [
+        "mar_ringus"
+      ],
+      "locais": [
+        "mar_ringus",
+        "porto_zant"
+      ],
+      "habitat": "mar aberto",
+      "rank_ameaca": "B",
+      "pv": 80,
+      "defesa": 15,
+      "ataque": 8,
+      "dano": "2d8+4",
+      "mana": 0,
+      "habilidades": [
+        "Afundar barco pequeno",
+        "Tentáculos: até 4 alvos"
+      ],
+      "fraquezas": [
+        "cortar tentáculos",
+        "fogo na superfície"
+      ],
+      "comportamento": "Segue navios que jogam restos.",
+      "recompensa": "tinta e pedra mágica média",
+      "ligado_crise": false
+    },
+    {
+      "id": "serpente_marinha",
+      "nome": "Serpente Marinha",
+      "continentes": [
+        "mar_ringus"
+      ],
+      "locais": [
+        "mar_ringus",
+        "recife_nerith"
+      ],
+      "habitat": "mar aberto",
+      "rank_ameaca": "A",
+      "pv": 120,
+      "defesa": 17,
+      "ataque": 11,
+      "dano": "2d10+6",
+      "mana": 0,
+      "habilidades": [
+        "Esmagar casco",
+        "Mergulho"
+      ],
+      "fraquezas": [
+        "raça do mar sabe acalmá-la"
+      ],
+      "comportamento": "Sagrada para a raça do mar; matá-la é guerra com o recife.",
+      "recompensa": "escamas (fortuna)",
+      "ligado_crise": false
+    },
+    {
+      "id": "sereia_faminta",
+      "nome": "Sereia Faminta",
+      "continentes": [
+        "mar_ringus"
+      ],
+      "locais": [
+        "mar_ringus"
+      ],
+      "habitat": "rochas",
+      "rank_ameaca": "C",
+      "pv": 30,
+      "defesa": 14,
+      "ataque": 5,
+      "dano": "1d8+3",
+      "mana": 10,
+      "habilidades": [
+        "Canto: Presença CD 14 ou caminha para a água"
+      ],
+      "fraquezas": [
+        "tapar os ouvidos"
+      ],
+      "comportamento": "Não é da raça do mar; é um monstro que imita voz.",
+      "recompensa": "nada",
+      "ligado_crise": false
+    },
+    {
+      "id": "ent_raivoso",
+      "nome": "Ent Raivoso",
+      "continentes": [
+        "millis"
+      ],
+      "locais": [
+        "grande_floresta"
+      ],
+      "habitat": "Grande Floresta",
+      "rank_ameaca": "B",
+      "pv": 90,
+      "defesa": 15,
+      "ataque": 8,
+      "dano": "2d10+4",
+      "mana": 0,
+      "habilidades": [
+        "Raízes prendem (Força CD 15)",
+        "Redução 3"
+      ],
+      "fraquezas": [
+        "fogo (mas incendiar a floresta é guerra com os povos-fera)"
+      ],
+      "comportamento": "Desperta quando alguém corta árvore viva.",
+      "recompensa": "madeira-viva (5 ouro)",
+      "ligado_crise": false
+    },
+    {
+      "id": "lagarto_lanca",
+      "nome": "Lagarto-Lança",
+      "continentes": [
+        "millis"
+      ],
+      "locais": [
+        "grande_floresta",
+        "porto_leste"
+      ],
+      "habitat": "pântanos",
+      "rank_ameaca": "D",
+      "pv": 20,
+      "defesa": 13,
+      "ataque": 5,
+      "dano": "1d10+2",
+      "mana": 0,
+      "habilidades": [
+        "Língua-lança: alcance 4 m"
+      ],
+      "fraquezas": [
+        "frio deixa lento"
+      ],
+      "comportamento": "Comum perto dos rios.",
+      "recompensa": "couro (5 prata)",
+      "ligado_crise": false
+    },
+    {
+      "id": "besouro_de_labirinto",
+      "nome": "Besouro de Labirinto",
+      "continentes": [
+        "begaritt"
+      ],
+      "locais": [
+        "rapan",
+        "labirinto_mil_gargantas"
+      ],
+      "habitat": "labirintos",
+      "rank_ameaca": "E",
+      "pv": 12,
+      "defesa": 15,
+      "ataque": 3,
+      "dano": "1d6+1",
+      "mana": 0,
+      "habilidades": [
+        "Carapaça: redução 1"
+      ],
+      "fraquezas": [
+        "esmagamento"
+      ],
+      "comportamento": "Gerado pelo labirinto em enxames.",
+      "recompensa": "carapaça (1 prata)",
+      "ligado_crise": false
+    },
+    {
+      "id": "verme_da_areia",
+      "nome": "Verme da Areia",
+      "continentes": [
+        "begaritt"
+      ],
+      "locais": [
+        "labirinto_mil_gargantas",
+        "rapan"
+      ],
+      "habitat": "dunas",
+      "rank_ameaca": "A",
+      "pv": 130,
+      "defesa": 15,
+      "ataque": 10,
+      "dano": "3d8+6",
+      "mana": 0,
+      "habilidades": [
+        "Engolir: Agilidade CD 17 ou engolido (2d6 por turno dentro)"
+      ],
+      "fraquezas": [
+        "ficar imóvel o confunde"
+      ],
+      "comportamento": "Atraído por passos ritmados.",
+      "recompensa": "pedra mágica grande",
+      "ligado_crise": false
+    },
+    {
+      "id": "mumia_guardia",
+      "nome": "Múmia Guardiã",
+      "continentes": [
+        "begaritt"
+      ],
+      "locais": [
+        "labirinto_mil_gargantas"
+      ],
+      "habitat": "labirinto profundo",
+      "rank_ameaca": "B",
+      "pv": 60,
+      "defesa": 16,
+      "ataque": 8,
+      "dano": "2d8+4",
+      "mana": 15,
+      "habilidades": [
+        "Maldição: −1 em tudo até Desintoxicação Avançada"
+      ],
+      "fraquezas": [
+        "fogo"
+      ],
+      "comportamento": "Protege câmaras de outra era.",
+      "recompensa": "joias antigas (3d6 ouro)",
+      "ligado_crise": false
+    },
+    {
+      "id": "golem_de_nucleo",
+      "nome": "Golem de Núcleo",
+      "continentes": [
+        "begaritt"
+      ],
+      "locais": [
+        "labirinto_mil_gargantas"
+      ],
+      "habitat": "fundo do labirinto",
+      "rank_ameaca": "S",
+      "pv": 220,
+      "defesa": 22,
+      "ataque": 15,
+      "dano": "3d10+10",
+      "mana": 80,
+      "habilidades": [
+        "Regenera com o núcleo",
+        "Muda a planta do labirinto"
+      ],
+      "fraquezas": [
+        "destruir o núcleo"
+      ],
+      "comportamento": "Guardião do núcleo. Não se negocia com ele.",
+      "recompensa": "núcleo de labirinto (incalculável)",
+      "ligado_crise": false
+    },
+    {
+      "id": "ave_tempestade",
+      "nome": "Ave-Tempestade",
+      "continentes": [
+        "celestial"
+      ],
+      "locais": [
+        "penhasco_celeste"
+      ],
+      "habitat": "penhascos",
+      "rank_ameaca": "B",
+      "pv": 55,
+      "defesa": 17,
+      "ataque": 8,
+      "dano": "2d6+4",
+      "mana": 20,
+      "habilidades": [
+        "Voo",
+        "Raio (30 m, 4d6)"
+      ],
+      "fraquezas": [
+        "terra a derruba"
+      ],
+      "comportamento": "Os celestiais as consideram sagradas.",
+      "recompensa": "penas-raio (3 ouro)",
+      "ligado_crise": false
+    },
+    {
+      "id": "oco",
+      "nome": "Oco",
+      "continentes": [
+        "qualquer"
+      ],
+      "locais": [
+        "brisaclara",
+        "velmora",
+        "vau_cinzento",
+        "ars",
+        "cais_morrowell",
+        "regiao_conflitos"
+      ],
+      "habitat": "onde viveu",
+      "rank_ameaca": "F",
+      "pv": 8,
+      "defesa": 10,
+      "ataque": 1,
+      "dano": "1d4",
+      "mana": 0,
+      "habilidades": [
+        "Comportamento perfeito enquanto observado",
+        "Imóvel quando ninguém olha"
+      ],
+      "fraquezas": [
+        "ver segredos.json"
+      ],
+      "comportamento": "Continua a rotina da pessoa que era. Não é monstro: legalmente, ainda é gente.",
+      "recompensa": "nenhuma (matar um Oco é crime)",
+      "ligado_crise": true
+    },
+    {
+      "id": "oco_em_vigilia_rompida",
+      "nome": "Oco em Vigília Rompida",
+      "continentes": [
+        "qualquer"
+      ],
+      "locais": [
+        "vau_cinzento",
+        "regiao_conflitos",
+        "cais_morrowell"
+      ],
+      "habitat": "estradas à noite",
+      "rank_ameaca": "E",
+      "pv": 10,
+      "defesa": 10,
+      "ataque": 3,
+      "dano": "1d6",
+      "mana": 0,
+      "habilidades": [
+        "Força de quem não sente dor: ignora o primeiro ferimento"
+      ],
+      "fraquezas": [
+        "ver segredos.json"
+      ],
+      "comportamento": "Ocos que caminham à noite e encontram alguém no caminho.",
+      "recompensa": "nenhuma",
+      "ligado_crise": true
+    },
+    {
+      "id": "coluna_de_ocos",
+      "nome": "Coluna de Ocos",
+      "continentes": [
+        "qualquer"
+      ],
+      "locais": [
+        "regiao_conflitos",
+        "vau_cinzento",
+        "cais_morrowell"
+      ],
+      "habitat": "estradas",
+      "rank_ameaca": "C",
+      "pv": 80,
+      "defesa": 10,
+      "ataque": 4,
+      "dano": "1d6 ×6",
+      "mana": 0,
+      "habilidades": [
+        "Massa: atinge todos adjacentes",
+        "Não param"
+      ],
+      "fraquezas": [
+        "ver segredos.json"
+      ],
+      "comportamento": "Dezenas ou centenas caminhando na mesma direção. Atacar uma coluna é massacrar gente.",
+      "recompensa": "nenhuma",
+      "ligado_crise": true
+    },
+    {
+      "id": "oco_antigo",
+      "nome": "Oco Antigo",
+      "continentes": [
+        "qualquer"
+      ],
+      "locais": [
+        "santuario_espada",
+        "ilha_invertida"
+      ],
+      "habitat": "onde for chamado",
+      "rank_ameaca": "A",
+      "pv": 80,
+      "defesa": 19,
+      "ataque": 12,
+      "dano": "2d8+8",
+      "mana": 20,
+      "habilidades": [
+        "Técnica de nenhuma escola conhecida",
+        "Não sente dor"
+      ],
+      "fraquezas": [
+        "ver segredos.json"
+      ],
+      "comportamento": "Um corpo comum que se move como um guerreiro de outra era.",
+      "recompensa": "nenhuma",
+      "ligado_crise": true
+    },
+    {
+      "id": "sineiro",
+      "nome": "Sineiro",
+      "continentes": [
+        "mar_ringus"
+      ],
+      "locais": [
+        "ilha_invertida"
+      ],
+      "habitat": "torres da ilha",
+      "rank_ameaca": "B",
+      "pv": 50,
+      "defesa": 16,
+      "ataque": 8,
+      "dano": "2d6+4",
+      "mana": 30,
+      "habilidades": [
+        "Toque do sino: Vigor CD 15 ou atordoado e sonolento",
+        "Anda no teto como no chão"
+      ],
+      "fraquezas": [
+        "silêncio mágico o desfaz"
+      ],
+      "comportamento": "Figuras de bronze e carne pendendo das torres invertidas.",
+      "recompensa": "bronze estranho (?)",
+      "ligado_crise": true
+    },
+    {
+      "id": "afogado_da_mare",
+      "nome": "Afogado da Maré",
+      "continentes": [
+        "mar_ringus"
+      ],
+      "locais": [
+        "mar_ringus",
+        "cais_morrowell"
+      ],
+      "habitat": "água rasa sob a ilha",
+      "rank_ameaca": "D",
+      "pv": 18,
+      "defesa": 12,
+      "ataque": 4,
+      "dano": "1d8+2",
+      "mana": 0,
+      "habilidades": [
+        "Puxar para o fundo: Força CD 13"
+      ],
+      "fraquezas": [
+        "fogo",
+        "sair da água"
+      ],
+      "comportamento": "Corpos que entraram no mar sob a ilha e voltaram com a maré.",
+      "recompensa": "nenhuma",
+      "ligado_crise": true
+    },
+    {
+      "id": "peixe_sino",
+      "nome": "Peixe-Sino",
+      "continentes": [
+        "mar_ringus"
+      ],
+      "locais": [
+        "mar_ringus",
+        "recife_nerith"
+      ],
+      "habitat": "águas sob a ilha",
+      "rank_ameaca": "F",
+      "pv": 4,
+      "defesa": 12,
+      "ataque": 1,
+      "dano": "1d4",
+      "mana": 0,
+      "habilidades": [
+        "Badala ao ser tocado",
+        "cardumes atraem Afogados"
+      ],
+      "fraquezas": [
+        "nenhuma"
+      ],
+      "comportamento": "Peixes de escamas de bronze que surgiram depois da Noite Muda.",
+      "recompensa": "escama de bronze (curiosidade)",
+      "ligado_crise": true
+    },
+    {
+      "id": "raiz_invertida",
+      "nome": "Raiz Invertida",
+      "continentes": [
+        "mar_ringus"
+      ],
+      "locais": [
+        "ilha_invertida"
+      ],
+      "habitat": "base da ilha",
+      "rank_ameaca": "A",
+      "pv": 100,
+      "defesa": 18,
+      "ataque": 10,
+      "dano": "2d10+5",
+      "mana": 0,
+      "habilidades": [
+        "Prende e ergue a vítima para cima (Força CD 17)",
+        "Redução 4"
+      ],
+      "fraquezas": [
+        "fogo frio"
+      ],
+      "comportamento": "As raízes de pedra da ilha se movem quando algo vivo se aproxima.",
+      "recompensa": "nenhuma",
+      "ligado_crise": true
+    },
+    {
+      "id": "eco_sonhado",
+      "nome": "Eco Sonhado",
+      "continentes": [
+        "qualquer"
+      ],
+      "locais": [
+        "ilha_invertida",
+        "coracao_floresta",
+        "sharia"
+      ],
+      "habitat": "sonhos compartilhados, lugares finos",
+      "rank_ameaca": "C",
+      "pv": 30,
+      "defesa": 15,
+      "ataque": 6,
+      "dano": "2d6 (mente)",
+      "mana": 25,
+      "habilidades": [
+        "Assume a forma de alguém que o alvo perdeu",
+        "Desaparece se iluminado por quem está bem acordado"
+      ],
+      "fraquezas": [
+        "ver segredos.json"
+      ],
+      "comportamento": "Aparece onde muita gente dorme sem vigília.",
+      "recompensa": "nenhuma",
+      "ligado_crise": true
+    },
+    {
+      "id": "cao_dos_acordados",
+      "nome": "Cão dos Acordados",
+      "continentes": [
+        "central"
+      ],
+      "locais": [
+        "cais_morrowell",
+        "velmora"
+      ],
+      "habitat": "seguindo a seita",
+      "rank_ameaca": "E",
+      "pv": 12,
+      "defesa": 12,
+      "ataque": 3,
+      "dano": "1d6+1",
+      "mana": 0,
+      "habilidades": [
+        "Treinado no escuro",
+        "não late"
+      ],
+      "fraquezas": [
+        "comida"
+      ],
+      "comportamento": "Cães que a seita treina para farejar Sem-Sonho (que, dizem, cheiram a ferro).",
+      "recompensa": "nenhuma",
+      "ligado_crise": true
+    },
+    {
+      "id": "cavaleiro_purificador",
+      "nome": "Cavaleiro Purificador",
+      "continentes": [
+        "millis",
+        "central"
+      ],
+      "locais": [
+        "millishion",
+        "porto_zant",
+        "velmora"
+      ],
+      "habitat": "onde a Inquisição for",
+      "rank_ameaca": "B",
+      "pv": 45,
+      "defesa": 18,
+      "ataque": 8,
+      "dano": "1d10+6",
+      "mana": 10,
+      "habilidades": [
+        "Formação: +2 Defesa com aliado adjacente",
+        "Barreira Menor"
+      ],
+      "fraquezas": [
+        "ataque em área"
+      ],
+      "comportamento": "Cavaleiros do Templo destacados para \"custodiar\" Sem-Sonho. Gente, não monstro.",
+      "recompensa": "equipamento (caro)",
+      "ligado_crise": true
+    }
+  ]
+}

@@ -1,0 +1,1382 @@
+{
+  "npcs": [
+    {
+      "id": "maren_vossk",
+      "nome": "Maren Vossk",
+      "raca": "humano",
+      "idade": 58,
+      "rank": "Avançado (cura) / Avançado (Deus da Água)",
+      "faccao_id": "guilda_aventureiros",
+      "local_atual": "velmora",
+      "atitude": 20,
+      "personalidade": "Curandeira itinerante de mãos calejadas, ex-aventureira rank A. Prática, ri de si mesma, briga com quem maltrata criança. Culpa enterrada debaixo de bondade.",
+      "voz": "Voz rouca, frases curtas, apelidos para todo mundo (\"passarinho\", \"teimoso\"); xinga em voz baixa.",
+      "frase_caracteristica": "\"Quem vigia esta noite? Ninguém? Então eu.\"",
+      "objetivos": [
+        "Proteger crianças Sem-Sonho",
+        "Reparar um erro que não nomeia",
+        "Morrer sendo útil"
+      ],
+      "segredos": [
+        "Tirou a criança da Raiz na Noite Muda (ver segredos.json)",
+        "Guarda uma pena de lince trançada no cabelo",
+        "Tem uma carta que nunca termina de escrever"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Mentora do Ato I"
+    },
+    {
+      "id": "hollis_varn",
+      "nome": "Hollis Varn",
+      "raca": "humano",
+      "idade": 44,
+      "rank": "sem treino",
+      "faccao_id": null,
+      "local_atual": "brisaclara",
+      "atitude": 10,
+      "personalidade": "Ferreiro viúvo de Brisaclara, insone desde que a esposa morreu. Calado, gentil com crianças, péssimo com palavras.",
+      "voz": "Fala devagar, com pausas longas, mãos sempre ocupadas.",
+      "frase_caracteristica": "\"Ferro não mente. Gente, sim.\"",
+      "objetivos": [
+        "Manter a forja acesa",
+        "Não perder mais ninguém"
+      ],
+      "segredos": [
+        "Sabe que a aldeia vem 'ficando estranha' há semanas e não contou a ninguém",
+        "Ficou acordado na noite em que todos foram esvaziados"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Sobrevivente da abertura da aldeia"
+    },
+    {
+      "id": "padre_aubin",
+      "nome": "Padre Aubin Coll",
+      "raca": "humano",
+      "idade": 61,
+      "rank": "Intermediário (cura)",
+      "faccao_id": "igreja_millis",
+      "local_atual": "velmora",
+      "atitude": 5,
+      "personalidade": "Sacerdote de Velmora, cansado, piedoso, covarde em política e corajoso à beira de um leito.",
+      "voz": "Citações da escritura misturadas com ditados de roça.",
+      "frase_caracteristica": "\"Deus vê no escuro. Nós, não.\"",
+      "objetivos": [
+        "Manter o templo aberto à noite",
+        "Evitar que a Inquisição queime alguém na sua cidade"
+      ],
+      "segredos": [
+        "Recolheu os sinos rachados da Noite Muda e os mandou para Millis a pedido de um cardeal",
+        "Já escondeu um Sem-Sonho no porão do templo"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Clérigo local"
+    },
+    {
+      "id": "ilse_marrow",
+      "nome": "Capitã Ilse Marrow",
+      "raca": "humano",
+      "idade": 39,
+      "rank": "Avançado (Deus da Espada)",
+      "faccao_id": "reino_asura",
+      "local_atual": "velmora",
+      "atitude": 0,
+      "personalidade": "Capitã da guarda de Velmora. Dura, justa pelos padrões dela, odeia política da capital.",
+      "voz": "Ordens secas, sotaque do sul de Asura, nunca levanta a voz.",
+      "frase_caracteristica": "\"Na minha muralha, ninguém some sem eu saber por quê.\"",
+      "objetivos": [
+        "Manter Velmora inteira",
+        "Descobrir para onde os Ocos vão"
+      ],
+      "segredos": [
+        "Recebeu ordem de Ars de entregar todos os Sem-Sonho da cidade e está adiando",
+        "Seu imediato virou Oco e ela o mantém em serviço noturno"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Autoridade de Velmora"
+    },
+    {
+      "id": "brann_okkle",
+      "nome": "Brann Okkle",
+      "raca": "anao",
+      "idade": 130,
+      "rank": "Avançado (terra)",
+      "faccao_id": "guilda_aventureiros",
+      "local_atual": "velmora",
+      "atitude": 10,
+      "personalidade": "Mestre da filial da Guilda em Velmora. Mercenário honesto: cobra caro e entrega o que promete.",
+      "voz": "Grave, ri alto, bate na mesa para enfatizar.",
+      "frase_caracteristica": "\"Missão de Oco paga triplo. Pergunte por quê antes de assinar.\"",
+      "objetivos": [
+        "Lucro",
+        "Não enterrar mais nenhum novato"
+      ],
+      "segredos": [
+        "Sabe a taxa de mortalidade real das missões de Oco (quase metade) e foi proibido de divulgar"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Guilda"
+    },
+    {
+      "id": "gerda_tolle",
+      "nome": "Gerda Tolle",
+      "raca": "humano",
+      "idade": 52,
+      "rank": "sem treino",
+      "faccao_id": null,
+      "local_atual": "velmora",
+      "atitude": 15,
+      "personalidade": "Taverneira da 'Lanterna Torta', ouvido de toda Velmora. Fofoqueira, generosa, mercenária com informação.",
+      "voz": "Fala sem parar, chama todos de \"meu bem\", ri com o corpo inteiro.",
+      "frase_caracteristica": "\"Aqui se paga a cerveja e a novidade. A novidade é mais cara.\"",
+      "objetivos": [
+        "Manter a taverna",
+        "Casar a filha longe da fronteira"
+      ],
+      "segredos": [
+        "Vende informação aos Acordados e à Inquisição, sem saber quanto valem"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Informante"
+    },
+    {
+      "id": "osk_barqueiro",
+      "nome": "Osk",
+      "raca": "humano",
+      "idade": 70,
+      "rank": "sem treino",
+      "faccao_id": null,
+      "local_atual": "velmora",
+      "atitude": 0,
+      "personalidade": "Barqueiro do rio que conta cada pessoa que atravessa. Excêntrico, supersticioso, preciso.",
+      "voz": "Murmura números o tempo todo.",
+      "frase_caracteristica": "\"Trezentos e doze desceram o rio este ano. Nenhum voltou subindo.\"",
+      "objetivos": [
+        "Contar",
+        "Entender a conta"
+      ],
+      "segredos": [
+        "Percebeu que os desaparecidos seguem o rio rumo ao sul, para o mar"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Pista ambulante"
+    },
+    {
+      "id": "severin_lothair",
+      "nome": "Severin Lothair",
+      "raca": "humano",
+      "idade": 41,
+      "rank": "Santo (Deus da Água) / Avançado (cura)",
+      "faccao_id": "igreja_millis_purista",
+      "local_atual": "velmora",
+      "atitude": -30,
+      "personalidade": "Inquisidor de Millis. Carismático, educado, triste, inteligente; acredita que está salvando o mundo e talvez esteja. Nunca mente.",
+      "voz": "Voz calma de professor, pergunta antes de acusar, usa o nome da pessoa.",
+      "frase_caracteristica": "\"Eu não odeio você. Odeio a porta que você é.\"",
+      "objetivos": [
+        "Encontrar os Sem-Sonho que ouvem a voz gentil e detê-los",
+        "Provar ao Concílio que os Sem-Sonho são portas",
+        "Vingar a sobrinha"
+      ],
+      "segredos": [
+        "A sobrinha Sem-Sonho, guiada por uma voz gentil em sonho, abriu as comportas de uma represa e afogou 300 pessoas (ele sabe que a voz existe)",
+        "Tem dúvidas que confessa só a Deus",
+        "Vê no personagem a mesma 'porta' que viu na sobrinha"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Inquisidor que caça o personagem"
+    },
+    {
+      "id": "toma_ferrin",
+      "nome": "Toma Ferrin",
+      "raca": "humano",
+      "idade": 17,
+      "rank": "Intermediário (Deus da Espada)",
+      "faccao_id": null,
+      "local_atual": "velmora",
+      "atitude": 30,
+      "personalidade": "Espadachim jovem, alegre, impulsivo, leal até a estupidez. Sonha em ser Deus da Espada.",
+      "voz": "Fala rápido, ri de nervoso, inventa nomes para os próprios golpes.",
+      "frase_caracteristica": "\"Confia em mim, eu tenho um pressentimento bom!\"",
+      "objetivos": [
+        "Ser forte o bastante para proteger quem gosta",
+        "Disputar o título vago"
+      ],
+      "segredos": [
+        "Ouve a voz gentil desde os 8 anos e obedece",
+        "ela sempre acertou",
+        "Trairá o personagem no Ato II acreditando salvá-lo"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Companheiro possível (apóstolo de Hitogami)"
+    },
+    {
+      "id": "ysa_thornwell",
+      "nome": "Ysa Thornwell",
+      "raca": "meio_elfo",
+      "idade": 24,
+      "rank": "Avançado (água)",
+      "faccao_id": "guilda_aventureiros",
+      "local_atual": "velmora",
+      "atitude": 0,
+      "personalidade": "Maga da água, sarcástica, competente, cansada de ser subestimada por ser meio-elfa.",
+      "voz": "Ironia seca, frases que terminam em pergunta, nunca diz \"obrigada\".",
+      "frase_caracteristica": "\"Ah, claro. O plano é morrer. Ótimo plano.\"",
+      "objetivos": [
+        "Juntar dinheiro para um tratamento que não existe",
+        "Proteger o irmão"
+      ],
+      "segredos": [
+        "O irmão mais novo, Davin, é Oco",
+        "ela paga vizinhos para observá-lo dia e noite e o mantém 'vivo'",
+        "Sabe que a vigília funciona e não conta"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Companheira possível"
+    },
+    {
+      "id": "grubb_pellam",
+      "nome": "Grubb Pellam",
+      "raca": "halfling",
+      "idade": 46,
+      "rank": "Iniciante (vento)",
+      "faccao_id": "os_acordados",
+      "local_atual": "velmora",
+      "atitude": 10,
+      "personalidade": "Cartógrafo halfling, encantador, mentiroso compulsivo de bom coração.",
+      "voz": "Exagera tudo, gesticula, conta vantagem.",
+      "frase_caracteristica": "\"Eu tenho um mapa pra isso. Tenho mapa pra tudo. Menos pro que importa.\"",
+      "objetivos": [
+        "Mapear as rotas dos Ocos",
+        "Ficar rico",
+        "Sair dos Acordados vivo"
+      ],
+      "segredos": [
+        "É informante dos Acordados (pagam bem pelos mapas)",
+        "Começa a duvidar da seita depois de ver uma aldeia esvaziada"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Companheiro possível"
+    },
+    {
+      "id": "zaroc",
+      "nome": "Zaroc",
+      "raca": "superd",
+      "idade": 380,
+      "rank": "Rei (lança, equivalente Deus do Norte)",
+      "faccao_id": null,
+      "local_atual": "ermos_gaslan",
+      "atitude": 0,
+      "personalidade": "Guerreiro Superd exilado, sereno, triste, protetor de crianças. Carrega a culpa de sua raça como pedra.",
+      "voz": "Pouquíssimas palavras, frases antigas, chama todos de \"jovem guerreiro\".",
+      "frase_caracteristica": "\"Eu estive lá da última vez. Não quero estar da próxima.\"",
+      "objetivos": [
+        "Proteger crianças",
+        "Ver o nome dos Superd limpo antes de morrer"
+      ],
+      "segredos": [
+        "Escoltou os anciões povos-fera até a Raiz durante a Noite Rasa, na Guerra de Laplace: sabe do pacto",
+        "Esconde a lança e cabelo raspado"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Aliado do Ato II"
+    },
+    {
+      "id": "nhiri",
+      "nome": "Nhiri",
+      "raca": "povo_fera",
+      "idade": "22 (dormiu ~400 anos)",
+      "rank": "Imperador (sem escola; estilos das seis faces)",
+      "faccao_id": null,
+      "local_atual": "santuario_espada",
+      "atitude": -10,
+      "personalidade": "A Lâmina Sem Escola. Silenciosa, arisca, de humor infantil inesperado, com memórias de séculos de sonhos que não são dela.",
+      "voz": "Fala pouco e em frases antigas, mistura palavras de línguas mortas; ri de coisas que ninguém entende.",
+      "frase_caracteristica": "\"Você dorme pesado. Isso é perigoso.\"",
+      "objetivos": [
+        "Impedir que o deus ganhe corpos fortes",
+        "Encontrar Maren",
+        "Decidir se volta para a Raiz"
+      ],
+      "segredos": [
+        "É a criança da Raiz (ver segredos.json)",
+        "Matou o Deus da Espada para impedir seu esvaziamento",
+        "Carrega a espada de Aldric"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Peça central do mistério"
+    },
+    {
+      "id": "elianna_prest",
+      "nome": "Cardeal Elianna Prest",
+      "raca": "humano",
+      "idade": 55,
+      "rank": "Santo (barreira)",
+      "faccao_id": "igreja_millis_mistica",
+      "local_atual": "millishion",
+      "atitude": 30,
+      "personalidade": "Líder da ala mística. Calorosa, maternal, política brilhante; acredita sinceramente que os Sem-Sonho são santos.",
+      "voz": "Voz suave e musical, chama todos de \"filho\" ou \"filha\".",
+      "frase_caracteristica": "\"Eles não sonham porque estão acordados para Deus.\"",
+      "objetivos": [
+        "Vencer o Concílio",
+        "Reunir os Sem-Sonho proféticos 'para protegê-los'"
+      ],
+      "segredos": [
+        "Ouve a voz gentil há 10 anos e a crê ser Deus (é Hitogami)",
+        "Quer levar Sem-Sonho proféticos para Morrowell 'na hora certa'",
+        "Trai o personagem ou é traída, conforme o Ato II"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Apóstola de Hitogami"
+    },
+    {
+      "id": "otmar_grice",
+      "nome": "Cardeal Otmar Grice",
+      "raca": "humano",
+      "idade": 67,
+      "rank": "Avançado (barreira)",
+      "faccao_id": "igreja_millis_purista",
+      "local_atual": "millishion",
+      "atitude": -40,
+      "personalidade": "Líder da ala purista. Burocrata gelado, orador de fogo, convicto e cruel.",
+      "voz": "Discursos longos, latinismos litúrgicos, nunca olha nos olhos.",
+      "frase_caracteristica": "\"Abominação não se discute. Registra-se e purifica-se.\"",
+      "objetivos": [
+        "Vencer o Concílio",
+        "Decretar a Purificação"
+      ],
+      "segredos": [
+        "Usa Severin como rosto da Inquisição sem compartilhar as dúvidas dele",
+        "Financia caçadores de recompensa"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Líder purista"
+    },
+    {
+      "id": "papa_aurelian",
+      "nome": "Papa Aurelian IV",
+      "raca": "humano",
+      "idade": 79,
+      "rank": "Rei (cura)",
+      "faccao_id": "igreja_millis",
+      "local_atual": "millishion",
+      "atitude": 0,
+      "personalidade": "Pontífice velho e doente, sábio, indeciso por medo de rachar a Igreja.",
+      "voz": "Sussurra; respira com dificuldade; parábolas.",
+      "frase_caracteristica": "\"Uma Igreja dividida não salva ninguém. Uma Igreja errada também não.\"",
+      "objetivos": [
+        "Manter a Igreja unida",
+        "Morrer em paz"
+      ],
+      "segredos": [
+        "Sabe que o Concílio vai rachar a Igreja de qualquer jeito",
+        "Tem visões noturnas que atribui à febre (a voz de baixo)"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Árbitro do Concílio"
+    },
+    {
+      "id": "rhys_valmont",
+      "nome": "Comandante Rhys Valmont",
+      "raca": "humano",
+      "idade": 48,
+      "rank": "Rei (Deus da Água)",
+      "faccao_id": "igreja_millis_purista",
+      "local_atual": "millishion",
+      "atitude": -20,
+      "personalidade": "Comandante dos Cavaleiros do Templo. Disciplinado, honrado, obedece à hierarquia mesmo quando discorda.",
+      "voz": "Voz de comando, respeito formal, cumprimenta inimigos.",
+      "frase_caracteristica": "\"Eu cumpro ordens. Rezo para que sejam justas.\"",
+      "objetivos": [
+        "Manter a disciplina da ordem",
+        "Evitar uma cruzada mal planejada"
+      ],
+      "segredos": [
+        "Já se recusou uma vez a queimar uma aldeia e foi punido",
+        "Respeita Severin e o teme"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Braço armado"
+    },
+    {
+      "id": "ilmara_fenwick",
+      "nome": "Diretora Ilmara Fenwick",
+      "raca": "elfo",
+      "idade": 340,
+      "rank": "Rei (vento)",
+      "faccao_id": "universidade_ranoa",
+      "local_atual": "sharia",
+      "atitude": 10,
+      "personalidade": "Diretora da Universidade. Curiosa, fria, protetora da instituição acima de tudo.",
+      "voz": "Precisa, acadêmica, interrompe para corrigir termos.",
+      "frase_caracteristica": "\"Medo é só ignorância com pressa.\"",
+      "objetivos": [
+        "Manter a Universidade independente",
+        "Entender os Sem-Sonho antes de Millis e Asura"
+      ],
+      "segredos": [
+        "Sabe dos experimentos de Dunmorrow e os tolera em troca de resultados",
+        "Lembra da Noite Rasa (era jovem) e não a conectou ainda"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Instituição"
+    },
+    {
+      "id": "kaspar_dunmorrow",
+      "nome": "Professor Kaspar Dunmorrow",
+      "raca": "humano",
+      "idade": 52,
+      "rank": "Santo (invocação)",
+      "faccao_id": "universidade_ranoa",
+      "local_atual": "sharia",
+      "atitude": 0,
+      "personalidade": "Pesquisador brilhante, encantador, sem limites. Acredita que o conhecimento justifica o custo.",
+      "voz": "Entusiasmado, explica demais, ri baixo das próprias ideias.",
+      "frase_caracteristica": "\"Toda porta tem dobradiças. Eu só quero ver as dobradiças.\"",
+      "objetivos": [
+        "Mapear o Fundo usando Sem-Sonho induzidos a sonhar",
+        "Ser lembrado"
+      ],
+      "segredos": [
+        "Droga alunos Sem-Sonho para que sonhem",
+        "três viraram Ocos e ele os mantém observados num porão",
+        "Descobriu a regra da vigília e a esconde"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Vilão humano de Ranoa"
+    },
+    {
+      "id": "anwen_tal",
+      "nome": "Professora Anwen Tal",
+      "raca": "elfo",
+      "idade": 190,
+      "rank": "Santo (água) / Avançado (cura)",
+      "faccao_id": "universidade_ranoa",
+      "local_atual": "sharia",
+      "atitude": 20,
+      "personalidade": "Professora de magia da água, rigorosa, carinhosa às escondidas, desconfia de Dunmorrow.",
+      "voz": "Fala devagar, exige que repitam, elogia raramente e de verdade.",
+      "frase_caracteristica": "\"De novo. Desta vez, escuta a água antes de mandá-la.\"",
+      "objetivos": [
+        "Formar bons magos",
+        "Desmascarar Dunmorrow"
+      ],
+      "segredos": [
+        "Perdeu uma aluna para os experimentos e tem provas incompletas"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Mentora do Ato II"
+    },
+    {
+      "id": "elias_wren",
+      "nome": "Elias Wren",
+      "raca": "humano",
+      "idade": 12,
+      "rank": "Iniciante (fogo)",
+      "faccao_id": "universidade_ranoa",
+      "local_atual": "sharia",
+      "atitude": 10,
+      "personalidade": "Aluno Sem-Sonho com mana anormal, tímido, que desenha mapas compulsivamente.",
+      "voz": "Gagueja quando nervoso, fala muito quando confiante.",
+      "frase_caracteristica": "\"Eu não sonho. Mas às vezes eu acordo em outro lugar.\"",
+      "objetivos": [
+        "Voltar para casa",
+        "Entender os desenhos"
+      ],
+      "segredos": [
+        "Sonha o futuro (Sem-Sonho profético)",
+        "Desaparece no início da abertura de estudante (levado por Dunmorrow)"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "desaparecido",
+      "papel": "Colega desaparecido"
+    },
+    {
+      "id": "corin_dale",
+      "nome": "Corin Dale",
+      "raca": "humano",
+      "idade": 16,
+      "rank": "Intermediário (vento)",
+      "faccao_id": "universidade_ranoa",
+      "local_atual": "sharia",
+      "atitude": 10,
+      "personalidade": "Estudante bolsista, pobre, ambicioso, assistente de Dunmorrow.",
+      "voz": "Educado demais, sempre com pressa.",
+      "frase_caracteristica": "\"Se eu perder a bolsa, eu volto pra mina. Entende?\"",
+      "objetivos": [
+        "Manter a bolsa",
+        "Não ver o que vê"
+      ],
+      "segredos": [
+        "Ajuda Dunmorrow a buscar os alunos à noite"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Testemunha culpada"
+    },
+    {
+      "id": "edran_iii",
+      "nome": "Rei Edran III de Asura",
+      "raca": "humano",
+      "idade": 63,
+      "rank": "sem treino",
+      "faccao_id": "reino_asura",
+      "local_atual": "ars",
+      "atitude": 0,
+      "personalidade": "Rei de Asura. Aparece raramente, sorri, repete frases de discursos antigos.",
+      "voz": "Frases protocolares, as mesmas de sempre.",
+      "frase_caracteristica": "\"Asura agradece a lealdade de seus filhos.\"",
+      "objetivos": [
+        "(nenhum: é Oco)"
+      ],
+      "segredos": [
+        "É Oco desde 421",
+        "Mantido observado dia e noite por criados em turnos"
+      ],
+      "oco": true,
+      "conhecido_pelo_jogador": false,
+      "status": "oco",
+      "papel": "A Coroa Silenciosa"
+    },
+    {
+      "id": "corvin_ashgrave",
+      "nome": "Duque Corvin Ashgrave",
+      "raca": "humano",
+      "idade": 57,
+      "rank": "Avançado (fogo)",
+      "faccao_id": "reino_asura",
+      "local_atual": "ars",
+      "atitude": -10,
+      "personalidade": "Chanceler de Asura. Frio, competente, patriota à sua maneira, sem escrúpulos.",
+      "voz": "Elegante, irônico, nunca termina uma ameaça.",
+      "frase_caracteristica": "\"O reino precisa de um rei. Não necessariamente de um vivo.\"",
+      "objetivos": [
+        "Manter Asura estável até escolher o sucessor",
+        "Ter Sem-Sonho como armas"
+      ],
+      "segredos": [
+        "Esconde que o rei é Oco",
+        "Mandou matar o Lorde Harlow quando ele descobriu",
+        "Comanda o 'Projeto Vigília' (Sem-Sonho treinados como assassinos)"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Regente de fato"
+    },
+    {
+      "id": "lianna_asura",
+      "nome": "Princesa Lianna Asura",
+      "raca": "humano",
+      "idade": 19,
+      "rank": "Intermediário (Deus da Água)",
+      "faccao_id": "reino_asura",
+      "local_atual": "ars",
+      "atitude": 10,
+      "personalidade": "Herdeira do trono. Inteligente, presa, desconfiada, corajosa quando encurralada.",
+      "voz": "Formal em público, ácida em particular.",
+      "frase_caracteristica": "\"Meu pai não pisca. Alguém mais reparou ou eu enlouqueci?\"",
+      "objetivos": [
+        "Descobrir o que aconteceu com o pai",
+        "Sobreviver à sucessão"
+      ],
+      "segredos": [
+        "Suspeita da verdade e não tem provas",
+        "Planeja fugir da capital"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Herdeira"
+    },
+    {
+      "id": "morwen_valcroix",
+      "nome": "Duquesa Morwen Valcroix",
+      "raca": "humano",
+      "idade": 48,
+      "rank": "Avançado (vento)",
+      "faccao_id": "ordem_da_vigilia",
+      "local_atual": "ars",
+      "atitude": -10,
+      "personalidade": "Nobre rival de Ashgrave, ambiciosa, carismática, sincera na crueldade.",
+      "voz": "Ri muito, elogia antes de cortar, chama de \"querido\".",
+      "frase_caracteristica": "\"Toda casa precisa de cães de guarda. Os meus não dormem.\"",
+      "objetivos": [
+        "Tomar o trono por meio da sucessão",
+        "Formar a Ordem da Vigília com Sem-Sonho"
+      ],
+      "segredos": [
+        "Compra crianças Sem-Sonho",
+        "Sabe do rei e chantageia Ashgrave"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Rival na sucessão"
+    },
+    {
+      "id": "edric_harlow",
+      "nome": "Lorde Edric Harlow",
+      "raca": "humano",
+      "idade": 60,
+      "rank": "Intermediário (Deus da Espada)",
+      "faccao_id": "reino_asura",
+      "local_atual": "ars",
+      "atitude": 10,
+      "personalidade": "Velho conselheiro honesto, teimoso, piadista.",
+      "voz": "Brinca com tudo, inclusive com a morte.",
+      "frase_caracteristica": "\"Morrer de febre? Eu nunca tive febre na vida.\"",
+      "objetivos": [
+        "Contar a verdade ao Conselho"
+      ],
+      "segredos": [
+        "Descobriu que o rei é Oco"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Vítima marcada"
+    },
+    {
+      "id": "hesper_quill",
+      "nome": "Grão-mestra Hesper Quill",
+      "raca": "humano",
+      "idade": 61,
+      "rank": "Santo (Deus do Norte)",
+      "faccao_id": "guilda_aventureiros",
+      "local_atual": "ars",
+      "atitude": 0,
+      "personalidade": "Grão-mestra da Guilda. Pragmática, cínica, protege a instituição.",
+      "voz": "Fala de números e contratos; nunca promete.",
+      "frase_caracteristica": "\"A Guilda paga. A Guilda não pergunta. A Guilda não chora.\"",
+      "objetivos": [
+        "Lucro e sobrevivência da Guilda"
+      ],
+      "segredos": [
+        "Esconde a taxa de mortalidade das missões de Oco",
+        "Vende informações de expedições à Coroa"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Líder da Guilda"
+    },
+    {
+      "id": "haruul",
+      "nome": "Anciã Haruul",
+      "raca": "povo_fera",
+      "idade": 88,
+      "rank": "Avançado (barreira, canto ritual)",
+      "faccao_id": "povos_fera",
+      "local_atual": "coracao_floresta",
+      "atitude": -10,
+      "personalidade": "Anciã-mor do conselho da floresta. Severa, exausta, carrega a culpa de um povo.",
+      "voz": "Fala em provérbios, nunca diz \"não sei\".",
+      "frase_caracteristica": "\"Dorme tu, para que ele durma.\"",
+      "objetivos": [
+        "Manter o pacto da Raiz",
+        "Que ninguém de fora saiba"
+      ],
+      "segredos": [
+        "Pôs uma nova criança na Raiz na Noite Muda (Mio, sua bisneta)",
+        "Sabe que a canção está falhando"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Guardiã da Raiz"
+    },
+    {
+      "id": "fenn_garra_cinza",
+      "nome": "Fenn Garra-Cinza",
+      "raca": "povo_fera",
+      "idade": 34,
+      "rank": "Santo (Deus do Norte)",
+      "faccao_id": "povos_fera",
+      "local_atual": "grande_floresta",
+      "atitude": -20,
+      "personalidade": "Chefe das patrulhas da borda. Duro com humanos, terno com crianças refugiadas.",
+      "voz": "Rosna antes de falar; frases curtas.",
+      "frase_caracteristica": "\"Na floresta ninguém dorme sozinho. Nem você.\"",
+      "objetivos": [
+        "Proteger a borda",
+        "Mudar o pacto"
+      ],
+      "segredos": [
+        "Quer acordar Mio e acabar com o pacto",
+        "não sabe o custo"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Guardião da borda"
+    },
+    {
+      "id": "mio",
+      "nome": "Mio",
+      "raca": "povo_fera",
+      "idade": "5 (dorme desde os 5)",
+      "rank": "nenhum",
+      "faccao_id": "povos_fera",
+      "local_atual": "coracao_floresta",
+      "atitude": 0,
+      "personalidade": "Criança adormecida na Raiz desde a Noite Muda. Nunca acordou.",
+      "voz": "(não fala; às vezes canta dormindo)",
+      "frase_caracteristica": "\"(canta dormindo) dorme tu...\"",
+      "objetivos": [
+        "(nenhum)"
+      ],
+      "segredos": [
+        "É a nova canção de ninar do deus",
+        "Se acordar, outra Noite Muda"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "adormecido",
+      "papel": "Nova criança da Raiz"
+    },
+    {
+      "id": "velhvaria",
+      "nome": "Imperatriz Demoníaca Velhvaria Sunessa",
+      "raca": "tzalen",
+      "idade": 1200,
+      "rank": "Imperador (água, barreira)",
+      "faccao_id": "imperio_nevoa",
+      "local_atual": "fortaleza_nevoa",
+      "atitude": 20,
+      "personalidade": "Imperatriz antiga, melancólica, irônica, verdadeiramente generosa e verdadeiramente perigosa.",
+      "voz": "Fala como quem já viu tudo; chama humanos de \"efêmeros\" com carinho.",
+      "frase_caracteristica": "\"Já vi uma noite assim. Foi pior por ser mais curta.\"",
+      "objetivos": [
+        "Proteger os Sem-Sonho",
+        "Impedir que o deus acorde"
+      ],
+      "segredos": [
+        "Lembra da Noite Rasa da Guerra de Laplace",
+        "Sabe que existe 'algo que dorme embaixo' mas não do pacto"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Refúgio"
+    },
+    {
+      "id": "gorzhak",
+      "nome": "Rei Demônio Gorzhak",
+      "raca": "khorvath",
+      "idade": 410,
+      "rank": "Rei (Deus da Luta, punhos)",
+      "faccao_id": "dominio_gorzhak",
+      "local_atual": "garra_negra",
+      "atitude": -50,
+      "personalidade": "Rei demônio brutal, fanático de uma profecia antiga.",
+      "voz": "Gargalhadas, ameaças teatrais, súbitas lucidezes.",
+      "frase_caracteristica": "\"Uma criança que não sonha é uma chave. E eu tenho muitas portas.\"",
+      "objetivos": [
+        "Reunir Sem-Sonho para 'abrir a porta de baixo' e libertar os mortos demônios"
+      ],
+      "segredos": [
+        "É ouvinte da voz de baixo há décadas",
+        "Alia-se aos Acordados"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Vilão demoníaco"
+    },
+    {
+      "id": "teodoro_myrr",
+      "nome": "Teodoro Myrr, o Pastor",
+      "raca": "humano",
+      "idade": 50,
+      "rank": "Avançado (cura)",
+      "faccao_id": "os_acordados",
+      "local_atual": "cais_morrowell",
+      "atitude": -20,
+      "personalidade": "Ex-padre de Millis, líder dos Acordados. Manso, convicto, perigoso.",
+      "voz": "Sussurra sermões; nunca grita.",
+      "frase_caracteristica": "\"Eles não se perderam. Eles chegaram.\"",
+      "objetivos": [
+        "Que todos 'despertem' (virem Ocos) em paz",
+        "Ajudar a ilha a descer"
+      ],
+      "segredos": [
+        "A esposa virou Oco e ele a ouve na voz de baixo",
+        "Organiza esvaziamentos 'voluntários' (dormir em massa sem vigília)"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Líder dos Acordados"
+    },
+    {
+      "id": "halvard_meer",
+      "nome": "Halvard Meer",
+      "raca": "humano",
+      "idade": 38,
+      "rank": "Avançado (Deus do Norte)",
+      "faccao_id": "guilda_aventureiros",
+      "local_atual": "cais_morrowell",
+      "atitude": 0,
+      "personalidade": "Único sobrevivente da expedição Halvard à ilha. Meio louco, lúcido em lampejos.",
+      "voz": "Frases soltas, conta badaladas, chora sem perceber.",
+      "frase_caracteristica": "\"Lá dentro o chão é o teto. E todo mundo está dormindo.\"",
+      "objetivos": [
+        "Esquecer",
+        "Voltar lá para buscar a irmã"
+      ],
+      "segredos": [
+        "Viu o poço central e os rostos dormindo",
+        "Tem um diário com horários de badaladas"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Testemunha da ilha"
+    },
+    {
+      "id": "dagna_rook",
+      "nome": "Capitã Dagna Rook",
+      "raca": "humano",
+      "idade": 45,
+      "rank": "Avançado (Deus do Norte)",
+      "faccao_id": "guilda_aventureiros",
+      "local_atual": "cais_morrowell",
+      "atitude": 5,
+      "personalidade": "Capitã do 'Viúva Teimosa', único navio que já foi e voltou de perto da ilha duas vezes.",
+      "voz": "Palavrões náuticos, gargalhada, faz contas em voz alta.",
+      "frase_caracteristica": "\"Eu levo até o inferno. A volta é cobrada à parte.\"",
+      "objetivos": [
+        "Pagar dívidas",
+        "Não perder outra tripulação"
+      ],
+      "segredos": [
+        "Contrabandeia Sem-Sonho para a Imperatriz e às vezes para Gorzhak (não sabe a diferença)"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Transporte para a ilha"
+    },
+    {
+      "id": "nerith_voz_coral",
+      "nome": "Nerith Voz-de-Coral",
+      "raca": "raca_do_mar",
+      "idade": 120,
+      "rank": "Santo (água, canto)",
+      "faccao_id": null,
+      "local_atual": "recife_nerith",
+      "atitude": 0,
+      "personalidade": "Sacerdotisa da raça do mar. Serena, desconfiada de quem vem da terra.",
+      "voz": "Canta parte das frases; usa metáforas de maré.",
+      "frase_caracteristica": "\"O templo caiu para baixo do mar há muito tempo. Agora está caindo para cima.\"",
+      "objetivos": [
+        "Proteger o recife",
+        "Impedir que a ilha toque o mar"
+      ],
+      "segredos": [
+        "Guarda as canções sobre a Dobradiça",
+        "Sabe que os peixes-sino são almas"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Guardiã do mar"
+    },
+    {
+      "id": "aerin_altoceu",
+      "nome": "Aerin Alto-Céu",
+      "raca": "celestial",
+      "idade": 210,
+      "rank": "Avançado (vento)",
+      "faccao_id": null,
+      "local_atual": "biblioteca_ventos",
+      "atitude": 0,
+      "personalidade": "Arquivista celestial, erudita, solitária, arrogante até ser surpreendida.",
+      "voz": "Precisão obsessiva com datas, desdém por \"gente de baixo\".",
+      "frase_caracteristica": "\"Vocês esquecem tudo em três gerações. Nós anotamos.\"",
+      "objetivos": [
+        "Preservar o arquivo",
+        "Entender o mapa da 'face sem céu'"
+      ],
+      "segredos": [
+        "Tem o mapa da Dobradiça do lado certo"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Fonte da história antiga"
+    },
+    {
+      "id": "nahla_sabia",
+      "nome": "Nahla, a Sábia do Deserto",
+      "raca": "humano",
+      "idade": 70,
+      "rank": "Santo (terra)",
+      "faccao_id": null,
+      "local_atual": "rapan",
+      "atitude": 10,
+      "personalidade": "Guia de labirintos aposentada, cega de um olho, contadora de histórias.",
+      "voz": "Voz de areia, histórias que começam no meio.",
+      "frase_caracteristica": "\"Todo labirinto tem um coração. Alguns sonham.\"",
+      "objetivos": [
+        "Achar um sucessor",
+        "Proteger Rapan"
+      ],
+      "segredos": [
+        "Leu as inscrições das Seis Faces no fundo das Mil Gargantas"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Guia de Begaritt"
+    },
+    {
+      "id": "ozrhan",
+      "nome": "Ozrhan, o Deus Técnico",
+      "raca": "entidade",
+      "idade": "desconhecida",
+      "rank": "Deus (todas as técnicas)",
+      "faccao_id": "sete_grandes_poderes",
+      "local_atual": "labirinto_mil_gargantas",
+      "atitude": 0,
+      "personalidade": "O Velho dos Mil Nomes. Curioso, indiferente, educado, aterrorizante.",
+      "voz": "Fala com qualquer um como se fosse aluno; boceja diante de ameaças.",
+      "frase_caracteristica": "\"O fim do mundo? Que interessante. Já vi dois.\"",
+      "objetivos": [
+        "Colecionar técnicas",
+        "Ver o que acontece"
+      ],
+      "segredos": [
+        "Sabe exatamente o que está acontecendo e não se importa",
+        "Ensinaria o personagem por curiosidade, a um preço estranho"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Poder indiferente"
+    },
+    {
+      "id": "ysveth_morrhagal",
+      "nome": "Ysveth Morrhagal, a Deusa Dragão",
+      "raca": "raca_dragao",
+      "idade": "desconhecida",
+      "rank": "Deus",
+      "faccao_id": "sete_grandes_poderes",
+      "local_atual": "santuario_espada",
+      "atitude": 0,
+      "personalidade": "A Deusa Dragão. Fria, exata, solitária, inimiga declarada da voz gentil.",
+      "voz": "Poucas palavras, sem cortesias, olha através das pessoas.",
+      "frase_caracteristica": "\"Se ele fala com você em sonho, você já está em dívida.\"",
+      "objetivos": [
+        "Matar Hitogami",
+        "Impedir que ele devore o deus"
+      ],
+      "segredos": [
+        "Nunca dorme (a raça dela não precisa): única que nunca ouviu nenhuma voz",
+        "Sabe que o Fundo existe"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Poder que ajuda"
+    },
+    {
+      "id": "garmund_haskeld",
+      "nome": "Garmund Haskeld, o Deus da Luta",
+      "raca": "khorvath",
+      "idade": 300,
+      "rank": "Deus (luta, armadura)",
+      "faccao_id": "sete_grandes_poderes",
+      "local_atual": "ars",
+      "atitude": -30,
+      "personalidade": "Mercenário de armadura negra que fala por ela. Brutal, honrado nos contratos.",
+      "voz": "Voz metálica abafada, contrato antes de tudo.",
+      "frase_caracteristica": "\"Me pagaram para trazer você. Não para gostar disso.\"",
+      "objetivos": [
+        "Cumprir contratos",
+        "Achar quem o liberte da armadura"
+      ],
+      "segredos": [
+        "Contratado por Ashgrave para capturar Sem-Sonho proféticos"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Poder que atrapalha"
+    },
+    {
+      "id": "vaal_zherin",
+      "nome": "Vaal-Zherin, o Deus Demônio",
+      "raca": "tzalen",
+      "idade": "desconhecida",
+      "rank": "Deus",
+      "faccao_id": "sete_grandes_poderes",
+      "local_atual": "garra_negra",
+      "atitude": -10,
+      "personalidade": "O Deus Demônio. Recluso, antigo, quer o mundo das seis faces de volta.",
+      "voz": "Voz grave e cansada, fala de eras como de anos.",
+      "frase_caracteristica": "\"O mundo de vocês é uma cicatriz. Eu quero a pele.\"",
+      "objetivos": [
+        "Que o deus suba e devolva a face demoníaca"
+      ],
+      "segredos": [
+        "Patrono oculto de Gorzhak",
+        "Ouve a voz de baixo e a ama"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Poder que atrapalha"
+    },
+    {
+      "id": "lys_arandel",
+      "nome": "Lys Arandel, a Deusa da Morte",
+      "raca": "humano",
+      "idade": 45,
+      "rank": "Deus (assassinato)",
+      "faccao_id": "sete_grandes_poderes",
+      "local_atual": "vel_garran",
+      "atitude": 0,
+      "personalidade": "Assassina sorridente, cortês, profissional.",
+      "voz": "Gentil como uma anfitriã, cumprimenta antes de matar.",
+      "frase_caracteristica": "\"Nada pessoal. Quase nunca é.\"",
+      "objetivos": [
+        "Cumprir o contrato pela cabeça da Lâmina Sem Escola"
+      ],
+      "segredos": [
+        "Aceitou o contrato do Santuário e outro de Grice pelos Sem-Sonho proféticos"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Poder que atrapalha"
+    },
+    {
+      "id": "kalvan_rhoss",
+      "nome": "Kalvan Rhoss, o Deus do Norte",
+      "raca": "humano",
+      "idade": 57,
+      "rank": "Deus (Deus do Norte)",
+      "faccao_id": "sete_grandes_poderes",
+      "local_atual": "vel_garran",
+      "atitude": 10,
+      "personalidade": "O Sorridente. Brincalhão, curioso, imprevisível, generoso sem motivo.",
+      "voz": "Piadas ruins, desafios, apostas.",
+      "frase_caracteristica": "\"Aquela técnica cortou algo que eu não tinha. Eu quero ver de novo.\"",
+      "objetivos": [
+        "Encontrar a Lâmina Sem Escola e entender a técnica"
+      ],
+      "segredos": [
+        "Pode ensinar o personagem",
+        "Pode virar aliado de Nhiri"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Poder ambíguo"
+    },
+    {
+      "id": "isolde_varr",
+      "nome": "Rainha da Espada Isolde Varr",
+      "raca": "humano",
+      "idade": 46,
+      "rank": "Rei (Deus da Espada)",
+      "faccao_id": "santuario_espada",
+      "local_atual": "santuario_espada",
+      "atitude": 0,
+      "personalidade": "Governante provisória do Santuário, ex-discípula de Aldric. Fria, ferida, ambiciosa.",
+      "voz": "Cortante, poucas palavras, desafia antes de conversar.",
+      "frase_caracteristica": "\"O título não é herdado. É tomado.\"",
+      "objetivos": [
+        "Vingar Aldric",
+        "Tornar-se Deusa da Espada"
+      ],
+      "segredos": [
+        "Ofereceu o título a quem matar a Lâmina Sem Escola"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Liderança do Santuário"
+    },
+    {
+      "id": "doran_kessel",
+      "nome": "Rei da Espada Doran Kessel",
+      "raca": "humano",
+      "idade": 50,
+      "rank": "Rei (Deus da Espada)",
+      "faccao_id": "santuario_espada",
+      "local_atual": "santuario_espada",
+      "atitude": 0,
+      "personalidade": "Rei da Espada, rival de Isolde, bonachão e insone.",
+      "voz": "Ri alto, abraça demais, dorme mal.",
+      "frase_caracteristica": "\"Durmo pouco. Velho soldado.\"",
+      "objetivos": [
+        "Ganhar o título"
+      ],
+      "segredos": [
+        "Está começando a ser esvaziado (sonha com sinos)",
+        "Nhiri o matará em 425 se ninguém agir"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Futura vítima"
+    },
+    {
+      "id": "aldric_faust",
+      "nome": "Aldric Faust",
+      "raca": "humano",
+      "idade": "71 (morto)",
+      "rank": "Deus (Deus da Espada)",
+      "faccao_id": "santuario_espada",
+      "local_atual": "santuario_espada",
+      "atitude": 0,
+      "personalidade": "O último Deus da Espada. Lendário, rabugento, honesto.",
+      "voz": "(morto)",
+      "frase_caracteristica": "\"Primeiro golpe. Sempre.\"",
+      "objetivos": [
+        "(morto)"
+      ],
+      "segredos": [
+        "Agradeceu a quem o matou"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "morto",
+      "papel": "O assassinado"
+    },
+    {
+      "id": "renna_kolt",
+      "nome": "Renna Kolt",
+      "raca": "humano",
+      "idade": 29,
+      "rank": "Intermediário (Deus do Norte)",
+      "faccao_id": "guilda_aventureiros",
+      "local_atual": "velmora",
+      "atitude": 10,
+      "personalidade": "Líder de party rank C, prática e bem-humorada. Pegou a escolta da abertura de aventureiro.",
+      "voz": "Fala de trabalho e dinheiro; bom humor de quem já perdeu gente.",
+      "frase_caracteristica": "\"Escolta simples. Três dias. O que pode dar errado?\"",
+      "objetivos": [
+        "Pagar a party",
+        "Sair da fronteira"
+      ],
+      "segredos": [
+        "Já perdeu metade da party anterior para Ocos"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Líder da abertura de aventureiro"
+    },
+    {
+      "id": "dobbs_hale",
+      "nome": "Dobbs Hale",
+      "raca": "humano",
+      "idade": 50,
+      "rank": "sem treino",
+      "faccao_id": null,
+      "local_atual": "velmora",
+      "atitude": 0,
+      "personalidade": "Mercador nervoso que contrata a escolta para Morrowell.",
+      "voz": "Reclama de preços, sua frio.",
+      "frase_caracteristica": "\"A carga é só tecido. Não precisa olhar.\"",
+      "objetivos": [
+        "Entregar a carga",
+        "Receber"
+      ],
+      "segredos": [
+        "A carga inclui fragmentos de sino rachado comprados de templos (para os Acordados)"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Cliente da abertura de aventureiro"
+    },
+    {
+      "id": "davin_thornwell",
+      "nome": "Davin Thornwell",
+      "raca": "meio_elfo",
+      "idade": 15,
+      "rank": "sem treino",
+      "faccao_id": null,
+      "local_atual": "velmora",
+      "atitude": 0,
+      "personalidade": "Irmão de Ysa. Gentil, distraído.",
+      "voz": "Sempre a mesma pergunta sobre o jantar.",
+      "frase_caracteristica": "\"A Ysa já chegou? Ela prometeu voltar cedo.\"",
+      "objetivos": [
+        "(nenhum: é Oco)"
+      ],
+      "segredos": [
+        "É Oco desde 422",
+        "mantido observado pela irmã"
+      ],
+      "oco": true,
+      "conhecido_pelo_jogador": false,
+      "status": "oco",
+      "papel": "Oco mantido pela irmã"
+    },
+    {
+      "id": "lena_varn",
+      "nome": "Lena Varn",
+      "raca": "humano",
+      "idade": 19,
+      "rank": "sem treino",
+      "faccao_id": null,
+      "local_atual": "brisaclara",
+      "atitude": 10,
+      "personalidade": "Filha de Hollis, noiva, alegre, organizadora do festival da colheita.",
+      "voz": "Fala cantando, chama todos para dançar.",
+      "frase_caracteristica": "\"Hoje ninguém fica em casa!\"",
+      "objetivos": [
+        "Casar depois da colheita"
+      ],
+      "segredos": [
+        "Na manhã da abertura, está no rio com os outros"
+      ],
+      "oco": true,
+      "conhecido_pelo_jogador": false,
+      "status": "oco",
+      "papel": "Vítima da abertura da aldeia"
+    },
+    {
+      "id": "hitogami",
+      "nome": "A voz gentil (Hitogami)",
+      "raca": "entidade",
+      "idade": "desconhecida",
+      "rank": "além dos ranks",
+      "faccao_id": null,
+      "local_atual": null,
+      "atitude": 0,
+      "personalidade": "Gentil, prestativo, divertido, paciente. Manipulador por natureza.",
+      "voz": "Tom de tio querido; rosto que escapa da memória; nunca ordena, só sugere.",
+      "frase_caracteristica": "\"Eu só quero te ajudar. Você vai ver.\"",
+      "objetivos": [
+        "Fazer a ilha tocar o mar",
+        "Devorar o deus adormecido"
+      ],
+      "segredos": [
+        "Causou a Noite Muda (ver segredos.json)"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Voz gentil"
+    },
+    {
+      "id": "deus_adormecido",
+      "nome": "A voz de baixo",
+      "raca": "entidade",
+      "idade": "desconhecida",
+      "rank": "além dos ranks",
+      "faccao_id": null,
+      "local_atual": "ilha_invertida",
+      "atitude": 0,
+      "personalidade": "Cruel na franqueza, triste, imenso, sem malícia pequena.",
+      "voz": "Muitas vozes sobrepostas num poço; às vezes a de um morto conhecido.",
+      "frase_caracteristica": "\"Você também tem medo de acordar. Todos têm.\"",
+      "objetivos": [
+        "Subir",
+        "Levar os mortos 'para casa'"
+      ],
+      "segredos": [
+        "Ver segredos.json"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "adormecido",
+      "papel": "Voz de baixo"
+    },
+    {
+      "id": "lucan_merrow",
+      "nome": "Lucan Merrow",
+      "raca": "humano",
+      "idade": 44,
+      "rank": "Santo (fogo)",
+      "faccao_id": "reino_shirone",
+      "local_atual": "shirone",
+      "atitude": 0,
+      "personalidade": "Mago da corte de Shirone, vaidoso, inseguro, recrutador de talentos.",
+      "voz": "Floreios, títulos, elogios calculados.",
+      "frase_caracteristica": "\"Shirone sabe reconhecer um talento. E pagar por ele.\"",
+      "objetivos": [
+        "Ganhar prestígio para Shirone"
+      ],
+      "segredos": [
+        "Envia Sem-Sonho recrutados a Ashgrave em troca de favores"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Recrutador de Shirone"
+    },
+    {
+      "id": "tamsin_hollow",
+      "nome": "Tamsin Gaivota",
+      "raca": "halfling",
+      "idade": 33,
+      "rank": "Intermediário (vento)",
+      "faccao_id": "reino_rei_dragao",
+      "local_atual": "porto_rei_dragao",
+      "atitude": 5,
+      "personalidade": "Mestre de porto, eficiente, corrupta com moderação.",
+      "voz": "Rápida, números, \"documento?\".",
+      "frase_caracteristica": "\"Tudo sai do porto. Por um preço.\"",
+      "objetivos": [
+        "Manter o porto funcionando"
+      ],
+      "segredos": [
+        "Vende listas de passageiros Sem-Sonho para quem pagar"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": false,
+      "status": "vivo",
+      "papel": "Mestre do porto"
+    }
+  ]
+}

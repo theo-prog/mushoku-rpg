@@ -1,0 +1,484 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "status_criacao": {
+      "enum": [
+        "pendente",
+        "completo"
+      ]
+    },
+    "nome": {
+      "type": "string"
+    },
+    "raca": {
+      "type": "string"
+    },
+    "idade": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "data_nascimento_mundo": {
+      "type": "string"
+    },
+    "origem": {
+      "type": "string"
+    },
+    "regiao_origem": {
+      "type": "string"
+    },
+    "sem_sonho": {
+      "type": "boolean"
+    },
+    "atributos": {
+      "type": "object",
+      "properties": {
+        "forca": {
+          "type": "integer",
+          "minimum": -3,
+          "maximum": 10
+        },
+        "agilidade": {
+          "type": "integer",
+          "minimum": -3,
+          "maximum": 10
+        },
+        "vigor": {
+          "type": "integer",
+          "minimum": -3,
+          "maximum": 10
+        },
+        "intelecto": {
+          "type": "integer",
+          "minimum": -3,
+          "maximum": 10
+        },
+        "percepcao": {
+          "type": "integer",
+          "minimum": -3,
+          "maximum": 10
+        },
+        "presenca": {
+          "type": "integer",
+          "minimum": -3,
+          "maximum": 10
+        }
+      },
+      "required": [
+        "forca",
+        "agilidade",
+        "vigor",
+        "intelecto",
+        "percepcao",
+        "presenca"
+      ],
+      "additionalProperties": false
+    },
+    "pv": {
+      "type": "integer"
+    },
+    "pv_max": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "mana": {
+      "type": "integer"
+    },
+    "mana_max": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "capacidade_mana_crescimento": {
+      "enum": [
+        "nenhuma",
+        "baixa",
+        "normal",
+        "alta",
+        "anomala"
+      ]
+    },
+    "ranks": {
+      "type": "object",
+      "properties": {
+        "magia": {
+          "type": "object",
+          "properties": {
+            "fogo": {
+              "enum": [
+                "nenhum",
+                "iniciante",
+                "intermediario",
+                "avancado",
+                "santo",
+                "rei",
+                "imperador",
+                "deus"
+              ]
+            },
+            "agua": {
+              "enum": [
+                "nenhum",
+                "iniciante",
+                "intermediario",
+                "avancado",
+                "santo",
+                "rei",
+                "imperador",
+                "deus"
+              ]
+            },
+            "terra": {
+              "enum": [
+                "nenhum",
+                "iniciante",
+                "intermediario",
+                "avancado",
+                "santo",
+                "rei",
+                "imperador",
+                "deus"
+              ]
+            },
+            "vento": {
+              "enum": [
+                "nenhum",
+                "iniciante",
+                "intermediario",
+                "avancado",
+                "santo",
+                "rei",
+                "imperador",
+                "deus"
+              ]
+            },
+            "cura": {
+              "enum": [
+                "nenhum",
+                "iniciante",
+                "intermediario",
+                "avancado",
+                "santo",
+                "rei",
+                "imperador",
+                "deus"
+              ]
+            },
+            "desintoxicacao": {
+              "enum": [
+                "nenhum",
+                "iniciante",
+                "intermediario",
+                "avancado",
+                "santo",
+                "rei",
+                "imperador",
+                "deus"
+              ]
+            },
+            "barreira": {
+              "enum": [
+                "nenhum",
+                "iniciante",
+                "intermediario",
+                "avancado",
+                "santo",
+                "rei",
+                "imperador",
+                "deus"
+              ]
+            },
+            "invocacao": {
+              "enum": [
+                "nenhum",
+                "iniciante",
+                "intermediario",
+                "avancado",
+                "santo",
+                "rei",
+                "imperador",
+                "deus"
+              ]
+            }
+          },
+          "required": [
+            "fogo",
+            "agua",
+            "terra",
+            "vento",
+            "cura",
+            "desintoxicacao",
+            "barreira",
+            "invocacao"
+          ],
+          "additionalProperties": false
+        },
+        "espada": {
+          "type": "object",
+          "properties": {
+            "deus_da_espada": {
+              "enum": [
+                "nenhum",
+                "iniciante",
+                "intermediario",
+                "avancado",
+                "santo",
+                "rei",
+                "imperador",
+                "deus"
+              ]
+            },
+            "deus_da_agua": {
+              "enum": [
+                "nenhum",
+                "iniciante",
+                "intermediario",
+                "avancado",
+                "santo",
+                "rei",
+                "imperador",
+                "deus"
+              ]
+            },
+            "deus_do_norte": {
+              "enum": [
+                "nenhum",
+                "iniciante",
+                "intermediario",
+                "avancado",
+                "santo",
+                "rei",
+                "imperador",
+                "deus"
+              ]
+            }
+          },
+          "required": [
+            "deus_da_espada",
+            "deus_da_agua",
+            "deus_do_norte"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "magia",
+        "espada"
+      ]
+    },
+    "magias_conhecidas": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9_]+$"
+      }
+    },
+    "tecnicas": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9_]+$"
+      }
+    },
+    "encantacao_silenciosa": {
+      "type": "boolean"
+    },
+    "tracos": {
+      "type": "object",
+      "properties": {
+        "bencaos": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "maldicoes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "olhos_demoniacos": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "outros": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "bencaos",
+        "maldicoes",
+        "olhos_demoniacos",
+        "outros"
+      ]
+    },
+    "ferimentos_persistentes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "descricao": {
+            "type": "string",
+            "minLength": 1
+          },
+          "gravidade": {
+            "enum": [
+              "leve",
+              "grave",
+              "critico"
+            ]
+          },
+          "desde": {
+            "type": "string"
+          },
+          "cura_necessaria": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "descricao",
+          "gravidade"
+        ]
+      }
+    },
+    "idiomas": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reputacao_guilda": {
+      "type": "object",
+      "properties": {
+        "rank": {
+          "enum": [
+            "nenhum",
+            "F",
+            "E",
+            "D",
+            "C",
+            "B",
+            "A",
+            "S",
+            "SS"
+          ]
+        },
+        "pontos": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "rank",
+        "pontos"
+      ]
+    },
+    "dinheiro": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 0
+      }
+    },
+    "objetivos": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "relacoes": {
+      "type": "object",
+      "propertyNames": {
+        "pattern": "^[a-z0-9_]+$"
+      },
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": -100,
+        "maximum": 100
+      }
+    },
+    "sonhos_registrados": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          },
+          "descricao": {
+            "type": "string",
+            "minLength": 1
+          },
+          "tipo": {
+            "enum": [
+              "comum",
+              "profetico",
+              "voz_gentil",
+              "voz_de_baixo",
+              "ausencia",
+              "outro"
+            ]
+          }
+        },
+        "required": [
+          "data",
+          "descricao",
+          "tipo"
+        ]
+      }
+    },
+    "pericias": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "treino_infancia": {
+      "type": "string"
+    },
+    "ambicao": {
+      "type": "string"
+    },
+    "notas": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "status_criacao",
+    "nome",
+    "raca",
+    "idade",
+    "data_nascimento_mundo",
+    "origem",
+    "sem_sonho",
+    "atributos",
+    "pv",
+    "pv_max",
+    "mana",
+    "mana_max",
+    "capacidade_mana_crescimento",
+    "ranks",
+    "magias_conhecidas",
+    "tecnicas",
+    "encantacao_silenciosa",
+    "tracos",
+    "ferimentos_persistentes",
+    "idiomas",
+    "reputacao_guilda",
+    "dinheiro",
+    "objetivos",
+    "relacoes",
+    "sonhos_registrados"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Personagem do jogador"
+}

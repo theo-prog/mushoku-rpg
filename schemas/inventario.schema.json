@@ -1,0 +1,43 @@
+{
+  "type": "object",
+  "properties": {
+    "itens": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "item_id": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]+$"
+          },
+          "qtd": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "equipado": {
+            "type": "boolean"
+          },
+          "notas": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "item_id",
+          "qtd"
+        ]
+      }
+    },
+    "carga_max": {
+      "type": "number",
+      "minimum": 0
+    },
+    "guardado_em": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "itens"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Inventário"
+}

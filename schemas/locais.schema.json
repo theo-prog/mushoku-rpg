@@ -1,0 +1,128 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Locais e rotas",
+  "type": "object",
+  "properties": {
+    "locais": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]+$"
+          },
+          "nome": {
+            "type": "string",
+            "minLength": 1
+          },
+          "continente": {
+            "enum": [
+              "central",
+              "demoniaco",
+              "millis",
+              "begaritt",
+              "celestial",
+              "mar_ringus",
+              "qualquer"
+            ]
+          },
+          "regiao": {
+            "type": "string",
+            "minLength": 1
+          },
+          "tipo": {
+            "enum": [
+              "capital",
+              "cidade",
+              "vila",
+              "aldeia",
+              "porto",
+              "fortaleza",
+              "labirinto",
+              "regiao",
+              "ruina",
+              "floresta",
+              "montanha",
+              "mar",
+              "ilha",
+              "santuario",
+              "academia",
+              "estrada"
+            ]
+          },
+          "descricao": {
+            "type": "string",
+            "minLength": 1
+          },
+          "perigo": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 10
+          },
+          "faccao_controle": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[a-z0-9_]*$"
+          },
+          "rotas": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "destino": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9_]+$"
+                },
+                "meio": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "dias": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "perigo": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 10
+                },
+                "notas": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "destino",
+                "meio",
+                "dias",
+                "perigo"
+              ]
+            }
+          },
+          "ganchos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "id",
+          "nome",
+          "continente",
+          "regiao",
+          "tipo",
+          "descricao",
+          "perigo",
+          "rotas"
+        ]
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "locais"
+  ]
+}

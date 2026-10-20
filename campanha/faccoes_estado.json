@@ -1,0 +1,343 @@
+{
+  "faccoes": [
+    {
+      "id": "reino_asura",
+      "nome": "Reino de Asura",
+      "tipo": "reino",
+      "lider_npc_id": "corvin_ashgrave",
+      "sede_local_id": "ars",
+      "poder": 9,
+      "atitude_com_jogador": 0,
+      "postura_sem_sonho": "Quer o personagem como arma: oferece 'proteção', bolsa e título; se recusar, captura discreta (Projeto Vigília).",
+      "relacoes": {
+        "igreja_millis": 20,
+        "ordem_da_vigilia": -40,
+        "universidade_ranoa": 0,
+        "guilda_aventureiros": 20,
+        "os_acordados": -80
+      },
+      "objetivos_publicos": [
+        "Paz e prosperidade sob o rei Edran III",
+        "Proteger e educar os Sem-Sonho do reino"
+      ],
+      "objetivos_ocultos": [
+        "Esconder que o rei é Oco",
+        "Usar Sem-Sonho como assassinos e sentinelas que não podem ser esvaziados",
+        "Ashgrave escolher o sucessor antes que a sucessão vire guerra"
+      ],
+      "status": "ativa",
+      "conhecida_pelo_jogador": true
+    },
+    {
+      "id": "ordem_da_vigilia",
+      "nome": "Casa Valcroix e a Ordem da Vigília",
+      "tipo": "casa nobre",
+      "lider_npc_id": "morwen_valcroix",
+      "sede_local_id": "ars",
+      "poder": 5,
+      "atitude_com_jogador": 0,
+      "postura_sem_sonho": "Quer comprar ou recrutar o personagem para a Ordem; paga bem e mente melhor.",
+      "relacoes": {
+        "reino_asura": -40
+      },
+      "objetivos_publicos": [
+        "Patrulhas de vigília noturna nas terras Valcroix"
+      ],
+      "objetivos_ocultos": [
+        "Tomar o trono de Asura usando uma guarda de Sem-Sonho"
+      ],
+      "status": "ativa",
+      "conhecida_pelo_jogador": false
+    },
+    {
+      "id": "igreja_millis",
+      "nome": "Igreja de Millis",
+      "tipo": "igreja",
+      "lider_npc_id": "papa_aurelian",
+      "sede_local_id": "millishion",
+      "poder": 9,
+      "atitude_com_jogador": 0,
+      "postura_sem_sonho": "Oficialmente, nenhuma postura até o Concílio. Na prática, depende de qual ala encontra o personagem primeiro.",
+      "relacoes": {
+        "igreja_millis_purista": 30,
+        "igreja_millis_mistica": 30,
+        "reino_asura": 20,
+        "os_acordados": -100
+      },
+      "objetivos_publicos": [
+        "Unidade da fé",
+        "Concílio sobre os Sem-Sonho"
+      ],
+      "objetivos_ocultos": [
+        "Evitar o cisma a qualquer custo",
+        "O Papa teme estar ouvindo a voz de baixo"
+      ],
+      "status": "ativa",
+      "conhecida_pelo_jogador": true
+    },
+    {
+      "id": "igreja_millis_purista",
+      "nome": "Ala purista (Templo e Inquisição)",
+      "tipo": "facção religiosa",
+      "lider_npc_id": "otmar_grice",
+      "sede_local_id": "millishion",
+      "poder": 7,
+      "atitude_com_jogador": -30,
+      "postura_sem_sonho": "Registro, custódia e 'purificação': o personagem Sem-Sonho é caçado; se não for Sem-Sonho mas os proteger, é cúmplice.",
+      "relacoes": {
+        "igreja_millis_mistica": -60,
+        "igreja_millis": 30
+      },
+      "objetivos_publicos": [
+        "Proteger os fiéis de uma ameaça espiritual"
+      ],
+      "objetivos_ocultos": [
+        "Decretar a Purificação e uma cruzada",
+        "Grice quer o papado"
+      ],
+      "status": "ativa",
+      "conhecida_pelo_jogador": true
+    },
+    {
+      "id": "igreja_millis_mistica",
+      "nome": "Ala mística (Catedral)",
+      "tipo": "facção religiosa",
+      "lider_npc_id": "elianna_prest",
+      "sede_local_id": "millishion",
+      "poder": 6,
+      "atitude_com_jogador": 20,
+      "postura_sem_sonho": "Oferece proteção, santuário e veneração; quer o personagem perto, especialmente se sonhar o futuro.",
+      "relacoes": {
+        "igreja_millis_purista": -60,
+        "igreja_millis": 30
+      },
+      "objetivos_publicos": [
+        "Proteger os Sem-Sonho como santos"
+      ],
+      "objetivos_ocultos": [
+        "Reunir os Sem-Sonho proféticos e levá-los ao Cais de Morrowell na hora que 'Deus' indicar (Hitogami)"
+      ],
+      "status": "ativa",
+      "conhecida_pelo_jogador": true
+    },
+    {
+      "id": "universidade_ranoa",
+      "nome": "Universidade de Magia de Ranoa",
+      "tipo": "academia",
+      "lider_npc_id": "ilmara_fenwick",
+      "sede_local_id": "sharia",
+      "poder": 6,
+      "atitude_com_jogador": 10,
+      "postura_sem_sonho": "Bolsa, estudo e proteção, em troca de 'participar de pesquisas'.",
+      "relacoes": {
+        "igreja_millis": -10,
+        "reino_asura": 0
+      },
+      "objetivos_publicos": [
+        "Compreender e educar os Sem-Sonho"
+      ],
+      "objetivos_ocultos": [
+        "Dunmorrow induz Sem-Sonho a sonhar para mapear o Fundo",
+        "Manter a Universidade fora do alcance de Millis"
+      ],
+      "status": "ativa",
+      "conhecida_pelo_jogador": true
+    },
+    {
+      "id": "guilda_aventureiros",
+      "nome": "Guilda de Aventureiros",
+      "tipo": "guilda",
+      "lider_npc_id": "hesper_quill",
+      "sede_local_id": "ars",
+      "poder": 7,
+      "atitude_com_jogador": 0,
+      "postura_sem_sonho": "Neutra: um Sem-Sonho é um contratado que não vira Oco. Missões de Oco e da ilha pagam o triplo.",
+      "relacoes": {
+        "reino_asura": 20,
+        "igreja_millis": 0
+      },
+      "objetivos_publicos": [
+        "Missões, recompensas, ranks"
+      ],
+      "objetivos_ocultos": [
+        "Esconder a taxa de mortalidade (quase metade) das missões de Oco",
+        "Vender dados de expedições à Coroa de Asura"
+      ],
+      "status": "ativa",
+      "conhecida_pelo_jogador": true
+    },
+    {
+      "id": "povos_fera",
+      "nome": "Grande Floresta e povos-fera",
+      "tipo": "tribos",
+      "lider_npc_id": "haruul",
+      "sede_local_id": "coracao_floresta",
+      "poder": 6,
+      "atitude_com_jogador": -10,
+      "postura_sem_sonho": "Não tratam Sem-Sonho como ameaça; aceitam dentro da floresta quem jurar silêncio e vigília.",
+      "relacoes": {
+        "igreja_millis": -50,
+        "reino_asura": -30
+      },
+      "objetivos_publicos": [
+        "Fronteiras fechadas",
+        "Proteger as tribos dos escravistas"
+      ],
+      "objetivos_ocultos": [
+        "Manter o pacto da Raiz e o segredo dele",
+        "Fenn quer quebrar o pacto"
+      ],
+      "status": "ativa",
+      "conhecida_pelo_jogador": true
+    },
+    {
+      "id": "imperio_nevoa",
+      "nome": "Império da Névoa (Imperatriz Velhvaria)",
+      "tipo": "império demoníaco",
+      "lider_npc_id": "velhvaria",
+      "sede_local_id": "fortaleza_nevoa",
+      "poder": 7,
+      "atitude_com_jogador": 20,
+      "postura_sem_sonho": "Refúgio genuíno; quer entender o personagem e protegê-lo da Garra Negra.",
+      "relacoes": {
+        "dominio_gorzhak": -70
+      },
+      "objetivos_publicos": [
+        "Refúgio para todos os Sem-Sonho"
+      ],
+      "objetivos_ocultos": [
+        "Descobrir o que dorme embaixo antes que acorde de novo"
+      ],
+      "status": "ativa",
+      "conhecida_pelo_jogador": true
+    },
+    {
+      "id": "dominio_gorzhak",
+      "nome": "Domínio da Garra Negra (Rei Gorzhak)",
+      "tipo": "reino demoníaco",
+      "lider_npc_id": "gorzhak",
+      "sede_local_id": "garra_negra",
+      "poder": 6,
+      "atitude_com_jogador": -50,
+      "postura_sem_sonho": "Captura, compra e prende Sem-Sonho; o personagem é uma 'chave'.",
+      "relacoes": {
+        "imperio_nevoa": -70,
+        "os_acordados": 50
+      },
+      "objetivos_publicos": [
+        "Ouro por Sem-Sonho vivos"
+      ],
+      "objetivos_ocultos": [
+        "Usar Sem-Sonho para abrir a porta de baixo e trazer os mortos da face demoníaca"
+      ],
+      "status": "ativa",
+      "conhecida_pelo_jogador": false
+    },
+    {
+      "id": "os_acordados",
+      "nome": "Os Acordados",
+      "tipo": "seita",
+      "lider_npc_id": "teodoro_myrr",
+      "sede_local_id": "cais_morrowell",
+      "poder": 4,
+      "atitude_com_jogador": -20,
+      "postura_sem_sonho": "Querem converter o personagem; um Sem-Sonho não pode 'despertar', por isso é visto como infeliz ou como profeta.",
+      "relacoes": {
+        "igreja_millis": -100,
+        "reino_asura": -80,
+        "dominio_gorzhak": 50
+      },
+      "objetivos_publicos": [
+        "Paz para os Ocos",
+        "Ouvir a voz de baixo"
+      ],
+      "objetivos_ocultos": [
+        "Esvaziamentos voluntários em massa",
+        "Acelerar a descida da ilha"
+      ],
+      "status": "ativa",
+      "conhecida_pelo_jogador": true
+    },
+    {
+      "id": "santuario_espada",
+      "nome": "Santuário da Espada",
+      "tipo": "escola marcial",
+      "lider_npc_id": "isolde_varr",
+      "sede_local_id": "santuario_espada",
+      "poder": 6,
+      "atitude_com_jogador": 0,
+      "postura_sem_sonho": "Indiferente ao Sem-Sonho; interessa só a força do personagem e o que ele sabe da Lâmina Sem Escola.",
+      "relacoes": {
+        "reino_asura": 10
+      },
+      "objetivos_publicos": [
+        "Preservar o Estilo Deus da Espada",
+        "Coroar um novo Deus da Espada"
+      ],
+      "objetivos_ocultos": [
+        "Isolde quer o título a qualquer preço"
+      ],
+      "status": "ativa",
+      "conhecida_pelo_jogador": true
+    },
+    {
+      "id": "reino_shirone",
+      "nome": "Reino de Shirone",
+      "tipo": "reino",
+      "lider_npc_id": "lucan_merrow",
+      "sede_local_id": "shirone",
+      "poder": 4,
+      "atitude_com_jogador": 0,
+      "postura_sem_sonho": "Recruta o personagem como mago de corte; vende-o a Asura se for vantajoso.",
+      "relacoes": {
+        "reino_asura": 30
+      },
+      "objetivos_publicos": [
+        "Prestígio mágico"
+      ],
+      "objetivos_ocultos": [
+        "Trocar Sem-Sonho por favores de Ashgrave"
+      ],
+      "status": "ativa",
+      "conhecida_pelo_jogador": true
+    },
+    {
+      "id": "reino_rei_dragao",
+      "nome": "Reino do Rei Dragão",
+      "tipo": "reino",
+      "lider_npc_id": "tamsin_hollow",
+      "sede_local_id": "porto_rei_dragao",
+      "poder": 5,
+      "atitude_com_jogador": 0,
+      "postura_sem_sonho": "Neutro e lucrativo: passagem para quem pagar.",
+      "relacoes": {},
+      "objetivos_publicos": [
+        "Comércio e neutralidade"
+      ],
+      "objetivos_ocultos": [
+        "Lucrar com refugiados e listas de passageiros"
+      ],
+      "status": "ativa",
+      "conhecida_pelo_jogador": true
+    },
+    {
+      "id": "sete_grandes_poderes",
+      "nome": "Os Sete Grandes Poderes",
+      "tipo": "títulos",
+      "lider_npc_id": null,
+      "sede_local_id": null,
+      "poder": 10,
+      "atitude_com_jogador": 0,
+      "postura_sem_sonho": "Cada um por si: Ysveth ajuda; Garmund, Lys e Vaal-Zherin atrapalham; Ozrhan não se importa; Kalvan é imprevisível; o título da Espada está vago.",
+      "relacoes": {},
+      "objetivos_publicos": [
+        "Nenhum (são indivíduos)"
+      ],
+      "objetivos_ocultos": [
+        "Ver npcs.json de cada um"
+      ],
+      "status": "ativa",
+      "conhecida_pelo_jogador": false
+    }
+  ]
+}

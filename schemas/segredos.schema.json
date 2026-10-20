@@ -1,0 +1,148 @@
+{
+  "type": "object",
+  "properties": {
+    "aviso": {
+      "type": "string",
+      "minLength": 1
+    },
+    "verdade_central": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "revelacoes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]+$"
+          },
+          "titulo": {
+            "type": "string",
+            "minLength": 1
+          },
+          "verdade": {
+            "type": "string",
+            "minLength": 1
+          },
+          "revelada": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "titulo",
+          "verdade",
+          "revelada"
+        ]
+      },
+      "minItems": 1
+    },
+    "regras_ocos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]+$"
+          },
+          "regra": {
+            "type": "string",
+            "minLength": 1
+          },
+          "como_descobrir": {
+            "type": "string",
+            "minLength": 1
+          },
+          "descoberta_pelo_jogador": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "regra",
+          "como_descobrir",
+          "descoberta_pelo_jogador"
+        ]
+      },
+      "minItems": 5
+    },
+    "vozes": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "ilha_invertida": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "assassino_deus_da_espada": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "npc_proximo_ligado": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "escolha_final": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "vinculo_personagem": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": [
+            "pendente",
+            "completo"
+          ]
+        }
+      },
+      "required": [
+        "status"
+      ]
+    },
+    "prenuncios": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "detalhe": {
+            "type": "string",
+            "minLength": 1
+          },
+          "significado": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "detalhe",
+          "significado"
+        ]
+      }
+    }
+  },
+  "required": [
+    "aviso",
+    "verdade_central",
+    "revelacoes",
+    "regras_ocos",
+    "vozes",
+    "ilha_invertida",
+    "assassino_deus_da_espada",
+    "npc_proximo_ligado",
+    "escolha_final",
+    "vinculo_personagem",
+    "prenuncios"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Segredos do Mestre (NUNCA mostrar)"
+}

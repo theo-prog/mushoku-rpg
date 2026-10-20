@@ -1,0 +1,1158 @@
+{
+  "versao": 1,
+  "observacao": "Historicos (h*) já ocorreram. Futuros disparam via scripts/avancar_tempo.py. O Mestre pode marcar evitado/alterado.",
+  "relogios": {
+    "descida": "A ilha desce até tocar o mar",
+    "coroa_silenciosa": "Asura e o rei Oco",
+    "purificacao": "Millis e os Sem-Sonho",
+    "titulo_vago": "O título de Deus da Espada",
+    "migracao": "A caminhada dos Ocos"
+  },
+  "eventos": [
+    {
+      "id": "h01_seis_faces",
+      "data_mundo": "era_antiga",
+      "titulo": "O Mundo de Seis Faces",
+      "descricao": "Seis mundos encaixados, cada um com sua raça e seu deus, e uma sétima face sem céu que todos compartilhavam ao dormir.",
+      "local_id": null,
+      "faccoes_envolvidas": [],
+      "relogio_id": null,
+      "estagio": 0,
+      "status": "ocorrido",
+      "alteravel_pelo_jogador": false,
+      "consequencias": [
+        "Origem das raças",
+        "Origem do Fundo"
+      ],
+      "historico": true,
+      "depende_de": [],
+      "efeitos": []
+    },
+    {
+      "id": "h02_ruptura",
+      "data_mundo": "era_antiga_ruptura",
+      "titulo": "A Ruptura das Faces",
+      "descricao": "As seis faces caem; os mortos de todas caem no Fundo, dentro do Deus Adormecido. As raças sobreviventes acordam num mundo só.",
+      "local_id": null,
+      "faccoes_envolvidas": [],
+      "relogio_id": null,
+      "estagio": 0,
+      "status": "ocorrido",
+      "alteravel_pelo_jogador": false,
+      "consequencias": [
+        "O Fundo passa a guardar bilhões de mortos sonhando",
+        "A Dobradiça afunda"
+      ],
+      "historico": true,
+      "depende_de": [],
+      "efeitos": []
+    },
+    {
+      "id": "h03_guerra_laplace",
+      "data_mundo": "-420",
+      "titulo": "A Guerra de Laplace",
+      "descricao": "A grande guerra entre humanos e demônios conduzida pelo Deus Demônio Laplace (data aproximada desta realidade).",
+      "local_id": null,
+      "faccoes_envolvidas": [],
+      "relogio_id": null,
+      "estagio": 0,
+      "status": "ocorrido",
+      "alteravel_pelo_jogador": false,
+      "consequencias": [
+        "Fronteiras e ódios até hoje",
+        "Perseguição aos Superd"
+      ],
+      "historico": true,
+      "depende_de": [],
+      "efeitos": []
+    },
+    {
+      "id": "h04_noite_rasa",
+      "data_mundo": "-415",
+      "titulo": "A Noite Rasa",
+      "descricao": "No auge da guerra, os sonhos de metade do mundo ficam rasos por uma noite; surgem as primeiras pessoas ocas, logo esquecidas no caos da guerra. O deus quase acorda.",
+      "local_id": null,
+      "faccoes_envolvidas": [],
+      "relogio_id": null,
+      "estagio": 0,
+      "status": "ocorrido",
+      "alteravel_pelo_jogador": false,
+      "consequencias": [
+        "Lembrada só por longevos como Velhvaria",
+        "Origem do pacto da Raiz"
+      ],
+      "historico": true,
+      "depende_de": [],
+      "efeitos": []
+    },
+    {
+      "id": "h05_pacto_raiz",
+      "data_mundo": "-415",
+      "titulo": "O Pacto da Raiz",
+      "descricao": "Anciões povos-fera, escoltados pelo Superd Zaroc, põem a criança Nhiri, de mana imensa, para dormir para sempre sob a Grande Árvore. Canto em turnos, vigília perpétua.",
+      "local_id": "coracao_floresta",
+      "faccoes_envolvidas": [
+        "povos_fera"
+      ],
+      "relogio_id": null,
+      "estagio": 0,
+      "status": "ocorrido",
+      "alteravel_pelo_jogador": false,
+      "consequencias": [
+        "O deus volta a dormir fundo por 400 anos",
+        "Os povos-fera guardam o segredo"
+      ],
+      "historico": true,
+      "depende_de": [],
+      "efeitos": []
+    },
+    {
+      "id": "h06_superd",
+      "data_mundo": "-400",
+      "titulo": "A perseguição aos Superd",
+      "descricao": "Os Superd viram lenda de terror e são caçados em todos os continentes.",
+      "local_id": "aldeia_superd",
+      "faccoes_envolvidas": [],
+      "relogio_id": null,
+      "estagio": 0,
+      "status": "ocorrido",
+      "alteravel_pelo_jogador": false,
+      "consequencias": [
+        "Superd escondidos nos cânions de Gaslan"
+      ],
+      "historico": true,
+      "depende_de": [],
+      "efeitos": []
+    },
+    {
+      "id": "h07_ranoa",
+      "data_mundo": "0180",
+      "titulo": "Fundação da Universidade de Magia",
+      "descricao": "Em Sharia, as Três Nações Mágicas fundam a Universidade (data desta realidade).",
+      "local_id": "sharia",
+      "faccoes_envolvidas": [
+        "universidade_ranoa"
+      ],
+      "relogio_id": null,
+      "estagio": 0,
+      "status": "ocorrido",
+      "alteravel_pelo_jogador": false,
+      "consequencias": [
+        "Centro do estudo mágico"
+      ],
+      "historico": true,
+      "depende_de": [],
+      "efeitos": []
+    },
+    {
+      "id": "h08_maren_sonhos",
+      "data_mundo": "0408-05-10",
+      "titulo": "Maren começa a ouvir a voz gentil",
+      "descricao": "Durante dois anos, uma voz gentil guia a curandeira Maren Vossk em sonhos: avisa de doenças, salva pacientes, e fala de uma menina acorrentada no sono por selvagens.",
+      "local_id": null,
+      "faccoes_envolvidas": [],
+      "relogio_id": null,
+      "estagio": 0,
+      "status": "ocorrido",
+      "alteravel_pelo_jogador": false,
+      "consequencias": [
+        "Maren confia na voz"
+      ],
+      "historico": true,
+      "depende_de": [],
+      "efeitos": []
+    },
+    {
+      "id": "h09_noite_muda",
+      "data_mundo": "0410-08-01",
+      "titulo": "A Noite Muda",
+      "descricao": "Maren entra no Coração da Floresta e tira Nhiri da Raiz. O deus abre os olhos. Ninguém no mundo sonha. Os anciões põem Mio na Raiz antes do amanhecer.",
+      "local_id": "coracao_floresta",
+      "faccoes_envolvidas": [
+        "povos_fera"
+      ],
+      "relogio_id": null,
+      "estagio": 0,
+      "status": "ocorrido",
+      "alteravel_pelo_jogador": false,
+      "consequencias": [
+        "Sinos de templos racham",
+        "Nascem os Sem-Sonho",
+        "O deus volta a um sono leve"
+      ],
+      "historico": true,
+      "depende_de": [],
+      "efeitos": []
+    },
+    {
+      "id": "h10_ilha",
+      "data_mundo": "0410-08-02",
+      "titulo": "A ilha invertida aparece",
+      "descricao": "Pescadores do Mar de Ringus veem a ilha suspensa de cabeça para baixo no céu.",
+      "local_id": "ilha_invertida",
+      "faccoes_envolvidas": [],
+      "relogio_id": null,
+      "estagio": 0,
+      "status": "ocorrido",
+      "alteravel_pelo_jogador": false,
+      "consequencias": [
+        "Expedições",
+        "Sinos"
+      ],
+      "historico": true,
+      "depende_de": [],
+      "efeitos": []
+    },
+    {
+      "id": "h11_primeiros_ocos",
+      "data_mundo": "0411-09-12",
+      "titulo": "Primeiros Ocos documentados",
+      "descricao": "Uma família inteira de Fittoa é reconhecida como 'oca' por um médico da Igreja. Logo, casos em todos os continentes.",
+      "local_id": "brisaclara",
+      "faccoes_envolvidas": [
+        "igreja_millis"
+      ],
+      "relogio_id": null,
+      "estagio": 0,
+      "status": "ocorrido",
+      "alteravel_pelo_jogador": false,
+      "consequencias": [
+        "Medo de dormir",
+        "Comércio de amuletos"
+      ],
+      "historico": true,
+      "depende_de": [],
+      "efeitos": []
+    },
+    {
+      "id": "h12_sem_sonho_ranoa",
+      "data_mundo": "0413-03-01",
+      "titulo": "Ranoa identifica os Sem-Sonho",
+      "descricao": "A Universidade publica que crianças nascidas após a Noite Muda podem ter mana anormal e não sonhar.",
+      "local_id": "sharia",
+      "faccoes_envolvidas": [
+        "universidade_ranoa"
+      ],
+      "relogio_id": null,
+      "estagio": 0,
+      "status": "ocorrido",
+      "alteravel_pelo_jogador": false,
+      "consequencias": [
+        "Bolsas para Sem-Sonho",
+        "Interesse de reinos e da Igreja"
+      ],
+      "historico": true,
+      "depende_de": [],
+      "efeitos": []
+    },
+    {
+      "id": "h13_duas_vozes",
+      "data_mundo": "0417-06-01",
+      "titulo": "As duas vozes",
+      "descricao": "Relatos de duas vozes nos sonhos se espalham; os Acordados surgem nos portos.",
+      "local_id": "cais_morrowell",
+      "faccoes_envolvidas": [
+        "os_acordados"
+      ],
+      "relogio_id": null,
+      "estagio": 0,
+      "status": "ocorrido",
+      "alteravel_pelo_jogador": false,
+      "consequencias": [
+        "Seita dos Acordados",
+        "Exorcismos"
+      ],
+      "historico": true,
+      "depende_de": [],
+      "efeitos": []
+    },
+    {
+      "id": "h14_aldric",
+      "data_mundo": "0420-04-11",
+      "titulo": "Morte de Aldric Faust",
+      "descricao": "O Deus da Espada é morto numa ponte do norte por uma figura encapuzada com uma técnica de nenhuma escola.",
+      "local_id": "santuario_espada",
+      "faccoes_envolvidas": [
+        "santuario_espada"
+      ],
+      "relogio_id": null,
+      "estagio": 0,
+      "status": "ocorrido",
+      "alteravel_pelo_jogador": false,
+      "consequencias": [
+        "Título vago",
+        "Caça à Lâmina Sem Escola"
+      ],
+      "historico": true,
+      "depende_de": [],
+      "efeitos": []
+    },
+    {
+      "id": "h15_rei_oco",
+      "data_mundo": "0421-10-03",
+      "titulo": "O rei Edran III é esvaziado",
+      "descricao": "O rei adormece sozinho após um banquete. Ashgrave descobre de manhã e institui turnos de criados que nunca o deixam sem ser observado.",
+      "local_id": "ars",
+      "faccoes_envolvidas": [
+        "reino_asura"
+      ],
+      "relogio_id": null,
+      "estagio": 0,
+      "status": "ocorrido",
+      "alteravel_pelo_jogador": false,
+      "consequencias": [
+        "A Coroa Silenciosa começa"
+      ],
+      "historico": true,
+      "depende_de": [],
+      "efeitos": []
+    },
+    {
+      "id": "h16_halvard",
+      "data_mundo": "0422-05-20",
+      "titulo": "A expedição Halvard",
+      "descricao": "Uma expedição da Guilda pousa na ilha. Volta só Halvard Meer, que fala de um chão que é teto e de gente dormindo.",
+      "local_id": "ilha_invertida",
+      "faccoes_envolvidas": [
+        "guilda_aventureiros"
+      ],
+      "relogio_id": null,
+      "estagio": 0,
+      "status": "ocorrido",
+      "alteravel_pelo_jogador": false,
+      "consequencias": [
+        "Recompensas triplicam"
+      ],
+      "historico": true,
+      "depende_de": [],
+      "efeitos": []
+    },
+    {
+      "id": "evt_sinos_aniversario",
+      "data_mundo": "0423-08-01",
+      "titulo": "A Noite dos Sinos",
+      "descricao": "No 13º aniversário da Noite Muda, os sinos da ilha são ouvidos longe da costa, até em Velmora. Os sinos de vigília da cidade respondem sozinhos. Uma vila perto de Velmora amanhece toda oca, de pé, olhando para o sul.",
+      "local_id": "velmora",
+      "faccoes_envolvidas": [
+        "reino_asura",
+        "igreja_millis"
+      ],
+      "relogio_id": "descida",
+      "estagio": 1,
+      "status": "futuro",
+      "alteravel_pelo_jogador": true,
+      "consequencias": [
+        "Convergência das aberturas",
+        "A Inquisição chega a Velmora",
+        "Pânico nas vilas de Fittoa"
+      ],
+      "historico": false,
+      "noticia_publica": "Na noite do aniversário da Noite Muda, sinos foram ouvidos em Velmora, longe do mar. Uma vila vizinha amanheceu vazia de gente e cheia de corpos de pé.",
+      "depende_de": [],
+      "efeitos": [
+        {
+          "tipo": "flag",
+          "valor": "noite_dos_sinos"
+        }
+      ]
+    },
+    {
+      "id": "evt_migracao_fittoa",
+      "data_mundo": "0423-08-01",
+      "titulo": "Os Ocos de Fittoa começam a andar",
+      "descricao": "Na mesma noite, os Ocos sem observador de Fittoa começam a caminhar para o sul, poucos quilômetros por noite.",
+      "local_id": "brisaclara",
+      "faccoes_envolvidas": [],
+      "relogio_id": "migracao",
+      "estagio": 1,
+      "status": "futuro",
+      "alteravel_pelo_jogador": true,
+      "consequencias": [
+        "Rastros na estrada para o sul"
+      ],
+      "historico": false,
+      "noticia_publica": "Viajantes contam de gente andando sozinha à noite nas estradas de Fittoa, sem lanterna.",
+      "depende_de": [],
+      "efeitos": [
+        {
+          "tipo": "flag",
+          "valor": "ocos_caminham"
+        }
+      ]
+    },
+    {
+      "id": "evt_concilio_convocado",
+      "data_mundo": "0423-08-20",
+      "titulo": "O Concílio é convocado",
+      "descricao": "O Papa Aurelian convoca o Concílio sobre os Sem-Sonho para o ano seguinte. As duas alas começam a fazer campanha.",
+      "local_id": "millishion",
+      "faccoes_envolvidas": [
+        "igreja_millis",
+        "igreja_millis_purista",
+        "igreja_millis_mistica"
+      ],
+      "relogio_id": "purificacao",
+      "estagio": 1,
+      "status": "futuro",
+      "alteravel_pelo_jogador": true,
+      "consequencias": [
+        "Inquisidores e enviados da Catedral percorrem o Central"
+      ],
+      "historico": false,
+      "noticia_publica": "Millis convocou um Concílio para decidir se os Sem-Sonho são abominações ou santos.",
+      "depende_de": [],
+      "efeitos": []
+    },
+    {
+      "id": "evt_duelo_vel_garran",
+      "data_mundo": "0423-08-15",
+      "titulo": "Sangue na arena de Vel Garran",
+      "descricao": "Um Santo do Estilo Deus da Espada morre num duelo ilegal pelo título vago.",
+      "local_id": "vel_garran",
+      "faccoes_envolvidas": [
+        "santuario_espada"
+      ],
+      "relogio_id": "titulo_vago",
+      "estagio": 1,
+      "status": "futuro",
+      "alteravel_pelo_jogador": true,
+      "consequencias": [
+        "Mais duelos",
+        "O Santuário perde prestígio"
+      ],
+      "historico": false,
+      "noticia_publica": "Um espadachim Santo morreu num duelo ilegal em Vel Garran. Dizem que foi pelo título vago.",
+      "depende_de": [],
+      "efeitos": []
+    },
+    {
+      "id": "evt_rei_ausente",
+      "data_mundo": "0423-09-10",
+      "titulo": "O rei falta ao Conselho de Outono",
+      "descricao": "Edran III não aparece ao Conselho; Ashgrave fala em 'resfriado'. Lianna nota que o pai não pisca.",
+      "local_id": "ars",
+      "faccoes_envolvidas": [
+        "reino_asura"
+      ],
+      "relogio_id": "coroa_silenciosa",
+      "estagio": 1,
+      "status": "futuro",
+      "alteravel_pelo_jogador": true,
+      "consequencias": [
+        "Rumores na corte"
+      ],
+      "historico": false,
+      "noticia_publica": "O rei de Asura não compareceu ao Conselho de Outono. Fala-se em doença.",
+      "depende_de": [],
+      "efeitos": []
+    },
+    {
+      "id": "evt_contrato_lys",
+      "data_mundo": "0423-10-01",
+      "titulo": "A Deusa da Morte aceita o contrato",
+      "descricao": "Lys Arandel aceita o contrato do Santuário pela cabeça da Lâmina Sem Escola.",
+      "local_id": "vel_garran",
+      "faccoes_envolvidas": [
+        "santuario_espada",
+        "sete_grandes_poderes"
+      ],
+      "relogio_id": "titulo_vago",
+      "estagio": 2,
+      "status": "futuro",
+      "alteravel_pelo_jogador": true,
+      "consequencias": [
+        "Lys começa a caçar Nhiri"
+      ],
+      "historico": false,
+      "noticia_publica": "Corre que a Deusa da Morte aceitou caçar a Lâmina Sem Escola.",
+      "depende_de": [],
+      "efeitos": []
+    },
+    {
+      "id": "evt_aldeias_vazias",
+      "data_mundo": "0423-10-15",
+      "titulo": "Aldeias vazias em Fittoa",
+      "descricao": "Três aldeias de Fittoa amanhecem sem ninguém; rastros seguem para o sul.",
+      "local_id": "brisaclara",
+      "faccoes_envolvidas": [
+        "reino_asura"
+      ],
+      "relogio_id": "migracao",
+      "estagio": 2,
+      "status": "futuro",
+      "alteravel_pelo_jogador": true,
+      "consequencias": [
+        "Refugiados em Velmora",
+        "Asura fecha estradas"
+      ],
+      "historico": false,
+      "noticia_publica": "Três aldeias de Fittoa amanheceram vazias. As pegadas iam todas para o sul.",
+      "depende_de": [],
+      "efeitos": [
+        {
+          "tipo": "flag",
+          "valor": "fittoa_esvaziada"
+        },
+        {
+          "tipo": "faccao_poder",
+          "faccao_id": "reino_asura",
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "id": "evt_harlow",
+      "data_mundo": "0423-11-05",
+      "titulo": "Lorde Harlow morre 'de febre'",
+      "descricao": "O conselheiro que descobriu a verdade sobre o rei é envenenado por ordem de Ashgrave.",
+      "local_id": "ars",
+      "faccoes_envolvidas": [
+        "reino_asura"
+      ],
+      "relogio_id": "coroa_silenciosa",
+      "estagio": 2,
+      "status": "futuro",
+      "alteravel_pelo_jogador": true,
+      "consequencias": [
+        "Lianna fica sozinha na corte"
+      ],
+      "historico": false,
+      "noticia_publica": "Lorde Edric Harlow morreu de febre em Ars.",
+      "depende_de": [],
+      "efeitos": [
+        {
+          "tipo": "npc_status",
+          "npc_id": "edric_harlow",
+          "status": "morto"
+        }
+      ]
+    },
+    {
+      "id": "evt_registro",
+      "data_mundo": "0423-12-01",
+      "titulo": "Decreto de registro",
+      "descricao": "A Igreja exige o registro de todo Sem-Sonho em templos de Millis e Asura.",
+      "local_id": "millishion",
+      "faccoes_envolvidas": [
+        "igreja_millis",
+        "reino_asura"
+      ],
+      "relogio_id": "purificacao",
+      "estagio": 2,
+      "status": "futuro",
+      "alteravel_pelo_jogador": true,
+      "consequencias": [
+        "Famílias escondem filhos",
+        "Mercado de documentos falsos"
+      ],
+      "historico": false,
+      "noticia_publica": "A Igreja exige que todos os Sem-Sonho sejam registrados nos templos.",
+      "depende_de": [],
+      "efeitos": [
+        {
+          "tipo": "faccao_atitude",
+          "faccao_id": "igreja_millis_purista",
+          "delta": -10
+        }
+      ]
+    },
+    {
+      "id": "evt_expedicao_perdida",
+      "data_mundo": "0424-03-01",
+      "titulo": "A segunda expedição some",
+      "descricao": "Uma expedição grande da Guilda parte de Morrowell e não volta. Um bote retorna vazio, com um sino de bronze dentro.",
+      "local_id": "cais_morrowell",
+      "faccoes_envolvidas": [
+        "guilda_aventureiros"
+      ],
+      "relogio_id": "descida",
+      "estagio": 2,
+      "status": "futuro",
+      "alteravel_pelo_jogador": true,
+      "consequencias": [
+        "A Guilda dobra a recompensa"
+      ],
+      "historico": false,
+      "noticia_publica": "Outra expedição à ilha desapareceu. Voltou só um bote, com um sino dentro.",
+      "depende_de": [],
+      "efeitos": [
+        {
+          "tipo": "faccao_poder",
+          "faccao_id": "guilda_aventureiros",
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "id": "evt_titulo_oferecido",
+      "data_mundo": "0424-04-11",
+      "titulo": "O título a quem matar o assassino",
+      "descricao": "No aniversário da morte de Aldric, Isolde declara que o título será de quem matar a Lâmina Sem Escola.",
+      "local_id": "santuario_espada",
+      "faccoes_envolvidas": [
+        "santuario_espada"
+      ],
+      "relogio_id": "titulo_vago",
+      "estagio": 3,
+      "status": "futuro",
+      "alteravel_pelo_jogador": true,
+      "consequencias": [
+        "Caçadores de recompensa em massa"
+      ],
+      "historico": false,
+      "noticia_publica": "O Santuário da Espada promete o título de Deus da Espada a quem matar o assassino de Aldric Faust.",
+      "depende_de": [],
+      "efeitos": []
+    },
+    {
+      "id": "evt_custodia",
+      "data_mundo": "0424-05-10",
+      "titulo": "A Inquisição pode custodiar",
+      "descricao": "O Concílio, em sessão preliminar, autoriza a Inquisição a 'custodiar' Sem-Sonho suspeitos.",
+      "local_id": "millishion",
+      "faccoes_envolvidas": [
+        "igreja_millis_purista"
+      ],
+      "relogio_id": "purificacao",
+      "estagio": 3,
+      "status": "futuro",
+      "alteravel_pelo_jogador": true,
+      "consequencias": [
+        "Severin ganha poder legal sobre o personagem"
+      ],
+      "historico": false,
+      "noticia_publica": "A Inquisição agora pode levar crianças Sem-Sonho sob custódia.",
+      "depende_de": [
+        "evt_registro"
+      ],
+      "efeitos": [
+        {
+          "tipo": "faccao_poder",
+          "faccao_id": "igreja_millis_purista",
+          "delta": 1
+        }
+      ]
+    },
+    {
+      "id": "evt_ordem_vigilia",
+      "data_mundo": "0424-07-01",
+      "titulo": "A Ordem da Vigília",
+      "descricao": "A Duquesa Valcroix apresenta uma guarda de jovens Sem-Sonho treinados: sentinelas que 'não podem ser tomadas'.",
+      "local_id": "ars",
+      "faccoes_envolvidas": [
+        "ordem_da_vigilia"
+      ],
+      "relogio_id": "coroa_silenciosa",
+      "estagio": 3,
+      "status": "futuro",
+      "alteravel_pelo_jogador": true,
+      "consequencias": [
+        "Corrida por Sem-Sonho entre casas nobres"
+      ],
+      "historico": false,
+      "noticia_publica": "A Duquesa Valcroix apresentou em Ars uma guarda de jovens Sem-Sonho.",
+      "depende_de": [],
+      "efeitos": [
+        {
+          "tipo": "faccao_poder",
+          "faccao_id": "ordem_da_vigilia",
+          "delta": 2
+        }
+      ]
+    },
+    {
+      "id": "evt_colunas",
+      "data_mundo": "0424-08-10",
+      "titulo": "Colunas na Região dos Conflitos",
+      "descricao": "Colunas de centenas de Ocos atravessam a Região dos Conflitos à noite; exércitos locais não sabem se atacam gente ou monstros.",
+      "local_id": "regiao_conflitos",
+      "faccoes_envolvidas": [],
+      "relogio_id": "migracao",
+      "estagio": 3,
+      "status": "futuro",
+      "alteravel_pelo_jogador": true,
+      "consequencias": [
+        "Massacres",
+        "Estradas fechadas"
+      ],
+      "historico": false,
+      "noticia_publica": "Colunas de centenas de Ocos atravessam a Região dos Conflitos à noite, sempre para o sul.",
+      "depende_de": [
+        "evt_aldeias_vazias"
+      ],
+      "efeitos": [
+        {
+          "tipo": "flag",
+          "valor": "colunas_de_ocos"
+        }
+      ]
+    },
+    {
+      "id": "evt_cisma",
+      "data_mundo": "0425-02-01",
+      "titulo": "O Cisma",
+      "descricao": "O Concílio vota pela linha purista; Elianna Prest é excomungada e foge com fiéis e Sem-Sonho.",
+      "local_id": "millishion",
+      "faccoes_envolvidas": [
+        "igreja_millis",
+        "igreja_millis_purista",
+        "igreja_millis_mistica"
+      ],
+      "relogio_id": "purificacao",
+      "estagio": 4,
+      "status": "futuro",
+      "alteravel_pelo_jogador": true,
+      "consequencias": [
+        "Igreja dividida",
+        "Elianna vira fugitiva com seus 'santos'"
+      ],
+      "historico": false,
+      "noticia_publica": "O Concílio condenou os Sem-Sonho. A Cardeal Elianna Prest foi excomungada e fugiu.",
+      "depende_de": [
+        "evt_custodia"
+      ],
+      "efeitos": [
+        {
+          "tipo": "faccao_status",
+          "faccao_id": "igreja_millis",
+          "status": "dividida"
+        },
+        {
+          "tipo": "faccao_status",
+          "faccao_id": "igreja_millis_mistica",
+          "status": "dividida"
+        },
+        {
+          "tipo": "npc_local",
+          "npc_id": "elianna_prest",
+          "local_id": "porto_leste"
+        }
+      ]
+    },
+    {
+      "id": "evt_lianna_foge",
+      "data_mundo": "0425-03-15",
+      "titulo": "A princesa foge",
+      "descricao": "Lianna escapa de Ars depois de flagrar os turnos dos criados ao redor do pai.",
+      "local_id": "ars",
+      "faccoes_envolvidas": [
+        "reino_asura"
+      ],
+      "relogio_id": "coroa_silenciosa",
+      "estagio": 4,
+      "status": "futuro",
+      "alteravel_pelo_jogador": true,
+      "consequencias": [
+        "Ashgrave a declara sequestrada"
+      ],
+      "historico": false,
+      "noticia_publica": "A princesa Lianna desapareceu de Ars. O chanceler fala em sequestro.",
+      "depende_de": [
+        "evt_harlow"
+      ],
+      "efeitos": [
+        {
+          "tipo": "npc_local",
+          "npc_id": "lianna_asura",
+          "local_id": "velmora"
+        }
+      ]
+    },
+    {
+      "id": "evt_ilha_desce",
+      "data_mundo": "0425-06-20",
+      "titulo": "A ilha cai quarenta metros",
+      "descricao": "Numa noite de muitos esvaziamentos, a ilha desce 40 m de uma vez; uma onda atinge Morrowell.",
+      "local_id": "cais_morrowell",
+      "faccoes_envolvidas": [],
+      "relogio_id": "descida",
+      "estagio": 3,
+      "status": "futuro",
+      "alteravel_pelo_jogador": true,
+      "consequencias": [
+        "Morrowell parcialmente destruída"
+      ],
+      "historico": false,
+      "noticia_publica": "A ilha invertida desceu dezenas de metros numa só noite. Uma onda atingiu o Cais de Morrowell.",
+      "depende_de": [],
+      "efeitos": [
+        {
+          "tipo": "flag",
+          "valor": "onda_morrowell"
+        }
+      ]
+    },
+    {
+      "id": "evt_doran",
+      "data_mundo": "0425-07-07",
+      "titulo": "O Rei da Espada Doran Kessel é morto",
+      "descricao": "Doran Kessel, que sonhava com sinos, é morto com a mesma técnica que matou Aldric.",
+      "local_id": "santuario_espada",
+      "faccoes_envolvidas": [
+        "santuario_espada"
+      ],
+      "relogio_id": "titulo_vago",
+      "estagio": 4,
+      "status": "futuro",
+      "alteravel_pelo_jogador": true,
+      "consequencias": [
+        "Prova de que o assassino está vivo e ativo"
+      ],
+      "historico": false,
+      "noticia_publica": "O Rei da Espada Doran Kessel foi morto. Mesma técnica, mesmo corte.",
+      "depende_de": [],
+      "efeitos": [
+        {
+          "tipo": "npc_status",
+          "npc_id": "doran_kessel",
+          "status": "morto"
+        }
+      ]
+    },
+    {
+      "id": "evt_borda_floresta",
+      "data_mundo": "0425-11-01",
+      "titulo": "Os Ocos na borda da floresta",
+      "descricao": "Milhares de Ocos chegam à borda da Grande Floresta e param, de frente para as árvores, sem entrar.",
+      "local_id": "grande_floresta",
+      "faccoes_envolvidas": [
+        "povos_fera"
+      ],
+      "relogio_id": "migracao",
+      "estagio": 4,
+      "status": "futuro",
+      "alteravel_pelo_jogador": true,
+      "consequencias": [
+        "Os povos-fera fecham a floresta",
+        "Fenn pressiona os anciões"
+      ],
+      "historico": false,
+      "noticia_publica": "Milhares de Ocos pararam na borda da Grande Floresta. Nenhum entrou.",
+      "depende_de": [
+        "evt_colunas"
+      ],
+      "efeitos": [
+        {
+          "tipo": "flag",
+          "valor": "ocos_na_borda"
+        }
+      ]
+    },
+    {
+      "id": "evt_bula",
+      "data_mundo": "0426-03-01",
+      "titulo": "A Bula da Purificação",
+      "descricao": "O Papa, pressionado, assina a Bula: os Sem-Sonho são 'portas' e devem ser purificados. Proclamada a cruzada.",
+      "local_id": "millishion",
+      "faccoes_envolvidas": [
+        "igreja_millis_purista"
+      ],
+      "relogio_id": "purificacao",
+      "estagio": 5,
+      "status": "futuro",
+      "alteravel_pelo_jogador": true,
+      "consequencias": [
+        "Caçada em todo o mundo humano"
+      ],
+      "historico": false,
+      "noticia_publica": "Millis proclamou a Bula da Purificação e uma cruzada contra os Sem-Sonho.",
+      "depende_de": [
+        "evt_cisma"
+      ],
+      "efeitos": [
+        {
+          "tipo": "faccao_atitude",
+          "faccao_id": "igreja_millis_purista",
+          "delta": -20
+        },
+        {
+          "tipo": "faccao_poder",
+          "faccao_id": "igreja_millis_purista",
+          "delta": 1
+        }
+      ]
+    },
+    {
+      "id": "evt_guerra_sucessao",
+      "data_mundo": "0426-05-01",
+      "titulo": "A Guerra de Sucessão",
+      "descricao": "Valcroix acusa Ashgrave de esconder a morte do rei; casas nobres pegam em armas.",
+      "local_id": "ars",
+      "faccoes_envolvidas": [
+        "reino_asura",
+        "ordem_da_vigilia"
+      ],
+      "relogio_id": "coroa_silenciosa",
+      "estagio": 5,
+      "status": "futuro",
+      "alteravel_pelo_jogador": true,
+      "consequencias": [
+        "Asura em guerra civil",
+        "Estradas do Central perigosas"
+      ],
+      "historico": false,
+      "noticia_publica": "Guerra civil em Asura: a Casa Valcroix acusa o chanceler de esconder a morte do rei.",
+      "depende_de": [
+        "evt_ordem_vigilia"
+      ],
+      "efeitos": [
+        {
+          "tipo": "faccao_status",
+          "faccao_id": "reino_asura",
+          "status": "em_guerra"
+        },
+        {
+          "tipo": "faccao_poder",
+          "faccao_id": "reino_asura",
+          "delta": -2
+        }
+      ]
+    },
+    {
+      "id": "evt_raizes_mar",
+      "data_mundo": "0426-09-01",
+      "titulo": "As raízes tocam as ondas",
+      "descricao": "Na maré alta, as raízes de pedra da ilha roçam a água. O mar em volta para de refletir o céu.",
+      "local_id": "mar_ringus",
+      "faccoes_envolvidas": [],
+      "relogio_id": "descida",
+      "estagio": 4,
+      "status": "futuro",
+      "alteravel_pelo_jogador": true,
+      "consequencias": [
+        "Navegação no Ringus quase impossível"
+      ],
+      "historico": false,
+      "noticia_publica": "As raízes da ilha já tocam as ondas na maré alta. O mar embaixo dela não reflete mais nada.",
+      "depende_de": [],
+      "efeitos": [
+        {
+          "tipo": "flag",
+          "valor": "mar_cego"
+        }
+      ]
+    },
+    {
+      "id": "evt_nhiri_cercada",
+      "data_mundo": "0426-10-01",
+      "titulo": "A Lâmina Sem Escola encurralada",
+      "descricao": "Lys Arandel e Isolde Varr encurralam Nhiri nas montanhas do norte. Sem ajuda, ela morre.",
+      "local_id": "santuario_espada",
+      "faccoes_envolvidas": [
+        "santuario_espada",
+        "sete_grandes_poderes"
+      ],
+      "relogio_id": "titulo_vago",
+      "estagio": 5,
+      "status": "futuro",
+      "alteravel_pelo_jogador": true,
+      "consequencias": [
+        "Se Nhiri morrer, a opção de matar o deus desaparece (salvo se ela tiver ensinado a técnica)"
+      ],
+      "historico": false,
+      "noticia_publica": "Dizem que a Lâmina Sem Escola foi encurralada nas montanhas do norte.",
+      "depende_de": [
+        "evt_contrato_lys"
+      ],
+      "efeitos": [
+        {
+          "tipo": "npc_status",
+          "npc_id": "nhiri",
+          "status": "morto"
+        }
+      ]
+    },
+    {
+      "id": "evt_portos_ocos",
+      "data_mundo": "0427-03-01",
+      "titulo": "Portos de Ocos",
+      "descricao": "Vilas portuárias do Central e de Millis amanhecem com Ocos imóveis no cais, olhando o mar.",
+      "local_id": "cais_morrowell",
+      "faccoes_envolvidas": [],
+      "relogio_id": "migracao",
+      "estagio": 5,
+      "status": "futuro",
+      "alteravel_pelo_jogador": true,
+      "consequencias": [
+        "Comércio marítimo em colapso"
+      ],
+      "historico": false,
+      "noticia_publica": "Vilas portuárias amanheceram com Ocos parados nos cais, olhando o mar.",
+      "depende_de": [
+        "evt_borda_floresta"
+      ],
+      "efeitos": [
+        {
+          "tipo": "faccao_poder",
+          "faccao_id": "reino_rei_dragao",
+          "delta": -1
+        }
+      ]
+    },
+    {
+      "id": "evt_nova_espada",
+      "data_mundo": "0427-04-01",
+      "titulo": "Um novo Deus da Espada",
+      "descricao": "Isolde Varr é coroada Deusa da Espada. Ela começa a dormir mal.",
+      "local_id": "santuario_espada",
+      "faccoes_envolvidas": [
+        "santuario_espada"
+      ],
+      "relogio_id": "titulo_vago",
+      "estagio": 6,
+      "status": "futuro",
+      "alteravel_pelo_jogador": true,
+      "consequencias": [
+        "Se Isolde for esvaziada, o deus ganha uma Deusa da Espada oca para a Descida"
+      ],
+      "historico": false,
+      "noticia_publica": "Isolde Varr foi coroada Deusa da Espada.",
+      "depende_de": [
+        "evt_nhiri_cercada"
+      ],
+      "efeitos": []
+    },
+    {
+      "id": "evt_cruzada",
+      "data_mundo": "0427-08-01",
+      "titulo": "A Cruzada desembarca",
+      "descricao": "Cavaleiros do Templo desembarcam no Porto do Rei Dragão e marcham sobre o Central.",
+      "local_id": "porto_rei_dragao",
+      "faccoes_envolvidas": [
+        "igreja_millis_purista",
+        "reino_rei_dragao"
+      ],
+      "relogio_id": "purificacao",
+      "estagio": 6,
+      "status": "futuro",
+      "alteravel_pelo_jogador": true,
+      "consequencias": [
+        "Guerra entre a Cruzada e quem protege Sem-Sonho"
+      ],
+      "historico": false,
+      "noticia_publica": "A Cruzada de Millis desembarcou no Continente Central.",
+      "depende_de": [
+        "evt_bula"
+      ],
+      "efeitos": [
+        {
+          "tipo": "flag",
+          "valor": "cruzada_no_central"
+        }
+      ]
+    },
+    {
+      "id": "evt_coroa_cai",
+      "data_mundo": "0427-11-20",
+      "titulo": "A Coroa cai",
+      "descricao": "Valcroix invade o palácio e exibe o rei Oco ao povo, sem ninguém para observá-lo: ele para no meio da praça. Ars entra em caos.",
+      "local_id": "ars",
+      "faccoes_envolvidas": [
+        "reino_asura",
+        "ordem_da_vigilia"
+      ],
+      "relogio_id": "coroa_silenciosa",
+      "estagio": 6,
+      "status": "futuro",
+      "alteravel_pelo_jogador": true,
+      "consequencias": [
+        "Asura sem rei",
+        "O mundo descobre que um Oco governava"
+      ],
+      "historico": false,
+      "noticia_publica": "O rei de Asura era um Oco. Valcroix o expôs em praça pública.",
+      "depende_de": [
+        "evt_guerra_sucessao"
+      ],
+      "efeitos": [
+        {
+          "tipo": "npc_status",
+          "npc_id": "corvin_ashgrave",
+          "status": "preso"
+        },
+        {
+          "tipo": "faccao_status",
+          "faccao_id": "reino_asura",
+          "status": "dividida"
+        }
+      ]
+    },
+    {
+      "id": "evt_morrowell_tomada",
+      "data_mundo": "0428-05-01",
+      "titulo": "Os Acordados tomam Morrowell",
+      "descricao": "Morrowell é evacuada; os Acordados ocupam o cais e começam vigílias ao contrário: dormir em massa.",
+      "local_id": "cais_morrowell",
+      "faccoes_envolvidas": [
+        "os_acordados"
+      ],
+      "relogio_id": "descida",
+      "estagio": 5,
+      "status": "futuro",
+      "alteravel_pelo_jogador": true,
+      "consequencias": [
+        "Esvaziamentos voluntários aceleram a Descida"
+      ],
+      "historico": false,
+      "noticia_publica": "Os Acordados tomaram o Cais de Morrowell.",
+      "depende_de": [],
+      "efeitos": [
+        {
+          "tipo": "faccao_poder",
+          "faccao_id": "os_acordados",
+          "delta": 2
+        }
+      ]
+    },
+    {
+      "id": "evt_mare_de_ocos",
+      "data_mundo": "0428-12-01",
+      "titulo": "A Maré de Ocos",
+      "descricao": "Milhares de Ocos entram no Mar de Ringus sob a ilha. Os sinos tocam sem parar por três dias.",
+      "local_id": "mar_ringus",
+      "faccoes_envolvidas": [],
+      "relogio_id": "migracao",
+      "estagio": 6,
+      "status": "futuro",
+      "alteravel_pelo_jogador": true,
+      "consequencias": [
+        "A ilha desce mais rápido"
+      ],
+      "historico": false,
+      "noticia_publica": "Milhares de Ocos entraram no mar sob a ilha. Os sinos tocaram por três dias.",
+      "depende_de": [
+        "evt_portos_ocos"
+      ],
+      "efeitos": [
+        {
+          "tipo": "flag",
+          "valor": "mare_de_ocos"
+        }
+      ]
+    },
+    {
+      "id": "evt_descida_final",
+      "data_mundo": "0429-08-01",
+      "titulo": "A Descida",
+      "descricao": "A ilha toca o mar. O Deus Adormecido acorda inteiro e começa a subir pela Dobradiça. (Escolha final no Ato III; se ninguém estiver lá, ele sobe: ver segredos.json, opção 'deixar_subir' sem negociação.)",
+      "local_id": "ilha_invertida",
+      "faccoes_envolvidas": [],
+      "relogio_id": "descida",
+      "estagio": 6,
+      "status": "futuro",
+      "alteravel_pelo_jogador": true,
+      "consequencias": [
+        "Fim do mundo como era, salvo intervenção"
+      ],
+      "historico": false,
+      "noticia_publica": "A ilha tocou o mar.",
+      "depende_de": [],
+      "efeitos": [
+        {
+          "tipo": "flag",
+          "valor": "a_descida"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Itens",
+  "type": "object",
+  "properties": {
+    "itens": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]+$"
+          },
+          "nome": {
+            "type": "string",
+            "minLength": 1
+          },
+          "tipo": {
+            "enum": [
+              "arma",
+              "armadura",
+              "escudo",
+              "cajado",
+              "foco",
+              "pedra_magica",
+              "item_magico",
+              "pergaminho",
+              "consumivel",
+              "ferramenta",
+              "vestimenta",
+              "tesouro",
+              "material",
+              "chave"
+            ]
+          },
+          "raridade": {
+            "enum": [
+              "comum",
+              "incomum",
+              "raro",
+              "muito_raro",
+              "lendario",
+              "unico"
+            ]
+          },
+          "preco": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "integer"
+            }
+          },
+          "peso": {
+            "type": "number",
+            "minimum": 0
+          },
+          "efeito": {
+            "type": "string",
+            "minLength": 1
+          },
+          "dano": {
+            "type": "string"
+          },
+          "descricao": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "nome",
+          "tipo",
+          "raridade",
+          "preco",
+          "peso",
+          "efeito",
+          "descricao"
+        ]
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "itens"
+  ]
+}

@@ -1,0 +1,3154 @@
+{
+  "versao": 1,
+  "observacao": "Nomes e encantações originais desta campanha. Rei e acima são lendas.",
+  "magias": [
+    {
+      "id": "brasa",
+      "nome": "Brasa",
+      "escola": "fogo",
+      "rank": "iniciante",
+      "custo_mana": 1,
+      "encantacao": "Brasa pequena, acorda na ponta dos meus dedos.",
+      "tempo_conjuracao": "ação",
+      "alcance": "10 m",
+      "efeito": "Projétil pequeno de fogo; acende materiais secos.",
+      "dano": "1d6",
+      "requisitos": [
+        "rank Iniciante em fogo"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "chama_de_vela",
+      "nome": "Chama de Vela",
+      "escola": "fogo",
+      "rank": "iniciante",
+      "custo_mana": 1,
+      "encantacao": "Luz que aquece, fica onde eu pôr.",
+      "tempo_conjuracao": "ação",
+      "alcance": "toque",
+      "efeito": "Chama estável por 1 hora que não queima o suporte; luz e calor.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em fogo"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "faisca_cegante",
+      "nome": "Faísca Cegante",
+      "escola": "fogo",
+      "rank": "iniciante",
+      "custo_mana": 2,
+      "encantacao": "Clarão de lenha seca, estoura e some.",
+      "tempo_conjuracao": "ação",
+      "alcance": "5 m",
+      "efeito": "Clarão: alvos que olham fazem Vigor CD 11 ou ficam cegos por 1 turno.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em fogo"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "dardo_igneo",
+      "nome": "Dardo Ígneo",
+      "escola": "fogo",
+      "rank": "iniciante",
+      "custo_mana": 2,
+      "encantacao": "Ponta de brasa, voa reta e morde.",
+      "tempo_conjuracao": "ação",
+      "alcance": "20 m",
+      "efeito": "Projétil rápido e preciso (+1 no ataque).",
+      "dano": "1d8",
+      "requisitos": [
+        "rank Iniciante em fogo"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "mao_quente",
+      "nome": "Mão Quente",
+      "escola": "fogo",
+      "rank": "iniciante",
+      "custo_mana": 1,
+      "encantacao": "Que o calor more na palma e não fuja.",
+      "tempo_conjuracao": "ação",
+      "alcance": "toque",
+      "efeito": "A palma aquece por 10 min: seca roupa, derrete gelo fino, queima ao agarrar.",
+      "dano": "1d4",
+      "requisitos": [
+        "rank Iniciante em fogo"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "sopro_de_fornalha",
+      "nome": "Sopro de Fornalha",
+      "escola": "fogo",
+      "rank": "iniciante",
+      "custo_mana": 3,
+      "encantacao": "Fôlego de forno, sai de mim sem queimar o que é meu.",
+      "tempo_conjuracao": "ação",
+      "alcance": "cone 3 m",
+      "efeito": "Cone de ar escaldante; Agilidade CD para metade.",
+      "dano": "2d4",
+      "requisitos": [
+        "rank Iniciante em fogo"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "fogueira_obediente",
+      "nome": "Fogueira Obediente",
+      "escola": "fogo",
+      "rank": "iniciante",
+      "custo_mana": 2,
+      "encantacao": "Fogo de acampamento, dorme quando eu mandar.",
+      "tempo_conjuracao": "ação",
+      "alcance": "10 m",
+      "efeito": "Aviva, abafa ou move uma chama de até uma fogueira.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em fogo"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "esfera_de_fogo",
+      "nome": "Esfera de Fogo",
+      "escola": "fogo",
+      "rank": "iniciante",
+      "custo_mana": 3,
+      "encantacao": "Que a brasa cresça redonda e parta.",
+      "tempo_conjuracao": "ação",
+      "alcance": "20 m",
+      "efeito": "Bola de fogo do tamanho de um punho que explode no impacto.",
+      "dano": "2d6",
+      "requisitos": [
+        "rank Iniciante em fogo"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "lanca_de_chamas",
+      "nome": "Lança de Chamas",
+      "escola": "fogo",
+      "rank": "intermediario",
+      "custo_mana": 5,
+      "encantacao": "Do calor faço haste, da haste faço ferida.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "30 m",
+      "efeito": "Haste de fogo que atravessa escudos de madeira.",
+      "dano": "3d6",
+      "requisitos": [
+        "rank Intermediário em fogo"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "muro_de_fogo",
+      "nome": "Muro de Fogo",
+      "escola": "fogo",
+      "rank": "intermediario",
+      "custo_mana": 6,
+      "encantacao": "Levanta-te, linha de brasa, e diz \"até aqui\".",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "15 m",
+      "efeito": "Muralha de 10 m × 2 m por 3 turnos; quem atravessa sofre o dano.",
+      "dano": "2d6",
+      "requisitos": [
+        "rank Intermediário em fogo"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "chuva_de_fagulhas",
+      "nome": "Chuva de Fagulhas",
+      "escola": "fogo",
+      "rank": "intermediario",
+      "custo_mana": 5,
+      "encantacao": "Que caiam as estrelas pequenas sobre a cabeça deles.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "30 m",
+      "efeito": "Área de 5 m de raio; Agilidade para metade.",
+      "dano": "2d6",
+      "requisitos": [
+        "rank Intermediário em fogo"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "lamina_incandescente",
+      "nome": "Lâmina Incandescente",
+      "escola": "fogo",
+      "rank": "intermediario",
+      "custo_mana": 4,
+      "encantacao": "Ferro, lembra do forno onde nasceste.",
+      "tempo_conjuracao": "ação",
+      "alcance": "toque",
+      "efeito": "Uma arma causa +1d6 de fogo por 3 turnos.",
+      "dano": "+1d6",
+      "requisitos": [
+        "rank Intermediário em fogo"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "explosao_contida",
+      "nome": "Explosão Contida",
+      "escola": "fogo",
+      "rank": "intermediario",
+      "custo_mana": 6,
+      "encantacao": "Fecha-te, chama, e então rompe.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "20 m",
+      "efeito": "Explosão de 3 m de raio após um instante de silêncio.",
+      "dano": "3d6",
+      "requisitos": [
+        "rank Intermediário em fogo"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "serpente_de_brasa",
+      "nome": "Serpente de Brasa",
+      "escola": "fogo",
+      "rank": "intermediario",
+      "custo_mana": 5,
+      "encantacao": "Rasteja, fogo, segue quem foge.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "30 m",
+      "efeito": "Fogo rasteiro que contorna obstáculos e ignora cobertura parcial.",
+      "dano": "2d8",
+      "requisitos": [
+        "rank Intermediário em fogo"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "pele_de_salamandra",
+      "nome": "Pele de Salamandra",
+      "escola": "fogo",
+      "rank": "intermediario",
+      "custo_mana": 4,
+      "encantacao": "Que o fogo me reconheça e não me morda.",
+      "tempo_conjuracao": "ação",
+      "alcance": "pessoal",
+      "efeito": "Metade do dano de fogo por 10 minutos.",
+      "dano": "",
+      "requisitos": [
+        "rank Intermediário em fogo"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "fumaca_sufocante",
+      "nome": "Fumaça Sufocante",
+      "escola": "fogo",
+      "rank": "intermediario",
+      "custo_mana": 4,
+      "encantacao": "Quero o ar cinzento e pesado.",
+      "tempo_conjuracao": "ação",
+      "alcance": "20 m",
+      "efeito": "Nuvem de 6 m: desvantagem em Percepção; Vigor CD ou atordoado 1 turno.",
+      "dano": "",
+      "requisitos": [
+        "rank Intermediário em fogo"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "pilar_igneo",
+      "nome": "Pilar Ígneo",
+      "escola": "fogo",
+      "rank": "avancado",
+      "custo_mana": 10,
+      "encantacao": "Que suba a coluna do fundo do chão e não deixe sombra.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "40 m",
+      "efeito": "Coluna de fogo de 3 m de raio que sobe do chão.",
+      "dano": "5d6",
+      "requisitos": [
+        "rank Avançado em fogo"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "sol_breve",
+      "nome": "Sol Breve",
+      "escola": "fogo",
+      "rank": "avancado",
+      "custo_mana": 12,
+      "encantacao": "Por um instante eu acendo um dia inteiro.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "30 m",
+      "efeito": "Esfera de 6 m de raio; Agilidade para metade; cega por 1 turno quem falha.",
+      "dano": "6d6",
+      "requisitos": [
+        "rank Avançado em fogo"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "acoite_solar",
+      "nome": "Açoite Solar",
+      "escola": "fogo",
+      "rank": "avancado",
+      "custo_mana": 9,
+      "encantacao": "Fio de luz quente, estala e corta.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "15 m",
+      "efeito": "Fio de luz quente que atinge até 3 alvos em linha.",
+      "dano": "4d8",
+      "requisitos": [
+        "rank Avançado em fogo"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "bombardeio_de_brasas",
+      "nome": "Bombardeio de Brasas",
+      "escola": "fogo",
+      "rank": "avancado",
+      "custo_mana": 11,
+      "encantacao": "Uma, duas, dez: que caiam onde eu contar.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "50 m",
+      "efeito": "Cinco projéteis distribuídos entre alvos à vista.",
+      "dano": "2d6 ×5",
+      "requisitos": [
+        "rank Avançado em fogo"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "coroa_de_chamas",
+      "nome": "Coroa de Chamas",
+      "escola": "fogo",
+      "rank": "avancado",
+      "custo_mana": 8,
+      "encantacao": "Que eu seja o centro do incêndio e ele me obedeça.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "raio 3 m",
+      "efeito": "Aura ao redor do conjurador por 3 turnos; fere quem se aproxima.",
+      "dano": "2d6/turno",
+      "requisitos": [
+        "rank Avançado em fogo"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "fenix_falsa",
+      "nome": "Fênix Falsa",
+      "escola": "fogo",
+      "rank": "avancado",
+      "custo_mana": 13,
+      "encantacao": "Asas de cinza, voem uma vez e caiam sobre eles.",
+      "tempo_conjuracao": "2 turnos",
+      "alcance": "60 m",
+      "efeito": "Ave de fogo que voa até o alvo e explode em 5 m de raio.",
+      "dano": "7d6",
+      "requisitos": [
+        "rank Avançado em fogo"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "fornalha_selada",
+      "nome": "Fornalha Selada",
+      "escola": "fogo",
+      "rank": "avancado",
+      "custo_mana": 10,
+      "encantacao": "Cerca e aquece, cerca e aquece, até ceder.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "20 m",
+      "efeito": "Cúpula de 4 m que prende; Vigor CD para sair a cada turno.",
+      "dano": "3d6/turno",
+      "requisitos": [
+        "rank Avançado em fogo"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "fogo_frio",
+      "nome": "Fogo Frio",
+      "escola": "fogo",
+      "rank": "avancado",
+      "custo_mana": 8,
+      "encantacao": "Arde sem calor, arde só no que é mana.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "30 m",
+      "efeito": "Arde só em mana: dano dobrado contra barreiras, criaturas mágicas e invocações.",
+      "dano": "4d6",
+      "requisitos": [
+        "rank Avançado em fogo"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "tempestade_de_brasas",
+      "nome": "Tempestade de Brasas",
+      "escola": "fogo",
+      "rank": "santo",
+      "custo_mana": 18,
+      "encantacao": "Que o céu desta planície lembre de ter sido forja; caiam, caiam, até a terra pedir perdão.",
+      "tempo_conjuracao": "2 turnos",
+      "alcance": "100 m",
+      "efeito": "Área de 20 m de raio; Agilidade para metade; incendeia tudo.",
+      "dano": "8d6",
+      "requisitos": [
+        "rank Santo em fogo"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "lanca_do_meio_dia",
+      "nome": "Lança do Meio-Dia",
+      "escola": "fogo",
+      "rank": "santo",
+      "custo_mana": 16,
+      "encantacao": "Junto o verão inteiro numa ponta só e o empresto a quem está à minha frente.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "100 m",
+      "efeito": "Linha de luz e fogo que perfura tudo até o alcance.",
+      "dano": "10d6",
+      "requisitos": [
+        "rank Santo em fogo"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "labareda_viva",
+      "nome": "Labareda Viva",
+      "escola": "fogo",
+      "rank": "santo",
+      "custo_mana": 20,
+      "encantacao": "Fogo sem dono, eu te dou um corpo; serve até a tua lenha acabar.",
+      "tempo_conjuracao": "2 turnos",
+      "alcance": "30 m",
+      "efeito": "Invoca um elemental de fogo (rank Avançado) por 5 turnos.",
+      "dano": "",
+      "requisitos": [
+        "rank Santo em fogo"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "muralha_do_inferno",
+      "nome": "Muralha do Inferno",
+      "escola": "fogo",
+      "rank": "santo",
+      "custo_mana": 17,
+      "encantacao": "Que se erga a fronteira que nenhum exército cruza inteiro.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "40 m",
+      "efeito": "Muralha de 40 m × 6 m por 1 minuto; ninguém atravessa sem queimar.",
+      "dano": "6d6",
+      "requisitos": [
+        "rank Santo em fogo"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "coracao_de_forja",
+      "nome": "Coração de Forja",
+      "escola": "fogo",
+      "rank": "santo",
+      "custo_mana": 15,
+      "encantacao": "Ferro, eu sou teu forno e tua ruína.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "toque",
+      "efeito": "Funde metal ao toque; armadura do alvo é destruída em crítico.",
+      "dano": "8d6",
+      "requisitos": [
+        "rank Santo em fogo"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "chamas_perseguidoras",
+      "nome": "Chamas Perseguidoras",
+      "escola": "fogo",
+      "rank": "santo",
+      "custo_mana": 18,
+      "encantacao": "Três filhas do fogo, achem quem eu nomeei e não voltem.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "80 m",
+      "efeito": "Três projéteis que seguem os alvos até atingir ou serem barrados.",
+      "dano": "4d8 ×3",
+      "requisitos": [
+        "rank Santo em fogo"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "ceu_vermelho",
+      "nome": "Céu Vermelho",
+      "escola": "fogo",
+      "rank": "santo",
+      "custo_mana": 22,
+      "encantacao": "Tinjo o céu com a cor da minha raiva e o mantenho assim.",
+      "tempo_conjuracao": "2 turnos",
+      "alcance": "raio 30 m",
+      "efeito": "O ar arde por 3 turnos; ninguém respira sem dor.",
+      "dano": "4d6/turno",
+      "requisitos": [
+        "rank Santo em fogo"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "ruina_incandescente",
+      "nome": "Ruína Incandescente",
+      "escola": "fogo",
+      "rank": "santo",
+      "custo_mana": 25,
+      "encantacao": "Tudo o que foi erguido há de cair; começo por aqui.",
+      "tempo_conjuracao": "2 turnos",
+      "alcance": "60 m",
+      "efeito": "Explosão de 10 m de raio que derruba muralhas.",
+      "dano": "12d6",
+      "requisitos": [
+        "rank Santo em fogo"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "jato_d_agua",
+      "nome": "Jato d'Água",
+      "escola": "agua",
+      "rank": "iniciante",
+      "custo_mana": 1,
+      "encantacao": "Fio de água, corre reto.",
+      "tempo_conjuracao": "ação",
+      "alcance": "10 m",
+      "efeito": "Jato que derruba objetos leves; Força CD 10 ou o alvo é empurrado 1 m.",
+      "dano": "1d4",
+      "requisitos": [
+        "rank Iniciante em água"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "bola_d_agua",
+      "nome": "Bola d'Água",
+      "escola": "agua",
+      "rank": "iniciante",
+      "custo_mana": 2,
+      "encantacao": "Gota grande, junta-te e vai.",
+      "tempo_conjuracao": "ação",
+      "alcance": "20 m",
+      "efeito": "Esfera de água pesada; apaga fogo pequeno.",
+      "dano": "1d6",
+      "requisitos": [
+        "rank Iniciante em água"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "criar_agua",
+      "nome": "Criar Água",
+      "escola": "agua",
+      "rank": "iniciante",
+      "custo_mana": 1,
+      "encantacao": "Sede de quem me escuta, eu atendo.",
+      "tempo_conjuracao": "ação",
+      "alcance": "toque",
+      "efeito": "Enche um cantil ou balde com água limpa.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em água"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "nevoa_leve",
+      "nome": "Névoa Leve",
+      "escola": "agua",
+      "rank": "iniciante",
+      "custo_mana": 2,
+      "encantacao": "Que o ar se lembre de ser nuvem.",
+      "tempo_conjuracao": "ação",
+      "alcance": "raio 5 m",
+      "efeito": "Névoa que dá desvantagem em ataques à distância através dela por 1 minuto.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em água"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "lamina_de_gelo",
+      "nome": "Lâmina de Gelo",
+      "escola": "agua",
+      "rank": "iniciante",
+      "custo_mana": 2,
+      "encantacao": "Água que endurece, fica afiada.",
+      "tempo_conjuracao": "ação",
+      "alcance": "15 m",
+      "efeito": "Estilhaço de gelo cortante.",
+      "dano": "1d8",
+      "requisitos": [
+        "rank Iniciante em água"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "chao_escorregadio",
+      "nome": "Chão Escorregadio",
+      "escola": "agua",
+      "rank": "iniciante",
+      "custo_mana": 2,
+      "encantacao": "Que a terra esqueça de segurar os pés.",
+      "tempo_conjuracao": "ação",
+      "alcance": "10 m",
+      "efeito": "Área de 3 m de gelo; Agilidade CD 11 ou cai.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em água"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "resfriar",
+      "nome": "Resfriar",
+      "escola": "agua",
+      "rank": "iniciante",
+      "custo_mana": 1,
+      "encantacao": "Frio de nascente, acalma.",
+      "tempo_conjuracao": "ação",
+      "alcance": "toque",
+      "efeito": "Esfria líquido ou ferida; +2 em Medicina para queimaduras.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em água"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "bolha_de_ar",
+      "nome": "Bolha de Ar",
+      "escola": "agua",
+      "rank": "iniciante",
+      "custo_mana": 3,
+      "encantacao": "Guardo um fôlego dentro do rio.",
+      "tempo_conjuracao": "ação",
+      "alcance": "toque",
+      "efeito": "Bolha de ar ao redor da cabeça: respira debaixo d'água por 10 minutos.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em água"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "lanca_de_gelo",
+      "nome": "Lança de Gelo",
+      "escola": "agua",
+      "rank": "intermediario",
+      "custo_mana": 5,
+      "encantacao": "Do frio faço ponta, da ponta faço silêncio.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "30 m",
+      "efeito": "Haste de gelo; em crítico, o alvo fica lento 1 turno.",
+      "dano": "3d6",
+      "requisitos": [
+        "rank Intermediário em água"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "tromba_d_agua",
+      "nome": "Tromba d'Água",
+      "escola": "agua",
+      "rank": "intermediario",
+      "custo_mana": 6,
+      "encantacao": "Que o rio inteiro passe por aqui de uma vez.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "20 m",
+      "efeito": "Coluna que empurra 5 m (Força CD) e derruba.",
+      "dano": "2d8",
+      "requisitos": [
+        "rank Intermediário em água"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "prisao_de_gelo",
+      "nome": "Prisão de Gelo",
+      "escola": "agua",
+      "rank": "intermediario",
+      "custo_mana": 5,
+      "encantacao": "Fica, raiz de inverno, fica.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "15 m",
+      "efeito": "Prende as pernas do alvo; Força CD 13 para se soltar.",
+      "dano": "",
+      "requisitos": [
+        "rank Intermediário em água"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "neblina_densa",
+      "nome": "Neblina Densa",
+      "escola": "agua",
+      "rank": "intermediario",
+      "custo_mana": 4,
+      "encantacao": "Esconde, branco, esconde tudo.",
+      "tempo_conjuracao": "ação",
+      "alcance": "raio 10 m",
+      "efeito": "Neblina por 10 minutos; visão limitada a 1 m.",
+      "dano": "",
+      "requisitos": [
+        "rank Intermediário em água"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "chuva_de_agulhas",
+      "nome": "Chuva de Agulhas",
+      "escola": "agua",
+      "rank": "intermediario",
+      "custo_mana": 6,
+      "encantacao": "Que a chuva caia afiada.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "30 m",
+      "efeito": "Área de 4 m de raio; Agilidade para metade.",
+      "dano": "2d6",
+      "requisitos": [
+        "rank Intermediário em água"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "andar_sobre_a_agua",
+      "nome": "Andar sobre a Água",
+      "escola": "agua",
+      "rank": "intermediario",
+      "custo_mana": 4,
+      "encantacao": "Rio, sê chão para mim um pouco.",
+      "tempo_conjuracao": "ação",
+      "alcance": "pessoal",
+      "efeito": "Caminha sobre água calma por 10 minutos.",
+      "dano": "",
+      "requisitos": [
+        "rank Intermediário em água"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "escudo_de_gelo",
+      "nome": "Escudo de Gelo",
+      "escola": "agua",
+      "rank": "intermediario",
+      "custo_mana": 4,
+      "encantacao": "Placa de inverno, fica entre mim e eles.",
+      "tempo_conjuracao": "ação",
+      "alcance": "pessoal",
+      "efeito": "+3 Defesa contra projéteis por 3 turnos.",
+      "dano": "",
+      "requisitos": [
+        "rank Intermediário em água"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "onda",
+      "nome": "Onda",
+      "escola": "agua",
+      "rank": "intermediario",
+      "custo_mana": 6,
+      "encantacao": "Mar pequeno, quebra aqui.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "cone 10 m",
+      "efeito": "Derruba quem falhar em Força; apaga incêndios.",
+      "dano": "2d6",
+      "requisitos": [
+        "rank Intermediário em água"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "diluvio",
+      "nome": "Dilúvio",
+      "escola": "agua",
+      "rank": "avancado",
+      "custo_mana": 10,
+      "encantacao": "Que o céu esvazie o que guardou sobre esta terra.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "40 m",
+      "efeito": "Área de 8 m; derruba e arrasta 5 m quem falha em Força.",
+      "dano": "4d6",
+      "requisitos": [
+        "rank Avançado em água"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "coluna_glacial",
+      "nome": "Coluna Glacial",
+      "escola": "agua",
+      "rank": "avancado",
+      "custo_mana": 11,
+      "encantacao": "Do chão ao céu, um inverno só.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "30 m",
+      "efeito": "Pilar de gelo que congela o alvo; Vigor CD ou preso por 1 turno.",
+      "dano": "5d6",
+      "requisitos": [
+        "rank Avançado em água"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "lamina_d_agua_giratoria",
+      "nome": "Lâmina d'Água Giratória",
+      "escola": "agua",
+      "rank": "avancado",
+      "custo_mana": 9,
+      "encantacao": "Água que gira, corta como o tempo corta a pedra.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "20 m",
+      "efeito": "Disco de água pressurizada que corta madeira e ferro fino.",
+      "dano": "4d8",
+      "requisitos": [
+        "rank Avançado em água"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "mar_de_gelo",
+      "nome": "Mar de Gelo",
+      "escola": "agua",
+      "rank": "avancado",
+      "custo_mana": 12,
+      "encantacao": "O lago dormiu; andem nele se puderem.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "raio 10 m",
+      "efeito": "Congela o chão: terreno difícil e Agilidade CD 15 a cada movimento.",
+      "dano": "",
+      "requisitos": [
+        "rank Avançado em água"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "tempestade_de_granizo",
+      "nome": "Tempestade de Granizo",
+      "escola": "agua",
+      "rank": "avancado",
+      "custo_mana": 11,
+      "encantacao": "Pedras do céu, caiam frias e pesadas.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "50 m",
+      "efeito": "Área de 8 m por 2 turnos.",
+      "dano": "3d6/turno",
+      "requisitos": [
+        "rank Avançado em água"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "afogar",
+      "nome": "Afogar",
+      "escola": "agua",
+      "rank": "avancado",
+      "custo_mana": 10,
+      "encantacao": "Que a água ache o caminho por dentro.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "10 m",
+      "efeito": "Água enche os pulmões do alvo; Vigor CD 15 a cada turno para expelir.",
+      "dano": "2d6/turno",
+      "requisitos": [
+        "rank Avançado em água"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "espelho_d_agua",
+      "nome": "Espelho d'Água",
+      "escola": "agua",
+      "rank": "avancado",
+      "custo_mana": 8,
+      "encantacao": "Água parada, devolve o que te mostram.",
+      "tempo_conjuracao": "ação",
+      "alcance": "pessoal",
+      "efeito": "Uma vez, reflete metade de um projétil mágico de volta.",
+      "dano": "",
+      "requisitos": [
+        "rank Avançado em água"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "serpente_do_rio",
+      "nome": "Serpente do Rio",
+      "escola": "agua",
+      "rank": "avancado",
+      "custo_mana": 13,
+      "encantacao": "Corre, filho do rio, e morde quem te sujou.",
+      "tempo_conjuracao": "2 turnos",
+      "alcance": "40 m",
+      "efeito": "Massa d'água em forma de serpente ataca 2 turnos seguidos.",
+      "dano": "5d8",
+      "requisitos": [
+        "rank Avançado em água"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "inverno_subito",
+      "nome": "Inverno Súbito",
+      "escola": "agua",
+      "rank": "santo",
+      "custo_mana": 18,
+      "encantacao": "Neste lugar o verão termina agora e não volta antes que eu permita.",
+      "tempo_conjuracao": "2 turnos",
+      "alcance": "raio 30 m",
+      "efeito": "Tudo congela; Vigor CD para não ficar preso 2 turnos.",
+      "dano": "6d6",
+      "requisitos": [
+        "rank Santo em água"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "maremoto_menor",
+      "nome": "Maremoto Menor",
+      "escola": "agua",
+      "rank": "santo",
+      "custo_mana": 20,
+      "encantacao": "Mar, levanta-te sobre a tua margem e esquece onde ela fica.",
+      "tempo_conjuracao": "2 turnos",
+      "alcance": "cone 60 m",
+      "efeito": "Onda gigante que derruba construções leves.",
+      "dano": "8d6",
+      "requisitos": [
+        "rank Santo em água"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "lanca_abissal",
+      "nome": "Lança Abissal",
+      "escola": "agua",
+      "rank": "santo",
+      "custo_mana": 16,
+      "encantacao": "Toda a pressão do fundo do mar numa agulha só.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "100 m",
+      "efeito": "Haste de água comprimida que perfura até pedra.",
+      "dano": "10d6",
+      "requisitos": [
+        "rank Santo em água"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "prisao_glacial",
+      "nome": "Prisão Glacial",
+      "escola": "agua",
+      "rank": "santo",
+      "custo_mana": 17,
+      "encantacao": "Dorme no gelo até que eu te chame de volta.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "30 m",
+      "efeito": "Encerra um alvo em gelo; Força CD 20 para quebrar; protege e prende.",
+      "dano": "",
+      "requisitos": [
+        "rank Santo em água"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "nevasca_perpetua",
+      "nome": "Nevasca Perpétua",
+      "escola": "agua",
+      "rank": "santo",
+      "custo_mana": 18,
+      "encantacao": "Que o branco cubra os caminhos e as vozes.",
+      "tempo_conjuracao": "2 turnos",
+      "alcance": "raio 50 m",
+      "efeito": "Nevasca por 10 minutos: visão 2 m, frio que machuca.",
+      "dano": "2d6/turno",
+      "requisitos": [
+        "rank Santo em água"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "sangue_gelado",
+      "nome": "Sangue Gelado",
+      "escola": "agua",
+      "rank": "santo",
+      "custo_mana": 15,
+      "encantacao": "Frio, entra sem bater.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "20 m",
+      "efeito": "Congela o sangue do alvo por dentro; Vigor para metade.",
+      "dano": "6d8",
+      "requisitos": [
+        "rank Santo em água"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "muralha_de_gelo_eterno",
+      "nome": "Muralha de Gelo Eterno",
+      "escola": "agua",
+      "rank": "santo",
+      "custo_mana": 17,
+      "encantacao": "Ergo um inverno que não derrete por ordem de ninguém.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "40 m",
+      "efeito": "Muralha de 30 m × 8 m que dura um dia inteiro.",
+      "dano": "",
+      "requisitos": [
+        "rank Santo em água"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "torrente_celeste",
+      "nome": "Torrente Celeste",
+      "escola": "agua",
+      "rank": "santo",
+      "custo_mana": 22,
+      "encantacao": "Abro o céu como se abre um odre.",
+      "tempo_conjuracao": "2 turnos",
+      "alcance": "80 m",
+      "efeito": "Queda d'água vinda do céu sobre 10 m de raio.",
+      "dano": "12d6",
+      "requisitos": [
+        "rank Santo em água"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "pedra_lancada",
+      "nome": "Pedra Lançada",
+      "escola": "terra",
+      "rank": "iniciante",
+      "custo_mana": 1,
+      "encantacao": "Pedra pequena, vai e não volta.",
+      "tempo_conjuracao": "ação",
+      "alcance": "15 m",
+      "efeito": "Projétil de pedra moldada.",
+      "dano": "1d6",
+      "requisitos": [
+        "rank Iniciante em terra"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "moldar_barro",
+      "nome": "Moldar Barro",
+      "escola": "terra",
+      "rank": "iniciante",
+      "custo_mana": 1,
+      "encantacao": "Terra macia, toma a forma da minha mão.",
+      "tempo_conjuracao": "ação",
+      "alcance": "toque",
+      "efeito": "Modela barro ou terra solta como argila por 10 minutos.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em terra"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "buraco",
+      "nome": "Buraco",
+      "escola": "terra",
+      "rank": "iniciante",
+      "custo_mana": 2,
+      "encantacao": "Chão, abre a boca.",
+      "tempo_conjuracao": "ação",
+      "alcance": "10 m",
+      "efeito": "Abre um buraco de 1 m; Agilidade CD 11 ou cai e perde o turno.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em terra"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "parede_de_terra",
+      "nome": "Parede de Terra",
+      "escola": "terra",
+      "rank": "iniciante",
+      "custo_mana": 2,
+      "encantacao": "Levanta, terra, e fica de pé.",
+      "tempo_conjuracao": "ação",
+      "alcance": "5 m",
+      "efeito": "Parede de 2 m × 2 m que dá cobertura total.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em terra"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "lama",
+      "nome": "Lama",
+      "escola": "terra",
+      "rank": "iniciante",
+      "custo_mana": 2,
+      "encantacao": "Que a terra beba e amoleça.",
+      "tempo_conjuracao": "ação",
+      "alcance": "10 m",
+      "efeito": "Área de 3 m de lama: terreno difícil.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em terra"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "punho_de_pedra",
+      "nome": "Punho de Pedra",
+      "escola": "terra",
+      "rank": "iniciante",
+      "custo_mana": 1,
+      "encantacao": "Pele de rocha, cobre o punho.",
+      "tempo_conjuracao": "ação",
+      "alcance": "pessoal",
+      "efeito": "Mão revestida de pedra por 3 turnos (golpe desarmado causa 1d6+1d4).",
+      "dano": "+1d4",
+      "requisitos": [
+        "rank Iniciante em terra"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "sentir_veios",
+      "nome": "Sentir Veios",
+      "escola": "terra",
+      "rank": "iniciante",
+      "custo_mana": 2,
+      "encantacao": "Terra, conta o que tens por dentro.",
+      "tempo_conjuracao": "ação",
+      "alcance": "raio 20 m",
+      "efeito": "Sente cavidades, minério e túneis próximos.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em terra"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "estaca",
+      "nome": "Estaca",
+      "escola": "terra",
+      "rank": "iniciante",
+      "custo_mana": 3,
+      "encantacao": "Espinho da montanha, sobe.",
+      "tempo_conjuracao": "ação",
+      "alcance": "10 m",
+      "efeito": "Ponta de pedra que brota do chão sob o alvo.",
+      "dano": "2d6",
+      "requisitos": [
+        "rank Iniciante em terra"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "canhao_de_pedra",
+      "nome": "Canhão de Pedra",
+      "escola": "terra",
+      "rank": "intermediario",
+      "custo_mana": 5,
+      "encantacao": "Pedra que gira, pedra que pesa, pedra que chega.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "40 m",
+      "efeito": "Projétil de pedra giratório e denso; derruba quem falha em Força.",
+      "dano": "3d8",
+      "requisitos": [
+        "rank Intermediário em terra"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "fortim",
+      "nome": "Fortim",
+      "escola": "terra",
+      "rank": "intermediario",
+      "custo_mana": 6,
+      "encantacao": "Casa de rocha, levanta-te para nós.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "10 m",
+      "efeito": "Abrigo de pedra para 4 pessoas, com seteiras.",
+      "dano": "",
+      "requisitos": [
+        "rank Intermediário em terra"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "tremor",
+      "nome": "Tremor",
+      "escola": "terra",
+      "rank": "intermediario",
+      "custo_mana": 6,
+      "encantacao": "Que a terra se lembre de que respira.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "raio 10 m",
+      "efeito": "Agilidade CD 13 ou cai; estruturas frágeis racham.",
+      "dano": "2d6",
+      "requisitos": [
+        "rank Intermediário em terra"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "areia_movedica",
+      "nome": "Areia Movediça",
+      "escola": "terra",
+      "rank": "intermediario",
+      "custo_mana": 5,
+      "encantacao": "Chão, segura e puxa.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "15 m",
+      "efeito": "Área de 4 m prende; Força CD 13 para sair.",
+      "dano": "",
+      "requisitos": [
+        "rank Intermediário em terra"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "muralha_de_pedra",
+      "nome": "Muralha de Pedra",
+      "escola": "terra",
+      "rank": "intermediario",
+      "custo_mana": 6,
+      "encantacao": "Do fundo, sobe a fronteira.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "20 m",
+      "efeito": "Muralha de 10 m × 3 m por 1 hora.",
+      "dano": "",
+      "requisitos": [
+        "rank Intermediário em terra"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "armadura_de_pedra",
+      "nome": "Armadura de Pedra",
+      "escola": "terra",
+      "rank": "intermediario",
+      "custo_mana": 5,
+      "encantacao": "Montanha, veste-me.",
+      "tempo_conjuracao": "ação",
+      "alcance": "pessoal",
+      "efeito": "+3 Defesa e −1 Agilidade por 10 minutos.",
+      "dano": "",
+      "requisitos": [
+        "rank Intermediário em terra"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "chuva_de_cascalho",
+      "nome": "Chuva de Cascalho",
+      "escola": "terra",
+      "rank": "intermediario",
+      "custo_mana": 5,
+      "encantacao": "Que caiam os pedregulhos sobre eles.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "30 m",
+      "efeito": "Área de 5 m; Agilidade para metade.",
+      "dano": "2d6",
+      "requisitos": [
+        "rank Intermediário em terra"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "ponte_de_terra",
+      "nome": "Ponte de Terra",
+      "escola": "terra",
+      "rank": "intermediario",
+      "custo_mana": 4,
+      "encantacao": "Terra, estica a mão por cima do vazio.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "20 m",
+      "efeito": "Ponte firme de até 20 m sobre vão ou rio, por 1 hora.",
+      "dano": "",
+      "requisitos": [
+        "rank Intermediário em terra"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "lanca_da_montanha",
+      "nome": "Lança da Montanha",
+      "escola": "terra",
+      "rank": "avancado",
+      "custo_mana": 10,
+      "encantacao": "A montanha aponta e fere.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "40 m",
+      "efeito": "Pilar pontiagudo que arremessa o alvo 3 m para cima.",
+      "dano": "5d6",
+      "requisitos": [
+        "rank Avançado em terra"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "avalanche_pequena",
+      "nome": "Avalanche Pequena",
+      "escola": "terra",
+      "rank": "avancado",
+      "custo_mana": 12,
+      "encantacao": "Desce, encosta, sem pedir licença.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "cone 20 m",
+      "efeito": "Derruba e soterra quem falha em Agilidade.",
+      "dano": "5d6",
+      "requisitos": [
+        "rank Avançado em terra"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "gigante_de_barro",
+      "nome": "Gigante de Barro",
+      "escola": "terra",
+      "rank": "avancado",
+      "custo_mana": 13,
+      "encantacao": "Barro, levanta-te e serve; teu coração é meu comando.",
+      "tempo_conjuracao": "2 turnos",
+      "alcance": "10 m",
+      "efeito": "Golem de terra (rank Intermediário) por 10 minutos.",
+      "dano": "",
+      "requisitos": [
+        "rank Avançado em terra"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "abismo",
+      "nome": "Abismo",
+      "escola": "terra",
+      "rank": "avancado",
+      "custo_mana": 11,
+      "encantacao": "Que o chão se parta entre nós.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "20 m",
+      "efeito": "Fenda de 3 m × 10 m e 5 m de fundo.",
+      "dano": "",
+      "requisitos": [
+        "rank Avançado em terra"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "pele_de_ferro",
+      "nome": "Pele de Ferro",
+      "escola": "terra",
+      "rank": "avancado",
+      "custo_mana": 9,
+      "encantacao": "O metal da terra corre na minha pele.",
+      "tempo_conjuracao": "ação",
+      "alcance": "pessoal",
+      "efeito": "Redução de dano físico 3 por 10 minutos.",
+      "dano": "",
+      "requisitos": [
+        "rank Avançado em terra"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "canhao_sismico",
+      "nome": "Canhão Sísmico",
+      "escola": "terra",
+      "rank": "avancado",
+      "custo_mana": 12,
+      "encantacao": "Pedra que guarda um terremoto dentro.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "60 m",
+      "efeito": "Projétil que explode em estilhaços em 3 m.",
+      "dano": "6d6",
+      "requisitos": [
+        "rank Avançado em terra"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "prisao_de_rocha",
+      "nome": "Prisão de Rocha",
+      "escola": "terra",
+      "rank": "avancado",
+      "custo_mana": 10,
+      "encantacao": "Rocha, abraça e não solta.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "15 m",
+      "efeito": "Encerra o alvo em pedra; Força CD 16 para quebrar.",
+      "dano": "",
+      "requisitos": [
+        "rank Avançado em terra"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "terreno_senhor",
+      "nome": "Terreno Senhor",
+      "escola": "terra",
+      "rank": "avancado",
+      "custo_mana": 8,
+      "encantacao": "Esta terra é minha por um instante.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "raio 15 m",
+      "efeito": "O conjurador remodela o terreno à vontade durante 3 turnos (fossos, rampas, coberturas).",
+      "dano": "",
+      "requisitos": [
+        "rank Avançado em terra"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "terremoto",
+      "nome": "Terremoto",
+      "escola": "terra",
+      "rank": "santo",
+      "custo_mana": 20,
+      "encantacao": "Acorda, gigante do fundo, e vira-te uma vez na cama.",
+      "tempo_conjuracao": "2 turnos",
+      "alcance": "raio 50 m",
+      "efeito": "Derruba construções; Agilidade CD 18 ou cai e sofre o dano.",
+      "dano": "6d6",
+      "requisitos": [
+        "rank Santo em terra"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "montanha_erguida",
+      "nome": "Montanha Erguida",
+      "escola": "terra",
+      "rank": "santo",
+      "custo_mana": 22,
+      "encantacao": "Onde era planície será encosta, e quem vier depois dirá que sempre foi assim.",
+      "tempo_conjuracao": "ritual (10 min)",
+      "alcance": "100 m",
+      "efeito": "Ergue um morro de 20 m de altura permanentemente.",
+      "dano": "",
+      "requisitos": [
+        "rank Santo em terra"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "meteoro_de_pedra",
+      "nome": "Meteoro de Pedra",
+      "escola": "terra",
+      "rank": "santo",
+      "custo_mana": 18,
+      "encantacao": "Do alto, pedra, cai como cai a sentença.",
+      "tempo_conjuracao": "2 turnos",
+      "alcance": "200 m",
+      "efeito": "Rocha colossal cai em 8 m de raio.",
+      "dano": "10d6",
+      "requisitos": [
+        "rank Santo em terra"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "lancas_do_vale",
+      "nome": "Lanças do Vale",
+      "escola": "terra",
+      "rank": "santo",
+      "custo_mana": 16,
+      "encantacao": "Três dentes da terra, mordam.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "40 m",
+      "efeito": "Três pilares atingem até três alvos.",
+      "dano": "4d8 ×3",
+      "requisitos": [
+        "rank Santo em terra"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "muralha_da_fortaleza",
+      "nome": "Muralha da Fortaleza",
+      "escola": "terra",
+      "rank": "santo",
+      "custo_mana": 17,
+      "encantacao": "Ergo o que nenhum aríete derruba numa vida.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "60 m",
+      "efeito": "Muralha de 50 m × 10 m que dura até ser derrubada.",
+      "dano": "",
+      "requisitos": [
+        "rank Santo em terra"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "engolir",
+      "nome": "Engolir",
+      "escola": "terra",
+      "rank": "santo",
+      "custo_mana": 18,
+      "encantacao": "Terra, tem fome, e come.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "20 m",
+      "efeito": "A terra engole o alvo; Agilidade CD 18 ou soterrado.",
+      "dano": "8d6",
+      "requisitos": [
+        "rank Santo em terra"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "corpo_de_basalto",
+      "nome": "Corpo de Basalto",
+      "escola": "terra",
+      "rank": "santo",
+      "custo_mana": 15,
+      "encantacao": "Fico pesado como o fundo do mundo.",
+      "tempo_conjuracao": "ação",
+      "alcance": "pessoal",
+      "efeito": "Redução de dano 5 e imunidade a empurrões por 10 minutos.",
+      "dano": "",
+      "requisitos": [
+        "rank Santo em terra"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "senhor_das_pedras",
+      "nome": "Senhor das Pedras",
+      "escola": "terra",
+      "rank": "santo",
+      "custo_mana": 20,
+      "encantacao": "Cada pedra aqui conhece meu nome.",
+      "tempo_conjuracao": "2 turnos",
+      "alcance": "raio 30 m",
+      "efeito": "Controla todo o terreno em volta por 1 minuto.",
+      "dano": "",
+      "requisitos": [
+        "rank Santo em terra"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "lufada",
+      "nome": "Lufada",
+      "escola": "vento",
+      "rank": "iniciante",
+      "custo_mana": 1,
+      "encantacao": "Sopra, vento.",
+      "tempo_conjuracao": "ação",
+      "alcance": "10 m",
+      "efeito": "Empurra 2 m (Força CD 10) e apaga velas.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em vento"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "corte_de_ar",
+      "nome": "Corte de Ar",
+      "escola": "vento",
+      "rank": "iniciante",
+      "custo_mana": 2,
+      "encantacao": "Ar fino, corta.",
+      "tempo_conjuracao": "ação",
+      "alcance": "15 m",
+      "efeito": "Lâmina invisível de ar (difícil de ver: +1 no ataque).",
+      "dano": "1d8",
+      "requisitos": [
+        "rank Iniciante em vento"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "sussurro",
+      "nome": "Sussurro",
+      "escola": "vento",
+      "rank": "iniciante",
+      "custo_mana": 1,
+      "encantacao": "Vento, leva só isto, só para ele.",
+      "tempo_conjuracao": "ação",
+      "alcance": "50 m",
+      "efeito": "Leva uma frase curta até o ouvido de alguém.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em vento"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "salto_leve",
+      "nome": "Salto Leve",
+      "escola": "vento",
+      "rank": "iniciante",
+      "custo_mana": 1,
+      "encantacao": "Que o ar me sustente um passo.",
+      "tempo_conjuracao": "ação",
+      "alcance": "pessoal",
+      "efeito": "Salta o dobro da distância normal neste turno.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em vento"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "po_nos_olhos",
+      "nome": "Pó nos Olhos",
+      "escola": "vento",
+      "rank": "iniciante",
+      "custo_mana": 2,
+      "encantacao": "Rodopia e cega.",
+      "tempo_conjuracao": "ação",
+      "alcance": "5 m",
+      "efeito": "Redemoinho de poeira; Percepção CD 11 ou cego 1 turno.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em vento"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "ventania_cortante",
+      "nome": "Ventania Cortante",
+      "escola": "vento",
+      "rank": "iniciante",
+      "custo_mana": 3,
+      "encantacao": "Que venha o vento de faca.",
+      "tempo_conjuracao": "ação",
+      "alcance": "cone 5 m",
+      "efeito": "Cone de ar afiado.",
+      "dano": "2d4",
+      "requisitos": [
+        "rank Iniciante em vento"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "amortecer_queda",
+      "nome": "Amortecer Queda",
+      "escola": "vento",
+      "rank": "iniciante",
+      "custo_mana": 2,
+      "encantacao": "Ar, segura-me.",
+      "tempo_conjuracao": "reação",
+      "alcance": "pessoal",
+      "efeito": "Anula dano de queda de até 15 m.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em vento"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "assobio",
+      "nome": "Assobio",
+      "escola": "vento",
+      "rank": "iniciante",
+      "custo_mana": 2,
+      "encantacao": "Grita, vento, por mim.",
+      "tempo_conjuracao": "ação",
+      "alcance": "raio 30 m",
+      "efeito": "Som agudo que distrai e chama atenção; Vigor CD 10 ou desvantagem no próximo teste.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em vento"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "lamina_de_vento_dupla",
+      "nome": "Lâmina de Vento Dupla",
+      "escola": "vento",
+      "rank": "intermediario",
+      "custo_mana": 5,
+      "encantacao": "Duas facas do céu.",
+      "tempo_conjuracao": "ação",
+      "alcance": "20 m",
+      "efeito": "Dois cortes de ar contra um ou dois alvos.",
+      "dano": "2d8",
+      "requisitos": [
+        "rank Intermediário em vento"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "furacao_pequeno",
+      "nome": "Furacão Pequeno",
+      "escola": "vento",
+      "rank": "intermediario",
+      "custo_mana": 6,
+      "encantacao": "Gira, céu, e arranca do chão.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "20 m",
+      "efeito": "Redemoinho de 3 m que levanta e joga quem falha em Força.",
+      "dano": "2d6",
+      "requisitos": [
+        "rank Intermediário em vento"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "muralha_de_vento",
+      "nome": "Muralha de Vento",
+      "escola": "vento",
+      "rank": "intermediario",
+      "custo_mana": 5,
+      "encantacao": "Parede de ar, ninguém te vê, ninguém te passa.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "10 m",
+      "efeito": "Desvia projéteis físicos por 3 turnos (desvantagem a quem atira através).",
+      "dano": "",
+      "requisitos": [
+        "rank Intermediário em vento"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "voz_do_trovao",
+      "nome": "Voz do Trovão",
+      "escola": "vento",
+      "rank": "intermediario",
+      "custo_mana": 4,
+      "encantacao": "Que o céu fale com a minha voz.",
+      "tempo_conjuracao": "ação",
+      "alcance": "raio 10 m",
+      "efeito": "Estrondo: Vigor CD 13 ou atordoado 1 turno.",
+      "dano": "",
+      "requisitos": [
+        "rank Intermediário em vento"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "faisca_celeste",
+      "nome": "Faísca Celeste",
+      "escola": "vento",
+      "rank": "intermediario",
+      "custo_mana": 5,
+      "encantacao": "Picada do céu, desce.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "30 m",
+      "efeito": "Pequeno raio; desvantagem para quem usa armadura de metal na defesa.",
+      "dano": "3d6",
+      "requisitos": [
+        "rank Intermediário em vento"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "passo_do_vento",
+      "nome": "Passo do Vento",
+      "escola": "vento",
+      "rank": "intermediario",
+      "custo_mana": 4,
+      "encantacao": "Ar nas costas, ar nos pés.",
+      "tempo_conjuracao": "ação",
+      "alcance": "pessoal",
+      "efeito": "Deslocamento dobrado e sem ataques de oportunidade por 3 turnos.",
+      "dano": "",
+      "requisitos": [
+        "rank Intermediário em vento"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "silencio",
+      "nome": "Silêncio",
+      "escola": "vento",
+      "rank": "intermediario",
+      "custo_mana": 5,
+      "encantacao": "Vento, cala.",
+      "tempo_conjuracao": "ação",
+      "alcance": "raio 5 m",
+      "efeito": "Nenhum som sai da área por 1 minuto (impede encantações faladas).",
+      "dano": "",
+      "requisitos": [
+        "rank Intermediário em vento"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "pressao",
+      "nome": "Pressão",
+      "escola": "vento",
+      "rank": "intermediario",
+      "custo_mana": 6,
+      "encantacao": "Que o céu pese em cima de ti.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "15 m",
+      "efeito": "Esmaga o ar em volta do alvo; Vigor para metade.",
+      "dano": "2d8",
+      "requisitos": [
+        "rank Intermediário em vento"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "tornado",
+      "nome": "Tornado",
+      "escola": "vento",
+      "rank": "avancado",
+      "custo_mana": 12,
+      "encantacao": "Céu, desce em espiral e leva o que te ofereço.",
+      "tempo_conjuracao": "2 turnos",
+      "alcance": "40 m",
+      "efeito": "Tornado de 6 m por 3 turnos; arrasta e arremessa.",
+      "dano": "4d6/turno",
+      "requisitos": [
+        "rank Avançado em vento"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "lanca_relampago",
+      "nome": "Lança Relâmpago",
+      "escola": "vento",
+      "rank": "avancado",
+      "custo_mana": 10,
+      "encantacao": "Do alto ao chão numa linha só, sem pedir licença.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "60 m",
+      "efeito": "Raio em linha; atinge todos na linha.",
+      "dano": "5d8",
+      "requisitos": [
+        "rank Avançado em vento"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "asas_de_vento",
+      "nome": "Asas de Vento",
+      "escola": "vento",
+      "rank": "avancado",
+      "custo_mana": 9,
+      "encantacao": "Ar, sê asas em quem não tem.",
+      "tempo_conjuracao": "ação",
+      "alcance": "pessoal",
+      "efeito": "Planeia e voa baixo por 10 minutos (velocidade de corrida).",
+      "dano": "",
+      "requisitos": [
+        "rank Avançado em vento"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "vacuo",
+      "nome": "Vácuo",
+      "escola": "vento",
+      "rank": "avancado",
+      "custo_mana": 11,
+      "encantacao": "Que o vento fuja deste lugar.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "15 m",
+      "efeito": "Tira o ar em 3 m; Vigor CD 15 ou sufoca.",
+      "dano": "3d6/turno",
+      "requisitos": [
+        "rank Avançado em vento"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "mil_cortes",
+      "nome": "Mil Cortes",
+      "escola": "vento",
+      "rank": "avancado",
+      "custo_mana": 12,
+      "encantacao": "Mil facas que ninguém vê.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "30 m",
+      "efeito": "Área de 5 m retalhada por lâminas de ar.",
+      "dano": "6d6",
+      "requisitos": [
+        "rank Avançado em vento"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "rugido_da_tempestade",
+      "nome": "Rugido da Tempestade",
+      "escola": "vento",
+      "rank": "avancado",
+      "custo_mana": 10,
+      "encantacao": "Que a tempestade grite e todos calem.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "raio 20 m",
+      "efeito": "Onda de som: Vigor CD 15 ou surdo e atordoado 1 turno.",
+      "dano": "",
+      "requisitos": [
+        "rank Avançado em vento"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "barreira_de_ciclone",
+      "nome": "Barreira de Ciclone",
+      "escola": "vento",
+      "rank": "avancado",
+      "custo_mana": 9,
+      "encantacao": "Gira à minha volta e me guarda.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "pessoal",
+      "efeito": "Projéteis contra o conjurador têm desvantagem por 5 turnos.",
+      "dano": "",
+      "requisitos": [
+        "rank Avançado em vento"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "olho_da_tempestade",
+      "nome": "Olho da Tempestade",
+      "escola": "vento",
+      "rank": "avancado",
+      "custo_mana": 13,
+      "encantacao": "Eu sou o centro calmo; o resto é meu.",
+      "tempo_conjuracao": "2 turnos",
+      "alcance": "raio 30 m",
+      "efeito": "Controla vento e chuva da área por 10 minutos.",
+      "dano": "",
+      "requisitos": [
+        "rank Avançado em vento"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "ceu_em_furia",
+      "nome": "Céu em Fúria",
+      "escola": "vento",
+      "rank": "santo",
+      "custo_mana": 20,
+      "encantacao": "Abre-te, céu, e desce em fúria nos que eu nomear.",
+      "tempo_conjuracao": "2 turnos",
+      "alcance": "raio 50 m",
+      "efeito": "Raios caem por 3 turnos em alvos escolhidos.",
+      "dano": "6d6",
+      "requisitos": [
+        "rank Santo em vento"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "tufao",
+      "nome": "Tufão",
+      "escola": "vento",
+      "rank": "santo",
+      "custo_mana": 22,
+      "encantacao": "Que se arranquem os telhados e os nomes das casas.",
+      "tempo_conjuracao": "3 turnos",
+      "alcance": "100 m",
+      "efeito": "Tufão de 20 m por 1 minuto; derruba construções.",
+      "dano": "8d6",
+      "requisitos": [
+        "rank Santo em vento"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "lanca_do_trovao",
+      "nome": "Lança do Trovão",
+      "escola": "vento",
+      "rank": "santo",
+      "custo_mana": 16,
+      "encantacao": "Trovão, concentra-te numa ponta e cai onde aponto.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "150 m",
+      "efeito": "Raio concentrado contra um alvo; ignora metade da redução de dano.",
+      "dano": "10d6",
+      "requisitos": [
+        "rank Santo em vento"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "voo_verdadeiro",
+      "nome": "Voo Verdadeiro",
+      "escola": "vento",
+      "rank": "santo",
+      "custo_mana": 15,
+      "encantacao": "O chão não manda mais em mim.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "pessoal",
+      "efeito": "Voo livre por 1 hora.",
+      "dano": "",
+      "requisitos": [
+        "rank Santo em vento"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "respiracao_do_ceu",
+      "nome": "Respiração do Céu",
+      "escola": "vento",
+      "rank": "santo",
+      "custo_mana": 18,
+      "encantacao": "Respira, céu, e limpa.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "raio 30 m",
+      "efeito": "Ar purificado: anula gases, venenos aéreos e névoas mágicas.",
+      "dano": "",
+      "requisitos": [
+        "rank Santo em vento"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "muralha_de_furacao",
+      "nome": "Muralha de Furacão",
+      "escola": "vento",
+      "rank": "santo",
+      "custo_mana": 17,
+      "encantacao": "Ergo o vento que nem flecha nem homem atravessa.",
+      "tempo_conjuracao": "2 turnos",
+      "alcance": "60 m",
+      "efeito": "Muralha de vento de 40 m: nada passa por 1 minuto.",
+      "dano": "",
+      "requisitos": [
+        "rank Santo em vento"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "lamina_do_horizonte",
+      "nome": "Lâmina do Horizonte",
+      "escola": "vento",
+      "rank": "santo",
+      "custo_mana": 18,
+      "encantacao": "Corto de um lado ao outro do que posso ver.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "200 m",
+      "efeito": "Corte de ar de longuíssimo alcance que parte árvores.",
+      "dano": "8d8",
+      "requisitos": [
+        "rank Santo em vento"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "grito_do_mundo",
+      "nome": "Grito do Mundo",
+      "escola": "vento",
+      "rank": "santo",
+      "custo_mana": 20,
+      "encantacao": "Que o mundo grite comigo uma vez.",
+      "tempo_conjuracao": "2 turnos",
+      "alcance": "raio 100 m",
+      "efeito": "Onda sonora: Vigor CD 18 ou surdo por 1 dia e atordoado 2 turnos.",
+      "dano": "",
+      "requisitos": [
+        "rank Santo em vento"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "vapor_escaldante",
+      "nome": "Vapor Escaldante",
+      "escola": "combinada",
+      "rank": "intermediario",
+      "custo_mana": 6,
+      "encantacao": "Fogo e rio, briguem no ar.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "15 m",
+      "efeito": "Fogo + água: nuvem de vapor de 4 m; desvantagem em Percepção.",
+      "dano": "3d6",
+      "requisitos": [
+        "rank Intermediário em fogo",
+        "rank Intermediário em água"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "lama_ardente",
+      "nome": "Lama Ardente",
+      "escola": "combinada",
+      "rank": "intermediario",
+      "custo_mana": 6,
+      "encantacao": "Terra que ferve, segura e queima.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "15 m",
+      "efeito": "Terra + fogo: poça que prende e queima por 2 turnos.",
+      "dano": "2d6/turno",
+      "requisitos": [
+        "rank Intermediário em terra",
+        "rank Intermediário em fogo"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "granizo_cortante",
+      "nome": "Granizo Cortante",
+      "escola": "combinada",
+      "rank": "intermediario",
+      "custo_mana": 6,
+      "encantacao": "Gelo no vento, vento com dentes.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "30 m",
+      "efeito": "Água + vento: área de 5 m.",
+      "dano": "3d6",
+      "requisitos": [
+        "rank Intermediário em água",
+        "rank Intermediário em vento"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "tempestade_de_areia",
+      "nome": "Tempestade de Areia",
+      "escola": "combinada",
+      "rank": "intermediario",
+      "custo_mana": 6,
+      "encantacao": "Areia, levanta-te e esconde o sol.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "raio 10 m",
+      "efeito": "Terra + vento: visão zero por 1 minuto; 1d4 por turno.",
+      "dano": "",
+      "requisitos": [
+        "rank Intermediário em terra",
+        "rank Intermediário em vento"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "lava",
+      "nome": "Lava",
+      "escola": "combinada",
+      "rank": "avancado",
+      "custo_mana": 12,
+      "encantacao": "O fundo da montanha sobe em brasa.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "20 m",
+      "efeito": "Terra + fogo: rio de lava de 10 m que dura 1 minuto.",
+      "dano": "5d6",
+      "requisitos": [
+        "rank Avançado em terra",
+        "rank Intermediário em fogo"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "tempestade_eletrica",
+      "nome": "Tempestade Elétrica",
+      "escola": "combinada",
+      "rank": "avancado",
+      "custo_mana": 12,
+      "encantacao": "Nuvem cheia, abre-te e queima.",
+      "tempo_conjuracao": "2 turnos",
+      "alcance": "40 m",
+      "efeito": "Água + vento: chuva e raios em 8 m por 2 turnos.",
+      "dano": "4d8",
+      "requisitos": [
+        "rank Avançado em água",
+        "rank Intermediário em vento"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "nevoa_venenosa",
+      "nome": "Névoa Venenosa",
+      "escola": "combinada",
+      "rank": "avancado",
+      "custo_mana": 11,
+      "encantacao": "Que o ar adoeça.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "20 m",
+      "efeito": "Água + vento: nuvem tóxica de 5 m.",
+      "dano": "2d6/turno",
+      "requisitos": [
+        "rank Avançado em água",
+        "rank Intermediário em vento"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "golem_de_magma",
+      "nome": "Golem de Magma",
+      "escola": "combinada",
+      "rank": "avancado",
+      "custo_mana": 14,
+      "encantacao": "Barro e brasa, sejam um só e me sirvam.",
+      "tempo_conjuracao": "2 turnos",
+      "alcance": "10 m",
+      "efeito": "Terra + fogo: golem (Avançado) por 5 minutos.",
+      "dano": "",
+      "requisitos": [
+        "rank Avançado em terra",
+        "rank Intermediário em fogo"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "cura_menor",
+      "nome": "Cura Menor",
+      "escola": "cura",
+      "rank": "iniciante",
+      "custo_mana": 2,
+      "encantacao": "Que a carne se lembre de estar inteira.",
+      "tempo_conjuracao": "ação",
+      "alcance": "toque",
+      "efeito": "Fecha cortes e hematomas.",
+      "dano": "cura 1d8+Int",
+      "requisitos": [
+        "rank Iniciante em cura"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "estancar",
+      "nome": "Estancar",
+      "escola": "cura",
+      "rank": "iniciante",
+      "custo_mana": 1,
+      "encantacao": "Sangue, fica onde estás.",
+      "tempo_conjuracao": "ação",
+      "alcance": "toque",
+      "efeito": "Para sangramento; estabiliza quem está a 0 PV.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em cura"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "aliviar_dor",
+      "nome": "Aliviar Dor",
+      "escola": "cura",
+      "rank": "iniciante",
+      "custo_mana": 1,
+      "encantacao": "Que a dor durma um pouco.",
+      "tempo_conjuracao": "ação",
+      "alcance": "toque",
+      "efeito": "Remove penalidade de dor por 1 hora (não cura).",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em cura"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "firmar_osso",
+      "nome": "Firmar Osso",
+      "escola": "cura",
+      "rank": "iniciante",
+      "custo_mana": 3,
+      "encantacao": "Osso, volta ao teu caminho.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "toque",
+      "efeito": "Alinha uma fratura simples; reduz o tempo de cura natural à metade.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em cura"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "cura",
+      "nome": "Cura",
+      "escola": "cura",
+      "rank": "intermediario",
+      "custo_mana": 5,
+      "encantacao": "Pelo nome de quem deu forma ao corpo, que este corpo se refaça.",
+      "tempo_conjuracao": "ação",
+      "alcance": "toque",
+      "efeito": "Cura ferimentos leves persistentes.",
+      "dano": "cura 2d8+Int",
+      "requisitos": [
+        "rank Intermediário em cura",
+        "ensinada sob licença da Igreja de Millis (ou de forma clandestina)"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "cura_a_distancia",
+      "nome": "Cura à Distância",
+      "escola": "cura",
+      "rank": "intermediario",
+      "custo_mana": 6,
+      "encantacao": "Que minha mão alcance onde meus pés não chegam.",
+      "tempo_conjuracao": "ação",
+      "alcance": "10 m",
+      "efeito": "Cura um aliado à vista.",
+      "dano": "cura 2d6+Int",
+      "requisitos": [
+        "rank Intermediário em cura",
+        "ensinada sob licença da Igreja de Millis (ou de forma clandestina)"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "restaurar_folego",
+      "nome": "Restaurar Fôlego",
+      "escola": "cura",
+      "rank": "intermediario",
+      "custo_mana": 4,
+      "encantacao": "Que o corpo descanse sem dormir.",
+      "tempo_conjuracao": "ação",
+      "alcance": "toque",
+      "efeito": "Remove cansaço acumulado de um dia.",
+      "dano": "",
+      "requisitos": [
+        "rank Intermediário em cura",
+        "ensinada sob licença da Igreja de Millis (ou de forma clandestina)"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "cura_em_circulo",
+      "nome": "Cura em Círculo",
+      "escola": "cura",
+      "rank": "intermediario",
+      "custo_mana": 7,
+      "encantacao": "Que todos aqui sejam vistos e refeitos.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "raio 5 m",
+      "efeito": "Cura todos os aliados na área.",
+      "dano": "cura 1d8+Int",
+      "requisitos": [
+        "rank Intermediário em cura",
+        "ensinada sob licença da Igreja de Millis (ou de forma clandestina)"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "cura_maior",
+      "nome": "Cura Maior",
+      "escola": "cura",
+      "rank": "avancado",
+      "custo_mana": 10,
+      "encantacao": "Pelo que foi desenhado antes do nascimento, que o desenho se cumpra outra vez.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "toque",
+      "efeito": "Cura ferimentos graves persistentes (com sequela leve possível).",
+      "dano": "cura 4d8+Int",
+      "requisitos": [
+        "rank Avançado em cura",
+        "ensinada sob licença da Igreja de Millis (ou de forma clandestina)"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "reconstruir",
+      "nome": "Reconstruir",
+      "escola": "cura",
+      "rank": "avancado",
+      "custo_mana": 12,
+      "encantacao": "Fio a fio, refaço o que se rompeu dentro.",
+      "tempo_conjuracao": "ritual (10 min)",
+      "alcance": "toque",
+      "efeito": "Cura órgãos lesionados, olhos feridos, tendões rompidos.",
+      "dano": "",
+      "requisitos": [
+        "rank Avançado em cura",
+        "ensinada sob licença da Igreja de Millis (ou de forma clandestina)"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "cura_em_massa",
+      "nome": "Cura em Massa",
+      "escola": "cura",
+      "rank": "avancado",
+      "custo_mana": 12,
+      "encantacao": "Que esta terra se torne casa de cura enquanto eu falar.",
+      "tempo_conjuracao": "2 turnos",
+      "alcance": "raio 10 m",
+      "efeito": "Cura todos os aliados na área.",
+      "dano": "cura 2d8+Int",
+      "requisitos": [
+        "rank Avançado em cura",
+        "ensinada sob licença da Igreja de Millis (ou de forma clandestina)"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "vigilia_do_curandeiro",
+      "nome": "Vigília do Curandeiro",
+      "escola": "cura",
+      "rank": "avancado",
+      "custo_mana": 9,
+      "encantacao": "Não morras enquanto eu te olho.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "toque",
+      "efeito": "Por 1 hora, o alvo recupera 1d6 PV por turno em combate e não cai a 0 PV no primeiro golpe que o derrubaria.",
+      "dano": "",
+      "requisitos": [
+        "rank Avançado em cura",
+        "ensinada sob licença da Igreja de Millis (ou de forma clandestina)"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "purgar_veneno_fraco",
+      "nome": "Purgar Veneno Fraco",
+      "escola": "desintoxicacao",
+      "rank": "iniciante",
+      "custo_mana": 2,
+      "encantacao": "Que o que não é teu saia de ti.",
+      "tempo_conjuracao": "ação",
+      "alcance": "toque",
+      "efeito": "Neutraliza venenos comuns de cobras, plantas e comida estragada.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em desintoxicação"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "detectar_veneno",
+      "nome": "Detectar Veneno",
+      "escola": "desintoxicacao",
+      "rank": "iniciante",
+      "custo_mana": 1,
+      "encantacao": "Mostra-te, mal escondido.",
+      "tempo_conjuracao": "ação",
+      "alcance": "toque",
+      "efeito": "Revela se algo está envenenado ou contaminado.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em desintoxicação"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "purificar_agua",
+      "nome": "Purificar Água",
+      "escola": "desintoxicacao",
+      "rank": "iniciante",
+      "custo_mana": 1,
+      "encantacao": "Água, limpa-te.",
+      "tempo_conjuracao": "ação",
+      "alcance": "toque",
+      "efeito": "Torna potável até um barril de água.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em desintoxicação"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "baixar_febre",
+      "nome": "Baixar Febre",
+      "escola": "desintoxicacao",
+      "rank": "iniciante",
+      "custo_mana": 2,
+      "encantacao": "Fogo de dentro, esfria.",
+      "tempo_conjuracao": "ação",
+      "alcance": "toque",
+      "efeito": "Reduz febre e sintomas por 1 dia.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em desintoxicação"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "purgar_veneno",
+      "nome": "Purgar Veneno",
+      "escola": "desintoxicacao",
+      "rank": "intermediario",
+      "custo_mana": 5,
+      "encantacao": "Corre para fora, sombra do sangue.",
+      "tempo_conjuracao": "ação",
+      "alcance": "toque",
+      "efeito": "Neutraliza venenos de monstros comuns e drogas.",
+      "dano": "",
+      "requisitos": [
+        "rank Intermediário em desintoxicação",
+        "ensinada sob licença da Igreja de Millis (ou de forma clandestina)"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "curar_doenca",
+      "nome": "Curar Doença",
+      "escola": "desintoxicacao",
+      "rank": "intermediario",
+      "custo_mana": 6,
+      "encantacao": "Que a doença perca o caminho de casa.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "toque",
+      "efeito": "Cura doenças comuns (não pestes mágicas).",
+      "dano": "",
+      "requisitos": [
+        "rank Intermediário em desintoxicação",
+        "ensinada sob licença da Igreja de Millis (ou de forma clandestina)"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "imunizar",
+      "nome": "Imunizar",
+      "escola": "desintoxicacao",
+      "rank": "intermediario",
+      "custo_mana": 5,
+      "encantacao": "Fecho a porta antes que batam.",
+      "tempo_conjuracao": "ação",
+      "alcance": "toque",
+      "efeito": "O alvo resiste com vantagem a venenos e doenças por 1 dia.",
+      "dano": "",
+      "requisitos": [
+        "rank Intermediário em desintoxicação",
+        "ensinada sob licença da Igreja de Millis (ou de forma clandestina)"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "limpar_mente",
+      "nome": "Limpar Mente",
+      "escola": "desintoxicacao",
+      "rank": "intermediario",
+      "custo_mana": 5,
+      "encantacao": "Que a névoa saia dos olhos de dentro.",
+      "tempo_conjuracao": "ação",
+      "alcance": "toque",
+      "efeito": "Remove embriaguez, drogas alucinógenas e torpor.",
+      "dano": "",
+      "requisitos": [
+        "rank Intermediário em desintoxicação",
+        "ensinada sob licença da Igreja de Millis (ou de forma clandestina)"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "purgar_veneno_maior",
+      "nome": "Purgar Veneno Maior",
+      "escola": "desintoxicacao",
+      "rank": "avancado",
+      "custo_mana": 10,
+      "encantacao": "Até o veneno mais velho tem que ir embora.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "toque",
+      "efeito": "Neutraliza venenos de monstros rank A e venenos alquímicos raros.",
+      "dano": "",
+      "requisitos": [
+        "rank Avançado em desintoxicação",
+        "ensinada sob licença da Igreja de Millis (ou de forma clandestina)"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "curar_peste",
+      "nome": "Curar Peste",
+      "escola": "desintoxicacao",
+      "rank": "avancado",
+      "custo_mana": 12,
+      "encantacao": "Que a peste se perca no caminho e morra de fome.",
+      "tempo_conjuracao": "ritual (10 min)",
+      "alcance": "toque",
+      "efeito": "Cura doenças mágicas e pestes.",
+      "dano": "",
+      "requisitos": [
+        "rank Avançado em desintoxicação",
+        "ensinada sob licença da Igreja de Millis (ou de forma clandestina)"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "purificacao_em_area",
+      "nome": "Purificação em Área",
+      "escola": "desintoxicacao",
+      "rank": "avancado",
+      "custo_mana": 11,
+      "encantacao": "Que este lugar respire limpo.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "raio 10 m",
+      "efeito": "Remove venenos e gases de toda a área.",
+      "dano": "",
+      "requisitos": [
+        "rank Avançado em desintoxicação",
+        "ensinada sob licença da Igreja de Millis (ou de forma clandestina)"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "romper_encanto_menor",
+      "nome": "Romper Encanto Menor",
+      "escola": "desintoxicacao",
+      "rank": "avancado",
+      "custo_mana": 12,
+      "encantacao": "O que te amarra por fora, eu desamarro.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "toque",
+      "efeito": "Remove efeitos mentais e encantos de rank até Intermediário.",
+      "dano": "",
+      "requisitos": [
+        "rank Avançado em desintoxicação",
+        "ensinada sob licença da Igreja de Millis (ou de forma clandestina)"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "escudo_menor",
+      "nome": "Escudo Menor",
+      "escola": "barreira",
+      "rank": "iniciante",
+      "custo_mana": 2,
+      "encantacao": "Placa de luz, fica.",
+      "tempo_conjuracao": "reação",
+      "alcance": "pessoal",
+      "efeito": "Absorve 6 de dano de um ataque.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em barreira"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "marca_de_alerta",
+      "nome": "Marca de Alerta",
+      "escola": "barreira",
+      "rank": "iniciante",
+      "custo_mana": 1,
+      "encantacao": "Avisa-me de quem passar.",
+      "tempo_conjuracao": "ritual (1 min)",
+      "alcance": "raio 10 m",
+      "efeito": "Avisa o conjurador quando algo vivo cruza a área (até 8 horas).",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em barreira"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "barreira_simples",
+      "nome": "Barreira Simples",
+      "escola": "barreira",
+      "rank": "iniciante",
+      "custo_mana": 3,
+      "encantacao": "Aqui não.",
+      "tempo_conjuracao": "ação",
+      "alcance": "5 m",
+      "efeito": "Parede de 2 m × 2 m que absorve 10 de dano.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em barreira"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "protecao_elemental",
+      "nome": "Proteção Elemental",
+      "escola": "barreira",
+      "rank": "iniciante",
+      "custo_mana": 2,
+      "encantacao": "Que o elemento passe por ti sem morder.",
+      "tempo_conjuracao": "ação",
+      "alcance": "toque",
+      "efeito": "Metade do dano de um elemento escolhido por 10 minutos (contra magias Iniciantes).",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em barreira"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "cupula",
+      "nome": "Cúpula",
+      "escola": "barreira",
+      "rank": "intermediario",
+      "custo_mana": 6,
+      "encantacao": "Teto de luz sobre nós.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "raio 3 m",
+      "efeito": "Cúpula que absorve 25 de dano e bloqueia magias até Intermediário.",
+      "dano": "",
+      "requisitos": [
+        "rank Intermediário em barreira",
+        "ensinada sob licença da Igreja de Millis (ou de forma clandestina)"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "selo_de_porta",
+      "nome": "Selo de Porta",
+      "escola": "barreira",
+      "rank": "intermediario",
+      "custo_mana": 4,
+      "encantacao": "Fechado, até que eu diga.",
+      "tempo_conjuracao": "ritual (1 min)",
+      "alcance": "toque",
+      "efeito": "Sela porta ou baú; Força CD 18 ou magia para abrir.",
+      "dano": "",
+      "requisitos": [
+        "rank Intermediário em barreira",
+        "ensinada sob licença da Igreja de Millis (ou de forma clandestina)"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "escudo_refletor",
+      "nome": "Escudo Refletor",
+      "escola": "barreira",
+      "rank": "intermediario",
+      "custo_mana": 5,
+      "encantacao": "O que vem, volta.",
+      "tempo_conjuracao": "reação",
+      "alcance": "pessoal",
+      "efeito": "Absorve 12 e devolve metade em quem atacou corpo a corpo.",
+      "dano": "",
+      "requisitos": [
+        "rank Intermediário em barreira",
+        "ensinada sob licença da Igreja de Millis (ou de forma clandestina)"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "circulo_de_protecao",
+      "nome": "Círculo de Proteção",
+      "escola": "barreira",
+      "rank": "intermediario",
+      "custo_mana": 6,
+      "encantacao": "Daqui para dentro, só quem é convidado.",
+      "tempo_conjuracao": "ritual (10 min)",
+      "alcance": "raio 5 m",
+      "efeito": "Criaturas hostis de rank Intermediário ou abaixo não entram por 8 horas.",
+      "dano": "",
+      "requisitos": [
+        "rank Intermediário em barreira",
+        "ensinada sob licença da Igreja de Millis (ou de forma clandestina)"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "muralha_sagrada",
+      "nome": "Muralha Sagrada",
+      "escola": "barreira",
+      "rank": "avancado",
+      "custo_mana": 10,
+      "encantacao": "Que se erga a parede que nem fogo nem ferro atravessa.",
+      "tempo_conjuracao": "1 turno",
+      "alcance": "20 m",
+      "efeito": "Muralha de 10 m que absorve 60 de dano e bloqueia magias até Avançado.",
+      "dano": "",
+      "requisitos": [
+        "rank Avançado em barreira",
+        "ensinada sob licença da Igreja de Millis (ou de forma clandestina)"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "prisao_de_luz",
+      "nome": "Prisão de Luz",
+      "escola": "barreira",
+      "rank": "avancado",
+      "custo_mana": 11,
+      "encantacao": "Fica na luz e não sai.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "15 m",
+      "efeito": "Prende um alvo numa esfera (absorve 40) por 3 turnos.",
+      "dano": "",
+      "requisitos": [
+        "rank Avançado em barreira",
+        "ensinada sob licença da Igreja de Millis (ou de forma clandestina)"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "santuario",
+      "nome": "Santuário",
+      "escola": "barreira",
+      "rank": "avancado",
+      "custo_mana": 12,
+      "encantacao": "Esta terra é guardada; quem vier com mal, que fique à porta.",
+      "tempo_conjuracao": "ritual (1 hora)",
+      "alcance": "raio 20 m",
+      "efeito": "Área protegida por 1 dia: hostis até Avançado não entram; magias hostis de fora perdem metade da força.",
+      "dano": "",
+      "requisitos": [
+        "rank Avançado em barreira",
+        "ensinada sob licença da Igreja de Millis (ou de forma clandestina)"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "selo_de_mana",
+      "nome": "Selo de Mana",
+      "escola": "barreira",
+      "rank": "avancado",
+      "custo_mana": 12,
+      "encantacao": "Tranco a fonte por dentro.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "toque",
+      "efeito": "Impede o alvo de conjurar magias de rank Avançado ou abaixo por 1 hora (Intelecto CD 16 a cada 10 min para resistir).",
+      "dano": "",
+      "requisitos": [
+        "rank Avançado em barreira",
+        "ensinada sob licença da Igreja de Millis (ou de forma clandestina)"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "chamar_familiar",
+      "nome": "Chamar Familiar",
+      "escola": "invocacao",
+      "rank": "iniciante",
+      "custo_mana": 3,
+      "encantacao": "Pequeno de outro lugar, vem e fica.",
+      "tempo_conjuracao": "ritual (1 hora)",
+      "alcance": "toque",
+      "efeito": "Vincula um pequeno animal-espírito (coruja, gato, rato) que vê e ouve pelo conjurador.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em invocação"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "luz_errante",
+      "nome": "Luz Errante",
+      "escola": "invocacao",
+      "rank": "iniciante",
+      "custo_mana": 1,
+      "encantacao": "Vagalume sem corpo, vem.",
+      "tempo_conjuracao": "ação",
+      "alcance": "20 m",
+      "efeito": "Invoca uma esfera de luz que segue ordens por 1 hora.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em invocação"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "mao_invisivel",
+      "nome": "Mão Invisível",
+      "escola": "invocacao",
+      "rank": "iniciante",
+      "custo_mana": 2,
+      "encantacao": "Mão de ninguém, faz por mim.",
+      "tempo_conjuracao": "ação",
+      "alcance": "10 m",
+      "efeito": "Força invisível que carrega até 5 kg por 10 minutos.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em invocação"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "circulo_de_contrato",
+      "nome": "Círculo de Contrato",
+      "escola": "invocacao",
+      "rank": "iniciante",
+      "custo_mana": 2,
+      "encantacao": "Que quem vier fale antes de agir.",
+      "tempo_conjuracao": "ritual (10 min)",
+      "alcance": "toque",
+      "efeito": "Desenha um círculo que prende uma criatura pequena convocada para conversa.",
+      "dano": "",
+      "requisitos": [
+        "rank Iniciante em invocação"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "invocar_lobo_espirito",
+      "nome": "Invocar Lobo-Espírito",
+      "escola": "invocacao",
+      "rank": "intermediario",
+      "custo_mana": 6,
+      "encantacao": "Irmão do vento e da caça, empresta-me os dentes.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "10 m",
+      "efeito": "Lobo-espírito (Iniciante) luta por 10 minutos.",
+      "dano": "",
+      "requisitos": [
+        "rank Intermediário em invocação"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "escudo_convocado",
+      "nome": "Escudo Convocado",
+      "escola": "invocacao",
+      "rank": "intermediario",
+      "custo_mana": 5,
+      "encantacao": "Escudo de ninguém, guarda-me.",
+      "tempo_conjuracao": "ação",
+      "alcance": "pessoal",
+      "efeito": "Um escudo de outro lugar paira e dá +2 Defesa por 10 minutos.",
+      "dano": "",
+      "requisitos": [
+        "rank Intermediário em invocação"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "mensageiro",
+      "nome": "Mensageiro",
+      "escola": "invocacao",
+      "rank": "intermediario",
+      "custo_mana": 4,
+      "encantacao": "Voa até quem eu conheço e diz o que eu disse.",
+      "tempo_conjuracao": "ritual (10 min)",
+      "alcance": "até 100 km",
+      "efeito": "Ave-espírito leva mensagem a alguém conhecido.",
+      "dano": "",
+      "requisitos": [
+        "rank Intermediário em invocação"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "prender_espirito",
+      "nome": "Prender Espírito",
+      "escola": "invocacao",
+      "rank": "intermediario",
+      "custo_mana": 6,
+      "encantacao": "Fica, de onde quer que venhas.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "10 m",
+      "efeito": "Prende um espírito ou invocação Intermediária ou inferior; Presença resistida.",
+      "dano": "",
+      "requisitos": [
+        "rank Intermediário em invocação"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "invocar_guardiao",
+      "nome": "Invocar Guardião",
+      "escola": "invocacao",
+      "rank": "avancado",
+      "custo_mana": 12,
+      "encantacao": "Pelo contrato antigo, que venha quem guarda e guarde o que eu disser.",
+      "tempo_conjuracao": "ritual (10 min)",
+      "alcance": "10 m",
+      "efeito": "Guardião de pedra-espírito (Avançado) por 1 dia, com ordens simples.",
+      "dano": "",
+      "requisitos": [
+        "rank Avançado em invocação"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "portal_de_objeto",
+      "nome": "Portal de Objeto",
+      "escola": "invocacao",
+      "rank": "avancado",
+      "custo_mana": 10,
+      "encantacao": "O que é meu volta para minha mão.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "toque",
+      "efeito": "Envia ou busca um objeto marcado previamente, de até 10 kg, a qualquer distância no mesmo continente.",
+      "dano": "",
+      "requisitos": [
+        "rank Avançado em invocação"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "banir",
+      "nome": "Banir",
+      "escola": "invocacao",
+      "rank": "avancado",
+      "custo_mana": 11,
+      "encantacao": "Volta para onde vieste, e não voltes.",
+      "tempo_conjuracao": "ação completa",
+      "alcance": "20 m",
+      "efeito": "Devolve uma invocação ou espírito de rank Avançado ou abaixo ao lugar de origem.",
+      "dano": "",
+      "requisitos": [
+        "rank Avançado em invocação"
+      ],
+      "pode_silenciosa": true
+    },
+    {
+      "id": "fera_vinculada",
+      "nome": "Fera Vinculada",
+      "escola": "invocacao",
+      "rank": "avancado",
+      "custo_mana": 13,
+      "encantacao": "Teu nome e o meu, amarrados até que um de nós caia.",
+      "tempo_conjuracao": "ritual (1 dia)",
+      "alcance": "toque",
+      "efeito": "Vincula permanentemente uma fera mágica como companheira (com o consentimento ou a submissão dela).",
+      "dano": "",
+      "requisitos": [
+        "rank Avançado em invocação"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "coracao_do_vulcao",
+      "nome": "Coração do Vulcão",
+      "escola": "fogo",
+      "rank": "rei",
+      "custo_mana": 40,
+      "encantacao": "Montanha que dorme sobre fogo, eu te acordo uma única vez, e o que estiver em cima que reze.",
+      "tempo_conjuracao": "2 turnos",
+      "alcance": "300 m",
+      "efeito": "Explosão de 30 m de raio que deixa uma cratera em brasa por dias.",
+      "dano": "16d6",
+      "requisitos": [
+        "rank Rei em fogo",
+        "conhecimento lendário: só com um mestre vivo do rank ou um grimório perdido"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "segundo_sol",
+      "nome": "Segundo Sol",
+      "escola": "fogo",
+      "rank": "imperador",
+      "custo_mana": 70,
+      "encantacao": "Que haja dois sóis por um instante, e que o segundo não tenha piedade.",
+      "tempo_conjuracao": "3 turnos",
+      "alcance": "1 km",
+      "efeito": "Um sol artificial desce sobre uma cidade. Uso registrado duas vezes na história.",
+      "dano": "30d6",
+      "requisitos": [
+        "rank Imperador em fogo",
+        "conhecimento lendário: só com um mestre vivo do rank ou um grimório perdido"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "fim_do_rio",
+      "nome": "Fim do Rio",
+      "escola": "agua",
+      "rank": "rei",
+      "custo_mana": 40,
+      "encantacao": "Que a água desta terra pare, e que pare com ela tudo o que nela pisa.",
+      "tempo_conjuracao": "2 turnos",
+      "alcance": "500 m",
+      "efeito": "Congela um lago ou um exército inteiro em 50 m de raio.",
+      "dano": "14d6",
+      "requisitos": [
+        "rank Rei em água",
+        "conhecimento lendário: só com um mestre vivo do rank ou um grimório perdido"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "abismo_aberto",
+      "nome": "Abismo Aberto",
+      "escola": "agua",
+      "rank": "imperador",
+      "custo_mana": 75,
+      "encantacao": "Mar, mostra o teu fundo; que o céu veja onde dormem os afogados.",
+      "tempo_conjuracao": "ritual (10 min)",
+      "alcance": "2 km",
+      "efeito": "Abre o mar como uma ferida por uma hora: navios caem, cidades costeiras se afogam.",
+      "dano": "",
+      "requisitos": [
+        "rank Imperador em água",
+        "conhecimento lendário: só com um mestre vivo do rank ou um grimório perdido"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "mandibula_do_mundo",
+      "nome": "Mandíbula do Mundo",
+      "escola": "terra",
+      "rank": "rei",
+      "custo_mana": 45,
+      "encantacao": "Que o chão se lembre da fome que tinha antes de haver gente.",
+      "tempo_conjuracao": "2 turnos",
+      "alcance": "300 m",
+      "efeito": "A terra se fecha sobre 40 m de raio como uma boca.",
+      "dano": "15d6",
+      "requisitos": [
+        "rank Rei em terra",
+        "conhecimento lendário: só com um mestre vivo do rank ou um grimório perdido"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "nova_cordilheira",
+      "nome": "Nova Cordilheira",
+      "escola": "terra",
+      "rank": "imperador",
+      "custo_mana": 80,
+      "encantacao": "Que se erga a espinha de pedra, e que dela nasçam rios e guerras.",
+      "tempo_conjuracao": "ritual (1 dia)",
+      "alcance": "10 km",
+      "efeito": "Ergue uma cadeia de montanhas. Dizem que uma fronteira entre reinos foi traçada assim.",
+      "dano": "",
+      "requisitos": [
+        "rank Imperador em terra",
+        "conhecimento lendário: só com um mestre vivo do rank ou um grimório perdido"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "olho_do_mundo",
+      "nome": "Olho do Mundo",
+      "escola": "vento",
+      "rank": "rei",
+      "custo_mana": 40,
+      "encantacao": "Que o céu inteiro se volte para baixo e me empreste os seus olhos de fogo.",
+      "tempo_conjuracao": "2 turnos",
+      "alcance": "1 km",
+      "efeito": "Tempestade de raios sobre 100 m de raio por 5 turnos.",
+      "dano": "12d6",
+      "requisitos": [
+        "rank Rei em vento",
+        "conhecimento lendário: só com um mestre vivo do rank ou um grimório perdido"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "folego_primeiro",
+      "nome": "Fôlego Primeiro",
+      "escola": "vento",
+      "rank": "deus",
+      "custo_mana": 120,
+      "encantacao": "(as palavras se perderam; só restou a última: \"respira\")",
+      "tempo_conjuracao": "ritual (1 hora)",
+      "alcance": "além da vista",
+      "efeito": "Lenda: o vento que soprou quando as faces do mundo caíram. Ninguém sabe se foi conjurado de verdade.",
+      "dano": "",
+      "requisitos": [
+        "rank Deus em vento",
+        "conhecimento lendário: só com um mestre vivo do rank ou um grimório perdido"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "regeneracao",
+      "nome": "Regeneração",
+      "escola": "cura",
+      "rank": "rei",
+      "custo_mana": 40,
+      "encantacao": "O que foi tirado volta a crescer, como a árvore volta depois do machado, porque a forma é anterior à ferida.",
+      "tempo_conjuracao": "ritual (1 hora)",
+      "alcance": "toque",
+      "efeito": "Regenera membros perdidos e órgãos destruídos. Não traz mortos de volta.",
+      "dano": "",
+      "requisitos": [
+        "rank Rei em cura",
+        "ensinada sob licença da Igreja de Millis (ou de forma clandestina)",
+        "conhecimento lendário: só com um mestre vivo do rank ou um grimório perdido"
+      ],
+      "pode_silenciosa": false
+    },
+    {
+      "id": "selo_do_reino",
+      "nome": "Selo do Reino",
+      "escola": "barreira",
+      "rank": "rei",
+      "custo_mana": 50,
+      "encantacao": "Desenho um círculo do tamanho de um povo e digo ao mundo lá fora: não.",
+      "tempo_conjuracao": "ritual (1 dia)",
+      "alcance": "raio 5 km",
+      "efeito": "Barreira sobre uma cidade inteira por um ano. As capitais pagam fortunas para renová-la.",
+      "dano": "",
+      "requisitos": [
+        "rank Rei em barreira",
+        "ensinada sob licença da Igreja de Millis (ou de forma clandestina)",
+        "conhecimento lendário: só com um mestre vivo do rank ou um grimório perdido"
+      ],
+      "pode_silenciosa": false
+    }
+  ]
+}

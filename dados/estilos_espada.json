@@ -1,0 +1,563 @@
+{
+  "versao": 1,
+  "observacao": "Técnicas originais desta campanha. A técnica da Lâmina Sem Escola não está aqui.",
+  "escolas": [
+    {
+      "id": "deus_da_espada",
+      "nome": "Estilo Deus da Espada",
+      "filosofia": "O primeiro golpe decide: velocidade e ofensiva.",
+      "forte_contra": "magos lentos, oponentes hesitantes",
+      "fraco_contra": "contra-ataque paciente, truques e terreno"
+    },
+    {
+      "id": "deus_da_agua",
+      "nome": "Estilo Deus da Água",
+      "filosofia": "Não atacar primeiro: ler, desviar e responder.",
+      "forte_contra": "estilos agressivos, projéteis",
+      "fraco_contra": "quem não ataca, área, iniciativa à distância"
+    },
+    {
+      "id": "deus_do_norte",
+      "nome": "Estilo Deus do Norte",
+      "filosofia": "Vencer, com qualquer arma e qualquer truque.",
+      "forte_contra": "estilos ortodoxos e previsíveis",
+      "fraco_contra": "pura superioridade de rank"
+    }
+  ],
+  "tecnicas": [
+    {
+      "id": "saque_reto",
+      "nome": "Saque Reto",
+      "escola": "deus_da_espada",
+      "rank": "iniciante",
+      "efeito": "No primeiro turno de um combate, se você agir antes do alvo, +2 no ataque com a lâmina recém-sacada.",
+      "custo": "nenhum",
+      "requisitos": [
+        "rank Iniciante no Estilo Deus da Espada"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "passo_adiante",
+      "nome": "Passo Adiante",
+      "escola": "deus_da_espada",
+      "rank": "iniciante",
+      "efeito": "Avança 3 m e ataca na mesma ação, sem provocar ataque de oportunidade do alvo.",
+      "custo": "nenhum",
+      "requisitos": [
+        "rank Iniciante no Estilo Deus da Espada"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "corte_descendente",
+      "nome": "Corte Descendente",
+      "escola": "deus_da_espada",
+      "rank": "iniciante",
+      "efeito": "Golpe pesado: +1d4 de dano, −1 Defesa até seu próximo turno.",
+      "custo": "nenhum",
+      "requisitos": [
+        "rank Iniciante no Estilo Deus da Espada"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "lamina_antes_do_pensamento",
+      "nome": "Lâmina Antes do Pensamento",
+      "escola": "deus_da_espada",
+      "rank": "intermediario",
+      "efeito": "Iniciativa com vantagem; se vencer, o primeiro ataque ignora a reação do alvo.",
+      "custo": "1 por combate",
+      "requisitos": [
+        "rank Intermediário no Estilo Deus da Espada"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "corte_duplo",
+      "nome": "Corte Duplo",
+      "escola": "deus_da_espada",
+      "rank": "intermediario",
+      "efeito": "Dois ataques no mesmo turno, o segundo com −2.",
+      "custo": "ação completa",
+      "requisitos": [
+        "rank Intermediário no Estilo Deus da Espada"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "investida_do_norte_frio",
+      "nome": "Investida do Norte Frio",
+      "escola": "deus_da_espada",
+      "rank": "intermediario",
+      "efeito": "Atravessa até 8 m e ataca; se acertar, o alvo faz Força CD 13 ou cai.",
+      "custo": "ação completa",
+      "requisitos": [
+        "rank Intermediário no Estilo Deus da Espada"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "corte_da_luz",
+      "nome": "Corte da Luz",
+      "escola": "deus_da_espada",
+      "rank": "avancado",
+      "efeito": "Golpe tão rápido que corta à distância (até 5 m) usando a aura; dano normal.",
+      "custo": "2 mana",
+      "requisitos": [
+        "rank Avançado no Estilo Deus da Espada",
+        "aura de batalha desperta"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "golpe_sem_hesitacao",
+      "nome": "Golpe Sem Hesitação",
+      "escola": "deus_da_espada",
+      "rank": "avancado",
+      "efeito": "Ataque que, se acertar, causa dano máximo do dado da arma.",
+      "custo": "1 por combate",
+      "requisitos": [
+        "rank Avançado no Estilo Deus da Espada",
+        "aura de batalha desperta"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "leitura_do_ombro",
+      "nome": "Leitura do Ombro",
+      "escola": "deus_da_espada",
+      "rank": "avancado",
+      "efeito": "Quando um inimigo começa a encantar a até 10 m, você avança 5 m e ataca antes de a magia sair (se a encantação for de 1 turno ou mais).",
+      "custo": "reação",
+      "requisitos": [
+        "rank Avançado no Estilo Deus da Espada",
+        "aura de batalha desperta"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "lamina_da_luz_silenciosa",
+      "nome": "Lâmina da Luz Silenciosa",
+      "escola": "deus_da_espada",
+      "rank": "santo",
+      "efeito": "Ataque à distância de até 15 m pela aura; quem não tem aura não percebe o golpe (sem reação).",
+      "custo": "3 mana",
+      "requisitos": [
+        "rank Santo no Estilo Deus da Espada",
+        "aura de batalha desperta"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "mil_saques",
+      "nome": "Mil Saques",
+      "escola": "deus_da_espada",
+      "rank": "santo",
+      "efeito": "Três ataques contra alvos diferentes a até 10 m, deslocando-se entre eles.",
+      "custo": "4 mana, ação completa",
+      "requisitos": [
+        "rank Santo no Estilo Deus da Espada",
+        "aura de batalha desperta"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "cortar_o_feitico",
+      "nome": "Cortar o Feitiço",
+      "escola": "deus_da_espada",
+      "rank": "santo",
+      "efeito": "Corta um projétil mágico de rank até Avançado antes que atinja você ou um aliado adjacente.",
+      "custo": "reação, 3 mana",
+      "requisitos": [
+        "rank Santo no Estilo Deus da Espada",
+        "aura de batalha desperta"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "primeiro_e_ultimo",
+      "nome": "Primeiro e Último",
+      "escola": "deus_da_espada",
+      "rank": "rei",
+      "efeito": "Um único golpe: se acertar, o dano é dobrado e ignora a redução de dano por aura.",
+      "custo": "5 mana, 1 por dia",
+      "requisitos": [
+        "rank Rei no Estilo Deus da Espada",
+        "técnica lendária: só ensinada por um mestre vivo do rank, ou descoberta num evento extraordinário",
+        "aura de batalha desperta"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "horizonte_partido",
+      "nome": "Horizonte Partido",
+      "escola": "deus_da_espada",
+      "rank": "imperador",
+      "efeito": "Um corte em linha de 50 m que corta tudo que não seja de rank Rei ou acima.",
+      "custo": "8 mana, ação completa",
+      "requisitos": [
+        "rank Imperador no Estilo Deus da Espada",
+        "técnica lendária: só ensinada por um mestre vivo do rank, ou descoberta num evento extraordinário",
+        "aura de batalha desperta"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "postura_do_lago",
+      "nome": "Postura do Lago",
+      "escola": "deus_da_agua",
+      "rank": "iniciante",
+      "efeito": "Ação de defender dá +5 Defesa (em vez de +4).",
+      "custo": "nenhum",
+      "requisitos": [
+        "rank Iniciante no Estilo Deus da Água"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "desvio",
+      "nome": "Desvio",
+      "escola": "deus_da_agua",
+      "rank": "iniciante",
+      "efeito": "Reduz o dano de um ataque corpo a corpo em 1d6 + rank.",
+      "custo": "reação",
+      "requisitos": [
+        "rank Iniciante no Estilo Deus da Água"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "passo_para_tras",
+      "nome": "Passo para Trás",
+      "escola": "deus_da_agua",
+      "rank": "iniciante",
+      "efeito": "Recua 2 m após ser atacado, sem provocar ataque de oportunidade.",
+      "custo": "nenhum",
+      "requisitos": [
+        "rank Iniciante no Estilo Deus da Água"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "contracorrente",
+      "nome": "Contracorrente",
+      "escola": "deus_da_agua",
+      "rank": "intermediario",
+      "efeito": "Quando um ataque corpo a corpo erra você, faz um contra-ataque imediato.",
+      "custo": "reação",
+      "requisitos": [
+        "rank Intermediário no Estilo Deus da Água"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "desarmar",
+      "nome": "Desarmar",
+      "escola": "deus_da_agua",
+      "rank": "intermediario",
+      "efeito": "Ataque resistido (sua Agilidade + rank contra Força + rank do alvo): o alvo larga a arma.",
+      "custo": "ação",
+      "requisitos": [
+        "rank Intermediário no Estilo Deus da Água"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "cortar_flechas",
+      "nome": "Cortar Flechas",
+      "escola": "deus_da_agua",
+      "rank": "intermediario",
+      "efeito": "Desvia um projétil físico que o acertaria (teste de Agilidade + rank contra o ataque).",
+      "custo": "reação",
+      "requisitos": [
+        "rank Intermediário no Estilo Deus da Água"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "lamina_que_devolve",
+      "nome": "Lâmina que Devolve",
+      "escola": "deus_da_agua",
+      "rank": "avancado",
+      "efeito": "Contra-ataque que usa a força do inimigo: dano do contra-ataque + metade do dano que ele tentou causar.",
+      "custo": "reação, 2 mana",
+      "requisitos": [
+        "rank Avançado no Estilo Deus da Água",
+        "aura de batalha desperta"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "corrente_continua",
+      "nome": "Corrente Contínua",
+      "escola": "deus_da_agua",
+      "rank": "avancado",
+      "efeito": "Enquanto estiver na postura defensiva, cada ataque errado contra você dá +1 cumulativo no seu próximo ataque.",
+      "custo": "nenhum",
+      "requisitos": [
+        "rank Avançado no Estilo Deus da Água",
+        "aura de batalha desperta"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "cortar_a_magia_pequena",
+      "nome": "Cortar a Magia Pequena",
+      "escola": "deus_da_agua",
+      "rank": "avancado",
+      "efeito": "Corta um projétil mágico de rank Intermediário ou abaixo.",
+      "custo": "reação, 2 mana",
+      "requisitos": [
+        "rank Avançado no Estilo Deus da Água",
+        "aura de batalha desperta"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "espelho_perfeito",
+      "nome": "Espelho Perfeito",
+      "escola": "deus_da_agua",
+      "rank": "santo",
+      "efeito": "Devolve um projétil mágico de rank até Avançado ao conjurador.",
+      "custo": "reação, 3 mana",
+      "requisitos": [
+        "rank Santo no Estilo Deus da Água",
+        "aura de batalha desperta"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "rio_sem_margem",
+      "nome": "Rio Sem Margem",
+      "escola": "deus_da_agua",
+      "rank": "santo",
+      "efeito": "Por 3 turnos, você pode fazer uma reação contra cada atacante, não só uma por rodada.",
+      "custo": "4 mana",
+      "requisitos": [
+        "rank Santo no Estilo Deus da Água",
+        "aura de batalha desperta"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "calma_absoluta",
+      "nome": "Calma Absoluta",
+      "escola": "deus_da_agua",
+      "rank": "santo",
+      "efeito": "Imune a medo, provocação e efeitos que forcem você a atacar; vantagem em Intuição em combate.",
+      "custo": "nenhum",
+      "requisitos": [
+        "rank Santo no Estilo Deus da Água",
+        "aura de batalha desperta"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "fluxo_inverso",
+      "nome": "Fluxo Inverso",
+      "escola": "deus_da_agua",
+      "rank": "rei",
+      "efeito": "Redireciona um ataque corpo a corpo inteiro para outro inimigo adjacente.",
+      "custo": "5 mana, reação",
+      "requisitos": [
+        "rank Rei no Estilo Deus da Água",
+        "técnica lendária: só ensinada por um mestre vivo do rank, ou descoberta num evento extraordinário",
+        "aura de batalha desperta"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "mar_imovel",
+      "nome": "Mar Imóvel",
+      "escola": "deus_da_agua",
+      "rank": "imperador",
+      "efeito": "Por 1 turno, nenhum ataque físico ou projétil de rank abaixo de Rei atinge você.",
+      "custo": "8 mana",
+      "requisitos": [
+        "rank Imperador no Estilo Deus da Água",
+        "técnica lendária: só ensinada por um mestre vivo do rank, ou descoberta num evento extraordinário",
+        "aura de batalha desperta"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "areia_nos_olhos",
+      "nome": "Areia nos Olhos",
+      "escola": "deus_do_norte",
+      "rank": "iniciante",
+      "efeito": "Ação rápida, uma vez por combate: o alvo faz Percepção CD 12 ou fica com desvantagem no próximo ataque.",
+      "custo": "nenhum",
+      "requisitos": [
+        "rank Iniciante no Estilo Deus do Norte"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "qualquer_arma",
+      "nome": "Qualquer Arma",
+      "escola": "deus_do_norte",
+      "rank": "iniciante",
+      "efeito": "Sem penalidade com armas improvisadas (cadeira, garrafa, corrente) e com troca de arma no meio do turno.",
+      "custo": "nenhum",
+      "requisitos": [
+        "rank Iniciante no Estilo Deus do Norte"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "queda_fingida",
+      "nome": "Queda Fingida",
+      "escola": "deus_do_norte",
+      "rank": "iniciante",
+      "efeito": "Fingir estar mais ferido do que está: Enganação resistida; se vencer, o próximo ataque tem vantagem.",
+      "custo": "nenhum",
+      "requisitos": [
+        "rank Iniciante no Estilo Deus do Norte"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "duas_laminas",
+      "nome": "Duas Lâminas",
+      "escola": "deus_do_norte",
+      "rank": "intermediario",
+      "efeito": "Luta com duas armas: ataque extra com a segunda, sem bônus de atributo no dano.",
+      "custo": "nenhum",
+      "requisitos": [
+        "rank Intermediário no Estilo Deus do Norte"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "terreno_e_arma",
+      "nome": "Terreno é Arma",
+      "escola": "deus_do_norte",
+      "rank": "intermediario",
+      "efeito": "Usa o ambiente (corda, lama, mesa, escada): uma vez por turno, +2 no ataque ou na Defesa justificando com a cena.",
+      "custo": "nenhum",
+      "requisitos": [
+        "rank Intermediário no Estilo Deus do Norte"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "arremesso_surpresa",
+      "nome": "Arremesso Surpresa",
+      "escola": "deus_do_norte",
+      "rank": "intermediario",
+      "efeito": "Arremessa a arma principal (até 10 m) com +2 e recupera com uma ação rápida se estiver amarrada ou perto.",
+      "custo": "ação",
+      "requisitos": [
+        "rank Intermediário no Estilo Deus do Norte"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "mudanca_de_postura",
+      "nome": "Mudança de Postura",
+      "escola": "deus_do_norte",
+      "rank": "avancado",
+      "efeito": "Alterna livremente entre as posturas dos três estilos: pode usar uma técnica Iniciante dos outros dois estilos.",
+      "custo": "nenhum",
+      "requisitos": [
+        "rank Avançado no Estilo Deus do Norte",
+        "aura de batalha desperta"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "golpe_fantasma",
+      "nome": "Golpe Fantasma",
+      "escola": "deus_do_norte",
+      "rank": "avancado",
+      "efeito": "Finta com aura: o alvo não pode usar reação contra este ataque.",
+      "custo": "2 mana",
+      "requisitos": [
+        "rank Avançado no Estilo Deus do Norte",
+        "aura de batalha desperta"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "rolagem_felina",
+      "nome": "Rolagem Felina",
+      "escola": "deus_do_norte",
+      "rank": "avancado",
+      "efeito": "Anula metade do dano de um ataque em área ou de queda e se reposiciona 3 m.",
+      "custo": "reação",
+      "requisitos": [
+        "rank Avançado no Estilo Deus do Norte",
+        "aura de batalha desperta"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "mil_truques",
+      "nome": "Mil Truques",
+      "escola": "deus_do_norte",
+      "rank": "santo",
+      "efeito": "Uma vez por turno, troca o resultado de um dado seu por 10 antes de saber se acertou.",
+      "custo": "3 mana",
+      "requisitos": [
+        "rank Santo no Estilo Deus do Norte",
+        "aura de batalha desperta"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "lutar_contra_o_maior",
+      "nome": "Lutar Contra o Maior",
+      "escola": "deus_do_norte",
+      "rank": "santo",
+      "efeito": "Contra inimigos de rank maior que o seu, reduz a desvantagem de hierarquia: 2 ranks acima não dão desvantagem.",
+      "custo": "nenhum",
+      "requisitos": [
+        "rank Santo no Estilo Deus do Norte",
+        "aura de batalha desperta"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "lamina_caida",
+      "nome": "Lâmina Caída",
+      "escola": "deus_do_norte",
+      "rank": "santo",
+      "efeito": "Ao ser derrubado ou desarmado, faz um ataque imediato com o que estiver à mão.",
+      "custo": "reação, 3 mana",
+      "requisitos": [
+        "rank Santo no Estilo Deus do Norte",
+        "aura de batalha desperta"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "estilo_sem_nome",
+      "nome": "Estilo Sem Nome",
+      "escola": "deus_do_norte",
+      "rank": "rei",
+      "efeito": "Copia uma técnica que acabou de ver ser usada (de qualquer escola, até rank Santo) e a usa uma vez neste combate.",
+      "custo": "5 mana",
+      "requisitos": [
+        "rank Rei no Estilo Deus do Norte",
+        "técnica lendária: só ensinada por um mestre vivo do rank, ou descoberta num evento extraordinário",
+        "aura de batalha desperta"
+      ],
+      "requisitos_tecnicas": []
+    },
+    {
+      "id": "o_ultimo_truque",
+      "nome": "O Último Truque",
+      "escola": "deus_do_norte",
+      "rank": "imperador",
+      "efeito": "Sobrevive a um golpe que o mataria, com 1 PV, e faz um ataque que acerta automaticamente.",
+      "custo": "1 por vida",
+      "requisitos": [
+        "rank Imperador no Estilo Deus do Norte",
+        "técnica lendária: só ensinada por um mestre vivo do rank, ou descoberta num evento extraordinário",
+        "aura de batalha desperta"
+      ],
+      "requisitos_tecnicas": []
+    }
+  ]
+}

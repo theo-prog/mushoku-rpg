@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Técnicas dos estilos de espada",
+  "type": "object",
+  "properties": {
+    "tecnicas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]+$"
+          },
+          "nome": {
+            "type": "string",
+            "minLength": 1
+          },
+          "escola": {
+            "enum": [
+              "deus_da_espada",
+              "deus_da_agua",
+              "deus_do_norte"
+            ]
+          },
+          "rank": {
+            "enum": [
+              "iniciante",
+              "intermediario",
+              "avancado",
+              "santo",
+              "rei",
+              "imperador",
+              "deus"
+            ]
+          },
+          "efeito": {
+            "type": "string",
+            "minLength": 1
+          },
+          "custo": {
+            "type": "string",
+            "minLength": 1
+          },
+          "requisitos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "requisitos_tecnicas": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z0-9_]+$"
+            }
+          }
+        },
+        "required": [
+          "id",
+          "nome",
+          "escola",
+          "rank",
+          "efeito",
+          "custo",
+          "requisitos"
+        ]
+      },
+      "minItems": 1
+    },
+    "escolas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "enum": [
+              "deus_da_espada",
+              "deus_da_agua",
+              "deus_do_norte"
+            ]
+          },
+          "nome": {
+            "type": "string",
+            "minLength": 1
+          },
+          "filosofia": {
+            "type": "string",
+            "minLength": 1
+          },
+          "forte_contra": {
+            "type": "string"
+          },
+          "fraco_contra": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "nome",
+          "filosofia",
+          "forte_contra",
+          "fraco_contra"
+        ]
+      }
+    }
+  },
+  "required": [
+    "tecnicas"
+  ]
+}

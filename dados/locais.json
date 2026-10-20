@@ -1,0 +1,923 @@
+{
+  "versao": 1,
+  "observacao": "Tempos de viagem desta campanha. Atravessar continentes leva meses.",
+  "locais": [
+    {
+      "id": "brisaclara",
+      "nome": "Brisaclara",
+      "continente": "central",
+      "regiao": "Fittoa, Reino de Asura",
+      "tipo": "aldeia",
+      "descricao": "Aldeia de trigo e macieiras às margens do rio Lenne, a três dias de Velmora. Moinho, templo pequeno de Millis, festival da colheita no fim de Colheita. Todos se conhecem; ninguém tranca a porta.",
+      "perigo": 1,
+      "faccao_controle": "reino_asura",
+      "rotas": [
+        {
+          "destino": "velmora",
+          "meio": "a pé / carroça",
+          "dias": 3,
+          "perigo": 1
+        }
+      ],
+      "ganchos": [
+        "O rio corre para o oeste.",
+        "O velho moinho tem um porão que as crianças juram ser assombrado."
+      ]
+    },
+    {
+      "id": "velmora",
+      "nome": "Velmora",
+      "continente": "central",
+      "regiao": "fronteira norte de Asura",
+      "tipo": "cidade",
+      "descricao": "Cidade murada de fronteira entre Asura e a Região dos Conflitos: guarnição, posto da Guilda, mercado de refugiados, templo de Millis com sino novo (o antigo rachou na Noite Muda). Cerca de 6 mil habitantes.",
+      "perigo": 3,
+      "faccao_controle": "reino_asura",
+      "rotas": [
+        {
+          "destino": "brisaclara",
+          "meio": "a pé / carroça",
+          "dias": 3,
+          "perigo": 1
+        },
+        {
+          "destino": "vau_cinzento",
+          "meio": "a pé / carroça",
+          "dias": 4,
+          "perigo": 3
+        },
+        {
+          "destino": "ars",
+          "meio": "carroça pela estrada real",
+          "dias": 25,
+          "perigo": 2
+        },
+        {
+          "destino": "regiao_conflitos",
+          "meio": "a pé / carroça",
+          "dias": 6,
+          "perigo": 6
+        }
+      ],
+      "ganchos": [
+        "Quadro da Guilda cheio de missões sobre desaparecidos.",
+        "Os sinos de vigília tocam a cada hora da noite."
+      ]
+    },
+    {
+      "id": "vau_cinzento",
+      "nome": "Estrada do Vau Cinzento",
+      "continente": "central",
+      "regiao": "entre Velmora e Ars",
+      "tipo": "estrada",
+      "descricao": "Estrada de carroças que cruza o vau de um rio largo e raso, ladeada de salgueiros. Posto de pedágio abandonado.",
+      "perigo": 4,
+      "faccao_controle": null,
+      "rotas": [
+        {
+          "destino": "velmora",
+          "meio": "a pé / carroça",
+          "dias": 4,
+          "perigo": 3
+        },
+        {
+          "destino": "ars",
+          "meio": "carroça",
+          "dias": 22,
+          "perigo": 3,
+          "notas": "estrada real"
+        }
+      ],
+      "ganchos": [
+        "Carroças paradas, intactas, com os condutores sentados."
+      ]
+    },
+    {
+      "id": "ars",
+      "nome": "Ars",
+      "continente": "central",
+      "regiao": "Reino de Asura",
+      "tipo": "capital",
+      "descricao": "Capital de Asura: palácios brancos, canais, a maior concentração de riqueza do mundo humano e as piores favelas do reino a menos de um quilômetro deles. Barreira de rank Rei sobre a cidade.",
+      "perigo": 2,
+      "faccao_controle": "reino_asura",
+      "rotas": [
+        {
+          "destino": "vau_cinzento",
+          "meio": "carroça",
+          "dias": 22,
+          "perigo": 3,
+          "notas": "estrada real"
+        },
+        {
+          "destino": "velmora",
+          "meio": "carroça pela estrada real",
+          "dias": 25,
+          "perigo": 2
+        },
+        {
+          "destino": "montanhas_dragao_vermelho",
+          "meio": "carroça",
+          "dias": 30,
+          "perigo": 4
+        },
+        {
+          "destino": "cais_morrowell",
+          "meio": "carroça",
+          "dias": 20,
+          "perigo": 3
+        },
+        {
+          "destino": "santuario_espada",
+          "meio": "caravana",
+          "dias": 60,
+          "perigo": 4,
+          "notas": "estrada do norte"
+        }
+      ],
+      "ganchos": [
+        "O rei não aparece na sacada há meses.",
+        "Bailes da nobreza toda semana, como se nada acontecesse."
+      ]
+    },
+    {
+      "id": "regiao_conflitos",
+      "nome": "Região dos Conflitos",
+      "continente": "central",
+      "regiao": "Região dos Conflitos",
+      "tipo": "regiao",
+      "descricao": "Colcha de reinos minúsculos em guerra quase constante. Estradas ruins, pedágios de bandidos, aldeias queimadas e reconstruídas.",
+      "perigo": 6,
+      "faccao_controle": null,
+      "rotas": [
+        {
+          "destino": "velmora",
+          "meio": "a pé / carroça",
+          "dias": 6,
+          "perigo": 6
+        },
+        {
+          "destino": "vel_garran",
+          "meio": "a pé / carroça",
+          "dias": 6,
+          "perigo": 6
+        }
+      ],
+      "ganchos": [
+        "Mercenários desertores",
+        "Colunas de Ocos atravessam à noite"
+      ]
+    },
+    {
+      "id": "vel_garran",
+      "nome": "Vel Garran",
+      "continente": "central",
+      "regiao": "Região dos Conflitos",
+      "tipo": "cidade",
+      "descricao": "Cidade mercenária sem rei, governada por um conselho de capitães e pela Guilda. Tudo se compra, inclusive gente.",
+      "perigo": 5,
+      "faccao_controle": "guilda_aventureiros",
+      "rotas": [
+        {
+          "destino": "regiao_conflitos",
+          "meio": "a pé / carroça",
+          "dias": 6,
+          "perigo": 6
+        },
+        {
+          "destino": "shirone",
+          "meio": "caravana",
+          "dias": 40,
+          "perigo": 5
+        },
+        {
+          "destino": "sharia",
+          "meio": "caravana",
+          "dias": 70,
+          "perigo": 5,
+          "notas": "longa e fria no fim"
+        },
+        {
+          "destino": "montanhas_dragao_vermelho",
+          "meio": "caravana com guia",
+          "dias": 30,
+          "perigo": 7
+        }
+      ],
+      "ganchos": [
+        "Mercado de escravos",
+        "Arena de duelos ilegais pelo título vago"
+      ]
+    },
+    {
+      "id": "montanhas_dragao_vermelho",
+      "nome": "Montanhas do Dragão Vermelho",
+      "continente": "central",
+      "regiao": "cordilheira",
+      "tipo": "montanha",
+      "descricao": "Picos de pedra avermelhada com ninhos de dragões vermelhos. O Passo Vermelho é o único caminho seguro, e não é seguro.",
+      "perigo": 8,
+      "faccao_controle": null,
+      "rotas": [
+        {
+          "destino": "vel_garran",
+          "meio": "caravana com guia",
+          "dias": 30,
+          "perigo": 7
+        },
+        {
+          "destino": "porto_rei_dragao",
+          "meio": "a pé / carroça pelo Passo Vermelho",
+          "dias": 30,
+          "perigo": 8,
+          "notas": "dragões vermelhos"
+        },
+        {
+          "destino": "ars",
+          "meio": "carroça",
+          "dias": 30,
+          "perigo": 4
+        }
+      ],
+      "ganchos": [
+        "Guias cobram adiantado e às vezes somem."
+      ]
+    },
+    {
+      "id": "porto_rei_dragao",
+      "nome": "Porto do Rei Dragão",
+      "continente": "central",
+      "regiao": "Reino do Rei Dragão",
+      "tipo": "porto",
+      "descricao": "Grande porto ao sul das montanhas, portão para Millis pelo estreito. Cheio de refugiados e de navios caros.",
+      "perigo": 3,
+      "faccao_controle": "reino_rei_dragao",
+      "rotas": [
+        {
+          "destino": "montanhas_dragao_vermelho",
+          "meio": "a pé / carroça pelo Passo Vermelho",
+          "dias": 30,
+          "perigo": 8,
+          "notas": "dragões vermelhos"
+        },
+        {
+          "destino": "porto_leste",
+          "meio": "navio pelo estreito",
+          "dias": 7,
+          "perigo": 3,
+          "notas": "passagem 5 prata"
+        },
+        {
+          "destino": "rapan",
+          "meio": "navio e caravana",
+          "dias": 45,
+          "perigo": 6,
+          "notas": "[desta realidade]"
+        },
+        {
+          "destino": "mar_ringus",
+          "meio": "navio",
+          "dias": 14,
+          "perigo": 6
+        }
+      ],
+      "ganchos": [
+        "Refugiados Sem-Sonho esperando passagem para Millis ou para o Continente Demoníaco."
+      ]
+    },
+    {
+      "id": "shirone",
+      "nome": "Shirone",
+      "continente": "central",
+      "regiao": "Reino de Shirone",
+      "tipo": "capital",
+      "descricao": "Capital de um reino pequeno e orgulhoso, de corte rígida.",
+      "perigo": 2,
+      "faccao_controle": "reino_shirone",
+      "rotas": [
+        {
+          "destino": "vel_garran",
+          "meio": "caravana",
+          "dias": 40,
+          "perigo": 5
+        },
+        {
+          "destino": "sharia",
+          "meio": "caravana",
+          "dias": 35,
+          "perigo": 4
+        }
+      ],
+      "ganchos": [
+        "A corte recruta jovens magos e paga bem por Sem-Sonho."
+      ]
+    },
+    {
+      "id": "sharia",
+      "nome": "Sharia",
+      "continente": "central",
+      "regiao": "Reino de Ranoa (Três Nações Mágicas)",
+      "tipo": "academia",
+      "descricao": "Cidade universitária fria e cheia de vida, dominada pela Universidade de Magia. Estudantes de todas as raças, livrarias, tavernas baratas.",
+      "perigo": 2,
+      "faccao_controle": "universidade_ranoa",
+      "rotas": [
+        {
+          "destino": "vel_garran",
+          "meio": "caravana",
+          "dias": 70,
+          "perigo": 5,
+          "notas": "longa e fria no fim"
+        },
+        {
+          "destino": "shirone",
+          "meio": "caravana",
+          "dias": 35,
+          "perigo": 4
+        },
+        {
+          "destino": "santuario_espada",
+          "meio": "caravana",
+          "dias": 45,
+          "perigo": 5,
+          "notas": "neve no inverno"
+        },
+        {
+          "destino": "rapan",
+          "meio": "caravana pelo deserto do nordeste",
+          "dias": 90,
+          "perigo": 7,
+          "notas": "[desta realidade]"
+        }
+      ],
+      "ganchos": [
+        "Ala restrita de pesquisa sobre Sem-Sonho",
+        "Alunos que somem e reaparecem quietos demais"
+      ]
+    },
+    {
+      "id": "santuario_espada",
+      "nome": "Santuário da Espada",
+      "continente": "central",
+      "regiao": "Terras do Norte",
+      "tipo": "santuario",
+      "descricao": "Complexo de dojôs e pátios de pedra entre pinheiros e neve, sede do Estilo Deus da Espada.",
+      "perigo": 4,
+      "faccao_controle": "santuario_espada",
+      "rotas": [
+        {
+          "destino": "ars",
+          "meio": "caravana",
+          "dias": 60,
+          "perigo": 4,
+          "notas": "estrada do norte"
+        },
+        {
+          "destino": "sharia",
+          "meio": "caravana",
+          "dias": 45,
+          "perigo": 5,
+          "notas": "neve no inverno"
+        }
+      ],
+      "ganchos": [
+        "A ponte onde Aldric Faust morreu fica a meio dia daqui."
+      ]
+    },
+    {
+      "id": "cais_morrowell",
+      "nome": "Cais de Morrowell",
+      "continente": "central",
+      "regiao": "costa de Ringus",
+      "tipo": "porto",
+      "descricao": "Vila portuária de pescadores que virou base de expedições para a ilha invertida. Daqui, em dias limpos, se vê a ilha no horizonte. Os sinos se ouvem à noite.",
+      "perigo": 5,
+      "faccao_controle": "guilda_aventureiros",
+      "rotas": [
+        {
+          "destino": "ars",
+          "meio": "carroça",
+          "dias": 20,
+          "perigo": 3
+        },
+        {
+          "destino": "mar_ringus",
+          "meio": "navio",
+          "dias": 5,
+          "perigo": 5
+        }
+      ],
+      "ganchos": [
+        "A Guilda paga fortunas por tripulantes",
+        "Os Acordados rezam no cais"
+      ]
+    },
+    {
+      "id": "porto_do_vento",
+      "nome": "Porto do Vento",
+      "continente": "demoniaco",
+      "regiao": "costa oeste do Continente Demoníaco",
+      "tipo": "porto",
+      "descricao": "Porto de pedra negra batido por ventos constantes. Primeira parada de quem chega de Millis.",
+      "perigo": 5,
+      "faccao_controle": null,
+      "rotas": [
+        {
+          "destino": "porto_zant",
+          "meio": "navio",
+          "dias": 10,
+          "perigo": 5,
+          "notas": "travessia oceânica 3–8 ouro"
+        },
+        {
+          "destino": "rikarisu",
+          "meio": "caravana",
+          "dias": 40,
+          "perigo": 6
+        }
+      ],
+      "ganchos": [
+        "Contrabando de Sem-Sonho para a Garra Negra."
+      ]
+    },
+    {
+      "id": "rikarisu",
+      "nome": "Rikarisu",
+      "continente": "demoniaco",
+      "regiao": "Continente Demoníaco",
+      "tipo": "cidade",
+      "descricao": "Cidade-fortaleza demoníaca, uma das poucas grandes do continente. Mercado de tudo, guilda ativa.",
+      "perigo": 5,
+      "faccao_controle": null,
+      "rotas": [
+        {
+          "destino": "porto_do_vento",
+          "meio": "caravana",
+          "dias": 40,
+          "perigo": 6
+        },
+        {
+          "destino": "ermos_gaslan",
+          "meio": "a pé",
+          "dias": 25,
+          "perigo": 7
+        },
+        {
+          "destino": "garra_negra",
+          "meio": "caravana",
+          "dias": 50,
+          "perigo": 8
+        }
+      ],
+      "ganchos": [
+        "Recrutadores da Imperatriz e do Rei Gorzhak disputam os mesmos refugiados."
+      ]
+    },
+    {
+      "id": "ermos_gaslan",
+      "nome": "Ermos de Gaslan",
+      "continente": "demoniaco",
+      "regiao": "Continente Demoníaco",
+      "tipo": "regiao",
+      "descricao": "Planalto de rocha e cinza, monstros fortes, aldeias escondidas em cânions.",
+      "perigo": 7,
+      "faccao_controle": null,
+      "rotas": [
+        {
+          "destino": "rikarisu",
+          "meio": "a pé",
+          "dias": 25,
+          "perigo": 7
+        },
+        {
+          "destino": "fortaleza_nevoa",
+          "meio": "a pé",
+          "dias": 30,
+          "perigo": 7
+        },
+        {
+          "destino": "aldeia_superd",
+          "meio": "a pé, com guia",
+          "dias": 15,
+          "perigo": 7,
+          "notas": "só se entra guiado"
+        }
+      ],
+      "ganchos": [
+        "Rumores de Superd vivendo nos cânions."
+      ]
+    },
+    {
+      "id": "fortaleza_nevoa",
+      "nome": "Fortaleza da Névoa",
+      "continente": "demoniaco",
+      "regiao": "domínio da Imperatriz Velhvaria",
+      "tipo": "fortaleza",
+      "descricao": "Castelo envolto em névoa perpétua sobre um lago escuro. Refúgio declarado para Sem-Sonho.",
+      "perigo": 4,
+      "faccao_controle": "imperio_nevoa",
+      "rotas": [
+        {
+          "destino": "ermos_gaslan",
+          "meio": "a pé",
+          "dias": 30,
+          "perigo": 7
+        }
+      ],
+      "ganchos": [
+        "A Imperatriz recebe pessoalmente cada Sem-Sonho que chega."
+      ]
+    },
+    {
+      "id": "garra_negra",
+      "nome": "Garra Negra",
+      "continente": "demoniaco",
+      "regiao": "domínio do Rei Demônio Gorzhak",
+      "tipo": "fortaleza",
+      "descricao": "Fortaleza escavada num pico em forma de garra. Ninguém que entra como prisioneiro sai.",
+      "perigo": 8,
+      "faccao_controle": "dominio_gorzhak",
+      "rotas": [
+        {
+          "destino": "rikarisu",
+          "meio": "caravana",
+          "dias": 50,
+          "perigo": 8
+        }
+      ],
+      "ganchos": [
+        "Crianças Sem-Sonho compradas e levadas para os níveis de baixo."
+      ]
+    },
+    {
+      "id": "aldeia_superd",
+      "nome": "Aldeia escondida dos Superd",
+      "continente": "demoniaco",
+      "regiao": "cânions de Gaslan",
+      "tipo": "aldeia",
+      "descricao": "Algumas dezenas de Superd exilados vivendo num cânion oculto. Só se entra guiado.",
+      "perigo": 6,
+      "faccao_controle": null,
+      "rotas": [
+        {
+          "destino": "ermos_gaslan",
+          "meio": "a pé, com guia",
+          "dias": 15,
+          "perigo": 7,
+          "notas": "só se entra guiado"
+        }
+      ],
+      "ganchos": [
+        "Os anciões lembram de coisas da Guerra de Laplace."
+      ]
+    },
+    {
+      "id": "porto_zant",
+      "nome": "Porto Zant",
+      "continente": "millis",
+      "regiao": "costa leste de Millis",
+      "tipo": "porto",
+      "descricao": "Porto de Millis voltado ao Continente Demoníaco. Inspeção da Igreja em todo navio.",
+      "perigo": 3,
+      "faccao_controle": "igreja_millis",
+      "rotas": [
+        {
+          "destino": "millishion",
+          "meio": "carroça",
+          "dias": 25,
+          "perigo": 2
+        },
+        {
+          "destino": "porto_do_vento",
+          "meio": "navio",
+          "dias": 10,
+          "perigo": 5,
+          "notas": "travessia oceânica 3–8 ouro"
+        },
+        {
+          "destino": "mar_ringus",
+          "meio": "navio",
+          "dias": 15,
+          "perigo": 6
+        }
+      ],
+      "ganchos": [
+        "Inquisidores verificam crianças a bordo."
+      ]
+    },
+    {
+      "id": "porto_leste",
+      "nome": "Porto Leste",
+      "continente": "millis",
+      "regiao": "costa norte de Millis",
+      "tipo": "porto",
+      "descricao": "Porto de Millis do outro lado do estreito, de frente para o Porto do Rei Dragão.",
+      "perigo": 2,
+      "faccao_controle": "igreja_millis",
+      "rotas": [
+        {
+          "destino": "porto_rei_dragao",
+          "meio": "navio pelo estreito",
+          "dias": 7,
+          "perigo": 3,
+          "notas": "passagem 5 prata"
+        },
+        {
+          "destino": "millishion",
+          "meio": "carroça",
+          "dias": 30,
+          "perigo": 2
+        }
+      ],
+      "ganchos": [
+        "Fila de refugiados do Central."
+      ]
+    },
+    {
+      "id": "millishion",
+      "nome": "Millishion",
+      "continente": "millis",
+      "regiao": "Sagrado Reino de Millis",
+      "tipo": "capital",
+      "descricao": "Capital sagrada: catedrais brancas, lagos espelhados, procissões diárias. Sede do Concílio.",
+      "perigo": 2,
+      "faccao_controle": "igreja_millis",
+      "rotas": [
+        {
+          "destino": "porto_leste",
+          "meio": "carroça",
+          "dias": 30,
+          "perigo": 2
+        },
+        {
+          "destino": "grande_floresta",
+          "meio": "carroça / a pé",
+          "dias": 20,
+          "perigo": 3
+        },
+        {
+          "destino": "porto_zant",
+          "meio": "carroça",
+          "dias": 25,
+          "perigo": 2
+        }
+      ],
+      "ganchos": [
+        "O Concílio decidirá o destino dos Sem-Sonho."
+      ]
+    },
+    {
+      "id": "grande_floresta",
+      "nome": "Grande Floresta (borda)",
+      "continente": "millis",
+      "regiao": "Grande Floresta",
+      "tipo": "floresta",
+      "descricao": "Borda da floresta de árvores colossais. Acampamentos de refugiados humanos implorando abrigo; patrulhas de povos-fera.",
+      "perigo": 4,
+      "faccao_controle": "povos_fera",
+      "rotas": [
+        {
+          "destino": "millishion",
+          "meio": "carroça / a pé",
+          "dias": 20,
+          "perigo": 3
+        },
+        {
+          "destino": "coracao_floresta",
+          "meio": "a pé, com guia povo-fera",
+          "dias": 8,
+          "perigo": 4,
+          "notas": "proibido sem permissão"
+        }
+      ],
+      "ganchos": [
+        "Os Ocos param aqui e não entram.",
+        "As patrulhas nunca dormem sozinhas."
+      ]
+    },
+    {
+      "id": "coracao_floresta",
+      "nome": "Coração da Floresta",
+      "continente": "millis",
+      "regiao": "Grande Floresta",
+      "tipo": "santuario",
+      "descricao": "Clareira sagrada sob a maior árvore do mundo. Proibida a forasteiros. Os anciões fazem turnos de canto noite e dia.",
+      "perigo": 3,
+      "faccao_controle": "povos_fera",
+      "rotas": [
+        {
+          "destino": "grande_floresta",
+          "meio": "a pé, com guia povo-fera",
+          "dias": 8,
+          "perigo": 4,
+          "notas": "proibido sem permissão"
+        }
+      ],
+      "ganchos": [
+        "Algo é guardado entre as raízes."
+      ]
+    },
+    {
+      "id": "rapan",
+      "nome": "Rapan",
+      "continente": "begaritt",
+      "regiao": "Deserto de Begaritt",
+      "tipo": "cidade",
+      "descricao": "Cidade-oásis de labirintos: vive de exploradores, guias e mercadores de pedras mágicas.",
+      "perigo": 5,
+      "faccao_controle": null,
+      "rotas": [
+        {
+          "destino": "porto_rei_dragao",
+          "meio": "navio e caravana",
+          "dias": 45,
+          "perigo": 6,
+          "notas": "[desta realidade]"
+        },
+        {
+          "destino": "sharia",
+          "meio": "caravana pelo deserto do nordeste",
+          "dias": 90,
+          "perigo": 7,
+          "notas": "[desta realidade]"
+        },
+        {
+          "destino": "labirinto_mil_gargantas",
+          "meio": "a pé",
+          "dias": 4,
+          "perigo": 7
+        },
+        {
+          "destino": "penhasco_celeste",
+          "meio": "caravana e escalada",
+          "dias": 60,
+          "perigo": 8,
+          "notas": "[desta realidade]"
+        }
+      ],
+      "ganchos": [
+        "Guias que perderam parties inteiras e voltaram sozinhos."
+      ]
+    },
+    {
+      "id": "labirinto_mil_gargantas",
+      "nome": "Labirinto das Mil Gargantas",
+      "continente": "begaritt",
+      "regiao": "Deserto de Begaritt",
+      "tipo": "labirinto",
+      "descricao": "Um dos labirintos mais antigos e fundos conhecidos. Ninguém sabe onde fica o núcleo.",
+      "perigo": 9,
+      "faccao_controle": null,
+      "rotas": [
+        {
+          "destino": "rapan",
+          "meio": "a pé",
+          "dias": 4,
+          "perigo": 7
+        }
+      ],
+      "ganchos": [
+        "Os níveis mais fundos têm inscrições das Seis Faces.",
+        "O Deus Técnico foi visto entrando."
+      ]
+    },
+    {
+      "id": "penhasco_celeste",
+      "nome": "Penhasco Celeste",
+      "continente": "celestial",
+      "regiao": "Continente Celestial",
+      "tipo": "cidade",
+      "descricao": "Cidade da raça celestial na borda do planalto, ligada ao mundo de baixo por elevadores de corda e penhascos de escalada mortal.",
+      "perigo": 4,
+      "faccao_controle": null,
+      "rotas": [
+        {
+          "destino": "rapan",
+          "meio": "caravana e escalada",
+          "dias": 60,
+          "perigo": 8,
+          "notas": "[desta realidade]"
+        },
+        {
+          "destino": "biblioteca_ventos",
+          "meio": "voo / caminhada",
+          "dias": 10,
+          "perigo": 3
+        }
+      ],
+      "ganchos": [
+        "Os celestiais não recebem forasteiros sem convite."
+      ]
+    },
+    {
+      "id": "biblioteca_ventos",
+      "nome": "Biblioteca dos Ventos",
+      "continente": "celestial",
+      "regiao": "Continente Celestial",
+      "tipo": "ruina",
+      "descricao": "Torre de arquivos antiquíssimos que o vento folheia sozinho. Guarda registros da Era das Seis Faces.",
+      "perigo": 3,
+      "faccao_controle": null,
+      "rotas": [
+        {
+          "destino": "penhasco_celeste",
+          "meio": "voo / caminhada",
+          "dias": 10,
+          "perigo": 3
+        }
+      ],
+      "ganchos": [
+        "Um mapa de uma 'face que não tinha céu'."
+      ]
+    },
+    {
+      "id": "mar_ringus",
+      "nome": "Mar de Ringus",
+      "continente": "mar_ringus",
+      "regiao": "Mar de Ringus",
+      "tipo": "mar",
+      "descricao": "Mar aberto de correntes traiçoeiras e monstros. Desde a Noite Muda, os peixes evitam a região sob a ilha.",
+      "perigo": 6,
+      "faccao_controle": null,
+      "rotas": [
+        {
+          "destino": "cais_morrowell",
+          "meio": "navio",
+          "dias": 5,
+          "perigo": 5
+        },
+        {
+          "destino": "ilha_invertida",
+          "meio": "navio",
+          "dias": 12,
+          "perigo": 10,
+          "notas": "nenhuma expedição voltou inteira"
+        },
+        {
+          "destino": "recife_nerith",
+          "meio": "navio",
+          "dias": 4,
+          "perigo": 4
+        },
+        {
+          "destino": "porto_zant",
+          "meio": "navio",
+          "dias": 15,
+          "perigo": 6
+        },
+        {
+          "destino": "porto_rei_dragao",
+          "meio": "navio",
+          "dias": 14,
+          "perigo": 6
+        }
+      ],
+      "ganchos": [
+        "Botes à deriva, vazios."
+      ]
+    },
+    {
+      "id": "recife_nerith",
+      "nome": "Recife de Nerith",
+      "continente": "mar_ringus",
+      "regiao": "Mar de Ringus",
+      "tipo": "aldeia",
+      "descricao": "Assentamento da raça do mar num recife de coral, metade submerso. Comércio com quem respeitar o mar.",
+      "perigo": 4,
+      "faccao_controle": null,
+      "rotas": [
+        {
+          "destino": "mar_ringus",
+          "meio": "navio",
+          "dias": 4,
+          "perigo": 4
+        }
+      ],
+      "ganchos": [
+        "Os sacerdotes do recife cantam para a ilha toda noite."
+      ]
+    },
+    {
+      "id": "ilha_invertida",
+      "nome": "Ilha invertida",
+      "continente": "mar_ringus",
+      "regiao": "céu sobre o Mar de Ringus",
+      "tipo": "ilha",
+      "descricao": "Ilha suspensa de cabeça para baixo sobre o mar, raízes de pedra para cima e torres para baixo. Desce alguns metros por ano. Sinos.",
+      "perigo": 10,
+      "faccao_controle": null,
+      "rotas": [
+        {
+          "destino": "mar_ringus",
+          "meio": "navio",
+          "dias": 12,
+          "perigo": 10,
+          "notas": "nenhuma expedição voltou inteira"
+        }
+      ],
+      "ganchos": [
+        "Nenhuma expedição voltou inteira."
+      ]
+    }
+  ]
+}

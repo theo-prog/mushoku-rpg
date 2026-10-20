@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Bestiário",
+  "type": "object",
+  "properties": {
+    "monstros": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]+$"
+          },
+          "nome": {
+            "type": "string",
+            "minLength": 1
+          },
+          "continentes": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "central",
+                "demoniaco",
+                "millis",
+                "begaritt",
+                "celestial",
+                "mar_ringus",
+                "qualquer"
+              ]
+            },
+            "minItems": 1
+          },
+          "locais": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z0-9_]+$"
+            }
+          },
+          "habitat": {
+            "type": "string",
+            "minLength": 1
+          },
+          "rank_ameaca": {
+            "enum": [
+              "F",
+              "E",
+              "D",
+              "C",
+              "B",
+              "A",
+              "S",
+              "SS"
+            ]
+          },
+          "pv": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "defesa": {
+            "type": "integer"
+          },
+          "ataque": {
+            "type": "integer"
+          },
+          "dano": {
+            "type": "string",
+            "minLength": 1
+          },
+          "mana": {
+            "type": "integer"
+          },
+          "habilidades": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "fraquezas": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "comportamento": {
+            "type": "string",
+            "minLength": 1
+          },
+          "recompensa": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ligado_crise": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "nome",
+          "continentes",
+          "locais",
+          "habitat",
+          "rank_ameaca",
+          "pv",
+          "defesa",
+          "ataque",
+          "dano",
+          "mana",
+          "habilidades",
+          "fraquezas",
+          "comportamento",
+          "recompensa",
+          "ligado_crise"
+        ]
+      },
+      "minItems": 40
+    }
+  },
+  "required": [
+    "monstros"
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NPCs",
+  "type": "object",
+  "properties": {
+    "npcs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]+$"
+          },
+          "nome": {
+            "type": "string",
+            "minLength": 1
+          },
+          "raca": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]+$"
+          },
+          "idade": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "rank": {
+            "type": "string",
+            "minLength": 1
+          },
+          "faccao_id": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[a-z0-9_]*$"
+          },
+          "local_atual": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[a-z0-9_]*$"
+          },
+          "atitude": {
+            "type": "integer",
+            "minimum": -100,
+            "maximum": 100
+          },
+          "personalidade": {
+            "type": "string",
+            "minLength": 1
+          },
+          "voz": {
+            "type": "string",
+            "minLength": 1
+          },
+          "frase_caracteristica": {
+            "type": "string",
+            "minLength": 1
+          },
+          "objetivos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1
+          },
+          "segredos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1
+          },
+          "oco": {
+            "type": "boolean"
+          },
+          "conhecido_pelo_jogador": {
+            "type": "boolean"
+          },
+          "status": {
+            "enum": [
+              "vivo",
+              "morto",
+              "desaparecido",
+              "oco",
+              "preso",
+              "adormecido"
+            ]
+          },
+          "papel": {
+            "type": "string"
+          },
+          "notas": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "nome",
+          "raca",
+          "idade",
+          "rank",
+          "faccao_id",
+          "local_atual",
+          "atitude",
+          "personalidade",
+          "voz",
+          "frase_caracteristica",
+          "objetivos",
+          "segredos",
+          "oco",
+          "conhecido_pelo_jogador",
+          "status"
+        ]
+      },
+      "minItems": 50
+    }
+  },
+  "required": [
+    "npcs"
+  ]
+}

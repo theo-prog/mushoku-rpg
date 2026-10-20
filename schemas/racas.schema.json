@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Raças",
+  "type": "object",
+  "properties": {
+    "racas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]+$"
+          },
+          "nome": {
+            "type": "string",
+            "minLength": 1
+          },
+          "grupo": {
+            "enum": [
+              "humano",
+              "demonio",
+              "povo_fera",
+              "elfo",
+              "anao",
+              "halfling",
+              "celestial",
+              "mar",
+              "dragao",
+              "misto"
+            ]
+          },
+          "continentes": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "central",
+                "demoniaco",
+                "millis",
+                "begaritt",
+                "celestial",
+                "mar_ringus",
+                "qualquer"
+              ]
+            }
+          },
+          "longevidade": {
+            "type": "string",
+            "minLength": 1
+          },
+          "aparencia": {
+            "type": "string",
+            "minLength": 1
+          },
+          "cultura": {
+            "type": "string",
+            "minLength": 1
+          },
+          "modificadores": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "integer"
+            }
+          },
+          "tracos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "jogavel": {
+            "type": "boolean"
+          },
+          "preconceitos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "id",
+          "nome",
+          "grupo",
+          "continentes",
+          "longevidade",
+          "aparencia",
+          "cultura",
+          "modificadores",
+          "tracos",
+          "jogavel",
+          "preconceitos"
+        ]
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "racas"
+  ]
+}

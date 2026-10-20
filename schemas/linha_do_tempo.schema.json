@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Linha do tempo",
+  "type": "object",
+  "properties": {
+    "eventos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]+$"
+          },
+          "data_mundo": {
+            "type": "string",
+            "pattern": "^(\\d{4}-\\d{2}-\\d{2}|-?\\d{1,5}|era_antiga.*)$"
+          },
+          "titulo": {
+            "type": "string",
+            "minLength": 1
+          },
+          "descricao": {
+            "type": "string",
+            "minLength": 1
+          },
+          "local_id": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[a-z0-9_]*$"
+          },
+          "faccoes_envolvidas": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z0-9_]+$"
+            }
+          },
+          "relogio_id": {
+            "anyOf": [
+              {
+                "enum": [
+                  "descida",
+                  "coroa_silenciosa",
+                  "purificacao",
+                  "titulo_vago",
+                  "migracao"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "estagio": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 6
+          },
+          "status": {
+            "enum": [
+              "futuro",
+              "ocorrendo",
+              "ocorrido",
+              "evitado",
+              "alterado"
+            ]
+          },
+          "alteravel_pelo_jogador": {
+            "type": "boolean"
+          },
+          "consequencias": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "noticia_publica": {
+            "type": "string"
+          },
+          "depende_de": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z0-9_]+$"
+            }
+          },
+          "efeitos": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "tipo": {
+                  "enum": [
+                    "flag",
+                    "remover_flag",
+                    "npc_status",
+                    "npc_local",
+                    "faccao_poder",
+                    "faccao_atitude",
+                    "faccao_status"
+                  ]
+                }
+              },
+              "required": [
+                "tipo"
+              ]
+            }
+          },
+          "historico": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "data_mundo",
+          "titulo",
+          "descricao",
+          "local_id",
+          "faccoes_envolvidas",
+          "relogio_id",
+          "status",
+          "alteravel_pelo_jogador",
+          "consequencias"
+        ]
+      },
+      "minItems": 45
+    }
+  },
+  "required": [
+    "eventos"
+  ]
+}

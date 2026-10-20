@@ -1,0 +1,1171 @@
+{
+  "versao": 1,
+  "observacao": "Status: inativo/ativo/concluido/falhado/abandonado. Pistas registram onde cada revelação pode ser descoberta (regra das 3 pistas).",
+  "arcos": [
+    {
+      "id": "a1_manha_errada",
+      "titulo": "A Manhã Errada",
+      "ato": "I",
+      "tipo": "principal",
+      "gatilho": "Início da campanha: a cena de abertura da origem escolhida (Aldeia de fronteira, Nobreza de Asura, Aventureiro, Estudante de magia).",
+      "fases": [
+        {
+          "descricao": "Aldeia: Brisaclara amanhece com os adultos de pé no rio, olhando para o oeste; Hollis sussurra 'corra'. Nobreza: no baile em Ars, o pai ou a mãe parou de piscar. Aventureiro: na estrada do Vau Cinzento, dezenas de carroças paradas, condutores sentados, sorrindo, mortos há dias. Estudante: Elias Wren some em Sharia; as paredes do quarto têm um mapa impossível na letra do personagem.",
+          "objetivo": "Sobreviver ao primeiro horror e observar sem entender (mostrar, não explicar).",
+          "saidas_possiveis": [
+            "Fugir imediatamente",
+            "Investigar e descobrir uma regra (r3_observado ou r4_rotina)",
+            "Ser 'lembrado' por um Oco (ganha uma Marca)"
+          ]
+        },
+        {
+          "descricao": "A primeira noite depois do horror. Onde dormir? Com quem? Um sobrevivente (Hollis, um criado, Renna, Corin) oferece abrigo ou pede ajuda.",
+          "objetivo": "Atravessar a primeira noite e tomar uma decisão sobre para onde ir.",
+          "saidas_possiveis": [
+            "Seguir para Velmora (padrão)",
+            "Ficar e proteger alguém",
+            "Pedir ajuda a uma autoridade que não acredita"
+          ]
+        },
+        {
+          "descricao": "Caminho até Velmora (ou o ponto de convergência adaptado). Notícias de outros esvaziamentos; a Inquisição na estrada.",
+          "objetivo": "Chegar a Velmora antes de 0423-08-01.",
+          "saidas_possiveis": [
+            "Chega com um aliado",
+            "Chega ferido e sozinho",
+            "Chega já procurado"
+          ]
+        }
+      ],
+      "fase_atual": 0,
+      "pistas": [
+        {
+          "revelacao_id": "rev_vigilia",
+          "local_id": "brisaclara",
+          "descricao": "Hollis é o único adulto de Brisaclara que não foi para o rio: não dorme desde que a esposa morreu e passou a noite acordado na forja.",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_maren",
+          "local_id": "brisaclara",
+          "descricao": "Na casa paroquial de Brisaclara há um registro de 0410: 'uma curandeira chamada Maren trouxe uma menina povo-fera ferida; partiram antes do amanhecer'.",
+          "encontrada": false
+        }
+      ],
+      "npcs_chave": [
+        "hollis_varn",
+        "lena_varn",
+        "renna_kolt",
+        "dobbs_hale",
+        "elias_wren",
+        "corin_dale",
+        "lianna_asura"
+      ],
+      "recompensas": [
+        "Primeira regra dos Ocos descoberta",
+        "Um aliado da origem"
+      ],
+      "status": "inativo",
+      "ligacao_misterio": "Primeiro contato com os Ocos e com as regras deles."
+    },
+    {
+      "id": "a1_noite_dos_sinos",
+      "titulo": "A Noite dos Sinos",
+      "ato": "I",
+      "tipo": "principal",
+      "gatilho": "Evento evt_sinos_aniversario (0423-08-01): todas as origens convergem para Velmora (ou, com outra origem, para onde o personagem estiver).",
+      "fases": [
+        {
+          "descricao": "Velmora às vésperas do aniversário: refugiados, o quadro da Guilda, a Lanterna Torta. O personagem conhece Maren Vossk (que cura alguém na rua) e cruza com o Inquisidor Severin Lothair.",
+          "objetivo": "Encontrar abrigo, aliados e a mentora.",
+          "saidas_possiveis": [
+            "Maren adota o personagem",
+            "Severin nota o personagem",
+            "A Guilda oferece uma missão de Oco"
+          ]
+        },
+        {
+          "descricao": "A noite do aniversário: os sinos da ilha são ouvidos; os sinos de vigília da cidade tocam sozinhos. Pela manhã, a vila vizinha de Corrente-Mansa amanhece de pé, voltada para o sul.",
+          "objetivo": "Atravessar a noite e investigar a vila esvaziada com Maren (ou a Guilda).",
+          "saidas_possiveis": [
+            "Descobre r3_observado e r6_direcao",
+            "Alguém da party é 'lembrado'",
+            "Severin chega à vila ao mesmo tempo"
+          ]
+        },
+        {
+          "descricao": "Severin interroga sobreviventes e começa a procurar Sem-Sonho e 'ouvintes de vozes'. Ilse Marrow adia a ordem de Ars. Toma, Ysa e Grubb entram na história.",
+          "objetivo": "Escolher com quem se aliar e o que esconder.",
+          "saidas_possiveis": [
+            "Forma uma party",
+            "Entrega alguém à Inquisição",
+            "Foge de Velmora"
+          ]
+        }
+      ],
+      "fase_atual": 0,
+      "pistas": [
+        {
+          "revelacao_id": "rev_vigilia",
+          "local_id": "velmora",
+          "descricao": "O imediato de Ilse é Oco e só 'trabalha' no turno da noite, quando a capitã o vigia; e Ysa paga vizinhos para nunca deixarem o irmão sozinho.",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_noite_muda",
+          "local_id": "velmora",
+          "descricao": "Padre Aubin conta que todos os sinos da região racharam na Noite Muda e que um cardeal mandou recolher o bronze; os sinos novos foram fundidos com ele.",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_almas_vivas",
+          "local_id": "velmora",
+          "descricao": "Ysa confessa, bêbada, que sonha com o irmão Davin feliz, num lugar quente, pedindo que ela pare de 'segurar o corpo dele'.",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_maren",
+          "local_id": "velmora",
+          "descricao": "No quarto de Maren há uma carta inacabada que começa: 'Fui eu que tirei a menina da árvore...' (só a primeira linha está legível).",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_coroa",
+          "local_id": "velmora",
+          "descricao": "A ordem de Ars para entregar os Sem-Sonho tem o selo real, mas Ilse nota que a assinatura do rei é idêntica, traço por traço, à de uma ordem de 420.",
+          "encontrada": false
+        }
+      ],
+      "npcs_chave": [
+        "maren_vossk",
+        "severin_lothair",
+        "ilse_marrow",
+        "brann_okkle",
+        "padre_aubin",
+        "gerda_tolle",
+        "toma_ferrin",
+        "ysa_thornwell",
+        "grubb_pellam",
+        "davin_thornwell"
+      ],
+      "recompensas": [
+        "Mentora (Maren)",
+        "Party possível",
+        "Missão da Guilda",
+        "Inimigo (Severin)"
+      ],
+      "status": "inativo",
+      "ligacao_misterio": "Convergência; as regras dos Ocos começam a se revelar."
+    },
+    {
+      "id": "a1_vigilia_quebrada",
+      "titulo": "A Vigília Quebrada",
+      "ato": "I",
+      "tipo": "principal",
+      "gatilho": "Após a Noite dos Sinos: Maren decide treinar o personagem e tirá-lo de Velmora antes que Severin feche o cerco.",
+      "fases": [
+        {
+          "descricao": "Semanas de treino com Maren (cura, Deus da Água, sobrevivência, a 'mania' de vigiar o sono). Elipse com respiros: refeições, histórias, a pena de lince no cabelo dela.",
+          "objetivo": "Treinar e criar laço com a mentora.",
+          "saidas_possiveis": [
+            "Sobe um rank Iniciante→Intermediário",
+            "Descobre a regra da vigília com Maren",
+            "Maren se fecha quando perguntam do passado"
+          ]
+        },
+        {
+          "descricao": "Severin ganha apoio (decreto, cavaleiros). Uma armadilha ou denúncia (Gerda? Grubb?) expõe o personagem.",
+          "objetivo": "Escapar da Inquisição.",
+          "saidas_possiveis": [
+            "Fuga limpa",
+            "Fuga com ferido",
+            "Captura e resgate"
+          ]
+        },
+        {
+          "descricao": "Na fuga, Maren decide confessar. Na noite em que escreve a carta, dorme sozinha (ou o personagem pode vigiá-la). Se ninguém a vigia, amanhece Oco: sorri e pergunta quem vigia esta noite.",
+          "objetivo": "Fim do Ato I: perda de algo ou alguém.",
+          "saidas_possiveis": [
+            "Maren esvaziada (padrão)",
+            "Maren salva pela vigília, mas outra perda equivalente",
+            "O personagem decide para onde ir: Ars, Sharia, Millis ou Grande Floresta"
+          ]
+        }
+      ],
+      "fase_atual": 0,
+      "pistas": [
+        {
+          "revelacao_id": "rev_maren",
+          "local_id": "regiao_conflitos",
+          "descricao": "Na fuga, Maren delira de febre e chama alguém de 'menina lince'. Pede desculpas a ela.",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_hitogami",
+          "local_id": "regiao_conflitos",
+          "descricao": "Toma acerta três 'pressentimentos' seguidos sobre emboscadas: diz que 'alguém muito gentil' o avisa em sonho.",
+          "encontrada": false
+        }
+      ],
+      "npcs_chave": [
+        "maren_vossk",
+        "severin_lothair",
+        "toma_ferrin",
+        "ysa_thornwell",
+        "grubb_pellam"
+      ],
+      "recompensas": [
+        "Rank novo",
+        "A carta de Maren",
+        "Rumo do Ato II"
+      ],
+      "status": "inativo",
+      "ligacao_misterio": "Termina o Ato I. A perda de Maren (ou equivalente) é o motor do Ato II."
+    },
+    {
+      "id": "a2_os_que_cacam",
+      "titulo": "Os que Caçam o Sono",
+      "ato": "II",
+      "tipo": "principal",
+      "gatilho": "Início do Ato II, com o personagem em fuga e procurado. Asura, Ranoa e a Igreja querem o personagem.",
+      "fases": [
+        {
+          "descricao": "Recrutadores: Ashgrave (Projeto Vigília), Valcroix (Ordem da Vigília), Lucan Merrow (Shirone), bolsa de Ranoa. Cada oferta tem um preço oculto.",
+          "objetivo": "Escolher a quem servir, ou a ninguém.",
+          "saidas_possiveis": [
+            "Vai a Ars",
+            "Vai a Sharia",
+            "Recusa todos e vira alvo"
+          ]
+        },
+        {
+          "descricao": "Em Ars: a corte, o rei que não pisca, Lianna pedindo ajuda. Em Sharia: Dunmorrow, Anwen Tal, o porão dos alunos ocos.",
+          "objetivo": "Descobrir a verdade da instituição escolhida.",
+          "saidas_possiveis": [
+            "Expõe Dunmorrow",
+            "Ajuda Lianna a fugir",
+            "É usado pela instituição"
+          ]
+        },
+        {
+          "descricao": "Anos de viagem e treino (até Avançado/Santo) com Anwen, Kalvan Rhoss ou outro mentor; a voz gentil e a voz de baixo começam a falar com o personagem (ou com quem está perto dele).",
+          "objetivo": "Crescer e escolher o caminho para a Grande Floresta.",
+          "saidas_possiveis": [
+            "Treino completo",
+            "Ferimento grave",
+            "Perde um companheiro"
+          ]
+        }
+      ],
+      "fase_atual": 0,
+      "pistas": [
+        {
+          "revelacao_id": "rev_coroa",
+          "local_id": "ars",
+          "descricao": "Os criados do rei trocam de turno em pares e nunca o deixam sem que alguém o olhe; um copeiro conta que a sopa do rei esfria intocada quando ele fica só por um instante.",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_vigilia",
+          "local_id": "ars",
+          "descricao": "Os turnos ao redor do rei seguem exatamente a lógica da vigília: alguém sempre olhando, inclusive enquanto ele dorme.",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_sonhos_do_fundo",
+          "local_id": "sharia",
+          "descricao": "Os cadernos de Dunmorrow mostram que Sem-Sonho drogados para sonhar descrevem, sem se conhecer, o mesmo lugar: um mar de rostos dormindo sob uma escada.",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_dizimo",
+          "local_id": "sharia",
+          "descricao": "Medições de Anwen: a mana de pessoas comuns é mais baixa ao acordar do que ao deitar; a de Sem-Sonho não muda.",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_almas_vivas",
+          "local_id": "sharia",
+          "descricao": "Um aluno esvaziado no porão de Dunmorrow é iluminado por uma Luz Errante conjurada por um Sem-Sonho e, por um instante, o rosto dele aparece vazio e sorrindo para baixo.",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_dobradica",
+          "local_id": "sharia",
+          "descricao": "O mapa nas paredes do quarto de Elias (e, conforme a origem, na letra do personagem) é a planta de um templo onde as escadas descem para cima.",
+          "encontrada": false
+        }
+      ],
+      "npcs_chave": [
+        "corvin_ashgrave",
+        "morwen_valcroix",
+        "lianna_asura",
+        "edran_iii",
+        "kaspar_dunmorrow",
+        "anwen_tal",
+        "ilmara_fenwick",
+        "lucan_merrow",
+        "kalvan_rhoss",
+        "garmund_haskeld"
+      ],
+      "recompensas": [
+        "Ranks (Avançado/Santo)",
+        "Aliados poderosos",
+        "Inimigos poderosos"
+      ],
+      "status": "inativo",
+      "ligacao_misterio": "As facções caçando ou recrutando; o mistério ganha corpo."
+    },
+    {
+      "id": "a2_a_raiz",
+      "titulo": "A Raiz",
+      "ato": "II",
+      "tipo": "principal",
+      "gatilho": "O personagem chega à Grande Floresta, seguindo as pistas de que os Ocos não entram lá (ou a pena de lince de Maren).",
+      "fases": [
+        {
+          "descricao": "A borda: refugiados, Ocos parados na linha das árvores (após 0425-11), Fenn Garra-Cinza. Entrar exige jurar silêncio e vigília.",
+          "objetivo": "Ganhar permissão para entrar.",
+          "saidas_possiveis": [
+            "Fenn permite",
+            "Entra escondido",
+            "É expulso e precisa de outro caminho (Zaroc)"
+          ]
+        },
+        {
+          "descricao": "Dentro da floresta: ninguém dorme sozinho; a canção de ninar 'dorme tu, para que ele durma'; Haruul se recusa a falar.",
+          "objetivo": "Chegar ao Coração da Floresta.",
+          "saidas_possiveis": [
+            "Haruul conta o pacto",
+            "Fenn conta o pacto por raiva",
+            "O personagem vê Mio dormindo"
+          ]
+        },
+        {
+          "descricao": "A primeira grande revelação: a Raiz, a Noite Rasa, o dízimo, a mulher humana que levou a menina lince na Noite Muda. Fenn quer acordar Mio.",
+          "objetivo": "Decidir o que fazer com o pacto.",
+          "saidas_possiveis": [
+            "Proteger o pacto",
+            "Ajudar Fenn (outra Noite Muda)",
+            "Partir em busca da menina lince"
+          ]
+        }
+      ],
+      "fase_atual": 0,
+      "pistas": [
+        {
+          "revelacao_id": "rev_raiz",
+          "local_id": "grande_floresta",
+          "descricao": "As mães povos-fera cantam aos filhos: 'dorme tu, para que ele durma'; ninguém sabe dizer quem é 'ele'.",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_vigilia",
+          "local_id": "grande_floresta",
+          "descricao": "Patrulhas da borda dormem sempre em trios, um acordado; os Ocos param exatamente onde começa o canto.",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_raiz",
+          "local_id": "coracao_floresta",
+          "descricao": "Entre as raízes da Grande Árvore, uma criança dorme num ninho de musgo cercada de anciões que cantam em turnos.",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_dizimo",
+          "local_id": "coracao_floresta",
+          "descricao": "Haruul: 'A criança paga por todos. Enquanto ela dorme fundo, o resto do mundo dorme raso e paga pouco.'",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_noite_muda",
+          "local_id": "coracao_floresta",
+          "descricao": "Os anciões cantaram a noite inteira da Noite Muda porque a Raiz ficou vazia e precisaram pôr outra criança antes do amanhecer.",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_maren",
+          "local_id": "coracao_floresta",
+          "descricao": "Haruul descreve a ladra da Raiz: humana, curandeira, cabelo grisalho trançado com uma pena de lince.",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_nhiri",
+          "local_id": "coracao_floresta",
+          "descricao": "A criança roubada era da tribo Aulen, de traços de lince, extinta há séculos; o nome dela está gravado na raiz: Nhiri.",
+          "encontrada": false
+        }
+      ],
+      "npcs_chave": [
+        "haruul",
+        "fenn_garra_cinza",
+        "mio",
+        "zaroc"
+      ],
+      "recompensas": [
+        "A primeira grande revelação",
+        "Aliança (ou inimizade) com os povos-fera"
+      ],
+      "status": "inativo",
+      "ligacao_misterio": "Primeira grande revelação do Ato II."
+    },
+    {
+      "id": "a2_lamina_sem_escola",
+      "titulo": "A Lâmina Sem Escola",
+      "ato": "II",
+      "tipo": "principal",
+      "gatilho": "Depois da Raiz: o personagem procura a menina lince e cruza a caça ao assassino de Aldric.",
+      "fases": [
+        {
+          "descricao": "O Santuário da Espada, a ponte onde Aldric morreu, Isolde Varr, caçadores de recompensa; Kalvan Rhoss com a mesma curiosidade.",
+          "objetivo": "Seguir o rastro da Lâmina Sem Escola.",
+          "saidas_possiveis": [
+            "Encontra Nhiri antes de Lys",
+            "Disputa com Isolde",
+            "Alia-se a Kalvan"
+          ]
+        },
+        {
+          "descricao": "Nhiri: arisca, perigosa, sabe quem está sendo esvaziado. Pode ensinar o Corte da Sétima Face. Ysveth Morrhagal aparece e fala da voz gentil.",
+          "objetivo": "Ganhar a confiança de Nhiri.",
+          "saidas_possiveis": [
+            "Nhiri ensina a técnica",
+            "Nhiri foge",
+            "Confronto com Lys (evt_nhiri_cercada)"
+          ]
+        },
+        {
+          "descricao": "A traição: Toma (guiado pela voz gentil) entrega a localização do personagem e de Nhiri a Elianna ou a Garmund, acreditando salvá-los. Revelação: foi a voz gentil quem acordou o deus, por meio de Maren.",
+          "objetivo": "Sobreviver à traição e encarar a verdade.",
+          "saidas_possiveis": [
+            "Toma se redime",
+            "Toma morre",
+            "Nhiri é capturada ou morta"
+          ]
+        }
+      ],
+      "fase_atual": 0,
+      "pistas": [
+        {
+          "revelacao_id": "rev_nhiri",
+          "local_id": "santuario_espada",
+          "descricao": "Na ponte onde Aldric morreu: um único corte que não tocou a lâmina dele, pegadas pequenas e um tufo de pelo de lince preso numa lasca de pedra.",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_nhiri",
+          "local_id": "vel_garran",
+          "descricao": "Kalvan Rhoss, bêbado e honesto: 'aquele corte passou por algo que eu não tinha. Como cortar o sono de alguém.'",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_hitogami",
+          "local_id": "santuario_espada",
+          "descricao": "Ysveth Morrhagal: 'A voz gentil não ajuda ninguém. Ela empurrou uma curandeira para dentro de uma árvore há treze anos. Eu vi a curandeira sair.'",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_hitogami",
+          "local_id": "millishion",
+          "descricao": "Elianna Prest mostra, orgulhosa, cartas em que registra as ordens de 'Deus' em sonho: reunir Sem-Sonho proféticos e levá-los a Morrowell quando a ilha estiver baixa.",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_maren",
+          "local_id": "santuario_espada",
+          "descricao": "Nhiri reconhece a pena de lince (ou a carta) de Maren: 'Ela me carregou nas costas. Achou que estava me salvando.'",
+          "encontrada": false
+        }
+      ],
+      "npcs_chave": [
+        "nhiri",
+        "isolde_varr",
+        "kalvan_rhoss",
+        "lys_arandel",
+        "ysveth_morrhagal",
+        "toma_ferrin",
+        "elianna_prest",
+        "garmund_haskeld",
+        "doran_kessel"
+      ],
+      "recompensas": [
+        "Corte da Sétima Face (talvez)",
+        "Nhiri como aliada",
+        "A verdade sobre a Noite Muda"
+      ],
+      "status": "inativo",
+      "ligacao_misterio": "Fim do Ato II: grande revelação e traição."
+    },
+    {
+      "id": "a3_coroa_e_cruzada",
+      "titulo": "A Coroa e a Cruzada",
+      "ato": "III",
+      "tipo": "principal",
+      "gatilho": "A ilha está baixa; Cruzada no Central, guerra em Asura, Acordados em Morrowell. Os relógios colidem.",
+      "fases": [
+        {
+          "descricao": "Guerra aberta: a Cruzada caça Sem-Sonho, Asura se desfaz, Gorzhak e Vaal-Zherin enviam agentes, Elianna leva seus 'santos' para Morrowell.",
+          "objetivo": "Reunir aliados para a travessia.",
+          "saidas_possiveis": [
+            "Alianças improváveis (Severin, Velhvaria, Ysveth)",
+            "Perde aliados para a guerra",
+            "Salva civis e perde tempo"
+          ]
+        },
+        {
+          "descricao": "Morrowell tomada pelos Acordados; Teodoro organiza dormidas em massa; Hitogami precisa dos proféticos no cais.",
+          "objetivo": "Tomar ou atravessar Morrowell.",
+          "saidas_possiveis": [
+            "Liberta os proféticos",
+            "Deixa que embarquem",
+            "Severin morre (ou se redime) protegendo crianças"
+          ]
+        },
+        {
+          "descricao": "Preparar a viagem: navio (Dagna Rook), vigílias a bordo, o que levar para dentro da ilha.",
+          "objetivo": "Partir para a ilha.",
+          "saidas_possiveis": [
+            "Parte com party completa",
+            "Parte com poucos",
+            "Parte sozinho"
+          ]
+        }
+      ],
+      "fase_atual": 0,
+      "pistas": [
+        {
+          "revelacao_id": "rev_hitogami",
+          "local_id": "cais_morrowell",
+          "descricao": "No cais, os proféticos de Elianna dizem a mesma frase em uníssono, dormindo: 'Quando tocar, ele come o que sobe.'",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_descida",
+          "local_id": "cais_morrowell",
+          "descricao": "Teodoro prega: 'Quando a escada encostar na água, os mortos sobem e nós descemos. Ninguém mais vai ficar sozinho.'",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_dobradica",
+          "local_id": "cais_morrowell",
+          "descricao": "O diário de Halvard registra horários de badaladas; batem, uma a uma, com as datas de esvaziamentos conhecidos.",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_almas_vivas",
+          "local_id": "cais_morrowell",
+          "descricao": "Teodoro ouve a esposa esvaziada na voz de baixo e diz, chorando de alegria, que ela está feliz e não quer voltar.",
+          "encontrada": false
+        }
+      ],
+      "npcs_chave": [
+        "severin_lothair",
+        "teodoro_myrr",
+        "elianna_prest",
+        "dagna_rook",
+        "velhvaria",
+        "rhys_valmont",
+        "halvard_meer"
+      ],
+      "recompensas": [
+        "Navio e tripulação",
+        "Aliados para a Dobradiça"
+      ],
+      "status": "inativo",
+      "ligacao_misterio": "Os relógios colidem."
+    },
+    {
+      "id": "a3_ringus",
+      "titulo": "Ringus",
+      "ato": "III",
+      "tipo": "principal",
+      "gatilho": "A travessia do Mar de Ringus até a ilha.",
+      "fases": [
+        {
+          "descricao": "O mar cego, Afogados da Maré, peixes-sino, a Serpente Marinha. O Recife de Nerith exige respeito.",
+          "objetivo": "Chegar ao recife e obter ajuda.",
+          "saidas_possiveis": [
+            "Nerith ajuda",
+            "Conflito com o recife",
+            "Naufrágio parcial"
+          ]
+        },
+        {
+          "descricao": "As canções da raça do mar sobre o templo que caiu para baixo e agora cai para cima.",
+          "objetivo": "Entender a Dobradiça antes de entrar.",
+          "saidas_possiveis": [
+            "Aprende o caminho interno",
+            "Entra às cegas",
+            "Nerith acompanha"
+          ]
+        },
+        {
+          "descricao": "A aproximação: Raízes Invertidas, sinos, Sineiros. Subir pela base da ilha.",
+          "objetivo": "Entrar na ilha.",
+          "saidas_possiveis": [
+            "Entra com todos",
+            "Perde alguém na subida",
+            "Recua e tenta de novo"
+          ]
+        }
+      ],
+      "fase_atual": 0,
+      "pistas": [
+        {
+          "revelacao_id": "rev_dobradica",
+          "local_id": "recife_nerith",
+          "descricao": "Canção do recife: 'o templo das seis portas caiu para baixo do mar no tempo das faces; agora está caindo para cima'.",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_descida",
+          "local_id": "recife_nerith",
+          "descricao": "Nerith: 'Quando a ponta tocar a água, a porta fica inteira. Do outro lado não há mar: há gente dormindo.'",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_sonhos_do_fundo",
+          "local_id": "recife_nerith",
+          "descricao": "Os sacerdotes do recife sonham há gerações com o mesmo mar de rostos, e cantam para eles à noite.",
+          "encontrada": false
+        }
+      ],
+      "npcs_chave": [
+        "nerith_voz_coral",
+        "dagna_rook",
+        "halvard_meer"
+      ],
+      "recompensas": [
+        "Passagem para a ilha",
+        "Conhecimento da Dobradiça"
+      ],
+      "status": "inativo",
+      "ligacao_misterio": "A travessia."
+    },
+    {
+      "id": "a3_o_fundo",
+      "titulo": "O Fundo",
+      "ato": "III",
+      "tipo": "principal",
+      "gatilho": "Dentro da ilha invertida (a Dobradiça).",
+      "fases": [
+        {
+          "descricao": "Andar no teto; torres de sinos; a torre dos sinos rachados; Ocos Antigos guardando as escadas.",
+          "objetivo": "Chegar ao poço central.",
+          "saidas_possiveis": [
+            "Chega inteiro",
+            "Chega ferido",
+            "Alguém é esvaziado no caminho"
+          ]
+        },
+        {
+          "descricao": "O poço: o Deus Adormecido como um mar de rostos dormindo, incluindo Maren e todos os perdidos. As duas vozes falam ao mesmo tempo. Hitogami se mostra.",
+          "objetivo": "Ouvir as duas vozes e entender as opções.",
+          "saidas_possiveis": [
+            "Diálogo com Maren esvaziada",
+            "Ataque de Hitogami por meio de um apóstolo",
+            "O deus começa a subir"
+          ]
+        },
+        {
+          "descricao": "A escolha final (ver segredos.json): devolver o sono, matar o deus, deixar subir ou fechar a Dobradiça. Nenhuma resposta limpa.",
+          "objetivo": "Escolher e pagar o preço.",
+          "saidas_possiveis": [
+            "devolver_o_sono",
+            "matar_o_deus",
+            "deixar_subir",
+            "fechar_a_dobradica"
+          ]
+        }
+      ],
+      "fase_atual": 0,
+      "pistas": [
+        {
+          "revelacao_id": "rev_dobradica",
+          "local_id": "ilha_invertida",
+          "descricao": "Arcos com seis estilos de arquitetura e um sétimo, sem céu esculpido, no centro do templo.",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_almas_vivas",
+          "local_id": "ilha_invertida",
+          "descricao": "No fundo do poço, os rostos dormem sorrindo; o personagem reconhece rostos de Ocos que conheceu.",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_descida",
+          "local_id": "ilha_invertida",
+          "descricao": "Marcas na parede do poço sobem a cada badalada: algo está subindo por dentro, degrau por degrau.",
+          "encontrada": false
+        }
+      ],
+      "npcs_chave": [
+        "deus_adormecido",
+        "hitogami",
+        "maren_vossk",
+        "nhiri",
+        "ysveth_morrhagal"
+      ],
+      "recompensas": [
+        "Final da campanha"
+      ],
+      "status": "inativo",
+      "ligacao_misterio": "Confronto e escolha final. Depois: epílogo com salto de tempo."
+    },
+    {
+      "id": "s01_barqueiro",
+      "titulo": "O Barqueiro que Conta",
+      "ato": "I",
+      "tipo": "secundario",
+      "gatilho": "Osk, em Velmora, pede ajuda para 'fechar a conta': quer saber para onde foram os que desceram o rio.",
+      "fases": [
+        {
+          "descricao": "Seguir os rastros rio abaixo com Osk.",
+          "objetivo": "Descobrir a direção dos Ocos.",
+          "saidas_possiveis": [
+            "Descobre r6_direcao",
+            "Encontra uma coluna à noite",
+            "Osk desaparece"
+          ]
+        }
+      ],
+      "fase_atual": 0,
+      "pistas": [
+        {
+          "revelacao_id": "rev_descida",
+          "local_id": "velmora",
+          "descricao": "A conta de Osk: todos os desaparecidos seguem para o sul, rumo ao mar; nenhum volta subindo.",
+          "encontrada": false
+        }
+      ],
+      "npcs_chave": [
+        "osk_barqueiro"
+      ],
+      "recompensas": [
+        "Mapa das direções dos Ocos"
+      ],
+      "status": "inativo",
+      "ligacao_misterio": "As direções convergem para Ringus."
+    },
+    {
+      "id": "s02_mapa_impossivel",
+      "titulo": "O Mapa de um Lugar que Não Existe",
+      "ato": "I",
+      "tipo": "secundario",
+      "gatilho": "Origem Estudante, ou ao chegar a Sharia.",
+      "fases": [
+        {
+          "descricao": "Investigar o quarto de Elias e os desenhos.",
+          "objetivo": "Encontrar Elias.",
+          "saidas_possiveis": [
+            "Encontra Elias no porão de Dunmorrow",
+            "Elias é levado",
+            "O personagem desenha dormindo"
+          ]
+        }
+      ],
+      "fase_atual": 0,
+      "pistas": [
+        {
+          "revelacao_id": "rev_dobradica",
+          "local_id": "sharia",
+          "descricao": "Os desenhos de Elias e de outros Sem-Sonho mostram escadas que 'sobem para baixo' e um poço no centro.",
+          "encontrada": false
+        }
+      ],
+      "npcs_chave": [
+        "elias_wren",
+        "corin_dale",
+        "kaspar_dunmorrow"
+      ],
+      "recompensas": [
+        "Elias como aliado"
+      ],
+      "status": "inativo",
+      "ligacao_misterio": "Sem-Sonho veem a Dobradiça."
+    },
+    {
+      "id": "s03_irmao_de_ysa",
+      "titulo": "O Irmão de Ysa",
+      "ato": "I",
+      "tipo": "secundario",
+      "gatilho": "O personagem descobre Davin.",
+      "fases": [
+        {
+          "descricao": "Ysa pede ajuda para pagar os vigias ou mantém o segredo a qualquer custo.",
+          "objetivo": "Decidir o destino de Davin.",
+          "saidas_possiveis": [
+            "Ajuda a mantê-lo",
+            "Convence Ysa a deixá-lo ir",
+            "Davin é denunciado à Inquisição"
+          ]
+        }
+      ],
+      "fase_atual": 0,
+      "pistas": [
+        {
+          "revelacao_id": "rev_vigilia",
+          "local_id": "velmora",
+          "descricao": "Davin só 'vive' enquanto alguém o olha; quando o vigia cochila, ele para no meio da frase.",
+          "encontrada": false
+        }
+      ],
+      "npcs_chave": [
+        "ysa_thornwell",
+        "davin_thornwell"
+      ],
+      "recompensas": [
+        "Lealdade de Ysa"
+      ],
+      "status": "inativo",
+      "ligacao_misterio": "Vigília e almas vivas."
+    },
+    {
+      "id": "s04_carga_de_dobbs",
+      "titulo": "A Carga de Dobbs",
+      "ato": "I",
+      "tipo": "secundario",
+      "gatilho": "Origem Aventureiro, ou um trabalho de escolta em Velmora.",
+      "fases": [
+        {
+          "descricao": "Escoltar a carga de Dobbs até Morrowell.",
+          "objetivo": "Descobrir o que há nas caixas.",
+          "saidas_possiveis": [
+            "Entrega aos Acordados",
+            "Entrega à Igreja",
+            "Destrói a carga"
+          ]
+        }
+      ],
+      "fase_atual": 0,
+      "pistas": [
+        {
+          "revelacao_id": "rev_dobradica",
+          "local_id": "vau_cinzento",
+          "descricao": "Nas caixas de Dobbs há fragmentos de sinos rachados na Noite Muda; tocados juntos, vibram na mesma nota dos sinos ouvidos no mar.",
+          "encontrada": false
+        }
+      ],
+      "npcs_chave": [
+        "dobbs_hale",
+        "renna_kolt",
+        "teodoro_myrr"
+      ],
+      "recompensas": [
+        "Pagamento da Guilda",
+        "Contato com os Acordados"
+      ],
+      "status": "inativo",
+      "ligacao_misterio": "O bronze responde à ilha."
+    },
+    {
+      "id": "s05_exilio_verde",
+      "titulo": "O Exílio Verde",
+      "ato": "II",
+      "tipo": "secundario",
+      "gatilho": "Encontrar Zaroc ou a aldeia escondida dos Superd.",
+      "fases": [
+        {
+          "descricao": "Ganhar a confiança dos Superd exilados.",
+          "objetivo": "Ouvir Zaroc sobre a Guerra de Laplace e a Noite Rasa.",
+          "saidas_possiveis": [
+            "Zaroc se junta à party",
+            "Superd são descobertos por caçadores",
+            "Zaroc recusa"
+          ]
+        }
+      ],
+      "fase_atual": 0,
+      "pistas": [
+        {
+          "revelacao_id": "rev_raiz",
+          "local_id": "aldeia_superd",
+          "descricao": "Zaroc: 'Escoltei anciões da floresta até uma árvore e vi puserem uma criança para dormir. Choravam e cantavam. Disseram que era isso ou o fim.'",
+          "encontrada": false
+        }
+      ],
+      "npcs_chave": [
+        "zaroc"
+      ],
+      "recompensas": [
+        "Aliado de rank Rei"
+      ],
+      "status": "inativo",
+      "ligacao_misterio": "A origem do pacto."
+    },
+    {
+      "id": "s06_imperatriz_nevoa",
+      "titulo": "A Imperatriz da Névoa",
+      "ato": "II",
+      "tipo": "secundario",
+      "gatilho": "O personagem busca refúgio no Continente Demoníaco.",
+      "fases": [
+        {
+          "descricao": "Chegar à Fortaleza da Névoa e ser recebido por Velhvaria.",
+          "objetivo": "Ganhar o apoio dela.",
+          "saidas_possiveis": [
+            "Aliança",
+            "Ela quer estudá-lo",
+            "Ataque da Garra Negra"
+          ]
+        }
+      ],
+      "fase_atual": 0,
+      "pistas": [
+        {
+          "revelacao_id": "rev_raiz",
+          "local_id": "fortaleza_nevoa",
+          "descricao": "Velhvaria: 'Na guerra de Laplace houve uma noite em que metade do mundo sonhou raso. Depois, os povos-fera nunca mais dormiram sozinhos.'",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_dizimo",
+          "local_id": "fortaleza_nevoa",
+          "descricao": "Os registros de Velhvaria: os Sem-Sonho do refúgio ganham mana a cada noite em vez de perder; os demais acordam mais fracos.",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_descida",
+          "local_id": "fortaleza_nevoa",
+          "descricao": "Velhvaria mede a descida da ilha a cada lua: ela acelera depois de cada grande esvaziamento.",
+          "encontrada": false
+        }
+      ],
+      "npcs_chave": [
+        "velhvaria"
+      ],
+      "recompensas": [
+        "Refúgio",
+        "Aliada de rank Imperador"
+      ],
+      "status": "inativo",
+      "ligacao_misterio": "Memória da Noite Rasa."
+    },
+    {
+      "id": "s07_chaves_garra_negra",
+      "titulo": "As Chaves da Garra Negra",
+      "ato": "II",
+      "tipo": "secundario",
+      "gatilho": "Notícia de crianças Sem-Sonho compradas por Gorzhak.",
+      "fases": [
+        {
+          "descricao": "Infiltrar ou atacar a Garra Negra.",
+          "objetivo": "Libertar as crianças.",
+          "saidas_possiveis": [
+            "Liberta todas",
+            "Liberta algumas",
+            "É capturado"
+          ]
+        }
+      ],
+      "fase_atual": 0,
+      "pistas": [
+        {
+          "revelacao_id": "rev_descida",
+          "local_id": "garra_negra",
+          "descricao": "Nos níveis de baixo, inscrições de Gorzhak: 'quando a escada tocar a água, a porta de baixo abre e os mortos demônios voltam'.",
+          "encontrada": false
+        }
+      ],
+      "npcs_chave": [
+        "gorzhak",
+        "vaal_zherin"
+      ],
+      "recompensas": [
+        "Crianças salvas",
+        "Inimigo mortal"
+      ],
+      "status": "inativo",
+      "ligacao_misterio": "Os demônios que querem o deus acordado."
+    },
+    {
+      "id": "s08_arquivo_dos_ventos",
+      "titulo": "O Arquivo dos Ventos",
+      "ato": "II",
+      "tipo": "secundario",
+      "gatilho": "Busca por registros das Seis Faces.",
+      "fases": [
+        {
+          "descricao": "Chegar ao Continente Celestial e convencer Aerin.",
+          "objetivo": "Ler o arquivo.",
+          "saidas_possiveis": [
+            "Acesso total",
+            "Acesso parcial",
+            "Expulso"
+          ]
+        }
+      ],
+      "fase_atual": 0,
+      "pistas": [
+        {
+          "revelacao_id": "rev_sonhos_do_fundo",
+          "local_id": "biblioteca_ventos",
+          "descricao": "Um tratado celestial: 'a sétima face não tinha céu; nela desciam as almas de todas as faces quando dormiam'.",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_dobradica",
+          "local_id": "biblioteca_ventos",
+          "descricao": "Um mapa do templo das seis portas, do lado certo: idêntico, invertido, ao desenho de Elias.",
+          "encontrada": false
+        },
+        {
+          "revelacao_id": "rev_noite_muda",
+          "local_id": "biblioteca_ventos",
+          "descricao": "Registro celestial de uma 'noite rasa' na guerra de Laplace e de uma 'noite sem fundo' em 410.",
+          "encontrada": false
+        }
+      ],
+      "npcs_chave": [
+        "aerin_altoceu"
+      ],
+      "recompensas": [
+        "Conhecimento antigo"
+      ],
+      "status": "inativo",
+      "ligacao_misterio": "A sétima face."
+    },
+    {
+      "id": "s09_coracao_que_sonha",
+      "titulo": "O Coração que Sonha",
+      "ato": "II",
+      "tipo": "secundario",
+      "gatilho": "Exploração do Labirinto das Mil Gargantas.",
+      "fases": [
+        {
+          "descricao": "Descer o labirinto com Nahla; encontrar Ozrhan.",
+          "objetivo": "Chegar ao fundo e voltar.",
+          "saidas_possiveis": [
+            "Ozrhan ensina algo (a um preço)",
+            "Perde gente no labirinto",
+            "Pega o núcleo"
+          ]
+        }
+      ],
+      "fase_atual": 0,
+      "pistas": [
+        {
+          "revelacao_id": "rev_sonhos_do_fundo",
+          "local_id": "labirinto_mil_gargantas",
+          "descricao": "No fundo, o núcleo do labirinto pulsa no ritmo de alguém dormindo; inscrições das Seis Faces falam de 'quem sonha todos os sonhos'.",
+          "encontrada": false
+        }
+      ],
+      "npcs_chave": [
+        "nahla_sabia",
+        "ozrhan"
+      ],
+      "recompensas": [
+        "Pedras mágicas",
+        "Técnica de Ozrhan"
+      ],
+      "status": "inativo",
+      "ligacao_misterio": "O Fundo também está sob os labirintos."
+    },
+    {
+      "id": "s10_peixes_de_bronze",
+      "titulo": "Peixes de Bronze",
+      "ato": "II",
+      "tipo": "secundario",
+      "gatilho": "Peixes-sino aparecem num mercado longe da costa.",
+      "fases": [
+        {
+          "descricao": "Rastrear a origem dos peixes.",
+          "objetivo": "Descobrir de onde vêm.",
+          "saidas_possiveis": [
+            "Chega a pescadores de Ringus",
+            "Compra um vivo",
+            "Os Acordados compram todos"
+          ]
+        }
+      ],
+      "fase_atual": 0,
+      "pistas": [
+        {
+          "revelacao_id": "rev_dobradica",
+          "local_id": "porto_rei_dragao",
+          "descricao": "Os peixes-sino só aparecem nas águas sob a ilha; quando um morre, a escama toca uma nota e se ouve um sino distante.",
+          "encontrada": false
+        }
+      ],
+      "npcs_chave": [
+        "tamsin_hollow"
+      ],
+      "recompensas": [
+        "Peixe-sino vivo"
+      ],
+      "status": "inativo",
+      "ligacao_misterio": "O Fundo vazando para o mar."
+    },
+    {
+      "id": "s11_discurso_repetido",
+      "titulo": "O Discurso Repetido",
+      "ato": "II",
+      "tipo": "secundario",
+      "gatilho": "Passagem por Shirone.",
+      "fases": [
+        {
+          "descricao": "Lucan Merrow quer recrutar o personagem e conta fofocas da visita a Ars.",
+          "objetivo": "Escapar do recrutamento com informação.",
+          "saidas_possiveis": [
+            "Descobre sobre o rei",
+            "Vendido a Asura",
+            "Alia-se a Lucan"
+          ]
+        }
+      ],
+      "fase_atual": 0,
+      "pistas": [
+        {
+          "revelacao_id": "rev_coroa",
+          "local_id": "shirone",
+          "descricao": "Lucan conta, rindo, que o rei de Asura fez o mesmo discurso, palavra por palavra, em dois banquetes, e sorriu no mesmo ponto.",
+          "encontrada": false
+        }
+      ],
+      "npcs_chave": [
+        "lucan_merrow"
+      ],
+      "recompensas": [
+        "Informação sobre a Coroa"
+      ],
+      "status": "inativo",
+      "ligacao_misterio": "A coroa oca."
+    },
+    {
+      "id": "s12_diario_halvard",
+      "titulo": "O Diário de Halvard",
+      "ato": "III",
+      "tipo": "secundario",
+      "gatilho": "Encontrar Halvard Meer em Morrowell.",
+      "fases": [
+        {
+          "descricao": "Ganhar a confiança de Halvard e o diário.",
+          "objetivo": "Entender o interior da ilha.",
+          "saidas_possiveis": [
+            "Halvard guia",
+            "Halvard morre",
+            "Diário roubado pelos Acordados"
+          ]
+        }
+      ],
+      "fase_atual": 0,
+      "pistas": [
+        {
+          "revelacao_id": "rev_almas_vivas",
+          "local_id": "cais_morrowell",
+          "descricao": "Halvard: 'Minha irmã estava lá embaixo, dormindo. Sorria. Eu a chamei e ela não quis acordar.'",
+          "encontrada": false
+        }
+      ],
+      "npcs_chave": [
+        "halvard_meer"
+      ],
+      "recompensas": [
+        "Mapa interno da ilha"
+      ],
+      "status": "inativo",
+      "ligacao_misterio": "Os esvaziados estão vivos."
+    }
+  ]
+}

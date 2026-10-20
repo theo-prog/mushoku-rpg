@@ -1,0 +1,69 @@
+{
+  "type": "object",
+  "properties": {
+    "nome": {
+      "type": "string"
+    },
+    "membros": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "npc_id": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]+$"
+          },
+          "papel": {
+            "type": "string",
+            "minLength": 1
+          },
+          "desde": {
+            "type": "string"
+          },
+          "lealdade": {
+            "type": "integer",
+            "minimum": -100,
+            "maximum": 100
+          },
+          "pv": {
+            "type": "integer"
+          },
+          "pv_max": {
+            "type": "integer"
+          },
+          "notas": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "npc_id",
+          "papel",
+          "lealdade"
+        ]
+      }
+    },
+    "rank_guilda": {
+      "enum": [
+        "nenhum",
+        "F",
+        "E",
+        "D",
+        "C",
+        "B",
+        "A",
+        "S",
+        "SS"
+      ]
+    },
+    "reputacao": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "nome",
+    "membros",
+    "rank_guilda"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Party"
+}

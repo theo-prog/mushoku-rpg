@@ -1,0 +1,64 @@
+{
+  "id": "jogador",
+  "status_criacao": "pendente",
+  "nome": "",
+  "raca": "",
+  "idade": 0,
+  "data_nascimento_mundo": "",
+  "origem": "",
+  "regiao_origem": "",
+  "sem_sonho": false,
+  "atributos": {
+    "forca": 0,
+    "agilidade": 0,
+    "vigor": 0,
+    "intelecto": 0,
+    "percepcao": 0,
+    "presenca": 0
+  },
+  "pv": 0,
+  "pv_max": 0,
+  "mana": 0,
+  "mana_max": 0,
+  "capacidade_mana_crescimento": "normal",
+  "ranks": {
+    "magia": {
+      "fogo": "nenhum",
+      "agua": "nenhum",
+      "terra": "nenhum",
+      "vento": "nenhum",
+      "cura": "nenhum",
+      "desintoxicacao": "nenhum",
+      "barreira": "nenhum",
+      "invocacao": "nenhum"
+    },
+    "espada": {
+      "deus_da_espada": "nenhum",
+      "deus_da_agua": "nenhum",
+      "deus_do_norte": "nenhum"
+    }
+  },
+  "magias_conhecidas": [],
+  "tecnicas": [],
+  "encantacao_silenciosa": false,
+  "tracos": {
+    "bencaos": [],
+    "maldicoes": [],
+    "olhos_demoniacos": [],
+    "outros": []
+  },
+  "ferimentos_persistentes": [],
+  "idiomas": [],
+  "reputacao_guilda": {
+    "rank": "nenhum",
+    "pontos": 0
+  },
+  "dinheiro": {},
+  "objetivos": [],
+  "relacoes": {},
+  "sonhos_registrados": [],
+  "pericias": [],
+  "treino_infancia": "",
+  "ambicao": "",
+  "notas": ""
+}

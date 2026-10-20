@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Arcos da campanha",
+  "type": "object",
+  "properties": {
+    "arcos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]+$"
+          },
+          "titulo": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ato": {
+            "enum": [
+              "I",
+              "II",
+              "III",
+              "epilogo"
+            ]
+          },
+          "tipo": {
+            "enum": [
+              "principal",
+              "secundario"
+            ]
+          },
+          "gatilho": {
+            "type": "string",
+            "minLength": 1
+          },
+          "fases": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "descricao": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "objetivo": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "saidas_possiveis": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1
+                }
+              },
+              "required": [
+                "descricao",
+                "objetivo",
+                "saidas_possiveis"
+              ]
+            },
+            "minItems": 1
+          },
+          "fase_atual": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "pistas": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "revelacao_id": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9_]+$"
+                },
+                "local_id": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9_]+$"
+                },
+                "descricao": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "encontrada": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "revelacao_id",
+                "local_id",
+                "descricao"
+              ]
+            }
+          },
+          "npcs_chave": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z0-9_]+$"
+            }
+          },
+          "recompensas": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "status": {
+            "enum": [
+              "inativo",
+              "ativo",
+              "concluido",
+              "falhado",
+              "abandonado"
+            ]
+          },
+          "ligacao_misterio": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "titulo",
+          "ato",
+          "tipo",
+          "gatilho",
+          "fases",
+          "pistas",
+          "npcs_chave",
+          "recompensas",
+          "status"
+        ]
+      },
+      "minItems": 21
+    }
+  },
+  "required": [
+    "arcos"
+  ]
+}

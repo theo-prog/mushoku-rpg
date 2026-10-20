@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Quests",
+  "type": "object",
+  "properties": {
+    "quests": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]+$"
+          },
+          "titulo": {
+            "type": "string",
+            "minLength": 1
+          },
+          "descricao": {
+            "type": "string",
+            "minLength": 1
+          },
+          "npc_origem": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[a-z0-9_]*$"
+          },
+          "local_id": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[a-z0-9_]*$"
+          },
+          "arco_id": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[a-z0-9_]*$"
+          },
+          "objetivos": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "texto": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "feito": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "texto",
+                "feito"
+              ]
+            }
+          },
+          "recompensa": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "ativa",
+              "concluida",
+              "falhada",
+              "abandonada"
+            ]
+          },
+          "rank_guilda": {
+            "type": "string"
+          },
+          "prazo": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "titulo",
+          "descricao",
+          "status"
+        ]
+      }
+    }
+  },
+  "required": [
+    "quests"
+  ]
+}

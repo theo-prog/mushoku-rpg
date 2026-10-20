@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Facções",
+  "type": "object",
+  "properties": {
+    "faccoes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]+$"
+          },
+          "nome": {
+            "type": "string",
+            "minLength": 1
+          },
+          "tipo": {
+            "type": "string",
+            "minLength": 1
+          },
+          "lider_npc_id": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[a-z0-9_]*$"
+          },
+          "sede_local_id": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[a-z0-9_]*$"
+          },
+          "poder": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 10
+          },
+          "atitude_com_jogador": {
+            "type": "integer",
+            "minimum": -100,
+            "maximum": 100
+          },
+          "postura_sem_sonho": {
+            "type": "string",
+            "minLength": 1
+          },
+          "relacoes": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "integer",
+              "minimum": -100,
+              "maximum": 100
+            }
+          },
+          "objetivos_publicos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1
+          },
+          "objetivos_ocultos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1
+          },
+          "status": {
+            "enum": [
+              "ativa",
+              "enfraquecida",
+              "dividida",
+              "em_guerra",
+              "destruida",
+              "dissolvida"
+            ]
+          },
+          "o_que_mostra": {
+            "type": "string"
+          },
+          "conhecida_pelo_jogador": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "nome",
+          "tipo",
+          "lider_npc_id",
+          "sede_local_id",
+          "poder",
+          "atitude_com_jogador",
+          "postura_sem_sonho",
+          "relacoes",
+          "objetivos_publicos",
+          "objetivos_ocultos",
+          "status"
+        ]
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "faccoes"
+  ]
+}

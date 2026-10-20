@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Catálogo de magias",
+  "type": "object",
+  "properties": {
+    "magias": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]+$"
+          },
+          "nome": {
+            "type": "string",
+            "minLength": 1
+          },
+          "escola": {
+            "enum": [
+              "fogo",
+              "agua",
+              "terra",
+              "vento",
+              "combinada",
+              "cura",
+              "desintoxicacao",
+              "barreira",
+              "invocacao"
+            ]
+          },
+          "rank": {
+            "enum": [
+              "iniciante",
+              "intermediario",
+              "avancado",
+              "santo",
+              "rei",
+              "imperador",
+              "deus"
+            ]
+          },
+          "custo_mana": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "encantacao": {
+            "type": "string",
+            "minLength": 1
+          },
+          "tempo_conjuracao": {
+            "type": "string",
+            "minLength": 1
+          },
+          "alcance": {
+            "type": "string",
+            "minLength": 1
+          },
+          "efeito": {
+            "type": "string",
+            "minLength": 1
+          },
+          "dano": {
+            "type": "string"
+          },
+          "requisitos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "pode_silenciosa": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "nome",
+          "escola",
+          "rank",
+          "custo_mana",
+          "encantacao",
+          "tempo_conjuracao",
+          "alcance",
+          "efeito",
+          "dano",
+          "requisitos",
+          "pode_silenciosa"
+        ]
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "magias"
+  ]
+}

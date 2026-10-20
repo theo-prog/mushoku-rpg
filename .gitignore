@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+campanha/rolagens.log
+backups/*
+!backups/.gitkeep
+.claude/settings.local.json
