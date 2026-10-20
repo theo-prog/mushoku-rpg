@@ -1,6 +1,6 @@
 {
   "data_mundo": "0423-07-20",
-  "local_atual": null,
+  "local_atual": "sharia",
   "clima": "fim de verão, ar seco, céu limpo",
   "relogios": {
     "descida": 0,
@@ -11,6 +11,6 @@
   },
   "flags": [],
   "noticias_recentes": [],
-  "sessao": 0,
-  "abertura": null
+  "sessao": 1,
+  "abertura": "estudante"
 }

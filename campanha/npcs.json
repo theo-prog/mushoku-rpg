@@ -479,7 +479,7 @@
         "Descobriu a regra da vigília e a esconde"
       ],
       "oco": false,
-      "conhecido_pelo_jogador": false,
+      "conhecido_pelo_jogador": true,
       "status": "vivo",
       "papel": "Vilão humano de Ranoa"
     },
@@ -528,7 +528,7 @@
         "Desaparece no início da abertura de estudante (levado por Dunmorrow)"
       ],
       "oco": false,
-      "conhecido_pelo_jogador": false,
+      "conhecido_pelo_jogador": true,
       "status": "desaparecido",
       "papel": "Colega desaparecido"
     },
@@ -552,7 +552,7 @@
         "Ajuda Dunmorrow a buscar os alunos à noite"
       ],
       "oco": false,
-      "conhecido_pelo_jogador": false,
+      "conhecido_pelo_jogador": true,
       "status": "vivo",
       "papel": "Testemunha culpada"
     },

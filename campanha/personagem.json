@@ -1,33 +1,33 @@
 {
   "id": "jogador",
-  "status_criacao": "pendente",
-  "nome": "",
-  "raca": "",
-  "idade": 0,
-  "data_nascimento_mundo": "",
-  "origem": "",
-  "regiao_origem": "",
-  "sem_sonho": false,
+  "status_criacao": "completo",
+  "nome": "Theo",
+  "raca": "humano",
+  "idade": 10,
+  "data_nascimento_mundo": "0413-03-14",
+  "origem": "Estudante de magia (Sharia)",
+  "regiao_origem": "Reino de Ranoa",
+  "sem_sonho": true,
   "atributos": {
-    "forca": 0,
-    "agilidade": 0,
-    "vigor": 0,
-    "intelecto": 0,
-    "percepcao": 0,
-    "presenca": 0
+    "forca": -2,
+    "agilidade": 2,
+    "vigor": -1,
+    "intelecto": 3,
+    "percepcao": 2,
+    "presenca": 1
   },
-  "pv": 0,
-  "pv_max": 0,
-  "mana": 0,
-  "mana_max": 0,
-  "capacidade_mana_crescimento": "normal",
+  "pv": 6,
+  "pv_max": 6,
+  "mana": 61,
+  "mana_max": 61,
+  "capacidade_mana_crescimento": "anomala",
   "ranks": {
     "magia": {
       "fogo": "nenhum",
-      "agua": "nenhum",
+      "agua": "intermediario",
       "terra": "nenhum",
       "vento": "nenhum",
-      "cura": "nenhum",
+      "cura": "iniciante",
       "desintoxicacao": "nenhum",
       "barreira": "nenhum",
       "invocacao": "nenhum"
@@ -38,27 +38,61 @@
       "deus_do_norte": "nenhum"
     }
   },
-  "magias_conhecidas": [],
+  "magias_conhecidas": [
+    "criar_agua",
+    "bola_d_agua",
+    "lamina_de_gelo",
+    "resfriar",
+    "lanca_de_gelo",
+    "cura_menor",
+    "estancar"
+  ],
   "tecnicas": [],
   "encantacao_silenciosa": false,
   "tracos": {
     "bencaos": [],
     "maldicoes": [],
     "olhos_demoniacos": [],
-    "outros": []
+    "outros": [
+      "Versátil (humano): +1 Percepção, 1 perícia extra",
+      "Mana anômala: rachou uma pedra de avaliação ao tocá-la"
+    ]
   },
   "ferimentos_persistentes": [],
-  "idiomas": [],
+  "idiomas": [
+    "Língua Humana"
+  ],
   "reputacao_guilda": {
     "rank": "nenhum",
     "pontos": 0
   },
-  "dinheiro": {},
-  "objetivos": [],
-  "relacoes": {},
-  "sonhos_registrados": [],
-  "pericias": [],
-  "treino_infancia": "",
-  "ambicao": "",
-  "notas": ""
+  "dinheiro": {
+    "cobre": 7
+  },
+  "objetivos": [
+    "Sobreviver",
+    "Manter a bolsa da Universidade"
+  ],
+  "relacoes": {
+    "elias_wren": 40,
+    "kaspar_dunmorrow": 25
+  },
+  "sonhos_registrados": [
+    {
+      "data": "0423-07-20",
+      "descricao": "Nada, como sempre. Mas acordou com carvão sob as unhas e o pulso dolorido, e as paredes cobertas por um mapa na própria letra.",
+      "tipo": "ausencia"
+    }
+  ],
+  "pericias": [
+    "Arcanismo",
+    "Medicina",
+    "Furtividade",
+    "Enganação",
+    "Intuição",
+    "Investigação"
+  ],
+  "treino_infancia": "A mãe, clériga aventureira, ensinou orações de cura dos 6 aos 8 anos; o pai, espadachim, só o básico de segurar uma lâmina. Ambos morreram num contrato da Guilda no início de 421. Quase um ano nas ruas de Sharia. Desde o início de 422, bolsista da Universidade (magia da água).",
+  "ambicao": "Sobreviver.",
+  "notas": "Achou um colar com lasca de bronze rachado (fragmento de sino) na lama do mercado. Na loja de penhores, tocou uma pedra de avaliação que acendeu e rachou; Dunmorrow viu e o levou para a Universidade como bolsista. Divide quarto com Elias Wren."
 }

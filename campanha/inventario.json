@@ -1,5 +1,10 @@
 {
-  "itens": [],
-  "carga_max": 0,
+  "itens": [
+    {"item_id": "cajado_aprendiz", "qtd": 1, "equipado": true, "notas": "Da Universidade, emprestado aos bolsistas."},
+    {"item_id": "adaga", "qtd": 1, "equipado": true, "notas": "A faca do pai."},
+    {"item_id": "fragmento_sino", "qtd": 1, "equipado": true, "notas": "No pescoço, num cordão de couro. Achado na lama do mercado de Sharia."},
+    {"item_id": "manto_viagem", "qtd": 1, "equipado": false, "notas": "Uniforme cinza-azulado de bolsista, com capuz."}
+  ],
+  "carga_max": 6,
   "guardado_em": {}
 }
