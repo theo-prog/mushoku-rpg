@@ -1,5 +1,5 @@
 {
-  "data_mundo": "0423-07-21",
+  "data_mundo": "0423-07-27",
   "local_atual": "sharia",
   "clima": "fim de verão, ar seco, céu limpo",
   "relogios": {
@@ -25,7 +25,10 @@
     "viu_holm_cochilar_elias_quase_esvaziado",
     "elias_levado_terceira_dose",
     "janela_sala_observacao_rachada",
-    "corin_confessou_carregar_elias"
+    "corin_confessou_carregar_elias",
+    "theo_sonambulo_com_giz_papeis_dunmorrow",
+    "elias_dorme_desde_terceira_dose",
+    "janela_tabuada"
   ],
   "noticias_recentes": [],
   "sessao": 1,

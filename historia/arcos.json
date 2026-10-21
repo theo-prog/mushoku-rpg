@@ -293,7 +293,7 @@
           "revelacao_id": "rev_dobradica",
           "local_id": "sharia",
           "descricao": "O mapa nas paredes do quarto de Elias (e, conforme a origem, na letra do personagem) é a planta de um templo onde as escadas descem para cima.",
-          "encontrada": false
+          "encontrada": true
         }
       ],
       "npcs_chave": [
@@ -770,7 +770,7 @@
           "revelacao_id": "rev_dobradica",
           "local_id": "sharia",
           "descricao": "Os desenhos de Elias e de outros Sem-Sonho mostram escadas que 'sobem para baixo' e um poço no centro.",
-          "encontrada": false
+          "encontrada": true
         }
       ],
       "npcs_chave": [
@@ -781,7 +781,7 @@
       "recompensas": [
         "Elias como aliado"
       ],
-      "status": "inativo",
+      "status": "ativo",
       "ligacao_misterio": "Sem-Sonho veem a Dobradiça."
     },
     {

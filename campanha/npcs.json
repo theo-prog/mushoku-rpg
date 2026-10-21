@@ -503,7 +503,7 @@
         "Perdeu uma aluna para os experimentos e tem provas incompletas"
       ],
       "oco": false,
-      "conhecido_pelo_jogador": false,
+      "conhecido_pelo_jogador": true,
       "status": "vivo",
       "papel": "Mentora do Ato II"
     },

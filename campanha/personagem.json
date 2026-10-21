@@ -16,9 +16,9 @@
     "percepcao": 2,
     "presenca": 1
   },
-  "pv": 5,
+  "pv": 6,
   "pv_max": 6,
-  "mana": 44,
+  "mana": 61,
   "mana_max": 61,
   "capacidade_mana_crescimento": "anomala",
   "ranks": {
@@ -91,6 +91,11 @@
     {
       "data": "0423-07-21",
       "descricao": "Dormiu ao amanhecer, umas três horas, na sala da ala leste vigiada por Holm. Nada. Acordou com Elias sentado na beira da cama, olhando para ele.",
+      "tipo": "ausencia"
+    },
+    {
+      "data": "0423-07-27",
+      "descricao": "Seis noites sob vigília na sala da ala leste. Nenhum sonho. Em duas delas acordou de pé, com giz nas mãos, diante de papéis que Dunmorrow deixara na mesa; os papéis sumiram antes do amanhecer.",
       "tipo": "ausencia"
     }
   ],
