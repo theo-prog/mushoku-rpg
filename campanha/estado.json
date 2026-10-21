@@ -11,7 +11,8 @@
   },
   "flags": [
     "apagou_mapa_da_parede",
-    "cobriu_pegadas_quarto"
+    "cobriu_pegadas_quarto",
+    "garrow_desconfia_sumico_elias"
   ],
   "noticias_recentes": [],
   "sessao": 1,
