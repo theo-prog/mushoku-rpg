@@ -18,7 +18,7 @@
   },
   "pv": 6,
   "pv_max": 6,
-  "mana": 61,
+  "mana": 51,
   "mana_max": 61,
   "capacidade_mana_crescimento": "anomala",
   "ranks": {
@@ -108,6 +108,11 @@
     {
       "data": "0423-07-30",
       "descricao": "Duas noites na Torre da Água, sob vigília. Nada. Nas duas, às quatro, levantou-se de olhos abertos e ficou na janela do sul até alguém o trazer de volta. Na segunda, Holm disse que ele murmurou: \"está mais baixa\".",
+      "tipo": "ausencia"
+    },
+    {
+      "data": "0423-08-01",
+      "descricao": "Não dormiu: passou a noite de 30 de Colheita treinando cristais sem palavras ao lado de Elias.",
       "tipo": "ausencia"
     }
   ],

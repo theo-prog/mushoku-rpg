@@ -339,7 +339,7 @@
       ],
       "relogio_id": "descida",
       "estagio": 1,
-      "status": "futuro",
+      "status": "ocorrido",
       "alteravel_pelo_jogador": true,
       "consequencias": [
         "Convergência das aberturas",
@@ -365,7 +365,7 @@
       "faccoes_envolvidas": [],
       "relogio_id": "migracao",
       "estagio": 1,
-      "status": "futuro",
+      "status": "ocorrido",
       "alteravel_pelo_jogador": true,
       "consequencias": [
         "Rastros na estrada para o sul"
