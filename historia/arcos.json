@@ -275,7 +275,7 @@
           "revelacao_id": "rev_sonhos_do_fundo",
           "local_id": "sharia",
           "descricao": "Os cadernos de Dunmorrow mostram que Sem-Sonho drogados para sonhar descrevem, sem se conhecer, o mesmo lugar: um mar de rostos dormindo sob uma escada.",
-          "encontrada": false
+          "encontrada": true
         },
         {
           "revelacao_id": "rev_dizimo",
