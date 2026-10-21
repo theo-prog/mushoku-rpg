@@ -16,7 +16,7 @@
     "percepcao": 2,
     "presenca": 1
   },
-  "pv": 6,
+  "pv": 5,
   "pv_max": 6,
   "mana": 56,
   "mana_max": 61,
@@ -122,6 +122,11 @@
       "data": "0423-08-01",
       "descricao": "Dormiu de dia, umas oito horas, vigiado por Anwen. Nada. Ela contou que, ao meio-dia, ele se sentou na cama de olhos fechados e apontou para o sul, e depois deitou de novo.",
       "tipo": "ausencia"
+    },
+    {
+      "data": "0423-08-02",
+      "descricao": "Acordado, ao tocar o círculo gelado na parede do antigo quarto, desmaiou por alguns instantes e viu de cima: um mar cinzento e, sobre ele, uma construção enorme de cabeça para baixo, com torres apontadas para a água e milhares de sinos. Mais perto do mar do que deveria.",
+      "tipo": "outro"
     }
   ],
   "pericias": [
