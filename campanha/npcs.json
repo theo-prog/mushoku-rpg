@@ -1451,6 +1451,30 @@
       "conhecido_pelo_jogador": true,
       "status": "vivo",
       "papel": "Carregador e vigia do porão"
+    },
+    {
+      "id": "garrow",
+      "nome": "Garrow",
+      "raca": "humano",
+      "idade": 17,
+      "rank": "Iniciante (terra)",
+      "faccao_id": "universidade_ranoa",
+      "local_atual": "sharia",
+      "atitude": 0,
+      "personalidade": "Monitor do andar dos bolsistas, aluno do quinto ano. Cínico, cansado, decente por baixo.",
+      "voz": "Rouca de sono, impaciente.",
+      "frase_caracteristica": "\"Bolsistas, de pé!\"",
+      "objetivos": [
+        "Pagar a mensalidade",
+        "Não se meter"
+      ],
+      "segredos": [
+        "Sonhava todas as noites com provas perdidas; dormiu sozinho no quarto de monitor na Noite dos Sinos"
+      ],
+      "oco": true,
+      "conhecido_pelo_jogador": true,
+      "status": "oco",
+      "papel": "Primeiro rosto conhecido esvaziado"
     }
   ]
 }

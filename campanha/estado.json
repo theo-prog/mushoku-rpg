@@ -1,5 +1,5 @@
 {
-  "data_mundo": "0423-08-01",
+  "data_mundo": "0423-08-02",
   "local_atual": "sharia",
   "clima": "fim de verão, ar seco, céu limpo",
   "relogios": {
@@ -77,6 +77,12 @@
       "evento_id": "evt_migracao_fittoa",
       "local_id": "brisaclara",
       "texto": "Viajantes contam de gente andando sozinha à noite nas estradas de Fittoa, sem lanterna."
+    },
+    {
+      "data": "0423-08-02",
+      "texto": "Na Noite dos Sinos, o sino do Templo de Millis de Sharia e os sinos de vigília da cidade tocaram sozinhos à meia-noite; do sul veio um som grave, como de um sino gigante. Anwen contou 47 badaladas do sul.",
+      "evento_id": null,
+      "local_id": "sharia"
     }
   ],
   "sessao": 1,
