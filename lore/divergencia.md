@@ -65,3 +65,4 @@ Sempre que o Mestre inventar algo grande (lugar, raça, fato histórico, institu
 
 | Data do mundo | O que mudou | Causa | Consequências previstas |
 |---|---|---|---|
+| 0423-08-01 | Para a origem Estudante, a Noite dos Sinos é vivida em Sharia: o sino do Templo de Millis de Sharia (refundido após rachar na Noite Muda) toca sozinho, junto com os sinos de vigília da cidade. | Convergência adaptada da abertura de Sharia | O personagem conhece Maren por carta, não pessoalmente; Velmora fica para o caminho futuro. |

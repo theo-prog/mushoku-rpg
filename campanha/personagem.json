@@ -18,7 +18,7 @@
   },
   "pv": 6,
   "pv_max": 6,
-  "mana": 51,
+  "mana": 61,
   "mana_max": 61,
   "capacidade_mana_crescimento": "anomala",
   "ranks": {
@@ -113,6 +113,11 @@
     {
       "data": "0423-08-01",
       "descricao": "Não dormiu: passou a noite de 30 de Colheita treinando cristais sem palavras ao lado de Elias.",
+      "tipo": "ausencia"
+    },
+    {
+      "data": "0423-08-01",
+      "descricao": "Dormiu de dia, umas oito horas, vigiado por Anwen. Nada. Ela contou que, ao meio-dia, ele se sentou na cama de olhos fechados e apontou para o sul, e depois deitou de novo.",
       "tipo": "ausencia"
     }
   ],
