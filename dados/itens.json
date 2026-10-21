@@ -518,6 +518,16 @@
       "peso": 0.5,
       "efeito": "Mapas precisos da Universidade e de Sharia; mapas de lugares que Elias nunca viu.",
       "descricao": "Capa de couro rachada, páginas inchadas de uso. Letra miúda, inclinada quando ele está nervoso."
+    },
+    {
+      "id": "caderno_dunmorrow_tomas",
+      "nome": "Caderno de Dunmorrow: TOMAS",
+      "tipo": "chave",
+      "raridade": "unico",
+      "preco": {},
+      "peso": 0.5,
+      "efeito": "Registro de Dunmorrow sobre o aluno Tomas: datas, doses, o que ele contou depois de sonhar. Prova.",
+      "descricao": "Capa de couro igual às outras da prateleira do porão; o nome TOMAS a tinta na lombada."
     }
   ]
 }
