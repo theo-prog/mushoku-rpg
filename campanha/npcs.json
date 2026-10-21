@@ -453,7 +453,7 @@
         "Lembra da Noite Rasa (era jovem) e não a conectou ainda"
       ],
       "oco": false,
-      "conhecido_pelo_jogador": false,
+      "conhecido_pelo_jogador": true,
       "status": "vivo",
       "papel": "Instituição"
     },

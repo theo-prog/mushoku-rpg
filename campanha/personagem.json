@@ -18,7 +18,7 @@
   },
   "pv": 6,
   "pv_max": 6,
-  "mana": 57,
+  "mana": 61,
   "mana_max": 61,
   "capacidade_mana_crescimento": "anomala",
   "ranks": {
@@ -67,7 +67,8 @@
     "pontos": 0
   },
   "dinheiro": {
-    "cobre": 7
+    "cobre": 17,
+    "prata": 3
   },
   "objetivos": [
     "Sobreviver",
@@ -97,6 +98,11 @@
     {
       "data": "0423-07-27",
       "descricao": "Seis noites sob vigília na sala da ala leste. Nenhum sonho. Em duas delas acordou de pé, com giz nas mãos, diante de papéis que Dunmorrow deixara na mesa; os papéis sumiram antes do amanhecer.",
+      "tipo": "ausencia"
+    },
+    {
+      "data": "0423-07-28",
+      "descricao": "Dormiu no sofá da Torre da Água, vigiado por Anwen. Nada. Ela contou que às quatro ele se levantou de olhos abertos, foi até a janela do sul e ficou parado olhando, até ela o levar de volta.",
       "tipo": "ausencia"
     }
   ],

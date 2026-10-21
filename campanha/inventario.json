@@ -35,6 +35,12 @@
       "qtd": 6,
       "equipado": true,
       "notas": "Lombadas: PELL, SIRA, BREN, MAUDE, WREN, THEO. Recolhidos do chão do porão, molhados."
+    },
+    {
+      "item_id": "carta_recomendacao",
+      "qtd": 1,
+      "equipado": true,
+      "notas": "Carta de Anwen Tal para Maren Vossk, curandeira. Qualquer posto da Guilda sabe onde ela está. Guardada sob a camisa."
     }
   ],
   "carga_max": 6,
