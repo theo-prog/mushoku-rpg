@@ -25,18 +25,6 @@
       "notas": "Recuperado por Anwen Tal da gaveta de Pahl em 27 de Colheita. Mapas e anotações de Elias (dias 9 a 19 de Colheita; 1 de Ventos)."
     },
     {
-      "item_id": "caderno_dunmorrow_tomas",
-      "qtd": 1,
-      "equipado": true,
-      "notas": "Pego da prateleira do porão de Dunmorrow, 27 de Colheita, na névoa."
-    },
-    {
-      "item_id": "caderno_dunmorrow",
-      "qtd": 6,
-      "equipado": true,
-      "notas": "Lombadas: PELL, SIRA, BREN, MAUDE, WREN, THEO. Recolhidos do chão do porão, molhados."
-    },
-    {
       "item_id": "carta_recomendacao",
       "qtd": 1,
       "equipado": true,
