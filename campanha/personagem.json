@@ -18,7 +18,7 @@
   },
   "pv": 6,
   "pv_max": 6,
-  "mana": 35,
+  "mana": 48,
   "mana_max": 61,
   "capacidade_mana_crescimento": "anomala",
   "ranks": {
@@ -86,6 +86,11 @@
     {
       "data": "0423-07-20",
       "descricao": "Cochilou sentado ao entardecer, tentando sentir a mana. Nada, nenhum sonho. Acordou de pé na janela, com o dedo no vidro embaçado: tinha desenhado uma escada e o símbolo angular. Dunmorrow assistia.",
+      "tipo": "ausencia"
+    },
+    {
+      "data": "0423-07-21",
+      "descricao": "Dormiu ao amanhecer, umas três horas, na sala da ala leste vigiada por Holm. Nada. Acordou com Elias sentado na beira da cama, olhando para ele.",
       "tipo": "ausencia"
     }
   ],
