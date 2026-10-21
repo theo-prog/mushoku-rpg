@@ -1,3 +1,8 @@
 # Diário da Campanha — O Ano Sem Sonhos
 
 Cada entrada começa com `## ` (sessão, data do mundo, título). Nunca apagar entradas.
+
+## Sessão 1 — 20 a 30 de Colheita de 423 — A Manhã Errada
+Theo, 10 anos, bolsista Sem-Sonho em Sharia, acorda com as paredes do quarto cobertas por um mapa impossível na própria letra; Elias Wren, seu colega de quarto, sumiu. Theo apaga o mapa, mente ao monitor Garrow e segue rastros até a escada de serviço. O supervisor Pahl não acredita, confisca o caderno de Elias e chama Dunmorrow, que retém Theo na sala de observação da ala leste com Elias, drogado para sonhar. Corin avisa: "não bebe nada que ele trouxer". Theo recusa o chá, desenha dormindo diante de Dunmorrow e vê Elias parar de respirar quando a vigia Holm cochila. Elias recebe a terceira dose no dia 21 e não acorda mais.
+No dia 27, a Professora Anwen Tal resgata Theo. À noite os dois invadem o porão: três crianças repetem gestos sob o olhar de Tobb e param, viradas para o sul, quando ninguém olha. Theo derruba Tobb com uma Bola d'Água crítica; Anwen o salva. Pegam os cadernos de Dunmorrow; Corin os vê e os deixa fugir. No caderno de Theo: o penhorista Vorlan entrega crianças a Dunmorrow; Theo "vê de cima"; primeira dose marcada para o dia 30.
+Na audiência do dia 28, o testemunho de Theo convence a Diretora Fenwick: Dunmorrow é suspenso (e some da cidade), a tutela de Theo passa a Anwen e Elias vai para a Torre da Água, sob vigília permanente. Anwen dá a Theo uma carta para Maren Vossk e dinheiro. Em 30 de Colheita, Theo forma o primeiro cristal de gelo sem palavras. O colar aponta para o sul o tempo todo. Amanhã é 1 de Ventos.

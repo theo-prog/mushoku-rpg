@@ -104,6 +104,11 @@
       "data": "0423-07-28",
       "descricao": "Dormiu no sofá da Torre da Água, vigiado por Anwen. Nada. Ela contou que às quatro ele se levantou de olhos abertos, foi até a janela do sul e ficou parado olhando, até ela o levar de volta.",
       "tipo": "ausencia"
+    },
+    {
+      "data": "0423-07-30",
+      "descricao": "Duas noites na Torre da Água, sob vigília. Nada. Nas duas, às quatro, levantou-se de olhos abertos e ficou na janela do sul até alguém o trazer de volta. Na segunda, Holm disse que ele murmurou: \"está mais baixa\".",
+      "tipo": "ausencia"
     }
   ],
   "pericias": [
@@ -116,5 +121,5 @@
   ],
   "treino_infancia": "A mãe, clériga aventureira, ensinou orações de cura dos 6 aos 8 anos; o pai, espadachim, só o básico de segurar uma lâmina. Ambos morreram num contrato da Guilda no início de 421. Quase um ano nas ruas de Sharia. Desde o início de 422, bolsista da Universidade (magia da água).",
   "ambicao": "Sobreviver.",
-  "notas": "Achou um colar com lasca de bronze rachado (fragmento de sino) na lama do mercado. Na loja de penhores, tocou uma pedra de avaliação que acendeu e rachou; Dunmorrow viu e o levou para a Universidade como bolsista. Divide quarto com Elias Wren. Começou a praticar conjuração sem palavras em 0423-07-20 (precisa de 6 meses de prática; CD 15 ao fim)."
+  "notas": "Achou um colar com lasca de bronze rachado (fragmento de sino) na lama do mercado. Na loja de penhores (Mestre Vorlan, que avisa Dunmorrow por uma prata), tocou uma pedra de avaliação que acendeu e rachou; Dunmorrow o levou para a Universidade como bolsista. Começou a praticar conjuração sem palavras em 0423-07-20 (precisa de 6 meses de prática; CD 15 ao fim). Em 0423-07-30, com Anwen, formou o primeiro cristal de gelo sem palavras, controlado (ainda não é o traço encantacao_silenciosa)."
 }

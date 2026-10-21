@@ -1,5 +1,5 @@
 {
-  "data_mundo": "0423-07-27",
+  "data_mundo": "0423-07-30",
   "local_atual": "sharia",
   "clima": "fim de verão, ar seco, céu limpo",
   "relogios": {
@@ -46,9 +46,24 @@
     "elias_transferido_torre_agua",
     "cadernos_confiscados_por_fenwick",
     "corin_testemunhou",
-    "porao_sob_vigilia_ordem_fenwick"
+    "porao_sob_vigilia_ordem_fenwick",
+    "primeiro_cristal_sem_palavras",
+    "dunmorrow_sumiu_de_casa"
   ],
-  "noticias_recentes": [],
+  "noticias_recentes": [
+    {
+      "data": "0423-07-29",
+      "texto": "O Templo de Millis de Sharia anuncia vigília de orações para o 12º aniversário da Noite Muda, na noite de 1 de Ventos.",
+      "evento_id": null,
+      "local_id": "sharia"
+    },
+    {
+      "data": "0423-07-29",
+      "texto": "Dunmorrow não é visto em casa desde a audiência; a criada diz que ele saiu com duas malas de livros.",
+      "evento_id": null,
+      "local_id": "sharia"
+    }
+  ],
   "sessao": 1,
   "abertura": "estudante"
 }
