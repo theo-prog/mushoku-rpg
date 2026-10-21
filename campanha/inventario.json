@@ -1,12 +1,6 @@
 {
   "itens": [
     {
-      "item_id": "cajado_aprendiz",
-      "qtd": 1,
-      "equipado": true,
-      "notas": "Da Universidade, emprestado aos bolsistas."
-    },
-    {
       "item_id": "adaga",
       "qtd": 1,
       "equipado": true,
@@ -32,6 +26,13 @@
         "item_id": "caderno_elias",
         "qtd": 1,
         "notas": "Confiscado por Pahl, gaveta trancada do gabinete do supervisor dos bolsistas (térreo)."
+      }
+    ],
+    "com_dunmorrow": [
+      {
+        "item_id": "cajado_aprendiz",
+        "qtd": 1,
+        "notas": "Tomado por Dunmorrow na sala da ala leste, 21 de Colheita."
       }
     ]
   }
