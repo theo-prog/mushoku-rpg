@@ -1426,6 +1426,31 @@
       "conhecido_pelo_jogador": true,
       "status": "vivo",
       "papel": "Vigia da sala de observação"
+    },
+    {
+      "id": "tobb",
+      "nome": "Tobb",
+      "raca": "humano",
+      "idade": 40,
+      "rank": "Sem treino",
+      "faccao_id": "universidade_ranoa",
+      "local_atual": "sharia",
+      "atitude": 0,
+      "personalidade": "Lavadeiro gigante da Universidade, lento de fala, fiel a Dunmorrow como um cão. Cuida dos que estão no porão com uma ternura terrível.",
+      "voz": "Quase não fala; cantarola canções de ninar desafinadas.",
+      "frase_caracteristica": "\"Shh. O professor disse pra não deixar de olhar.\"",
+      "objetivos": [
+        "Fazer o que o professor manda",
+        "Que as crianças do porão fiquem bem"
+      ],
+      "segredos": [
+        "Vigia o porão toda noite enquanto Dunmorrow está na sala de observação",
+        "Acredita que as crianças do porão estão só doentes"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": true,
+      "status": "vivo",
+      "papel": "Carregador e vigia do porão"
     }
   ]
 }
