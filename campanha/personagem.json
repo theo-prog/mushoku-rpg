@@ -16,9 +16,9 @@
     "percepcao": 2,
     "presenca": 1
   },
-  "pv": 6,
+  "pv": 5,
   "pv_max": 6,
-  "mana": 48,
+  "mana": 44,
   "mana_max": 61,
   "capacidade_mana_crescimento": "anomala",
   "ranks": {
