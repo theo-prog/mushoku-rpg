@@ -1,3 +1,96 @@
 {
-  "quests": []
+  "quests": [
+    {
+      "id": "q_salvar_elias",
+      "titulo": "Trazer Elias de volta",
+      "descricao": "Elias foi drogado por Dunmorrow para sonhar e recebeu a terceira dose. Acordou na Noite dos Sinos.",
+      "npc_origem": "elias_wren",
+      "local_id": "sharia",
+      "arco_id": "a1_manha_errada",
+      "objetivos": [
+        {
+          "texto": "Encontrar Elias",
+          "feito": true
+        },
+        {
+          "texto": "Tirá-lo das mãos de Dunmorrow",
+          "feito": true
+        },
+        {
+          "texto": "Mantê-lo vigiado até acordar",
+          "feito": true
+        },
+        {
+          "texto": "Descobrir se ele voltou inteiro",
+          "feito": false
+        }
+      ],
+      "recompensa": "Elias como aliado",
+      "status": "ativa"
+    },
+    {
+      "id": "q_expor_dunmorrow",
+      "titulo": "As dobradiças de Dunmorrow",
+      "descricao": "Provar o que Dunmorrow fazia com os Sem-Sonho e impedi-lo de continuar.",
+      "npc_origem": "anwen_tal",
+      "local_id": "sharia",
+      "arco_id": "a2_os_que_cacam",
+      "objetivos": [
+        {
+          "texto": "Conseguir provas (cadernos)",
+          "feito": true
+        },
+        {
+          "texto": "Testemunhar diante de Fenwick",
+          "feito": true
+        },
+        {
+          "texto": "Descobrir para onde Dunmorrow foi",
+          "feito": false
+        }
+      ],
+      "recompensa": "",
+      "status": "ativa"
+    },
+    {
+      "id": "q_carta_maren",
+      "titulo": "Uma carta para Maren Vossk",
+      "descricao": "Anwen deu a Theo uma carta para Maren Vossk, curandeira que esconde crianças Sem-Sonho, em algum lugar no sul, perto da fronteira de Asura. Qualquer posto da Guilda sabe onde ela está.",
+      "npc_origem": "anwen_tal",
+      "local_id": "sharia",
+      "arco_id": null,
+      "objetivos": [
+        {
+          "texto": "Decidir se fica em Sharia ou parte",
+          "feito": false
+        },
+        {
+          "texto": "Levar a carta a um posto da Guilda",
+          "feito": false
+        }
+      ],
+      "recompensa": "",
+      "status": "ativa"
+    },
+    {
+      "id": "q_o_sul",
+      "titulo": "Para onde o colar aponta",
+      "descricao": "O fragmento de sino aponta para o sul e tocou junto com o som da Noite dos Sinos. Elias viu uma casa de cabeça para baixo descendo sobre o mar.",
+      "npc_origem": null,
+      "local_id": "sharia",
+      "arco_id": "s02_mapa_impossivel",
+      "objetivos": [
+        {
+          "texto": "Descobrir o que é o símbolo angular (livro trancado de Fenwick)",
+          "feito": false
+        },
+        {
+          "texto": "Descobrir o que há no sul",
+          "feito": false
+        }
+      ],
+      "recompensa": "",
+      "status": "ativa"
+    }
+  ]
 }

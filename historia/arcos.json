@@ -37,7 +37,7 @@
           ]
         }
       ],
-      "fase_atual": 0,
+      "fase_atual": 2,
       "pistas": [
         {
           "revelacao_id": "rev_vigilia",
@@ -103,7 +103,7 @@
           ]
         }
       ],
-      "fase_atual": 0,
+      "fase_atual": 1,
       "pistas": [
         {
           "revelacao_id": "rev_vigilia",

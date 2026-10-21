@@ -72,12 +72,15 @@
   },
   "objetivos": [
     "Sobreviver",
-    "Manter a bolsa da Universidade"
+    "Manter Elias vivo e vigiado",
+    "Decidir: ficar em Sharia ou levar a carta a Maren Vossk",
+    "Saber para onde o colar aponta"
   ],
   "relacoes": {
-    "elias_wren": 40,
+    "elias_wren": 55,
     "kaspar_dunmorrow": -20,
-    "anwen_tal": 30
+    "anwen_tal": 30,
+    "corin_dale": 15
   },
   "sonhos_registrados": [
     {
