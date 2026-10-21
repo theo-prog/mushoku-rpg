@@ -23,6 +23,12 @@
       "qtd": 1,
       "equipado": false,
       "notas": "Uniforme cinza-azulado de bolsista, com capuz."
+    },
+    {
+      "item_id": "caderno_elias",
+      "qtd": 1,
+      "equipado": true,
+      "notas": "Caderno de mapas de Elias Wren, com anotações dos dias 9 a 19 de Colheita e uma de 1 de Ventos."
     }
   ],
   "carga_max": 6,

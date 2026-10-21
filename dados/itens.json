@@ -1,47 +1,523 @@
 {
   "versao": 1,
   "itens": [
-    {"id": "adaga", "nome": "Adaga", "tipo": "arma", "raridade": "comum", "preco": {"prata": 1}, "peso": 0.5, "efeito": "Arma leve; pode ser arremessada (10 m).", "dano": "1d4", "descricao": "Lâmina curta de ferro."},
-    {"id": "espada_curta", "nome": "Espada curta", "tipo": "arma", "raridade": "comum", "preco": {"prata": 2}, "peso": 1.5, "efeito": "Arma leve.", "dano": "1d6", "descricao": "Comum entre aventureiros e guardas."},
-    {"id": "espada_longa", "nome": "Espada longa", "tipo": "arma", "raridade": "comum", "preco": {"prata": 3}, "peso": 2, "efeito": "Arma versátil (Força ou Agilidade).", "dano": "1d8", "descricao": "A arma padrão dos três estilos."},
-    {"id": "montante", "nome": "Montante", "tipo": "arma", "raridade": "comum", "preco": {"prata": 6}, "peso": 4, "efeito": "Duas mãos; arma pesada.", "dano": "1d12", "descricao": "Espada de duas mãos."},
-    {"id": "katana_norte", "nome": "Lâmina curva do Norte", "tipo": "arma", "raridade": "incomum", "preco": {"ouro_asura": 2}, "peso": 1.5, "efeito": "Arma leve; +1 em técnicas do Estilo Deus da Espada.", "dano": "1d8", "descricao": "Forjada nas Terras do Norte, perto do Santuário."},
-    {"id": "lanca", "nome": "Lança", "tipo": "arma", "raridade": "comum", "preco": {"prata": 1}, "peso": 2, "efeito": "Alcance 3 m.", "dano": "1d8", "descricao": "Arma de milícia e de caça."},
-    {"id": "arco_curto", "nome": "Arco curto", "tipo": "arma", "raridade": "comum", "preco": {"prata": 3}, "peso": 1, "efeito": "Alcance 40 m.", "dano": "1d6", "descricao": "Arco de caça."},
-    {"id": "arco_longo", "nome": "Arco longo", "tipo": "arma", "raridade": "comum", "preco": {"prata": 6}, "peso": 1.5, "efeito": "Alcance 100 m; exige Força 0+.", "dano": "1d8", "descricao": "Arco de guerra."},
-    {"id": "flechas_20", "nome": "Flechas (20)", "tipo": "consumivel", "raridade": "comum", "preco": {"cobre": 5}, "peso": 1, "efeito": "Munição.", "descricao": "Aljava com vinte flechas."},
-    {"id": "machado", "nome": "Machado de batalha", "tipo": "arma", "raridade": "comum", "preco": {"prata": 3}, "peso": 2.5, "efeito": "Arma pesada.", "dano": "1d10", "descricao": "Ferramenta que virou arma."},
-    {"id": "cajado_aprendiz", "nome": "Cajado de aprendiz", "tipo": "cajado", "raridade": "comum", "preco": {"prata": 4}, "peso": 1.5, "efeito": "+1 no ataque mágico de magias Iniciantes.", "dano": "1d4", "descricao": "Madeira com uma lasca de pedra mágica."},
-    {"id": "cajado_mago", "nome": "Cajado de mago", "tipo": "cajado", "raridade": "incomum", "preco": {"ouro_asura": 5}, "peso": 2, "efeito": "+1 no ataque mágico e −1 no custo de magias Intermediárias (mínimo 1).", "dano": "1d6", "descricao": "Encomendado em Sharia."},
-    {"id": "anel_foco", "nome": "Anel-foco", "tipo": "foco", "raridade": "raro", "preco": {"ouro_asura": 20}, "peso": 0, "efeito": "Conjurar sem mãos livres; +1 no teste de interrupção.", "descricao": "Usado por magos que lutam com espada."},
-    {"id": "gibao_couro", "nome": "Gibão de couro", "tipo": "armadura", "raridade": "comum", "preco": {"prata": 2}, "peso": 4, "efeito": "+1 Defesa.", "descricao": "Couro fervido."},
-    {"id": "cota_malha", "nome": "Cota de malha", "tipo": "armadura", "raridade": "comum", "preco": {"prata": 15}, "peso": 12, "efeito": "+3 Defesa; −1 em Furtividade; desvantagem contra Faísca Celeste.", "descricao": "Armadura de soldado."},
-    {"id": "placas", "nome": "Armadura de placas", "tipo": "armadura", "raridade": "incomum", "preco": {"ouro_asura": 8}, "peso": 25, "efeito": "+5 Defesa; −2 Agilidade para esquiva e furtividade.", "descricao": "Cavaleiros de Asura e do Templo."},
-    {"id": "escudo", "nome": "Escudo", "tipo": "escudo", "raridade": "comum", "preco": {"prata": 2}, "peso": 3, "efeito": "+2 Defesa; ocupa uma mão.", "descricao": "Madeira reforçada."},
-    {"id": "manto_viagem", "nome": "Manto de viagem", "tipo": "vestimenta", "raridade": "comum", "preco": {"cobre": 8}, "peso": 1.5, "efeito": "Protege de chuva e frio leve.", "descricao": "Lã grossa encerada."},
-    {"id": "racao_semana", "nome": "Rações (1 semana)", "tipo": "consumivel", "raridade": "comum", "preco": {"cobre": 15}, "peso": 5, "efeito": "Comida para 7 dias.", "descricao": "Pão duro, carne seca, queijo."},
-    {"id": "cantil", "nome": "Cantil", "tipo": "ferramenta", "raridade": "comum", "preco": {"cobre": 2}, "peso": 1, "efeito": "Água para um dia.", "descricao": "Couro."},
-    {"id": "kit_viagem", "nome": "Kit de viagem", "tipo": "ferramenta", "raridade": "comum", "preco": {"prata": 1}, "peso": 6, "efeito": "Saco de dormir, corda 15 m, pederneira, panela.", "descricao": "O básico para a estrada."},
-    {"id": "kit_cura", "nome": "Kit de curandeiro", "tipo": "ferramenta", "raridade": "comum", "preco": {"prata": 2}, "peso": 1, "efeito": "+2 em Medicina; 10 usos de bandagem (estabiliza a 0 PV com Medicina CD 10).", "descricao": "Bandagens, ervas, linha e agulha."},
-    {"id": "erva_sono_leve", "nome": "Erva-de-vigília", "tipo": "consumivel", "raridade": "incomum", "preco": {"prata": 1}, "peso": 0.1, "efeito": "Mantém acordado por uma noite sem penalidade; noites seguidas dão −1 cumulativo em tudo.", "descricao": "Folha amarga mascada por sentinelas. Desde a Noite Muda, o preço triplicou."},
-    {"id": "lanterna", "nome": "Lanterna de óleo", "tipo": "ferramenta", "raridade": "comum", "preco": {"cobre": 7}, "peso": 1, "efeito": "Luz por 6 horas por frasco.", "descricao": "Lata e vidro."},
-    {"id": "pedra_magica_pequena", "nome": "Pedra mágica pequena", "tipo": "pedra_magica", "raridade": "comum", "preco": {"prata": 5}, "peso": 0.1, "efeito": "Guarda 5 de mana; pode ser gasta no lugar da sua (uma vez).", "descricao": "Extraída de monstros fracos."},
-    {"id": "pedra_magica_media", "nome": "Pedra mágica média", "tipo": "pedra_magica", "raridade": "incomum", "preco": {"ouro_asura": 3}, "peso": 0.2, "efeito": "Guarda 15 de mana.", "descricao": "De monstros rank B ou de labirintos."},
-    {"id": "pedra_magica_grande", "nome": "Pedra mágica grande", "tipo": "pedra_magica", "raridade": "raro", "preco": {"ouro_asura": 15}, "peso": 0.5, "efeito": "Guarda 40 de mana; combustível de itens poderosos.", "descricao": "De monstros rank A+ ou núcleos de labirinto menores."},
-    {"id": "pergaminho_circulo_barreira", "nome": "Pergaminho de círculo (Cúpula)", "tipo": "pergaminho", "raridade": "incomum", "preco": {"ouro_asura": 2}, "peso": 0.1, "efeito": "Uso único: conjura Cúpula sem mana nem encantação.", "descricao": "Círculo desenhado em tinta de mana."},
-    {"id": "pergaminho_circulo_fogo", "nome": "Pergaminho de círculo (Explosão Contida)", "tipo": "pergaminho", "raridade": "incomum", "preco": {"ouro_asura": 2}, "peso": 0.1, "efeito": "Uso único: Explosão Contida sem mana.", "descricao": "Muito usado em armadilhas."},
-    {"id": "amuleto_charlatao", "nome": "Amuleto 'contra Ocos'", "tipo": "item_magico", "raridade": "comum", "preco": {"prata": 3}, "peso": 0.1, "efeito": "Nenhum efeito real.", "descricao": "Vendido em toda feira desde a Noite Muda. Pedra pintada e um fio de cobre."},
-    {"id": "sino_vigilia", "nome": "Sino de vigília", "tipo": "ferramenta", "raridade": "comum", "preco": {"cobre": 6}, "peso": 0.3, "efeito": "Sentinelas tocam a cada hora da noite para provar que estão acordadas.", "descricao": "Costume que se espalhou pelas vilas depois da Noite Muda."},
-    {"id": "lente_mana", "nome": "Lente de mana", "tipo": "item_magico", "raridade": "raro", "preco": {"ouro_asura": 12}, "peso": 0.2, "efeito": "Vê fluxo de mana em seres vivos a até 10 m (Percepção CD 12).", "descricao": "Monóculo da Universidade de Ranoa."},
-    {"id": "corda_seda_aranha", "nome": "Corda de seda-de-aranha", "tipo": "ferramenta", "raridade": "incomum", "preco": {"ouro_asura": 1}, "peso": 0.5, "efeito": "30 m, aguenta 500 kg, quase invisível.", "descricao": "Feita com seda de aranhas do Continente Demoníaco."},
-    {"id": "mapa_central", "nome": "Mapa do Continente Central", "tipo": "ferramenta", "raridade": "incomum", "preco": {"prata": 8}, "peso": 0.2, "efeito": "+2 em Navegação no Central.", "descricao": "Cópia de guilda, com rotas e postos."},
-    {"id": "selo_guilda", "nome": "Placa da Guilda de Aventureiros", "tipo": "chave", "raridade": "comum", "preco": {"prata": 1}, "peso": 0, "efeito": "Identifica o aventureiro, seu rank e sua party.", "descricao": "Metal gravado; se perdida, segunda via custa caro."},
-    {"id": "carta_recomendacao", "nome": "Carta de recomendação", "tipo": "chave", "raridade": "incomum", "preco": {}, "peso": 0, "efeito": "Abre uma porta específica (definida na nota do inventário).", "descricao": "Lacrada com o selo de quem recomenda."},
-    {"id": "pocao_alquimica", "nome": "Tônico alquímico", "tipo": "consumivel", "raridade": "incomum", "preco": {"prata": 6}, "peso": 0.2, "efeito": "Recupera 1d6 PV em 1 minuto. Não existem poções milagrosas: isto é ervas e mana fraca.", "descricao": "Vendido por boticários."},
-    {"id": "cavalo", "nome": "Cavalo", "tipo": "ferramenta", "raridade": "comum", "preco": {"ouro_asura": 4}, "peso": 0, "efeito": "Reduz em 1/3 o tempo de viagem por estrada.", "descricao": "Precisa de comida, cuidados e estábulo."},
-    {"id": "passagem_navio", "nome": "Passagem de navio", "tipo": "chave", "raridade": "comum", "preco": {"prata": 5}, "peso": 0, "efeito": "Uma viagem marítima (rota na nota).", "descricao": "Bilhete carimbado do porto."},
-    {"id": "fragmento_sino", "nome": "Fragmento de sino rachado", "tipo": "tesouro", "raridade": "unico", "preco": {}, "peso": 0.3, "efeito": "Desconhecido.", "descricao": "Bronze rachado de um templo, da manhã seguinte à Noite Muda. Às vezes está frio sem motivo."},
-    {"id": "olho_de_vidro_superd", "nome": "Joia apagada", "tipo": "tesouro", "raridade": "muito_raro", "preco": {}, "peso": 0.1, "efeito": "Desconhecido.", "descricao": "Uma pedra vermelha opaca, do tamanho de uma unha. Quem a reconhece empalidece."},
-    {"id": "espada_aldric", "nome": "Lâmina de Aldric Faust", "tipo": "arma", "raridade": "lendario", "preco": {}, "peso": 2, "efeito": "+2 ataque e dano; técnicas do Estilo Deus da Espada custam 1 mana a menos. Desaparecida desde 420.", "dano": "1d10", "descricao": "A espada do último Deus da Espada."}
+    {
+      "id": "adaga",
+      "nome": "Adaga",
+      "tipo": "arma",
+      "raridade": "comum",
+      "preco": {
+        "prata": 1
+      },
+      "peso": 0.5,
+      "efeito": "Arma leve; pode ser arremessada (10 m).",
+      "dano": "1d4",
+      "descricao": "Lâmina curta de ferro."
+    },
+    {
+      "id": "espada_curta",
+      "nome": "Espada curta",
+      "tipo": "arma",
+      "raridade": "comum",
+      "preco": {
+        "prata": 2
+      },
+      "peso": 1.5,
+      "efeito": "Arma leve.",
+      "dano": "1d6",
+      "descricao": "Comum entre aventureiros e guardas."
+    },
+    {
+      "id": "espada_longa",
+      "nome": "Espada longa",
+      "tipo": "arma",
+      "raridade": "comum",
+      "preco": {
+        "prata": 3
+      },
+      "peso": 2,
+      "efeito": "Arma versátil (Força ou Agilidade).",
+      "dano": "1d8",
+      "descricao": "A arma padrão dos três estilos."
+    },
+    {
+      "id": "montante",
+      "nome": "Montante",
+      "tipo": "arma",
+      "raridade": "comum",
+      "preco": {
+        "prata": 6
+      },
+      "peso": 4,
+      "efeito": "Duas mãos; arma pesada.",
+      "dano": "1d12",
+      "descricao": "Espada de duas mãos."
+    },
+    {
+      "id": "katana_norte",
+      "nome": "Lâmina curva do Norte",
+      "tipo": "arma",
+      "raridade": "incomum",
+      "preco": {
+        "ouro_asura": 2
+      },
+      "peso": 1.5,
+      "efeito": "Arma leve; +1 em técnicas do Estilo Deus da Espada.",
+      "dano": "1d8",
+      "descricao": "Forjada nas Terras do Norte, perto do Santuário."
+    },
+    {
+      "id": "lanca",
+      "nome": "Lança",
+      "tipo": "arma",
+      "raridade": "comum",
+      "preco": {
+        "prata": 1
+      },
+      "peso": 2,
+      "efeito": "Alcance 3 m.",
+      "dano": "1d8",
+      "descricao": "Arma de milícia e de caça."
+    },
+    {
+      "id": "arco_curto",
+      "nome": "Arco curto",
+      "tipo": "arma",
+      "raridade": "comum",
+      "preco": {
+        "prata": 3
+      },
+      "peso": 1,
+      "efeito": "Alcance 40 m.",
+      "dano": "1d6",
+      "descricao": "Arco de caça."
+    },
+    {
+      "id": "arco_longo",
+      "nome": "Arco longo",
+      "tipo": "arma",
+      "raridade": "comum",
+      "preco": {
+        "prata": 6
+      },
+      "peso": 1.5,
+      "efeito": "Alcance 100 m; exige Força 0+.",
+      "dano": "1d8",
+      "descricao": "Arco de guerra."
+    },
+    {
+      "id": "flechas_20",
+      "nome": "Flechas (20)",
+      "tipo": "consumivel",
+      "raridade": "comum",
+      "preco": {
+        "cobre": 5
+      },
+      "peso": 1,
+      "efeito": "Munição.",
+      "descricao": "Aljava com vinte flechas."
+    },
+    {
+      "id": "machado",
+      "nome": "Machado de batalha",
+      "tipo": "arma",
+      "raridade": "comum",
+      "preco": {
+        "prata": 3
+      },
+      "peso": 2.5,
+      "efeito": "Arma pesada.",
+      "dano": "1d10",
+      "descricao": "Ferramenta que virou arma."
+    },
+    {
+      "id": "cajado_aprendiz",
+      "nome": "Cajado de aprendiz",
+      "tipo": "cajado",
+      "raridade": "comum",
+      "preco": {
+        "prata": 4
+      },
+      "peso": 1.5,
+      "efeito": "+1 no ataque mágico de magias Iniciantes.",
+      "dano": "1d4",
+      "descricao": "Madeira com uma lasca de pedra mágica."
+    },
+    {
+      "id": "cajado_mago",
+      "nome": "Cajado de mago",
+      "tipo": "cajado",
+      "raridade": "incomum",
+      "preco": {
+        "ouro_asura": 5
+      },
+      "peso": 2,
+      "efeito": "+1 no ataque mágico e −1 no custo de magias Intermediárias (mínimo 1).",
+      "dano": "1d6",
+      "descricao": "Encomendado em Sharia."
+    },
+    {
+      "id": "anel_foco",
+      "nome": "Anel-foco",
+      "tipo": "foco",
+      "raridade": "raro",
+      "preco": {
+        "ouro_asura": 20
+      },
+      "peso": 0,
+      "efeito": "Conjurar sem mãos livres; +1 no teste de interrupção.",
+      "descricao": "Usado por magos que lutam com espada."
+    },
+    {
+      "id": "gibao_couro",
+      "nome": "Gibão de couro",
+      "tipo": "armadura",
+      "raridade": "comum",
+      "preco": {
+        "prata": 2
+      },
+      "peso": 4,
+      "efeito": "+1 Defesa.",
+      "descricao": "Couro fervido."
+    },
+    {
+      "id": "cota_malha",
+      "nome": "Cota de malha",
+      "tipo": "armadura",
+      "raridade": "comum",
+      "preco": {
+        "prata": 15
+      },
+      "peso": 12,
+      "efeito": "+3 Defesa; −1 em Furtividade; desvantagem contra Faísca Celeste.",
+      "descricao": "Armadura de soldado."
+    },
+    {
+      "id": "placas",
+      "nome": "Armadura de placas",
+      "tipo": "armadura",
+      "raridade": "incomum",
+      "preco": {
+        "ouro_asura": 8
+      },
+      "peso": 25,
+      "efeito": "+5 Defesa; −2 Agilidade para esquiva e furtividade.",
+      "descricao": "Cavaleiros de Asura e do Templo."
+    },
+    {
+      "id": "escudo",
+      "nome": "Escudo",
+      "tipo": "escudo",
+      "raridade": "comum",
+      "preco": {
+        "prata": 2
+      },
+      "peso": 3,
+      "efeito": "+2 Defesa; ocupa uma mão.",
+      "descricao": "Madeira reforçada."
+    },
+    {
+      "id": "manto_viagem",
+      "nome": "Manto de viagem",
+      "tipo": "vestimenta",
+      "raridade": "comum",
+      "preco": {
+        "cobre": 8
+      },
+      "peso": 1.5,
+      "efeito": "Protege de chuva e frio leve.",
+      "descricao": "Lã grossa encerada."
+    },
+    {
+      "id": "racao_semana",
+      "nome": "Rações (1 semana)",
+      "tipo": "consumivel",
+      "raridade": "comum",
+      "preco": {
+        "cobre": 15
+      },
+      "peso": 5,
+      "efeito": "Comida para 7 dias.",
+      "descricao": "Pão duro, carne seca, queijo."
+    },
+    {
+      "id": "cantil",
+      "nome": "Cantil",
+      "tipo": "ferramenta",
+      "raridade": "comum",
+      "preco": {
+        "cobre": 2
+      },
+      "peso": 1,
+      "efeito": "Água para um dia.",
+      "descricao": "Couro."
+    },
+    {
+      "id": "kit_viagem",
+      "nome": "Kit de viagem",
+      "tipo": "ferramenta",
+      "raridade": "comum",
+      "preco": {
+        "prata": 1
+      },
+      "peso": 6,
+      "efeito": "Saco de dormir, corda 15 m, pederneira, panela.",
+      "descricao": "O básico para a estrada."
+    },
+    {
+      "id": "kit_cura",
+      "nome": "Kit de curandeiro",
+      "tipo": "ferramenta",
+      "raridade": "comum",
+      "preco": {
+        "prata": 2
+      },
+      "peso": 1,
+      "efeito": "+2 em Medicina; 10 usos de bandagem (estabiliza a 0 PV com Medicina CD 10).",
+      "descricao": "Bandagens, ervas, linha e agulha."
+    },
+    {
+      "id": "erva_sono_leve",
+      "nome": "Erva-de-vigília",
+      "tipo": "consumivel",
+      "raridade": "incomum",
+      "preco": {
+        "prata": 1
+      },
+      "peso": 0.1,
+      "efeito": "Mantém acordado por uma noite sem penalidade; noites seguidas dão −1 cumulativo em tudo.",
+      "descricao": "Folha amarga mascada por sentinelas. Desde a Noite Muda, o preço triplicou."
+    },
+    {
+      "id": "lanterna",
+      "nome": "Lanterna de óleo",
+      "tipo": "ferramenta",
+      "raridade": "comum",
+      "preco": {
+        "cobre": 7
+      },
+      "peso": 1,
+      "efeito": "Luz por 6 horas por frasco.",
+      "descricao": "Lata e vidro."
+    },
+    {
+      "id": "pedra_magica_pequena",
+      "nome": "Pedra mágica pequena",
+      "tipo": "pedra_magica",
+      "raridade": "comum",
+      "preco": {
+        "prata": 5
+      },
+      "peso": 0.1,
+      "efeito": "Guarda 5 de mana; pode ser gasta no lugar da sua (uma vez).",
+      "descricao": "Extraída de monstros fracos."
+    },
+    {
+      "id": "pedra_magica_media",
+      "nome": "Pedra mágica média",
+      "tipo": "pedra_magica",
+      "raridade": "incomum",
+      "preco": {
+        "ouro_asura": 3
+      },
+      "peso": 0.2,
+      "efeito": "Guarda 15 de mana.",
+      "descricao": "De monstros rank B ou de labirintos."
+    },
+    {
+      "id": "pedra_magica_grande",
+      "nome": "Pedra mágica grande",
+      "tipo": "pedra_magica",
+      "raridade": "raro",
+      "preco": {
+        "ouro_asura": 15
+      },
+      "peso": 0.5,
+      "efeito": "Guarda 40 de mana; combustível de itens poderosos.",
+      "descricao": "De monstros rank A+ ou núcleos de labirinto menores."
+    },
+    {
+      "id": "pergaminho_circulo_barreira",
+      "nome": "Pergaminho de círculo (Cúpula)",
+      "tipo": "pergaminho",
+      "raridade": "incomum",
+      "preco": {
+        "ouro_asura": 2
+      },
+      "peso": 0.1,
+      "efeito": "Uso único: conjura Cúpula sem mana nem encantação.",
+      "descricao": "Círculo desenhado em tinta de mana."
+    },
+    {
+      "id": "pergaminho_circulo_fogo",
+      "nome": "Pergaminho de círculo (Explosão Contida)",
+      "tipo": "pergaminho",
+      "raridade": "incomum",
+      "preco": {
+        "ouro_asura": 2
+      },
+      "peso": 0.1,
+      "efeito": "Uso único: Explosão Contida sem mana.",
+      "descricao": "Muito usado em armadilhas."
+    },
+    {
+      "id": "amuleto_charlatao",
+      "nome": "Amuleto 'contra Ocos'",
+      "tipo": "item_magico",
+      "raridade": "comum",
+      "preco": {
+        "prata": 3
+      },
+      "peso": 0.1,
+      "efeito": "Nenhum efeito real.",
+      "descricao": "Vendido em toda feira desde a Noite Muda. Pedra pintada e um fio de cobre."
+    },
+    {
+      "id": "sino_vigilia",
+      "nome": "Sino de vigília",
+      "tipo": "ferramenta",
+      "raridade": "comum",
+      "preco": {
+        "cobre": 6
+      },
+      "peso": 0.3,
+      "efeito": "Sentinelas tocam a cada hora da noite para provar que estão acordadas.",
+      "descricao": "Costume que se espalhou pelas vilas depois da Noite Muda."
+    },
+    {
+      "id": "lente_mana",
+      "nome": "Lente de mana",
+      "tipo": "item_magico",
+      "raridade": "raro",
+      "preco": {
+        "ouro_asura": 12
+      },
+      "peso": 0.2,
+      "efeito": "Vê fluxo de mana em seres vivos a até 10 m (Percepção CD 12).",
+      "descricao": "Monóculo da Universidade de Ranoa."
+    },
+    {
+      "id": "corda_seda_aranha",
+      "nome": "Corda de seda-de-aranha",
+      "tipo": "ferramenta",
+      "raridade": "incomum",
+      "preco": {
+        "ouro_asura": 1
+      },
+      "peso": 0.5,
+      "efeito": "30 m, aguenta 500 kg, quase invisível.",
+      "descricao": "Feita com seda de aranhas do Continente Demoníaco."
+    },
+    {
+      "id": "mapa_central",
+      "nome": "Mapa do Continente Central",
+      "tipo": "ferramenta",
+      "raridade": "incomum",
+      "preco": {
+        "prata": 8
+      },
+      "peso": 0.2,
+      "efeito": "+2 em Navegação no Central.",
+      "descricao": "Cópia de guilda, com rotas e postos."
+    },
+    {
+      "id": "selo_guilda",
+      "nome": "Placa da Guilda de Aventureiros",
+      "tipo": "chave",
+      "raridade": "comum",
+      "preco": {
+        "prata": 1
+      },
+      "peso": 0,
+      "efeito": "Identifica o aventureiro, seu rank e sua party.",
+      "descricao": "Metal gravado; se perdida, segunda via custa caro."
+    },
+    {
+      "id": "carta_recomendacao",
+      "nome": "Carta de recomendação",
+      "tipo": "chave",
+      "raridade": "incomum",
+      "preco": {},
+      "peso": 0,
+      "efeito": "Abre uma porta específica (definida na nota do inventário).",
+      "descricao": "Lacrada com o selo de quem recomenda."
+    },
+    {
+      "id": "pocao_alquimica",
+      "nome": "Tônico alquímico",
+      "tipo": "consumivel",
+      "raridade": "incomum",
+      "preco": {
+        "prata": 6
+      },
+      "peso": 0.2,
+      "efeito": "Recupera 1d6 PV em 1 minuto. Não existem poções milagrosas: isto é ervas e mana fraca.",
+      "descricao": "Vendido por boticários."
+    },
+    {
+      "id": "cavalo",
+      "nome": "Cavalo",
+      "tipo": "ferramenta",
+      "raridade": "comum",
+      "preco": {
+        "ouro_asura": 4
+      },
+      "peso": 0,
+      "efeito": "Reduz em 1/3 o tempo de viagem por estrada.",
+      "descricao": "Precisa de comida, cuidados e estábulo."
+    },
+    {
+      "id": "passagem_navio",
+      "nome": "Passagem de navio",
+      "tipo": "chave",
+      "raridade": "comum",
+      "preco": {
+        "prata": 5
+      },
+      "peso": 0,
+      "efeito": "Uma viagem marítima (rota na nota).",
+      "descricao": "Bilhete carimbado do porto."
+    },
+    {
+      "id": "fragmento_sino",
+      "nome": "Fragmento de sino rachado",
+      "tipo": "tesouro",
+      "raridade": "unico",
+      "preco": {},
+      "peso": 0.3,
+      "efeito": "Desconhecido.",
+      "descricao": "Bronze rachado de um templo, da manhã seguinte à Noite Muda. Às vezes está frio sem motivo."
+    },
+    {
+      "id": "olho_de_vidro_superd",
+      "nome": "Joia apagada",
+      "tipo": "tesouro",
+      "raridade": "muito_raro",
+      "preco": {},
+      "peso": 0.1,
+      "efeito": "Desconhecido.",
+      "descricao": "Uma pedra vermelha opaca, do tamanho de uma unha. Quem a reconhece empalidece."
+    },
+    {
+      "id": "espada_aldric",
+      "nome": "Lâmina de Aldric Faust",
+      "tipo": "arma",
+      "raridade": "lendario",
+      "preco": {},
+      "peso": 2,
+      "efeito": "+2 ataque e dano; técnicas do Estilo Deus da Espada custam 1 mana a menos. Desaparecida desde 420.",
+      "dano": "1d10",
+      "descricao": "A espada do último Deus da Espada."
+    },
+    {
+      "id": "caderno_elias",
+      "nome": "Caderno de mapas de Elias",
+      "tipo": "chave",
+      "raridade": "unico",
+      "preco": {},
+      "peso": 0.5,
+      "efeito": "Mapas precisos da Universidade e de Sharia; mapas de lugares que Elias nunca viu.",
+      "descricao": "Capa de couro rachada, páginas inchadas de uso. Letra miúda, inclinada quando ele está nervoso."
+    }
   ]
 }
