@@ -18,7 +18,7 @@
   },
   "pv": 6,
   "pv_max": 6,
-  "mana": 43,
+  "mana": 31,
   "mana_max": 61,
   "capacidade_mana_crescimento": "anomala",
   "ranks": {
@@ -94,5 +94,5 @@
   ],
   "treino_infancia": "A mãe, clériga aventureira, ensinou orações de cura dos 6 aos 8 anos; o pai, espadachim, só o básico de segurar uma lâmina. Ambos morreram num contrato da Guilda no início de 421. Quase um ano nas ruas de Sharia. Desde o início de 422, bolsista da Universidade (magia da água).",
   "ambicao": "Sobreviver.",
-  "notas": "Achou um colar com lasca de bronze rachado (fragmento de sino) na lama do mercado. Na loja de penhores, tocou uma pedra de avaliação que acendeu e rachou; Dunmorrow viu e o levou para a Universidade como bolsista. Divide quarto com Elias Wren."
+  "notas": "Achou um colar com lasca de bronze rachado (fragmento de sino) na lama do mercado. Na loja de penhores, tocou uma pedra de avaliação que acendeu e rachou; Dunmorrow viu e o levou para a Universidade como bolsista. Divide quarto com Elias Wren. Começou a praticar conjuração sem palavras em 0423-07-20 (precisa de 6 meses de prática; CD 15 ao fim)."
 }
