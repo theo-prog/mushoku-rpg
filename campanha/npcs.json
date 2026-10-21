@@ -1401,6 +1401,31 @@
       "conhecido_pelo_jogador": true,
       "status": "vivo",
       "papel": "Autoridade do alojamento"
+    },
+    {
+      "id": "senhora_holm",
+      "nome": "Senhora Bertha Holm",
+      "raca": "humano",
+      "idade": 51,
+      "rank": "Sem treino",
+      "faccao_id": "universidade_ranoa",
+      "local_atual": "sharia",
+      "atitude": -5,
+      "personalidade": "Vigia contratada por Dunmorrow para a sala da ala leste. Seca, exausta, mais assustada que cruel. Precisa do dinheiro.",
+      "voz": "Seca e baixa, de quem quase não fala; chama as crianças de \"menino\".",
+      "frase_caracteristica": "\"Eu não durmo. Esse é o meu trabalho inteiro.\"",
+      "objetivos": [
+        "Manter o emprego",
+        "Nunca mais cochilar no turno"
+      ],
+      "segredos": [
+        "Sabe, por prática, que quem dorme na sala precisa ser vigiado; não sabe por quê",
+        "Sabe o que aconteceu com a vigia anterior e com o menino Tomas"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": true,
+      "status": "vivo",
+      "papel": "Vigia da sala de observação"
     }
   ]
 }
