@@ -1377,6 +1377,30 @@
       "conhecido_pelo_jogador": false,
       "status": "vivo",
       "papel": "Mestre do porto"
+    },
+    {
+      "id": "odric_pahl",
+      "nome": "Mestre Odric Pahl",
+      "raca": "humano",
+      "idade": 54,
+      "rank": "Iniciante (terra)",
+      "faccao_id": "universidade_ranoa",
+      "local_atual": "sharia",
+      "atitude": -5,
+      "personalidade": "Supervisor dos bolsistas. Cansado, gotoso, tem pavor de escândalo. Acredita em regras porque elas o protegem.",
+      "voz": "Fala pelo nariz, suspira antes de responder, chama todo aluno pelo sobrenome.",
+      "frase_caracteristica": "\"Isso não é assunto para um bolsista.\"",
+      "objetivos": [
+        "Chegar à aposentadoria sem problemas",
+        "Que ninguém da diretoria olhe para o andar dele"
+      ],
+      "segredos": [
+        "Já recebeu bilhetes de Dunmorrow pedindo para não registrar ausências noturnas de certos alunos, e obedeceu"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": true,
+      "status": "vivo",
+      "papel": "Autoridade do alojamento"
     }
   ]
 }
