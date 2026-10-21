@@ -528,6 +528,16 @@
       "peso": 0.5,
       "efeito": "Registro de Dunmorrow sobre o aluno Tomas: datas, doses, o que ele contou depois de sonhar. Prova.",
       "descricao": "Capa de couro igual às outras da prateleira do porão; o nome TOMAS a tinta na lombada."
+    },
+    {
+      "id": "caderno_dunmorrow",
+      "nome": "Caderno de registro de Dunmorrow",
+      "tipo": "chave",
+      "raridade": "unico",
+      "preco": {},
+      "peso": 0.5,
+      "efeito": "Registro de Dunmorrow sobre um aluno Sem-Sonho: datas, doses, relatos. Prova.",
+      "descricao": "Capa de couro, nome do aluno a tinta na lombada."
     }
   ]
 }

@@ -29,6 +29,12 @@
       "qtd": 1,
       "equipado": true,
       "notas": "Pego da prateleira do porão de Dunmorrow, 27 de Colheita, na névoa."
+    },
+    {
+      "item_id": "caderno_dunmorrow",
+      "qtd": 6,
+      "equipado": true,
+      "notas": "Lombadas: PELL, SIRA, BREN, MAUDE, WREN, THEO. Recolhidos do chão do porão, molhados."
     }
   ],
   "carga_max": 6,
