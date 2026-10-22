@@ -10,7 +10,8 @@
     "migracao": 0
   },
   "flags": [
-    "campanha_iniciada"
+    "campanha_iniciada",
+    "viu_primeiro_oco"
   ],
   "noticias_recentes": [],
   "sessao": 1,
