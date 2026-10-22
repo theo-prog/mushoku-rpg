@@ -1476,6 +1476,56 @@
       "status": "oco",
       "papel": "Oco do pomar",
       "notas": "Chamou Pip pelo nome (marca). Theo cortou o tendão do calcanhar dela com a espada em 0423-07-21; caiu no pomar."
+    },
+    {
+      "id": "bertram_kell",
+      "nome": "Sir Bertram Kell",
+      "raca": "humano",
+      "idade": 56,
+      "rank": "Avançado (Deus da Espada)",
+      "faccao_id": "igreja_millis",
+      "local_atual": "brisaclara",
+      "atitude": 35,
+      "personalidade": "Cavaleiro de Millis, ex-escudeiro da Guarda de Ars. Lento para falar, rápido para notar. Leal à Igreja por fé, não por gosto pela Inquisição.",
+      "voz": "Grave, sem pressa; chama todo mundo de 'menino' ou 'boa gente'; termina ordens com 'por favor', o que as torna mais assustadoras.",
+      "frase_caracteristica": "\"Com a mão no punho, do jeito antigo.\"",
+      "objetivos": [
+        "Escoltar o registro de crianças em Fittoa sem que ninguém se machuque",
+        "Pagar uma dívida antiga com Aldous Burnmouth"
+      ],
+      "segredos": [
+        "Treinou ao lado de Aldous Burnmouth em Ars e não acredita na acusação de traição",
+        "Reconheceu Theo como filho de Aldous pelo rosto"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": true,
+      "status": "vivo",
+      "papel": "Cavaleiro de Millis que reconheceu Theo",
+      "notas": "Encontrado na estrada Brisaclara–Velmora em 0423-07-22, a caminho do sul com a carroça de registro."
+    },
+    {
+      "id": "irmao_fennel",
+      "nome": "Irmão Fennel",
+      "raca": "humano",
+      "idade": 34,
+      "rank": "sem treino",
+      "faccao_id": "igreja_millis",
+      "local_atual": "brisaclara",
+      "atitude": 0,
+      "personalidade": "Escrivão do registro de crianças da Igreja. Educado, meticuloso, ambicioso; acredita que listas salvam almas.",
+      "voz": "Voz de escriturário, molha o lápis na língua antes de escrever.",
+      "frase_caracteristica": "\"Paz de Millis sobre vocês. Quantos anos têm?\"",
+      "objetivos": [
+        "Completar o livro de registro de Fittoa",
+        "Ser notado pelo Inquisidor Lothair"
+      ],
+      "segredos": [
+        "Riscou o nome Burnmouth a pedido de Sir Bertram, mas o anotou de novo na margem de trás do livro"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": true,
+      "status": "vivo",
+      "papel": "Escrivão do registro"
     }
   ]
 }
