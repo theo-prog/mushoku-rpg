@@ -1452,6 +1452,30 @@
       "status": "vivo",
       "papel": "Órfão da casa paroquial",
       "notas": "Marcas: 1 (chamado pelo nome pela Velha Tamsa, Oco, no pomar, 0423-07-21)."
+    },
+    {
+      "id": "tamsa_brisaclara",
+      "nome": "Velha Tamsa",
+      "raca": "humano",
+      "idade": 74,
+      "rank": "sem treino",
+      "faccao_id": null,
+      "local_atual": "brisaclara",
+      "atitude": 30,
+      "personalidade": "Viúva das cabras e das macieiras; grita com os bichos e mima as crianças com maçã e mel.",
+      "voz": "Voz aguda de quem grita com cabras; cantarola sem letra.",
+      "frase_caracteristica": "\"Essas aqui tão boas este ano.\"",
+      "objetivos": [
+        "Colher as maçãs antes das vespas"
+      ],
+      "segredos": [
+        "Esvaziada na noite do festival (0423-07-20)"
+      ],
+      "oco": true,
+      "conhecido_pelo_jogador": true,
+      "status": "oco",
+      "papel": "Oco do pomar",
+      "notas": "Chamou Pip pelo nome (marca). Theo cortou o tendão do calcanhar dela com a espada em 0423-07-21; caiu no pomar."
     }
   ]
 }

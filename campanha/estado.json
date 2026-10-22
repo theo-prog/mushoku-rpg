@@ -11,7 +11,8 @@
   },
   "flags": [
     "campanha_iniciada",
-    "viu_primeiro_oco"
+    "viu_primeiro_oco",
+    "feriu_oco_tamsa"
   ],
   "noticias_recentes": [],
   "sessao": 1,
