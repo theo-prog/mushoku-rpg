@@ -18,7 +18,7 @@
   },
   "pv": 8,
   "pv_max": 8,
-  "mana": 23,
+  "mana": 24,
   "mana_max": 24,
   "capacidade_mana_crescimento": "normal",
   "ranks": {
@@ -92,6 +92,11 @@
       "data": "0423-07-22",
       "tipo": "comum",
       "descricao": "No santuário da estrada, sonhou com um pomar de sol forte, muito tempo atrás: uma moça de tranças, rindo, gritando com uma cabra, que lhe estendeu uma maçã e disse 'essas aqui tão boas este ano'. Ela parecia feliz como ninguém."
+    },
+    {
+      "data": "0423-07-23",
+      "tipo": "comum",
+      "descricao": "Segunda noite na estrada: sonhou com uma escada larga de pedra descendo para um escuro morno, e um murmúrio de multidão vindo de baixo, como de um salão de festa muito longe. Não sentiu medo; sentiu saudade de algo que não conhece."
     }
   ],
   "pericias": [

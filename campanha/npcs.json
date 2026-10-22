@@ -34,7 +34,7 @@
       "idade": 44,
       "rank": "sem treino",
       "faccao_id": null,
-      "local_atual": "brisaclara",
+      "local_atual": "velmora",
       "atitude": 10,
       "personalidade": "Ferreiro viúvo de Brisaclara, insone desde que a esposa morreu. Calado, gentil com crianças, péssimo com palavras.",
       "voz": "Fala devagar, com pausas longas, mãos sempre ocupadas.",
@@ -1282,7 +1282,8 @@
       "oco": true,
       "conhecido_pelo_jogador": true,
       "status": "oco",
-      "papel": "Vítima da abertura da aldeia"
+      "papel": "Vítima da abertura da aldeia",
+      "notas": "Ficou no rio de Brisaclara com os outros adultos esvaziados."
     },
     {
       "id": "hitogami",
@@ -1411,7 +1412,7 @@
       "idade": 12,
       "rank": "sem treino",
       "faccao_id": null,
-      "local_atual": "brisaclara",
+      "local_atual": "velmora",
       "atitude": 40,
       "personalidade": "A mais velha da casa paroquial. Mandona, prática, sarcástica, cuida dos menores como se fosse obrigação e não carinho. Dorme mal.",
       "voz": "Fala rápido, cortando as frases dos outros; chama Theo de 'cavaleirinho'.",
@@ -1436,7 +1437,7 @@
       "idade": 6,
       "rank": "sem treino",
       "faccao_id": null,
-      "local_atual": "brisaclara",
+      "local_atual": "velmora",
       "atitude": 55,
       "personalidade": "O menor da casa. Curioso, falante, segue Theo para todo lado e quer aprender espada.",
       "voz": "Pergunta tudo duas vezes; termina frases com 'né?'.",

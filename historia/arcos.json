@@ -37,7 +37,7 @@
           ]
         }
       ],
-      "fase_atual": 1,
+      "fase_atual": 2,
       "pistas": [
         {
           "revelacao_id": "rev_vigilia",
@@ -65,7 +65,7 @@
         "Primeira regra dos Ocos descoberta",
         "Um aliado da origem"
       ],
-      "status": "ativo",
+      "status": "concluido",
       "ligacao_misterio": "Primeiro contato com os Ocos e com as regras deles."
     },
     {
@@ -154,7 +154,7 @@
         "Missão da Guilda",
         "Inimigo (Severin)"
       ],
-      "status": "inativo",
+      "status": "ativo",
       "ligacao_misterio": "Convergência; as regras dos Ocos começam a se revelar."
     },
     {
