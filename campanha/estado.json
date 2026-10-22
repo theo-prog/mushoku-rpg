@@ -1,6 +1,6 @@
 {
-  "data_mundo": "0423-07-20",
-  "local_atual": null,
+  "data_mundo": "0423-07-21",
+  "local_atual": "brisaclara",
   "clima": "fim de verão, ar seco, céu limpo",
   "relogios": {
     "descida": 0,
@@ -9,8 +9,10 @@
     "titulo_vago": 0,
     "migracao": 0
   },
-  "flags": [],
+  "flags": [
+    "campanha_iniciada"
+  ],
   "noticias_recentes": [],
-  "sessao": 0,
-  "abertura": null
+  "sessao": 1,
+  "abertura": "aldeia_fronteira"
 }

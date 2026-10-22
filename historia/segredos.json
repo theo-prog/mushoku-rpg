@@ -12,30 +12,140 @@
     "a_descida": "A ilha invertida é a Dobradiça: o templo onde as seis faces se encontravam com a sétima, que caiu no Fundo junto com ela. Quando o deus olhou para cima, empurrou a Dobradiça para fora pela pele do mundo; ela saiu de cabeça para baixo porque veio de baixo. Ela desce porque o deus está subindo por dentro dela, como alguém sobe uma escada no escuro. Quando ela tocar o mar, a escada estará completa: o Deus Adormecido acorda inteiro e sobe. Ele vai sonhar as seis faces antigas por cima do mundo atual. Os vivos que sonham viram todos Ocos de uma vez; os mortos dos seis mundos 'voltam' habitando os corpos e os lugares. Para os mortos é um retorno. Para os vivos, é o fim."
   },
   "revelacoes": [
-    {"id": "rev_vigilia", "titulo": "A vigília protege", "verdade": "Ninguém vira Oco enquanto alguém acordado o observa dormir. Os Ocos só se mantêm 'vivos' onde são observados.", "revelada": false},
-    {"id": "rev_sonhos_do_fundo", "titulo": "Os sonhos vêm do Fundo", "verdade": "Sonhar é descer ao Fundo; os sonhos são memórias dos mortos das seis faces.", "revelada": false},
-    {"id": "rev_dizimo", "titulo": "O dízimo da mana", "verdade": "Quem sonha paga mana ao Deus Adormecido; os Sem-Sonho não pagam e por isso têm mana anormal e não podem virar Ocos.", "revelada": false},
-    {"id": "rev_raiz", "titulo": "A criança da Raiz", "verdade": "A Grande Floresta mantém uma criança dormindo para sempre sob a Grande Árvore para embalar o deus; desde a Noite Rasa da Guerra de Laplace.", "revelada": false},
-    {"id": "rev_noite_muda", "titulo": "A Noite Muda foi um despertar", "verdade": "A Noite Muda aconteceu porque a criança da Raiz foi acordada e o deus abriu os olhos.", "revelada": false},
-    {"id": "rev_hitogami", "titulo": "A voz gentil acordou o deus", "verdade": "Hitogami arquitetou a Noite Muda e quer devorar o deus quando ele subir.", "revelada": false},
-    {"id": "rev_maren", "titulo": "A culpa de Maren", "verdade": "Maren Vossk foi quem tirou a criança da Raiz, guiada por sonhos gentis.", "revelada": false},
-    {"id": "rev_nhiri", "titulo": "A Lâmina Sem Escola", "verdade": "A assassina do Deus da Espada é Nhiri, a criança da Raiz acordada, que aprendeu nos sonhos do deus estilos de espada das seis faces. Matou Aldric porque ele estava sendo esvaziado.", "revelada": false},
-    {"id": "rev_dobradica", "titulo": "A ilha é a Dobradiça", "verdade": "A ilha invertida é o templo onde as faces se encontravam; cada toque de sino é uma pessoa virando Oco em algum lugar.", "revelada": false},
-    {"id": "rev_descida", "titulo": "O que acontece quando tocar o mar", "verdade": "Quando a ilha tocar o mar, o deus acorda inteiro e sonha as seis faces por cima do mundo.", "revelada": false},
-    {"id": "rev_coroa", "titulo": "A coroa oca", "verdade": "O rei Edran III é Oco desde 421; a corte o mantém observado dia e noite para que pareça vivo.", "revelada": false},
-    {"id": "rev_almas_vivas", "titulo": "Os esvaziados estão vivos", "verdade": "As almas dos Ocos estão vivas no Fundo, sonhando seus melhores dias. Muitas não querem voltar.", "revelada": false}
+    {
+      "id": "rev_vigilia",
+      "titulo": "A vigília protege",
+      "verdade": "Ninguém vira Oco enquanto alguém acordado o observa dormir. Os Ocos só se mantêm 'vivos' onde são observados.",
+      "revelada": false
+    },
+    {
+      "id": "rev_sonhos_do_fundo",
+      "titulo": "Os sonhos vêm do Fundo",
+      "verdade": "Sonhar é descer ao Fundo; os sonhos são memórias dos mortos das seis faces.",
+      "revelada": false
+    },
+    {
+      "id": "rev_dizimo",
+      "titulo": "O dízimo da mana",
+      "verdade": "Quem sonha paga mana ao Deus Adormecido; os Sem-Sonho não pagam e por isso têm mana anormal e não podem virar Ocos.",
+      "revelada": false
+    },
+    {
+      "id": "rev_raiz",
+      "titulo": "A criança da Raiz",
+      "verdade": "A Grande Floresta mantém uma criança dormindo para sempre sob a Grande Árvore para embalar o deus; desde a Noite Rasa da Guerra de Laplace.",
+      "revelada": false
+    },
+    {
+      "id": "rev_noite_muda",
+      "titulo": "A Noite Muda foi um despertar",
+      "verdade": "A Noite Muda aconteceu porque a criança da Raiz foi acordada e o deus abriu os olhos.",
+      "revelada": false
+    },
+    {
+      "id": "rev_hitogami",
+      "titulo": "A voz gentil acordou o deus",
+      "verdade": "Hitogami arquitetou a Noite Muda e quer devorar o deus quando ele subir.",
+      "revelada": false
+    },
+    {
+      "id": "rev_maren",
+      "titulo": "A culpa de Maren",
+      "verdade": "Maren Vossk foi quem tirou a criança da Raiz, guiada por sonhos gentis.",
+      "revelada": false
+    },
+    {
+      "id": "rev_nhiri",
+      "titulo": "A Lâmina Sem Escola",
+      "verdade": "A assassina do Deus da Espada é Nhiri, a criança da Raiz acordada, que aprendeu nos sonhos do deus estilos de espada das seis faces. Matou Aldric porque ele estava sendo esvaziado.",
+      "revelada": false
+    },
+    {
+      "id": "rev_dobradica",
+      "titulo": "A ilha é a Dobradiça",
+      "verdade": "A ilha invertida é o templo onde as faces se encontravam; cada toque de sino é uma pessoa virando Oco em algum lugar.",
+      "revelada": false
+    },
+    {
+      "id": "rev_descida",
+      "titulo": "O que acontece quando tocar o mar",
+      "verdade": "Quando a ilha tocar o mar, o deus acorda inteiro e sonha as seis faces por cima do mundo.",
+      "revelada": false
+    },
+    {
+      "id": "rev_coroa",
+      "titulo": "A coroa oca",
+      "verdade": "O rei Edran III é Oco desde 421; a corte o mantém observado dia e noite para que pareça vivo.",
+      "revelada": false
+    },
+    {
+      "id": "rev_almas_vivas",
+      "titulo": "Os esvaziados estão vivos",
+      "verdade": "As almas dos Ocos estão vivas no Fundo, sonhando seus melhores dias. Muitas não querem voltar.",
+      "revelada": false
+    }
   ],
   "regras_ocos": [
-    {"id": "r1_sono", "regra": "Só se vira Oco dormindo, e só quem sonha. Sem-Sonho nunca viram Ocos.", "como_descobrir": "Nenhum Sem-Sonho registrado virou Oco; sentinelas que não dormem nunca viram; padrão de 'amanheceu Oco'.", "descoberta_pelo_jogador": false},
-    {"id": "r2_vigilia", "regra": "Quem dorme observado por alguém acordado (olhos abertos, atento, no mesmo cômodo) não vira Oco naquela noite.", "como_descobrir": "Famílias que fazem turnos de vigília nunca perdem ninguém; a floresta dos povos-fera; o costume dos sinos de vigília.", "descoberta_pelo_jogador": false},
-    {"id": "r3_observado", "regra": "O Oco só age enquanto alguém o observa. Sem observador, ele para onde está: não come, não pisca, não respira visivelmente.", "como_descobrir": "Espiar por uma fresta; apagar a luz e escutar; o pão intacto na mesa de manhã.", "descoberta_pelo_jogador": false},
-    {"id": "r4_rotina", "regra": "O Oco repete a rotina e as frases da pessoa, montadas a partir da lembrança de quem a conhecia. Não cria nada novo. Diante de algo que ninguém que o conheceu poderia lembrar (uma pergunta inédita, um fato novo), ele sorri e repete a última frase coerente.", "como_descobrir": "Conversas que entram em laço; o Oco não sabe de nada que aconteceu depois da noite em que foi esvaziado.", "descoberta_pelo_jogador": false},
-    {"id": "r5_lembranca", "regra": "Se um Oco diz o nome de alguém que a pessoa amava, olhando para ele, o deus 'lembra' dessa pessoa: ela recebe uma Marca. Marcados correm muito mais risco nas noites sem vigília.", "como_descobrir": "'Corra, antes que eles lembrem de você'; quem foi chamado pelo nome por um Oco costuma ser o próximo.", "descoberta_pelo_jogador": false},
-    {"id": "r6_direcao", "regra": "Ocos sem observador se voltam para a ilha invertida; a cada noite inteira sem observador, andam alguns quilômetros na direção dela. Observados, param.", "como_descobrir": "Aldeias inteiras de pé, olhando para o mesmo ponto; traçar as direções no mapa: todas convergem para o Mar de Ringus.", "descoberta_pelo_jogador": false},
-    {"id": "r7_floresta", "regra": "Ocos não entram em lugar sob vigília perpétua (a Grande Floresta, mosteiros onde se reza em turnos sem parar). Param na borda.", "como_descobrir": "A borda da Grande Floresta; um mosteiro de reza contínua que sobreviveu intacto numa região esvaziada.", "descoberta_pelo_jogador": false},
-    {"id": "r8_morte", "regra": "Matar o corpo de um Oco não liberta ninguém: a alma fica no Fundo para sempre e o corpo apenas morre. Um Oco ferido só sangra quando alguém olha a ferida.", "como_descobrir": "Ocos mortos não 'voltam'; feridas que não sangram no escuro.", "descoberta_pelo_jogador": false},
-    {"id": "r9_sinos", "regra": "Cada badalada vinda da ilha corresponde a uma pessoa virando Oco em algum lugar do mundo.", "como_descobrir": "Comparar horários de badaladas registradas em Morrowell com esvaziamentos datados; o diário do sobrevivente da expedição Halvard.", "descoberta_pelo_jogador": false},
-    {"id": "r10_luz_acordada", "regra": "Um Oco iluminado por luz mágica conjurada por um Sem-Sonho mostra por um instante o rosto real: vazio, sem expressão, olhos fixos para baixo.", "como_descobrir": "Acidente com Luz Errante ou Chama de Vela conjurada por uma criança Sem-Sonho.", "descoberta_pelo_jogador": false}
+    {
+      "id": "r1_sono",
+      "regra": "Só se vira Oco dormindo, e só quem sonha. Sem-Sonho nunca viram Ocos.",
+      "como_descobrir": "Nenhum Sem-Sonho registrado virou Oco; sentinelas que não dormem nunca viram; padrão de 'amanheceu Oco'.",
+      "descoberta_pelo_jogador": false
+    },
+    {
+      "id": "r2_vigilia",
+      "regra": "Quem dorme observado por alguém acordado (olhos abertos, atento, no mesmo cômodo) não vira Oco naquela noite.",
+      "como_descobrir": "Famílias que fazem turnos de vigília nunca perdem ninguém; a floresta dos povos-fera; o costume dos sinos de vigília.",
+      "descoberta_pelo_jogador": false
+    },
+    {
+      "id": "r3_observado",
+      "regra": "O Oco só age enquanto alguém o observa. Sem observador, ele para onde está: não come, não pisca, não respira visivelmente.",
+      "como_descobrir": "Espiar por uma fresta; apagar a luz e escutar; o pão intacto na mesa de manhã.",
+      "descoberta_pelo_jogador": false
+    },
+    {
+      "id": "r4_rotina",
+      "regra": "O Oco repete a rotina e as frases da pessoa, montadas a partir da lembrança de quem a conhecia. Não cria nada novo. Diante de algo que ninguém que o conheceu poderia lembrar (uma pergunta inédita, um fato novo), ele sorri e repete a última frase coerente.",
+      "como_descobrir": "Conversas que entram em laço; o Oco não sabe de nada que aconteceu depois da noite em que foi esvaziado.",
+      "descoberta_pelo_jogador": false
+    },
+    {
+      "id": "r5_lembranca",
+      "regra": "Se um Oco diz o nome de alguém que a pessoa amava, olhando para ele, o deus 'lembra' dessa pessoa: ela recebe uma Marca. Marcados correm muito mais risco nas noites sem vigília.",
+      "como_descobrir": "'Corra, antes que eles lembrem de você'; quem foi chamado pelo nome por um Oco costuma ser o próximo.",
+      "descoberta_pelo_jogador": false
+    },
+    {
+      "id": "r6_direcao",
+      "regra": "Ocos sem observador se voltam para a ilha invertida; a cada noite inteira sem observador, andam alguns quilômetros na direção dela. Observados, param.",
+      "como_descobrir": "Aldeias inteiras de pé, olhando para o mesmo ponto; traçar as direções no mapa: todas convergem para o Mar de Ringus.",
+      "descoberta_pelo_jogador": false
+    },
+    {
+      "id": "r7_floresta",
+      "regra": "Ocos não entram em lugar sob vigília perpétua (a Grande Floresta, mosteiros onde se reza em turnos sem parar). Param na borda.",
+      "como_descobrir": "A borda da Grande Floresta; um mosteiro de reza contínua que sobreviveu intacto numa região esvaziada.",
+      "descoberta_pelo_jogador": false
+    },
+    {
+      "id": "r8_morte",
+      "regra": "Matar o corpo de um Oco não liberta ninguém: a alma fica no Fundo para sempre e o corpo apenas morre. Um Oco ferido só sangra quando alguém olha a ferida.",
+      "como_descobrir": "Ocos mortos não 'voltam'; feridas que não sangram no escuro.",
+      "descoberta_pelo_jogador": false
+    },
+    {
+      "id": "r9_sinos",
+      "regra": "Cada badalada vinda da ilha corresponde a uma pessoa virando Oco em algum lugar do mundo.",
+      "como_descobrir": "Comparar horários de badaladas registradas em Morrowell com esvaziamentos datados; o diário do sobrevivente da expedição Halvard.",
+      "descoberta_pelo_jogador": false
+    },
+    {
+      "id": "r10_luz_acordada",
+      "regra": "Um Oco iluminado por luz mágica conjurada por um Sem-Sonho mostra por um instante o rosto real: vazio, sem expressão, olhos fixos para baixo.",
+      "como_descobrir": "Acidente com Luz Errante ou Chama de Vela conjurada por uma criança Sem-Sonho.",
+      "descoberta_pelo_jogador": false
+    }
   ],
   "mecanica_sono": {
     "quando": "Toda noite em que o personagem do jogador sonha (não é Sem-Sonho) e dorme sem vigília.",
@@ -72,27 +182,77 @@
   "escolha_final": {
     "contexto": "Ato III, dentro da Dobradiça, diante do deus. Toda opção salva algo e sacrifica algo importante.",
     "opcoes": [
-      {"id": "devolver_o_sono", "descricao": "Dar ao deus uma nova canção de ninar à altura: alguém de mana imensa (um Sem-Sonho, o personagem, ou Nhiri, que já foi a Raiz) dorme para sempre no centro da Dobradiça. A ilha volta a afundar, os esvaziamentos cessam e os sonhos voltam ao normal.", "salva": "O mundo dos vivos, como era antes.", "sacrifica": "Quem dorme para sempre; todos os Ocos continuam Ocos e as almas deles ficam no Fundo; o dízimo continua; Hitogami fica impune e livre para tentar de novo."},
-      {"id": "matar_o_deus", "descricao": "Usar o Corte da Sétima Face (Nhiri, ou quem ela ensinou) enquanto o deus sobe, com a ajuda que Hitogami oferece.", "salva": "As almas dos Ocos voltam aos corpos que ainda vivem; o Fundo deixa de existir.", "sacrifica": "Ninguém nunca mais sonha; os mortos das seis faces desaparecem de verdade; muitos esvaziados acordam num mundo do qual tinham escapado e alguns se matam; Hitogami devora o que resta do deus e se torna incomparavelmente mais forte (a Deusa Dragão pode impedir isso só se estiver lá e tiver sido avisada, ao custo da própria vida)."},
-      {"id": "deixar_subir", "descricao": "Aceitar a oferta da voz de baixo: deixar a ilha tocar o mar e o deus subir, negociando que poupe os que não sonham.", "salva": "Os bilhões de mortos das seis faces 'voltam'; Hitogami é devorado pelo deus e deixa de existir; os Sem-Sonho continuam acordados e livres.", "sacrifica": "Todos os vivos que sonham viram Ocos: pais, amigos, reinos inteiros. Um mundo antigo sonhado por cima do atual."},
-      {"id": "fechar_a_dobradica", "descricao": "Destruir a Dobradiça por dentro (exige a Deusa Dragão, um rank Rei ou acima de barreira, ou o sacrifício de Nhiri como chave). A porta entre o mundo e o Fundo se fecha para sempre.", "salva": "Nada mais sobe nem desce; o deus fica selado; Hitogami perde o seu prêmio.", "sacrifica": "Os sonhos acabam para todos; o dízimo vira dívida: a mana do mundo cai pela metade ao longo de uma geração (magia rara); as almas dos Ocos ficam presas para sempre; quem estiver dentro da ilha ao fechar fica do lado de baixo."}
+      {
+        "id": "devolver_o_sono",
+        "descricao": "Dar ao deus uma nova canção de ninar à altura: alguém de mana imensa (um Sem-Sonho, o personagem, ou Nhiri, que já foi a Raiz) dorme para sempre no centro da Dobradiça. A ilha volta a afundar, os esvaziamentos cessam e os sonhos voltam ao normal.",
+        "salva": "O mundo dos vivos, como era antes.",
+        "sacrifica": "Quem dorme para sempre; todos os Ocos continuam Ocos e as almas deles ficam no Fundo; o dízimo continua; Hitogami fica impune e livre para tentar de novo."
+      },
+      {
+        "id": "matar_o_deus",
+        "descricao": "Usar o Corte da Sétima Face (Nhiri, ou quem ela ensinou) enquanto o deus sobe, com a ajuda que Hitogami oferece.",
+        "salva": "As almas dos Ocos voltam aos corpos que ainda vivem; o Fundo deixa de existir.",
+        "sacrifica": "Ninguém nunca mais sonha; os mortos das seis faces desaparecem de verdade; muitos esvaziados acordam num mundo do qual tinham escapado e alguns se matam; Hitogami devora o que resta do deus e se torna incomparavelmente mais forte (a Deusa Dragão pode impedir isso só se estiver lá e tiver sido avisada, ao custo da própria vida)."
+      },
+      {
+        "id": "deixar_subir",
+        "descricao": "Aceitar a oferta da voz de baixo: deixar a ilha tocar o mar e o deus subir, negociando que poupe os que não sonham.",
+        "salva": "Os bilhões de mortos das seis faces 'voltam'; Hitogami é devorado pelo deus e deixa de existir; os Sem-Sonho continuam acordados e livres.",
+        "sacrifica": "Todos os vivos que sonham viram Ocos: pais, amigos, reinos inteiros. Um mundo antigo sonhado por cima do atual."
+      },
+      {
+        "id": "fechar_a_dobradica",
+        "descricao": "Destruir a Dobradiça por dentro (exige a Deusa Dragão, um rank Rei ou acima de barreira, ou o sacrifício de Nhiri como chave). A porta entre o mundo e o Fundo se fecha para sempre.",
+        "salva": "Nada mais sobe nem desce; o deus fica selado; Hitogami perde o seu prêmio.",
+        "sacrifica": "Os sonhos acabam para todos; o dízimo vira dívida: a mana do mundo cai pela metade ao longo de uma geração (magia rara); as almas dos Ocos ficam presas para sempre; quem estiver dentro da ilha ao fechar fica do lado de baixo."
+      }
     ]
   },
   "vinculo_personagem": {
-    "status": "pendente",
+    "status": "completo",
     "orientacao": "Completar depois da criação do personagem, adaptado à origem: Aldeia de fronteira: o personagem nasceu (ou foi deixado) em Brisaclara em 0410-08 ou logo depois, trazido por Maren, que conhece a família; Nobreza de Asura: a casa do personagem participa do segredo da Coroa Oca; Aventureiro: a escolta era de cargas para Morrowell e uma das carroças levava algo da Dobradiça; Estudante: o mapa nas paredes é o interior da Dobradiça, escrito pelo próprio personagem dormindo (se Sem-Sonho, a alma dele subiu e viu).",
-    "texto": ""
+    "texto": "Theo foi levado a Brisaclara em 0422-07 por Maren Vossk, amiga de juventude de Rinnae (a mãe). Maren escolheu a casa do Padre Odo porque o conhecia desde 0410: foi ali que ela abrigou Nhiri ferida por uma noite, na fuga da Grande Floresta (registro paroquial). Verdade sobre os pais: Sir Aldous Burnmouth era mestre-cavaleiro da guarda real em Ars. Em 0421 foi o primeiro a perceber que o rei Edran III não piscava e não comia quando ficava sozinho; tentou contar ao Conselho. O Duque Corvin Ashgrave o acusou de traição, ele foi exilado e, desde então, agentes de Ashgrave caçam o casal para apagar a testemunha. Rinnae, maga formada em Ranoa, protege o marido com barreiras e disfarces. Os dois se escondem na Região dos Conflitos e mandam notícias a Maren duas vezes por ano. Maren sabe onde eles estavam da última vez (Vel Garran, no fim de 0422) e sabe o motivo do exílio, mas não sabe dos Ocos na corte. Reencontrar os pais leva Theo à Coroa Silenciosa (rev_coroa) e ao Duque Ashgrave. Theo sonha: as noites sem vigília seguem mecanica_sono."
   },
   "prenuncios": [
-    {"detalhe": "Maren nunca dorme antes do personagem e sempre pergunta 'quem vigia esta noite?' como quem brinca.", "significado": "Ela sabe da vigília há anos e se pune não se protegendo."},
-    {"detalhe": "Maren tem uma pena de lince trançada no cabelo.", "significado": "Lembrança de Nhiri (tribo Aulen, traços de lince)."},
-    {"detalhe": "Toma sempre sabe por qual estrada é melhor seguir 'por intuição'.", "significado": "A voz gentil o guia."},
-    {"detalhe": "Os sinos de vigília de Velmora têm a mesma nota dos sinos ouvidos no mar.", "significado": "Foram fundidos com bronze dos sinos rachados na Noite Muda, recolhidos pela Igreja: eles 'respondem' à ilha."},
-    {"detalhe": "Crianças Sem-Sonho desenham escadas que sobem para baixo.", "significado": "A Dobradiça e o deus subindo por ela."},
-    {"detalhe": "Ninguém em Ars viu o rei piscar em público desde 421; os criados mudam de turno sem nunca deixá-lo sozinho.", "significado": "Coroa Oca; vigília inversa."},
-    {"detalhe": "A canção de ninar que os povos-fera cantam aos filhos tem um verso: 'dorme tu, para que ele durma'.", "significado": "O pacto da Raiz."},
-    {"detalhe": "Peixes-sino aparecem em mercados longe da costa, vendidos como curiosidade.", "significado": "O Fundo vazando para o mar."},
-    {"detalhe": "O Deus do Norte comenta que a técnica da Lâmina Sem Escola 'parecia cortar algo que eu não tinha'.", "significado": "O Corte da Sétima Face fere o sono, não a carne."},
-    {"detalhe": "Os Ocos sorriem mais para quem mais os amava.", "significado": "São sonhados a partir das lembranças de quem os amava."}
+    {
+      "detalhe": "Maren nunca dorme antes do personagem e sempre pergunta 'quem vigia esta noite?' como quem brinca.",
+      "significado": "Ela sabe da vigília há anos e se pune não se protegendo."
+    },
+    {
+      "detalhe": "Maren tem uma pena de lince trançada no cabelo.",
+      "significado": "Lembrança de Nhiri (tribo Aulen, traços de lince)."
+    },
+    {
+      "detalhe": "Toma sempre sabe por qual estrada é melhor seguir 'por intuição'.",
+      "significado": "A voz gentil o guia."
+    },
+    {
+      "detalhe": "Os sinos de vigília de Velmora têm a mesma nota dos sinos ouvidos no mar.",
+      "significado": "Foram fundidos com bronze dos sinos rachados na Noite Muda, recolhidos pela Igreja: eles 'respondem' à ilha."
+    },
+    {
+      "detalhe": "Crianças Sem-Sonho desenham escadas que sobem para baixo.",
+      "significado": "A Dobradiça e o deus subindo por ela."
+    },
+    {
+      "detalhe": "Ninguém em Ars viu o rei piscar em público desde 421; os criados mudam de turno sem nunca deixá-lo sozinho.",
+      "significado": "Coroa Oca; vigília inversa."
+    },
+    {
+      "detalhe": "A canção de ninar que os povos-fera cantam aos filhos tem um verso: 'dorme tu, para que ele durma'.",
+      "significado": "O pacto da Raiz."
+    },
+    {
+      "detalhe": "Peixes-sino aparecem em mercados longe da costa, vendidos como curiosidade.",
+      "significado": "O Fundo vazando para o mar."
+    },
+    {
+      "detalhe": "O Deus do Norte comenta que a técnica da Lâmina Sem Escola 'parecia cortar algo que eu não tinha'.",
+      "significado": "O Corte da Sétima Face fere o sono, não a carne."
+    },
+    {
+      "detalhe": "Os Ocos sorriem mais para quem mais os amava.",
+      "significado": "São sonhados a partir das lembranças de quem os amava."
+    }
   ]
 }

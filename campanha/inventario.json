@@ -1,5 +1,21 @@
 {
-  "itens": [],
-  "carga_max": 0,
+  "itens": [
+    {
+      "item_id": "espada_curta",
+      "qtd": 1,
+      "equipado": true,
+      "notas": "Feita sob medida pelo pai; brasão do punho raspado."
+    },
+    {
+      "item_id": "manto_viagem",
+      "qtd": 1,
+      "equipado": true
+    },
+    {
+      "item_id": "cantil",
+      "qtd": 1
+    }
+  ],
+  "carga_max": 10,
   "guardado_em": {}
 }

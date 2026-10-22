@@ -1,30 +1,30 @@
 {
   "id": "jogador",
-  "status_criacao": "pendente",
-  "nome": "",
-  "raca": "",
-  "idade": 0,
-  "data_nascimento_mundo": "",
-  "origem": "",
-  "regiao_origem": "",
+  "status_criacao": "completo",
+  "nome": "Theo Burnmouth",
+  "raca": "meio_migurd",
+  "idade": 10,
+  "data_nascimento_mundo": "0413-03-14",
+  "origem": "aldeia_fronteira",
+  "regiao_origem": "Asura (criado em casas de passagem); há um ano em Brisaclara, Fittoa",
   "sem_sonho": false,
   "atributos": {
-    "forca": 0,
-    "agilidade": 0,
+    "forca": 1,
+    "agilidade": 3,
     "vigor": 0,
-    "intelecto": 0,
+    "intelecto": 2,
     "percepcao": 0,
-    "presenca": 0
+    "presenca": -1
   },
-  "pv": 0,
-  "pv_max": 0,
-  "mana": 0,
-  "mana_max": 0,
+  "pv": 8,
+  "pv_max": 8,
+  "mana": 24,
+  "mana_max": 24,
   "capacidade_mana_crescimento": "normal",
   "ranks": {
     "magia": {
       "fogo": "nenhum",
-      "agua": "nenhum",
+      "agua": "iniciante",
       "terra": "nenhum",
       "vento": "nenhum",
       "cura": "nenhum",
@@ -33,32 +33,69 @@
       "invocacao": "nenhum"
     },
     "espada": {
-      "deus_da_espada": "nenhum",
+      "deus_da_espada": "intermediario",
       "deus_da_agua": "nenhum",
       "deus_do_norte": "nenhum"
     }
   },
-  "magias_conhecidas": [],
-  "tecnicas": [],
+  "magias_conhecidas": [
+    "criar_agua",
+    "jato_d_agua",
+    "resfriar"
+  ],
+  "tecnicas": [
+    "saque_reto",
+    "passo_adiante",
+    "lamina_antes_do_pensamento"
+  ],
   "encantacao_silenciosa": false,
   "tracos": {
     "bencaos": [],
     "maldicoes": [],
     "olhos_demoniacos": [],
-    "outros": []
+    "outros": [
+      "Eco (telepatia fraca de sangue migurd)",
+      "Aparência jovem"
+    ]
   },
   "ferimentos_persistentes": [],
-  "idiomas": [],
+  "idiomas": [
+    "Língua Humana",
+    "Língua Demoníaca (falada, básico)"
+  ],
   "reputacao_guilda": {
     "rank": "nenhum",
     "pontos": 0
   },
-  "dinheiro": {},
-  "objetivos": [],
-  "relacoes": {},
-  "sonhos_registrados": [],
-  "pericias": [],
-  "treino_infancia": "",
-  "ambicao": "",
-  "notas": ""
+  "dinheiro": {
+    "prata": 4,
+    "cobre": 6
+  },
+  "objetivos": [
+    "Reencontrar os pais"
+  ],
+  "relacoes": {
+    "padre_odo_fennick": 60,
+    "wenna_brisaclara": 40,
+    "pip_brisaclara": 55,
+    "hollis_varn": 30,
+    "maren_vossk": 25
+  },
+  "sonhos_registrados": [
+    {
+      "data": "0423-07-21",
+      "tipo": "comum",
+      "descricao": "Na noite do festival, sonhou com uma praia de areia preta sob um céu de dois sóis, e com mãos que não eram as dele trançando uma corda. Acordou com a sensação de que alguém, muito longe, tinha estado feliz."
+    }
+  ],
+  "pericias": [
+    "Atletismo",
+    "Furtividade",
+    "Etiqueta",
+    "Arcanismo",
+    "Sobrevivência"
+  ],
+  "treino_infancia": "Espada (Estilo Deus da Espada) com o pai, um mestre-cavaleiro, dos 5 aos 9 anos; magia de água com a mãe, maga migurd formada em academia, dos 8 aos 9.",
+  "ambicao": "Reencontrar os pais.",
+  "notas": "Pai: Sir Aldous Burnmouth, mestre-cavaleiro exilado. Mãe: Rinnae Burnmouth, maga migurd. Há um ano (0422) os pais o mandaram para Brisaclara com 'tia Maren', uma curandeira amiga da mãe, que o deixou com o Padre Odo. Theo não sabe por que era perigoso ficar com eles. Espada curta feita sob medida pelo pai, brasão raspado."
 }

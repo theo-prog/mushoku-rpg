@@ -65,3 +65,5 @@ Sempre que o Mestre inventar algo grande (lugar, raça, fato histórico, institu
 
 | Data do mundo | O que mudou | Causa | Consequências previstas |
 |---|---|---|---|
+| 0423-07-21 | Raça jogável **meio-migurd** (`dados/racas.json`): filhos de humano e migurd, raros, sem tribo; +1 Intelecto, traço "Eco". | Criação de Theo Burnmouth | Puristas de Millis os veem como "sangue de demônio"; tribos migurd raramente os aceitam. |
+| 0423-07-21 | Padre Odo Fennick e a casa paroquial de órfãos de Brisaclara (Wenna, Pip). Sir Aldous Burnmouth, mestre-cavaleiro exilado de Asura em 0421, e a maga migurd Rinnae Burnmouth (paradeiro desconhecido). | Criação de Theo Burnmouth | Os Burnmouth são procurados; o motivo do exílio não é público. |

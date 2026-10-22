@@ -23,7 +23,7 @@
         "Tem uma carta que nunca termina de escrever"
       ],
       "oco": false,
-      "conhecido_pelo_jogador": false,
+      "conhecido_pelo_jogador": true,
       "status": "vivo",
       "papel": "Mentora do Ato I"
     },
@@ -48,7 +48,7 @@
         "Ficou acordado na noite em que todos foram esvaziados"
       ],
       "oco": false,
-      "conhecido_pelo_jogador": false,
+      "conhecido_pelo_jogador": true,
       "status": "vivo",
       "papel": "Sobrevivente da abertura da aldeia"
     },
@@ -1280,7 +1280,7 @@
         "Na manhã da abertura, está no rio com os outros"
       ],
       "oco": true,
-      "conhecido_pelo_jogador": false,
+      "conhecido_pelo_jogador": true,
       "status": "oco",
       "papel": "Vítima da abertura da aldeia"
     },
@@ -1377,6 +1377,80 @@
       "conhecido_pelo_jogador": false,
       "status": "vivo",
       "papel": "Mestre do porto"
+    },
+    {
+      "id": "padre_odo_fennick",
+      "nome": "Padre Odo Fennick",
+      "raca": "humano",
+      "idade": 61,
+      "rank": "Iniciante (cura)",
+      "faccao_id": "igreja_millis",
+      "local_atual": "brisaclara",
+      "atitude": 60,
+      "personalidade": "Padre do pequeno templo de Brisaclara. Acolhe crianças deixadas para trás. Distraído, guloso por mel, rigoroso com orações e frouxo com tudo o mais.",
+      "voz": "Fala baixo e com rodeios, cita versículos errado de propósito para ver se as crianças corrigem; pigarreia antes de dar más notícias.",
+      "frase_caracteristica": "\"Primeiro o pão, depois o pecado.\"",
+      "objetivos": [
+        "Criar as crianças da casa até poderem ir embora",
+        "Terminar o telhado do templo antes do inverno"
+      ],
+      "segredos": [
+        "Guarda o registro paroquial de 0410 com a passagem de Maren e uma menina povo-fera ferida",
+        "Prometeu a Maren não dizer a ninguém de quem Theo é filho"
+      ],
+      "oco": true,
+      "conhecido_pelo_jogador": true,
+      "status": "oco",
+      "papel": "Tutor de Theo; esvaziado na noite do festival",
+      "notas": "Dormiu sozinho no quarto dele na noite de 0423-07-20."
+    },
+    {
+      "id": "wenna_brisaclara",
+      "nome": "Wenna",
+      "raca": "humano",
+      "idade": 12,
+      "rank": "sem treino",
+      "faccao_id": null,
+      "local_atual": "brisaclara",
+      "atitude": 40,
+      "personalidade": "A mais velha da casa paroquial. Mandona, prática, sarcástica, cuida dos menores como se fosse obrigação e não carinho. Dorme mal.",
+      "voz": "Fala rápido, cortando as frases dos outros; chama Theo de 'cavaleirinho'.",
+      "frase_caracteristica": "\"Se for chorar, chora andando.\"",
+      "objetivos": [
+        "Não ser mandada para um orfanato da Igreja em Velmora",
+        "Proteger Pip"
+      ],
+      "segredos": [
+        "É Sem-Sonho e esconde isso de todos; nunca sonhou na vida",
+        "Na noite do festival ficou acordada sentada entre as camas dos meninos, com medo de um som de sino que só ela ouviu"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": true,
+      "status": "vivo",
+      "papel": "Órfã da casa paroquial; Sem-Sonho escondida"
+    },
+    {
+      "id": "pip_brisaclara",
+      "nome": "Pip",
+      "raca": "humano",
+      "idade": 6,
+      "rank": "sem treino",
+      "faccao_id": null,
+      "local_atual": "brisaclara",
+      "atitude": 55,
+      "personalidade": "O menor da casa. Curioso, falante, segue Theo para todo lado e quer aprender espada.",
+      "voz": "Pergunta tudo duas vezes; termina frases com 'né?'.",
+      "frase_caracteristica": "\"Me ensina aquele do pulo, né?\"",
+      "objetivos": [
+        "Ser igual ao Theo"
+      ],
+      "segredos": [
+        "Sonha toda noite com uma mulher bondosa cujo rosto ele não consegue lembrar, e não contou a ninguém"
+      ],
+      "oco": false,
+      "conhecido_pelo_jogador": true,
+      "status": "vivo",
+      "papel": "Órfão da casa paroquial"
     }
   ]
 }
