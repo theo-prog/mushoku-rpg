@@ -37,13 +37,13 @@
           ]
         }
       ],
-      "fase_atual": 0,
+      "fase_atual": 1,
       "pistas": [
         {
           "revelacao_id": "rev_vigilia",
           "local_id": "brisaclara",
           "descricao": "Hollis é o único adulto de Brisaclara que não foi para o rio: não dorme desde que a esposa morreu e passou a noite acordado na forja.",
-          "encontrada": false
+          "encontrada": true
         },
         {
           "revelacao_id": "rev_maren",
